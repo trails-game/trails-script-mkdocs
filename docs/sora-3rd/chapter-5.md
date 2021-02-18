@@ -1,7 +1,7 @@
 ## 第五话: 光与影的迷宫
 
 <audio controls loop style="width: 100%">
-    <source src="bgms/光と影の迷宮.mp3" type="audio/mpeg">
+    <source src="/bgms/光と影の迷宮.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 

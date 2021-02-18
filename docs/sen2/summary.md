@@ -1,7 +1,7 @@
 ## 闪之轨迹Ⅱ - 剧情简介
 
 <audio controls loop style="width: 100%">
-	<source src="bgms/Forward-Relentlessly.mp3" type="audio/mpeg">
+	<source src="/bgms/Forward-Relentlessly.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 
