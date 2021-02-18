@@ -1,7 +1,7 @@
 ## 第二章: 白花恋诗
 
 <audio controls loop style="width: 100%">
-	<source src="/bgms/海港都市ルーアン.mp3" type="audio/mpeg">
+	<source src="../../bgms/海港都市ルーアン.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 

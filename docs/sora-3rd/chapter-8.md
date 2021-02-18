@@ -1,7 +1,7 @@
 ## 最终话: 时光的终焉，艰辛的彼岸
 
 <audio controls loop style="width: 100%">
-    <source src="/bgms/幻影城《Phantasmagoria》.mp3" type="audio/mpeg">
+    <source src="../../bgms/幻影城《Phantasmagoria》.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 

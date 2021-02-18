@@ -1,7 +1,7 @@
 ## 第三章: 纷乱的茶会
 
 <audio controls loop style="width: 100%">
-	<source src="/bgms/王都グランセル.mp3" type="audio/mpeg">
+	<source src="../../bgms/王都グランセル.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 

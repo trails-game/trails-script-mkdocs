@@ -1,7 +1,7 @@
 ## 终章: 空之轨迹
 
 <audio controls loop style="width: 100%">
-	<source src="/bgms/中枢塔《アクシスピラー》.mp3" type="audio/mpeg">
+	<source src="../../bgms/中枢塔《アクシスピラー》.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 
