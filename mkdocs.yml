@@ -1,5 +1,5 @@
 # Project information
-site_name: '剧情 | 轨迹系列 - Cafe'
+site_name: '咖啡屋 | 轨迹系列 - Cafe'
 site_description: '轨迹游戏剧情和脚本'
 site_author: '轨迹系列 - Cafe'
 site_url: 'https://data.trails-game.com/book'
@@ -37,7 +37,8 @@ theme:
     - navigation.tabs
 # plugins
 plugins:
-  - git-revision-date-localized
+  - git-revision-date-localized:
+      type: datetime
   - search:
       lang:
         - ja
