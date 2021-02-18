@@ -18,6 +18,8 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: git submodule update --remote
+      - run: |
+          git submodule init
+          git submodule update --remote
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
