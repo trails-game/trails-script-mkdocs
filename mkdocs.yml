@@ -36,6 +36,7 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - navigation.tabs
 # plugins
 plugins:
   - git-revision-date-localized
@@ -46,7 +47,7 @@ plugins:
       prebuild_index: true
 # Page tree
 nav:
-  - 'Home': 'SUMMARY.md'
+  - 'Cafe主站': 'https://trails-game.com'
   # Summary
   - '创之轨迹':
     - '剧情简介': 'hajimari/summary.md'
@@ -74,8 +75,7 @@ nav:
       - '回忆的眼神无比火热': 'hajimari/episodes/EX3.md'
       - '第Ⅱ分校研修祭': 'hajimari/episodes/ex4.md'
   - '闪之轨迹Ⅳ':
-    - '剧情简介': sen4/summary.md'
-    - 'place-holder': 'sen4/chapter-1.md'
+    - '剧情简介': 'sen4/summary.md'
   - '闪之轨迹Ⅲ':
     - '剧情简介': 'sen3/summary.md'
     - '序章 ｢春日再临｣': 'sen3/chapter-0.md'
