@@ -29,3 +29,9 @@ nav:
     - 'Overview': 'hajimari/summary.md'
     - '追忆石盘':
       - '退路、岔路、前方的路': 'hajimari/episodes/ep1.md'
+plugins:
+  - search:
+      lang:
+        - ja
+        - en
+      prebuild_index: true
