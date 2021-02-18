@@ -1,0 +1,7 @@
+body, input {
+  font-family: 'Microsoft Yahei', '微软雅黑', Roboto, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+pre, code, kbd {
+  font-family: Roboto Mono, SFMono-Regular, Consolas, Menlo, monospace;
+}
