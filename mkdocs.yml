@@ -16,9 +16,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+  favicon: images/favicon-32x32.webp
+  logo: images/apple-touch-icon.png
 
   features:
     - navigation.expand
