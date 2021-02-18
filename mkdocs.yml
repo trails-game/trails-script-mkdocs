@@ -25,9 +25,7 @@ theme:
 
   # Default values, taken from mkdocs_theme.yml
   language: zh
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
   icon:
     repo: fontawesome/brands/git-alt
   favicon: images/favicon-32x32.webp
@@ -45,6 +43,9 @@ plugins:
         - ja
         - en
       prebuild_index: true
+# Customization
+extra_css:
+  - stylesheets/extra.css
 # Page tree
 nav:
   - 'Cafe主站': 'https://trails-game.com'
