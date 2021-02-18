@@ -5,7 +5,7 @@ on:
       - master
       - main
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,3 +31,57 @@ jobs:
           pip3 install -r requirements.txt
       - name: Build mkdocs and deploy
         run: mkdocs gh-deploy --force
+        
+      - name: Upload mkdocs artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: mkdocs-artifacts
+          path: site
+          
+  deploy-us:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    steps:
+    - name: Setup SSH for target host
+      uses: kielabokkie/ssh-key-and-known-hosts-action@v1.1.0
+      with:
+        # Private key required to access the host
+        ssh-private-key: ${{ secrets.FISH_SSH }}
+        # Hostname or IP to add to the known hosts file
+        ssh-host: ${{ secrets.US_HOST }}
+
+    - name: Download mkdocs artifacts
+      uses: actions/download-artifact@v2
+      with:
+        path: site
+        name: mkdocs-artifacts
+
+    - name: Upload to server
+      env:
+        HOST: ${{ secrets.US_HOST }}
+      run: rsync -avz site/ root@${HOST}:/var/www/book/ --delete-after
+    
+  deploy-kr:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    steps:
+    - name: Setup SSH for target host
+      uses: kielabokkie/ssh-key-and-known-hosts-action@v1.1.0
+      with:
+        # Private key required to access the host
+        ssh-private-key: ${{ secrets.FISH_SSH }}
+        # Hostname or IP to add to the known hosts file
+        ssh-host: ${{ secrets.KR_HOST }}
+
+    - name: Download mkdocs artifacts
+      uses: actions/download-artifact@v2
+      with:
+        path: site
+        name: mkdocs-artifacts
+
+    - name: Upload to server
+      env:
+        HOST: ${{ secrets.KR_HOST }}
+      run: rsync -avz site/ ubuntu@${HOST}:/var/www/book/ --delete-after
