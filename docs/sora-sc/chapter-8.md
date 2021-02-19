@@ -1,7 +1,7 @@
 ## 第八章: 迷乱的大地
 
 <audio controls loop style="width: 100%">
-	<source src="../../bgms/灯火が消えた街.mp3" type="audio/mpeg">
+	<source src="/bgms/灯火が消えた街.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 

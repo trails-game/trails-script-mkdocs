@@ -1,7 +1,7 @@
 ## 序章 「托尔兹军官学院」
 
 <audio controls loop style="width: 100%">
-	<source src="../../bgms/Artillery-Class-VII.mp3" type="audio/mpeg">
+	<source src="/bgms/Artillery-Class-VII.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 

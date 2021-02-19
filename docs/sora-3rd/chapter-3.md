@@ -1,7 +1,7 @@
 ## 第三话: 金之道，银之道
 
 <audio controls loop style="width: 100%">
-    <source src="../../bgms/金の道、銀の道.mp3" type="audio/mpeg">
+    <source src="/bgms/金の道、銀の道.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 
