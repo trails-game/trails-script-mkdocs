@@ -60,7 +60,7 @@ jobs:
     - name: Upload to server
       env:
         HOST: ${{ secrets.US_HOST }}
-      run: rsync -avz site/ root@${HOST}:/var/www/book/ --delete-after
+      run: rsync -avz site/ ubuntu@${HOST}:/var/www/book/ --delete-after
     
   deploy-kr:
     runs-on: ubuntu-latest
