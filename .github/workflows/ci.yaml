@@ -24,9 +24,20 @@ jobs:
         with:
           python-version: 3.x
 
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Build mkdocs-material with large logo
+        run: |
+          cd mkdocs-material
+          npm i
+          sed -i 's/24px/48px/g' src/assets/stylesheets/main/layout/_header.scss
+          npm run build
+          cd ..
+
       - name: Install python dependencies
         run: |
-          pip3 install mkdocs-material
           pip3 install -r requirements.txt
 
       - name: Build mkdocs and deploy
