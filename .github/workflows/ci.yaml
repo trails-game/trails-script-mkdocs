@@ -38,6 +38,7 @@ jobs:
 
       - name: Install python dependencies
         run: |
+          pip3 install mkdocs
           pip3 install -r requirements.txt
 
       - name: Build mkdocs and deploy
