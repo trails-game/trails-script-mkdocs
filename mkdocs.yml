@@ -47,6 +47,8 @@ plugins:
 # Customization
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 # Page tree
 nav:
   - 'Cafe主站': 'https://trails-game.com'
