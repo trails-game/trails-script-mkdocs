@@ -1,5 +1,10 @@
 ## 创之轨迹 - 剧情简介
 
+<audio controls autoplay loop style="width: 100%">
+	<source src="/bgms/hajimari/ed81969.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
 ### 故事背景  
   
 七耀历1207年，大地之龙战役的数月后，虽然诅咒已经消失，但仍有许多帝国军士不愿接受战败的结局，在暗中展开行动，克洛斯贝尔也再次被卫士队占领，但在众人的努力之下，克洛斯贝尔成功再次独立，奥利维特皇子的婚礼也成功举行，然而在看似平静的现状背后，一些异变却在悄然发生……  

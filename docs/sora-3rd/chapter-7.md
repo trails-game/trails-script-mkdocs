@@ -1,7 +1,7 @@
 ## 第七话: 邃远的炙炎
 
 <audio controls loop style="width: 100%">
-    <source src="/bgms/深淵.mp3" type="audio/mpeg">
+    <source src="/bgms/sora-3rd/深淵.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 

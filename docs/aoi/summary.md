@@ -1,5 +1,10 @@
 ## 碧之轨迹 - 剧情简介
 
+<audio controls autoplay loop style="width: 100%">
+	<source src="/bgms/ao/ao-no-kiseki.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
 ### 故事背景
 
 克洛斯贝尔自治州，因历史原因，这个被埃雷波尼亚帝国和卡尔瓦德共和国夹在中间的自治州，以大陆上数一数二的贸易和金融都市为地位发展起来的区域，因某个狂热宗教团体引起的事件经历了一次危机。黑帮集团之间的对抗，谜之药物“真知”（Gnosis）事件，这一系列的事件因“特别任务支援科（SSS）”的活跃而得以平安化解，自治州再次迎来和平。  

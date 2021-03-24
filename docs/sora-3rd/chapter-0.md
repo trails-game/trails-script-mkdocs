@@ -1,7 +1,7 @@
 ## 第零话: 星杯骑士
 
 <audio controls loop style="width: 100%">
-    <source src="/bgms/始まりの地.mp3" type="audio/mpeg">
+    <source src="/bgms/sora-3rd/始まりの地.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
 

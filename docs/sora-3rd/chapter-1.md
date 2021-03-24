@@ -1,7 +1,7 @@
 ## 第一话: 影之国
 
 <audio controls loop style="width: 100%">
-    <source src="/bgms/翡翠回廊.mp3" type="audio/mpeg">
+    <source src="/bgms/sora-3rd/翡翠回廊.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
   

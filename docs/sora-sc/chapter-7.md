@@ -1,7 +1,7 @@
 ## 第七章: 四轮之塔
 
 <audio controls loop style="width: 100%">
-	<source src="/bgms/隠された真の姿.mp3" type="audio/mpeg">
+	<source src="/bgms/sora-sc/隠された真の姿.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 
