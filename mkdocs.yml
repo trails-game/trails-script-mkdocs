@@ -28,8 +28,8 @@ theme:
   font: false
   icon:
     repo: fontawesome/brands/git-alt
-  favicon: images/favicon-32x32.webp
-  logo: images/apple-touch-icon.png
+  favicon: images/webicons/favicon-32x32.webp
+  logo: images/webicons/apple-touch-icon.png
 
   features:
     - navigation.instant
@@ -111,7 +111,9 @@ nav:
     - '第六话 ｢守护者的试炼｣': 'sora-3rd/chapter-6.md'
     - '第七话 ｢邃远的炙炎｣': 'sora-3rd/chapter-7.md'
     - '最终话 ｢时光的终焉，艰辛的彼岸｣': 'sora-3rd/chapter-8.md'
-    - '星之门': 'sora-3rd/star.md'
+    - '星之门': 
+      - '章节': 'sora-3rd/star.md'
+      - '｢尤莉亚大人的假日｣': 'sora-3rd/doors/star-1.md'
     - '月之门':
       - '章节': 'sora-3rd/moon.md'
       - '｢导力装甲开发计划/前篇｣': 'sora-3rd/doors/moon-1-1.md'
