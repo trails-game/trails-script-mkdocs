@@ -78,6 +78,10 @@ nav:
       - '踏出的一步': 'hajimari/episodes/ex2.md'
       - '回忆的眼神无比火热': 'hajimari/episodes/ex3.md'
       - '第Ⅱ分校研修祭': 'hajimari/episodes/ex4.md'
+    - '创始的彼方':
+      - '前言': 'hajimari/extra.md'
+      - '另一个温泉乡': 'hajimari/extras/extra1.md'
+      - '某位少女的校园生活': 'hajimari/extras/extra2.md'
   - '闪之轨迹Ⅳ':
     - '剧情简介': 'sen4/summary.md'
   - '闪之轨迹Ⅲ':
