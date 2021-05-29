@@ -1,4 +1,4 @@
-## 第三章: 纷乱的茶会
+# 第三章: 纷乱的茶会
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/王都グランセル.mp3" type="audio/mpeg">

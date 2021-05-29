@@ -1,4 +1,4 @@
-## 第五章: 守护的信念
+# 第五章: 守护的信念
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/商業都市ボース.mp3" type="audio/mpeg">

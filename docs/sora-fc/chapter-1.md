@@ -1,9 +1,19 @@
-## 第一章: 消失的定期船
+# 第一章：消失的定期船
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/商業都市ボース.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
+
+### 本章视频云通关
+
+- [《消失的定期船》EP1](https://www.bilibili.com/video/BV1dA411x7Nz)
+
+- [《消失的定期船》EP2](https://www.bilibili.com/video/BV1ta4y1W7va)
+
+- [《消失的定期船》EP3](https://www.bilibili.com/video/BV1rD4y1X7CL)
+
+- [《消失的定期船》EP4](https://www.bilibili.com/video/BV1Ay4y1S7Ye)
 
 ### 从洛连特地区出发
 

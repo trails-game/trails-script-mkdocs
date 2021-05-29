@@ -1,4 +1,4 @@
-## 序章: 少女的决意
+# 序章: 少女的决意
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-sc/ル=ロックルへようこそ.mp3" type="audio/mpeg">

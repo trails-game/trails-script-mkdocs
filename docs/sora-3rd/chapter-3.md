@@ -1,4 +1,4 @@
-## 第三话: 金之道，银之道
+# 第三话: 金之道，银之道
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/金の道、銀の道.mp3" type="audio/mpeg">
