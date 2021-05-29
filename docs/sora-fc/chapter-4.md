@@ -1,9 +1,25 @@
-## 终章: 王都缭乱
+# 终章：王都纷乱
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/王都グランセル.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
+
+### 本章视频云通关
+
+- [《王都纷乱》EP1](https://www.bilibili.com/video/BV1Ht4y1Y7Ss)
+
+- [《王都纷乱》EP2](https://www.bilibili.com/video/BV1yp4y1z7GR)
+
+- [《王都纷乱》EP3](https://www.bilibili.com/video/BV14t4y1k7Yd)
+
+- [《王都纷乱》EP4](https://www.bilibili.com/video/BV1KT4y1u7g6)
+
+- [《王都纷乱》EP5](https://www.bilibili.com/video/BV1E54y1t7KL)
+
+- [《王都纷乱》EP6](https://www.bilibili.com/video/BV1ua4y1p7qU)
+
+- [《王都纷乱》EP7](https://www.bilibili.com/video/BV1di4y1c78d)
 
 ### 给艾莉茜雅女王的传话
   

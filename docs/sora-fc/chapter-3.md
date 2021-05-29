@@ -1,9 +1,18 @@
-## 第三章: 黑色导力器
+# 第三章：黑色导力器
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/工房都市ツァイス.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
+
+### 本章视频云通关
+
+- [《黑色导力器》EP1](https://www.bilibili.com/video/BV1yX4y1M7sB)
+
+- [《黑色导力器》EP2](https://www.bilibili.com/video/BV14Z4y1g74w)
+
+- [《黑色导力器》EP3](https://www.bilibili.com/video/BV1Ht4y1Y7in)
+
 
 ### 调查黑色导力器
 

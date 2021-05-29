@@ -1,9 +1,19 @@
-## 序章: 父亲，启程
+# 序章：父亲，启程
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/地方都市ロレント.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
+
+
+### 本章视频云通关
+
+- [《父亲，启程》EP1](https://www.bilibili.com/video/BV1hi4y1E7Jg)
+
+- [《父亲，启程》EP2](https://www.bilibili.com/video/BV12V41117EL)
+
+- [《父亲，启程》EP3](https://www.bilibili.com/video/BV1AZ4y1V7dW)
+
 
 ### 五年前的故事
 

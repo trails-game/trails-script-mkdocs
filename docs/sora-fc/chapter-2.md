@@ -1,9 +1,19 @@
-## 第二章: 白花恋诗
+# 第二章：白花恋诗
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/海港都市ルーアン.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
+
+### 本章视频云通关
+
+- [《白花恋诗》EP1](https://www.bilibili.com/video/BV1rV41187rK)
+
+- [《白花恋诗》EP2](https://www.bilibili.com/video/BV1HZ4y1g7Hz)
+
+- [《白花恋诗》EP3](https://www.bilibili.com/video/BV1jK4y1L7tM)
+
+- [《白花恋诗》EP4](https://www.bilibili.com/video/BV1ff4y1v7rp)
 
 ### 古罗尼山顶的魔兽
 
