@@ -35,6 +35,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.tabs
+    - navigation.top
 # plugins
 plugins:
   - git-revision-date-localized:
