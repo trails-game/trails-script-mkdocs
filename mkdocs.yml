@@ -14,6 +14,15 @@ repo_url: 'https://github.com/trails-game/trails-script-mkdocs'
 theme:
   name: null
   custom_dir: mkdocs-material/material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: 暗色模式
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: 浅色模式
 
   # 404 page
   static_templates:
@@ -118,7 +127,7 @@ nav:
     - '第六话 ｢守护者的试炼｣': 'sora-3rd/chapter-6.md'
     - '第七话 ｢邃远的炙炎｣': 'sora-3rd/chapter-7.md'
     - '最终话 ｢时光的终焉，艰辛的彼岸｣': 'sora-3rd/chapter-8.md'
-    - '星之门': 
+    - '星之门':
       - '章节': 'sora-3rd/star.md'
       - '｢尤莉亚大人的假日｣': 'sora-3rd/doors/star-1.md'
       - '｢盐之桩｣': 'sora-3rd/doors/star-2.md'
