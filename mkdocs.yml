@@ -54,7 +54,7 @@ nav:
   - 'Cafe主站': 'https://trails-game.com'
   # Summary
   - '创之轨迹':
-    - '剧情简介': 'hajimari/summary.md'
+    - '创之轨迹 - 剧情简介': 'hajimari/summary.md'
     - '追忆石盘':
       - '章节': 'hajimari/episode.md'
       - '退路、岔路、前方的路': 'hajimari/episodes/ep1.md'
@@ -85,15 +85,15 @@ nav:
       - '某位少女的校园生活': 'hajimari/extras/extra2.md'
       - '于是少女将握著手中的剑继续前进': 'hajimari/extras/extra3.md'
   - '闪之轨迹Ⅳ':
-    - '剧情简介': 'sen4/summary.md'
+    - '闪之轨迹Ⅳ - 剧情简介': 'sen4/summary.md'
   - '闪之轨迹Ⅲ':
-    - '剧情简介': 'sen3/summary.md'
+    - '闪之轨迹Ⅲ - 剧情简介': 'sen3/summary.md'
     - '序章 ｢春日再临｣': 'sen3/chapter-0.md'
   - '闪之轨迹Ⅱ':
-    - '剧情简介': 'sen2/summary.md'
+    - '闪之轨迹Ⅱ - 剧情简介': 'sen2/summary.md'
     - '外传 ｢边境小镇阿尔斯塔｣': 'sen2/memoir.md'
   - '闪之轨迹Ⅰ':
-    - '剧情简介': 'sen1/summary.md'
+    - '闪之轨迹Ⅰ - 剧情简介': 'sen1/summary.md'
     - '序章 ｢托尔兹军官学院｣': 'sen1/chapter-0.md'
     - '第一章 ｢新学期～首次实习～｣': 'sen1/chapter-1.md'
     - '第二章 ｢美丽翡翠之都｣': 'sen1/chapter-2.md'
@@ -101,13 +101,13 @@ nav:
     - '第四章 ｢绯之帝都 ～仲夏祭～｣': 'sen1/chapter-4.md'
     - '幕间 ｢返乡～迷惘的尽头～｣': 'sen1/intermission.md'
   - '碧之轨迹':
-    - '剧情简介': 'aoi/summary.md'
+    - '碧之轨迹 - 剧情简介': 'aoi/summary.md'
     - '第一章 ｢预兆～崭新的日子｣': 'aoi/chapter-1.md'
   - '零之轨迹':
-    - '剧情简介': 'zero/summary.md'
+    - '零之轨迹 - 剧情简介': 'zero/summary.md'
     - 'place-holder': 'zero/chapter-1.md'
   - '空之轨迹3RD':
-    - '剧情简介': 'sora-3rd/summary.md'
+    - '空之轨迹3RD - 剧情简介': 'sora-3rd/summary.md'
     - '第零话 ｢星杯骑士｣': 'sora-3rd/chapter-0.md'
     - '第一话 ｢影之国｣': 'sora-3rd/chapter-1.md'
     - '第二话 ｢异界化王都｣': 'sora-3rd/chapter-2.md'
@@ -148,7 +148,7 @@ nav:
       - '｢爆钓传说艾丝蒂尔｣': 'sora-3rd/doors/sun-2.md'
       - '｢THE CASINO ～赌博师杰克～｣': 'sora-3rd/doors/sun-4.md'
   - '空之轨迹SC':
-    - '剧情简介': 'sora-sc/summary.md'
+    - '空之轨迹SC - 剧情简介': 'sora-sc/summary.md'
     - '序章 ｢少女的决意｣': 'sora-sc/chapter-0.md'
     - '第一章 ｢潜行的白影｣': 'sora-sc/chapter-1.md'
     - '第二章 ｢狂暴的大地｣': 'sora-sc/chapter-2.md'
@@ -160,7 +160,7 @@ nav:
     - '第八章 ｢迷乱的大地｣': 'sora-sc/chapter-8.md'
     - '终章 ｢空之轨迹｣': 'sora-sc/chapter-9.md'
   - '空之轨迹FC':
-    - '剧情简介': 'sora-fc/summary.md'
+    - '空之轨迹FC - 剧情简介': 'sora-fc/summary.md'
     - '序章 ｢父亲，启程｣': 'sora-fc/chapter-0.md'
     - '第一章 ｢消失的定期船｣': 'sora-fc/chapter-1.md'
     - '第二章 ｢白花恋诗｣': 'sora-fc/chapter-2.md'
