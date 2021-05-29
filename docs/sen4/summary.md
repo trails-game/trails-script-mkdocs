@@ -1,4 +1,4 @@
-## 闪之轨迹Ⅳ - 剧情简介
+# 闪之轨迹Ⅳ - 剧情简介
 
 <audio controls autoplay loop style="width: 100%">
  <source src="/bgms/sen4/In-a-Clear-Sky.mp3" type="audio/mpeg">

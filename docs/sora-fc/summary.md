@@ -1,4 +1,4 @@
-## 空之轨迹FC - 剧情简介
+# 空之轨迹FC - 剧情简介
 
 <audio controls autoplay loop style="width: 100%">
 	<source src="/bgms/sora-fc/風を共に舞う気持ち.mp3" type="audio/mpeg">

@@ -1,4 +1,4 @@
-## 空之轨迹SC - 剧情简介
+# 空之轨迹SC - 剧情简介
 
 <audio controls autoplay loop style="width: 100%">
 	<source src="/bgms/sora-sc/Shine of Eidos ~空の軌跡~.mp3" type="audio/mpeg">

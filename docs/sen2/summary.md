@@ -1,4 +1,4 @@
-## 闪之轨迹Ⅱ - 剧情简介
+# 闪之轨迹Ⅱ - 剧情简介
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sen2/Forward-Relentlessly.mp3" type="audio/mpeg">
