@@ -1,4 +1,4 @@
-## 第五话: 光与影的迷宫
+# 第五话: 光与影的迷宫
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/光と影の迷宮.mp3" type="audio/mpeg">

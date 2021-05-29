@@ -1,4 +1,4 @@
-## 第二章: 狂暴的大地
+# 第二章: 狂暴的大地
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/工房都市ツァイス.mp3" type="audio/mpeg">

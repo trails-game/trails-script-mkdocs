@@ -1,4 +1,4 @@
-## 第一章: 消失的定期船
+# 第一章: 消失的定期船
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/商業都市ボース.mp3" type="audio/mpeg">
