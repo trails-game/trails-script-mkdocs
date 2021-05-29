@@ -1,4 +1,4 @@
-## 第七章: 四轮之塔
+# 第七章: 四轮之塔
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-sc/隠された真の姿.mp3" type="audio/mpeg">

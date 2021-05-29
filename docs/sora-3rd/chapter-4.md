@@ -1,4 +1,4 @@
-## 第四话: 昏暗圣痕
+# 第四话: 昏暗圣痕
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/The Crimson Stigma.mp3" type="audio/mpeg">
