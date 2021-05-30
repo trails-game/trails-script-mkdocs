@@ -1,0 +1,2616 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="轨迹游戏剧情和脚本">
+      
+      
+      
+        <meta name="author" content="轨迹系列 - Cafe">
+      
+      
+        <link rel="canonical" href="https://book.trails-game.com/hajimari/episodes/ep11/">
+      
+      <link rel="icon" href="../../../images/webicons/favicon-32x32.webp">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.5">
+    
+    
+      
+        <title>新·导力装甲开发计划 前篇 - 咖啡屋 | 轨迹系列 - Cafe</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.110a9b76.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ep11" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-header__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
+      
+  <img src="../../../images/webicons/apple-touch-icon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            咖啡屋 | 轨迹系列 - Cafe
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              新·导力装甲开发计划 前篇
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="暗色模式" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="" type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="浅色模式" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/trails-game/trails-script-mkdocs/" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://trails-game.com" class="md-tabs__link">
+      Cafe主站
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../summary/" class="md-tabs__link md-tabs__link--active">
+        创之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sen4/summary/" class="md-tabs__link">
+        闪之轨迹Ⅳ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sen3/summary/" class="md-tabs__link">
+        闪之轨迹Ⅲ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sen2/summary/" class="md-tabs__link">
+        闪之轨迹Ⅱ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sen1/summary/" class="md-tabs__link">
+        闪之轨迹Ⅰ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../aoi/summary/" class="md-tabs__link">
+        碧之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../zero/summary/" class="md-tabs__link">
+        零之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sora-3rd/summary/" class="md-tabs__link">
+        空之轨迹3RD
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sora-sc/summary/" class="md-tabs__link">
+        空之轨迹SC
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../sora-fc/summary/" class="md-tabs__link">
+        空之轨迹FC
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-nav__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
+      
+  <img src="../../../images/webicons/apple-touch-icon.png" alt="logo">
+
+    </a>
+    咖啡屋 | 轨迹系列 - Cafe
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/trails-game/trails-script-mkdocs/" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://trails-game.com" class="md-nav__link">
+        Cafe主站
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        创之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="创之轨迹" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          创之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../summary/" class="md-nav__link">
+        创之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        追忆石盘
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="追忆石盘" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          追忆石盘
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../episode/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep1/" class="md-nav__link">
+        退路、岔路、前方的路
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep2/" class="md-nav__link">
+        再出发～支援课的一天
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep3/" class="md-nav__link">
+        女子学院事件簿～美嘉与美丽的剑士～
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep4/" class="md-nav__link">
+        令人怀念的家乡
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep5/" class="md-nav__link">
+        白兔与沉睡的傀儡
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep6/" class="md-nav__link">
+        光辉中的全新一步
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep7/" class="md-nav__link">
+        重逢～少女的忧郁～
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep8/" class="md-nav__link">
+        我所选择的路
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep9/" class="md-nav__link">
+        两人的正义
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep10/" class="md-nav__link">
+        堕落的皇子
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        新·导力装甲开发计划 前篇
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep12/" class="md-nav__link">
+        新·导力装甲开发计划 后篇
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep13/" class="md-nav__link">
+        魔女们的追忆
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep14/" class="md-nav__link">
+        同窗的标杆
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep15/" class="md-nav__link">
+        究极的野味
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep16/" class="md-nav__link">
+        幸运之石与不幸之船
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep17/" class="md-nav__link">
+        无尽之剑
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ep18/" class="md-nav__link">
+        猜猜我是谁
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ex1/" class="md-nav__link">
+        布莱特家的假日
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ex2/" class="md-nav__link">
+        踏出的一步
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ex3/" class="md-nav__link">
+        回忆的眼神无比火热
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ex4/" class="md-nav__link">
+        第Ⅱ分校研修祭
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        创始的彼方
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="创始的彼方" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          创始的彼方
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extra/" class="md-nav__link">
+        前言
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/extra1/" class="md-nav__link">
+        另一个温泉乡
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/extra2/" class="md-nav__link">
+        某位少女的校园生活
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../extras/extra3/" class="md-nav__link">
+        于是少女将握著手中的剑继续前进
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        闪之轨迹Ⅳ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="闪之轨迹Ⅳ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅳ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen4/summary/" class="md-nav__link">
+        闪之轨迹Ⅳ - 剧情简介
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        闪之轨迹Ⅲ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="闪之轨迹Ⅲ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅲ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen3/summary/" class="md-nav__link">
+        闪之轨迹Ⅲ - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen3/chapter-0/" class="md-nav__link">
+        序章 ｢春日再临｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        闪之轨迹Ⅱ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="闪之轨迹Ⅱ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅱ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen2/summary/" class="md-nav__link">
+        闪之轨迹Ⅱ - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen2/memoir/" class="md-nav__link">
+        外传 ｢边境小镇阿尔斯塔｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        闪之轨迹Ⅰ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="闪之轨迹Ⅰ" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅰ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/summary/" class="md-nav__link">
+        闪之轨迹Ⅰ - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/chapter-0/" class="md-nav__link">
+        序章 ｢托尔兹军官学院｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/chapter-1/" class="md-nav__link">
+        第一章 ｢新学期～首次实习～｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/chapter-2/" class="md-nav__link">
+        第二章 ｢美丽翡翠之都｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/chapter-3/" class="md-nav__link">
+        第三章 ｢横跨铁路～苍穹的大地～｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/chapter-4/" class="md-nav__link">
+        第四章 ｢绯之帝都 ～仲夏祭～｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sen1/intermission/" class="md-nav__link">
+        幕间 ｢返乡～迷惘的尽头～｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        碧之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="碧之轨迹" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          碧之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aoi/summary/" class="md-nav__link">
+        碧之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../aoi/chapter-1/" class="md-nav__link">
+        第一章 ｢预兆～崭新的日子｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      <label class="md-nav__link" for="__nav_8">
+        零之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="零之轨迹" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          零之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zero/summary/" class="md-nav__link">
+        零之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../zero/chapter-1/" class="md-nav__link">
+        place-holder
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      <label class="md-nav__link" for="__nav_9">
+        空之轨迹3RD
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="空之轨迹3RD" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹3RD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/summary/" class="md-nav__link">
+        空之轨迹3RD - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-0/" class="md-nav__link">
+        第零话 ｢星杯骑士｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-1/" class="md-nav__link">
+        第一话 ｢影之国｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-2/" class="md-nav__link">
+        第二话 ｢异界化王都｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-3/" class="md-nav__link">
+        第三话 ｢金之道，银之道｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-4/" class="md-nav__link">
+        第四话 ｢昏暗圣痕｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-5/" class="md-nav__link">
+        第五话 ｢光与影的迷宫｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-6/" class="md-nav__link">
+        第六话 ｢守护者的试炼｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-7/" class="md-nav__link">
+        第七话 ｢邃远的炙炎｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/chapter-8/" class="md-nav__link">
+        最终话 ｢时光的终焉，艰辛的彼岸｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_11" type="checkbox" id="__nav_9_11" >
+      
+      <label class="md-nav__link" for="__nav_9_11">
+        星之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="星之门" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_11">
+          <span class="md-nav__icon md-icon"></span>
+          星之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/star/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-1/" class="md-nav__link">
+        ｢尤莉亚大人的假日｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-2/" class="md-nav__link">
+        ｢盐之桩｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-3/" class="md-nav__link">
+        ｢庆祝会之夜｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-4/" class="md-nav__link">
+        ｢旅途的终点｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-5/" class="md-nav__link">
+        ｢剑之道｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-6/" class="md-nav__link">
+        ｢重剑流特训法｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-7/" class="md-nav__link">
+        ｢爱普斯泰恩财团｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-8/" class="md-nav__link">
+        ｢回归帝都｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-9/" class="md-nav__link">
+        ｢操之过急的关怀｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-10/" class="md-nav__link">
+        ｢戈尔地雅斯级实验计划书｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-11/" class="md-nav__link">
+        ｢『怪盗B』调查报告｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-12/" class="md-nav__link">
+        ｢调查委托，敬悉｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-13/" class="md-nav__link">
+        ｢帝国支部连续袭击事件｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-14/" class="md-nav__link">
+        ｢幻焰计划｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/star-15/" class="md-nav__link">
+        ｢乐园的少女｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_12" type="checkbox" id="__nav_9_12" >
+      
+      <label class="md-nav__link" for="__nav_9_12">
+        月之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="月之门" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_12">
+          <span class="md-nav__icon md-icon"></span>
+          月之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/moon/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-1-1/" class="md-nav__link">
+        ｢导力装甲开发计划/前篇｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-1-2/" class="md-nav__link">
+        ｢导力装甲开发计划/后篇｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-2/" class="md-nav__link">
+        ｢委托人｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-3/" class="md-nav__link">
+        ｢飘落的羽翼｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-4/" class="md-nav__link">
+        ｢启程的清晨｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/moon-5/" class="md-nav__link">
+        ｢幸福之石｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9_13" type="checkbox" id="__nav_9_13" >
+      
+      <label class="md-nav__link" for="__nav_9_13">
+        太阳之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="太阳之门" data-md-level="2">
+        <label class="md-nav__title" for="__nav_9_13">
+          <span class="md-nav__icon md-icon"></span>
+          太阳之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/sun/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/sun-1/" class="md-nav__link">
+        ｢山猫卡普亚的特快专递｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/sun-2/" class="md-nav__link">
+        ｢爆钓传说艾丝蒂尔｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-3rd/doors/sun-4/" class="md-nav__link">
+        ｢THE CASINO ～赌博师杰克～｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      <label class="md-nav__link" for="__nav_10">
+        空之轨迹SC
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="空之轨迹SC" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹SC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/summary/" class="md-nav__link">
+        空之轨迹SC - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-0/" class="md-nav__link">
+        序章 ｢少女的决意｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-1/" class="md-nav__link">
+        第一章 ｢潜行的白影｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-2/" class="md-nav__link">
+        第二章 ｢狂暴的大地｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-3/" class="md-nav__link">
+        第三章 ｢纷乱的茶会｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-4/" class="md-nav__link">
+        第四章 ｢雾魔的标矢｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-5/" class="md-nav__link">
+        第五章 ｢守护的信念｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-6/" class="md-nav__link">
+        第六章 ｢羁绊的所在｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-7/" class="md-nav__link">
+        第七章 ｢四轮之塔｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-8/" class="md-nav__link">
+        第八章 ｢迷乱的大地｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-sc/chapter-9/" class="md-nav__link">
+        终章 ｢空之轨迹｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      <label class="md-nav__link" for="__nav_11">
+        空之轨迹FC
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="空之轨迹FC" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹FC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/summary/" class="md-nav__link">
+        空之轨迹FC - 剧情简介
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/chapter-0/" class="md-nav__link">
+        序章 ｢父亲，启程｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/chapter-1/" class="md-nav__link">
+        第一章 ｢消失的定期船｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/chapter-2/" class="md-nav__link">
+        第二章 ｢白花恋诗｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/chapter-3/" class="md-nav__link">
+        第三章 ｢黑色导力器｣
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sora-fc/chapter-4/" class="md-nav__link">
+        终章 ｢王都缭乱｣
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/trails-game/trails-script-mkdocs/edit/master/docs/hajimari/episodes/ep11.md" title="编辑此页" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="ep11">EP11. 新·导力装甲开发计划 前篇</h1>
+<p>第二分校机库二楼——  </p>
+<p>施密特博士：嗯，间题似乎大致解决了。之前的实战资料派上了不少用场<br />
+缇妲：嗯，都是托大家的福！<br />
+缇妲：这样一来，导力装甲Ⅲ的开发总算大功告成了<br />
+施密特博士：…呵，算你及格吧。<br />
+施密特博士：接下来，你打算做什么？<br />
+缇妲：这…其实我还没厘清思路…<br />
+施密特博士：所以你很闲吧？把这个拿去分析<br />
+缇妲：这个……是什么？<br />
+施密特博士：别问我<br />
+缇妲：咦？可是…<br />
+缇妲：啊，意思是它的用途也要我自己研究吗？<br />
+施密特博士：这项调查不必着急，也不用逐一向我回报结果。<br />
+施密特博士：剩下的你可以自己看着办。<br />
+施密特博士：还有什么问题吗？<br />
+缇妲：没、没有…<br />
+缇妲：不过，博士最近好像很忙有没有什么我能帮上忙的…<br />
+女子的声音：没那个必要！<br />
+缇妲：这声音是——咦咦咦！！？   </p>
+<p>施密特博士：终于来了啊——艾莉卡·拉赛尔<br />
+艾莉卡：施密特博士，好久不见。我女儿似乎受你关照了。<br />
+缇妲：妈、妈妈，你怎么会在这里！？ <br />
+缇妲：而且连艾丝蒂尔姐姐等人都…<br />
+艾丝蒂尔：啊哈哈，我们算是陪艾莉卡小姐来的吧<br />
+艾莉卡：我当然是来工作的为了一件相当棘手的案件。<br />
+缇妲：棘手的案件？<br />
+艾莉卡：——但在那之前，有一件更急迫的事情<br />
+艾莉卡：啊啊，我可爱的缇妲——！！妈妈想死你了~~！！<br />
+缇妲：妈、妈妈！？<br />
+艾莉卡：你是不是又变可爱了？没错吧？不，肯定是更可爱了！ <br />
+艾莉卡：不然这么可爱简直是犯规~！<br />
+缇妲：好、好了啦，妈妈~！大家都在看耶~ ！<br />
+艾莉卡：哼，我们母女好不容易相聚，有什么好顾忌的！<br />
+艾莉卡：乖乖让我把好几个月没见到缇妲的份补回来吧~！   </p>
+<p>亚莉莎：呃……艾莉卡博士？<br />
+阿加特：唉…别在意，这是老样子了。<br />
+蕾恩：哎，缇妲也真辛苦呢。<br />
+缇妲：好、好了啦，妈妈！就说这样很难为情了……！ <br />
+施密特博士：要闹就去别的地方闹。<br />
+缇妲：啊，对不起<br />
+艾莉卡：哎呀真是抱歉。在有需照护老人的设施得保持安静才行呢。<br />
+施密特博士：哼，你这ㄚ头还是一样嚣张。一把年纪了，内在却跟小孩没两样。 <br />
+施密特博士：一点也不像有青春期孩子的妈妈<br />
+艾莉卡：请说我像孩童般拥有丰富的感受力和想像力好吗？<br />
+艾莉卡：在这方面，我比提不出像样点子、垂垂老矣的老人有自信多了。<br />
+施密特博士：口气真大呢。 <br />
+艾莉卡：呵呵…<br />
+艾丝蒂尔：啊、啊哈哈……总觉得关系很差，但又好像非常合得来呢。<br />
+约书亚：硬要说的话，应该是后者吧？<br />
+乔治：毕竟能跟博士分庭抗礼的新一代技术人员就只有艾莉卡小姐了。<br />
+阿加特：嗯，他们确实满像的<br />
+阿加特：不像拉赛尔爷爷把发明当成兴趣，那两人感觉都是怀着明确目的在开发东西<br />
+阿加特：包括不太顾虑手段，或毫不客气地将旁人卷进来的恶劣一面。<br />
+艾莉卡：红·发我都听到了喔？  </p>
+<p>缇妲：呃……所以，妈妈到底是来做什么的？<br />
+艾莉卡：对喔，差不多该进入『正题』了。<br />
+缇妲：也就是为了解决《黑色工房》残留的问题所组成的对策小组吗… <br />
+蕾恩：简单来说就是那样。<br />
+亚莉莎：《黑色工房》在各地都留下了深厚的影响。<br />
+亚莉莎：武器和自动型兵器仍在黑巿流通，就算出现盯上这些东西，而开始打探各地工房旧址的人也不奇怪<br />
+约书亚：这些全都有可能成为日后的祸根。协会也保持着高度戒备。<br />
+缇妲：听起来十分不妙呢…难怪妈妈会来<br />
+艾莉卡：毕竟受到了帝国政府的正式邀请，所以我代表ZCF前来<br />
+乔治：以施密特博士和艾莉卡博士为核心，身为前《工房》相关人士的我、协会及RF公司也一起合作——<br />
+乔治：处理《工房》的外流制品，并调查位于各地的旧址<br />
+乔治：这就是本次对策小组的目标。<br />
+缇妲：原来如此… <br />
+缇妲：不过，博士竟然会协助这种事，感觉有点意外。<br />
+施密特博士：哼，我才不管政府或协会的想法。<br />
+施密特博士：我只是对《工房》留下的资料很有兴趣 <br />
+艾莉卡：没错没错，那才是重点~<br />
+缇妲：妈妈和博士还真是老样子…对、对了！有没有我能帮上的呢？<br />
+艾丝蒂尔：缇妲……嗯，你们说呢？<br />
+艾莉卡：就像我刚才说过的，缇妲不必做些什么。<br />
+缇妲：可是…<br />
+艾莉卡：虽说是棘手的案件，但如你所见，我们人手很充足<br />
+艾莉卡：更何况我都亲自出马了。<br />
+约书亚：有政府和RF的全方位协助，资金也不是问题<br />
+亚莉莎：…毕竟事关我爸爸，所以我跟妈妈都算是相关人士。<br />
+亚莉莎：因此，我打算倾尽RF的力量解决这件事<br />
+阿加特：若要动武，也有我们游击士在。以目前的阵容来说，实在不必担心。 <br />
+缇妲：有阿加特先生等人在，我当然放心…<br />
+蕾恩：呵呵，就是这么回事<br />
+蕾恩：缇妲就优先顾好好不容易重拾的学生生活吧<br />
+缇妲：唔……照这样说的话，蕾恩你也得去王立学园上课吧？<br />
+蕾恩：蕾恩不要紧的。已经用课外活动的名义取得学园长的许可了。<br />
+蕾恩：根据这次调查的收获或许还能发表新的论文呢♪<br />
+缇妲：唔唔唔……好狡猾喔<br />
+施密特博士：总之，没有你出场的余地。 <br />
+施密特博士：我不在的时候，你就帮我好好盯着马卡洛夫的外甥女，看她有没有闯祸<br />
+缇妲：敏、敏特小姐再冒失，也不至于老是那样——  </p>
+<p>楼下传来一阵声响~  </p>
+<p>敏特的声音：哇，扳手飞出去了！<br />
+敏特的声音：咦，卡在散热口了…<br />
+敏特的声音：哇~哇~喷火了！？好像要烧起来了~！！<br />
+缇妲：我、我这就去… ！  </p>
+<p>当夜，利贝尔组的众人在利弗斯酒馆《巴尼》聚餐。  </p>
+<p>艾莉卡：所以接下来会暂时待在帝国<br />
+缇妲：大概会在这待多久？<br />
+约书亚：案件各方面都相当复杂，会待四个月左右吧<br />
+缇妲：这、这么久？<br />
+艾莉卡：利贝尔那边暂时交给丹和老头子，没问题的。<br />
+艾莉卡：虽然那边还有没做完的事，不过现在《工房》比较让人在意。<br />
+缇妲：那个…真的不用我帮忙没关系吗？<br />
+艾莉卡：没关系没关系，缇妲不用在意。<br />
+蕾恩：调查的日程实际上并没有那么紧凑。 <br />
+蕾恩：分给分析数据的时间反倒算挺多的<br />
+艾丝蒂尔：是啊是啊，就算出了什么事，我们也能马上解决<br />
+艾丝蒂尔：缇妲不用在意！<br />
+缇妲：…既然姐姐这么说，应该就能放心吧 <br />
+艾莉卡：而且要是有什么万一，我们也准备好随时将红发的献祭<br />
+艾莉卡：呵呵呵呵<br />
+缇妲：妈妈~<br />
+艾莉卡：开玩笑的<br />
+阿加特：眼神没在笑… <br />
+艾莉卡：哎呀，阿加特·科洛斯纳。<br />
+艾莉卡：不需要这么做，能尽情使唤你四个月，再怎么样都能想出其他方法吧<br />
+阿加特：什么方法啊…说起来你根本充满杀意啊！ <br />
+艾莉卡：你就尽管期待吧！喔呵呵呵呵——<br />
+艾丝蒂尔：啊哈哈，艾莉卡小姐还是老样子呢。虽说从《影之国》后才认识。<br />
+约书亚：和缇妲两人去了帝国后，能感觉到对阿加特的执念更深了。<br />
+蕾恩：现在想来，受到那种对待——<br />
+蕾恩：正常来说早该一命呜呼了，A级名号果真不是假的呢。<br />
+阿加特：为了这一点受人佩服，我也很伤脑筋…<br />
+缇妲：耶嘿嘿…<br />
+蕾恩：怎么了吗？<br />
+缇妲：总觉得这感觉很怀念，好开心。让我想起了利贝尔<br />
+蕾恩：…呵呵，确实呢。<br />
+艾莉卡：对了，缇妲，重新展开的学生生活怎么样？<br />
+艾莉卡：大战时很有话题性呢，像是那个教官他们<br />
+缇妲：我想想，大家都对我很好也有很多有趣的人，很开心。<br />
+缇妲：来帝国的时候有点不安，但现在完全没问题<br />
+艾莉卡：这样啊……那真是太好了。 <br />
+缇妲：嗯！  </p>
+<p>艾莉卡：既然如此，你得好好道别才行<br />
+缇妲：…………<br />
+缇妲：……唔欸……？<br />
+艾莉卡：呵呵，之后邀感情不错的朋友来利贝尔也可以<br />
+艾莉卡：教官们那边应该由我去说明比较好吧。<br />
+缇妲：等、等一下，妈妈……？突然间在说什么？ <br />
+缇妲：为什么要道别…<br />
+艾莉卡：——我这次来帝国不单只是为了工作。<br />
+艾莉卡：而是即便用强硬手段都要把你带回利贝尔<br />
+缇妲：咦……咦咦咦咦咦咦——！！！？<br />
+缇妲：从、从来没听你说过！为什么会变成这样！？<br />
+艾莉卡：我怎么可能让女儿一直待在这么危险的地方。<br />
+艾莉卡：听说这第Ⅱ分校在大战中与政府对立吧。<br />
+缇妲：那、那时候是有原因的，大家都努力尽己所能—— <br />
+艾莉卡：理由怎么样都无所谓。<br />
+艾莉卡：就结果而言，你不是被抓住，软禁了一段时间吗？<br />
+缇妲：这、这…可是最后我没事…<br />
+艾莉卡：要是有什么差错，我搞不好就再也见不到缇妲了喔？ <br />
+艾莉卡：身为母亲，我没办法容忍这件事。<br />
+缇妲：……妈妈……<br />
+艾莉卡：因此就算缇妲会埋怨，我也决定要把你带回利贝尔<br />
+缇妲：可是……我还想和大家…<br />
+阿加特：…喂，艾莉卡。这家伙也以自己的方式在努力——<br />
+艾莉卡：红头发的给我闭嘴<br />
+艾莉卡：说到底，你要是保护好缇妲，就不会碰上那种危险了。<br />
+艾莉卡：出发那天你不是夸下海口，说绝对会保护缇妲吗？ <br />
+阿加特：唔……<br />
+缇妲：怎么这样，又不是阿加特先生的错！之前发生异变，我也还不够成熟…<br />
+阿加特：……不，这点来说没什么好辩解的。<br />
+阿加特：要是我能做得更好，缇妲就不会被绑走了。 <br />
+阿加特：这件事我或许实在没资格说什么<br />
+缇妲：阿加特先生…  </p>
+<p>艾莉卡：我反过来问你你为什么想留在这所学校？<br />
+缇妲：因为……课才上到一半，也还有一年才毕业啊？ <br />
+艾莉卡：这些都不值一提<br />
+缇妲：不值一提…<br />
+艾莉卡：你仔细想想，缇妲。你来埃雷波尼亚帝国的真正目的是什么？<br />
+缇妲：这… <br />
+缇妲：向施密特博士学习，完成导力装甲Ⅲ……<br />
+缇妲：还有代替不能进入帝国的姐姐他们，帮助奥利维尔先生…<br />
+艾莉卡：你都还记得嘛<br />
+艾莉卡：我看了你的报告导力装甲Ⅲ完成得很好， 不愧是我引以为傲的女儿。<br />
+艾莉卡：奥利巴特殿下现在没什么好担心的，艾丝蒂尔小姐他们也已经能自由进出帝国<br />
+艾莉卡：也就是说，缇妲完全没任何理由留在这里……不是吗？<br />
+缇妲：这……说起来或许是这样没错… <br />
+缇妲：姐、姐姐你们知道妈妈想带我回去的事吗？<br />
+蕾恩：知道是知道<br />
+约书亚：之前也试着说服她…<br />
+艾丝蒂尔：嗳，艾莉卡小姐，还是再考虑一下… <br />
+艾莉卡：艾丝蒂尔，这件事已经谈完了。<br />
+艾丝蒂尔：可是对缇妲来说这里如此重要…<br />
+艾莉卡：再怎么重要，留下来若无法得到任何进步就没有意义。<br />
+艾莉卡：还不如回利贝尔<br />
+艾丝蒂尔：没那回——<br />
+缇妲：没那回事！<br />
+艾莉卡：缇妲……<br />
+缇妲：…既然如此… <br />
+缇妲：既然如此，只要我拿出更多成果，证明留在这里是有意义的，就可以了吧！<br />
+艾莉卡：……这……  </p>
+<p>蕾恩：呵呵，是啊——从逻辑上来说没错 <br />
+蕾恩：反正蕾恩我们暂时会为了《工房》的相关调查留在这里<br />
+蕾恩：时间还满够的<br />
+约书亚：目前预计会以施密特博士当作据点的第Ⅱ分校为中心活动——<br />
+约书亚：这期间应该不需要缇妲碰上危险<br />
+艾丝蒂尔：没错没错！这样比较好！<br />
+艾莉卡：……<br />
+艾莉卡：唉……拿你没办法。<br />
+缇妲：妈妈……！<br />
+艾莉卡：但我有两个条件<br />
+艾莉卡：第一，要在我留在帝国的四个月内，拿出能说服我的『成果』<br />
+艾莉卡：第二，在我要离开时，通过我出的『测验』。<br />
+艾莉卡：得达成这两项条件，我才允许你留在托尔兹军官学院第Ⅱ分校念到毕业<br />
+艾莉卡：可以吧？<br />
+缇妲：是！！  </p>
+<p>缇妲，敏特，帕布罗与古斯塔夫为了完成艾莉卡博士的目标聚集在第二分校机库~  </p>
+<p>敏特：现在开始进行——『第一次·导力装甲Ⅳ开发作战会议』 ！<br />
+缇妲：呃，敏特小姐，这不是作战会议那种重要大事，只是稍微讨论一下而已…<br />
+敏特：可是，万一没有得到妈妈的认可，缇妲就不能留在第Ⅱ分校了吧？<br />
+缇妲：嗯…<br />
+敏特：所以这是重要大事啊！超~级大事！<br />
+敏特：不管是作战会议还是其他事情，分校技术小组都要竭尽全力！<br />
+帕布罗：说得没错，敏特师父！<br />
+古斯塔夫：嗯，我会不遗余力地帮忙。<br />
+缇妲：各位…<br />
+敏特：不过，我还得协助马卡洛夫舅舅的计画，没办法随时过来帮忙<br />
+敏特：抱歉~<br />
+帕布罗：我们也不晓得自己能帮上多少忙 <br />
+古斯塔夫：若是太艰深的问题，我们可能应付不来<br />
+缇妲：不，光是大家愿意帮忙，就令我安心许多了！<br />
+缇妲：再说，这次主要得靠我自己解决才有意义！<br />
+敏特：缇妲…… <br />
+敏特：好~那我们会尽全力协助的！<br />
+帕布罗：嗯~一起加油吧！<br />
+缇妲：耶嘿嘿，谢谢大家。<br />
+敏特：再次宣布——『第一次·导力装甲Ⅳ开发作战会议』开始！  </p>
+<p>帕布罗：对了，敏特师父。既然说是第一次，表示还要再开好几次会啰？<br />
+敏特：不，没有这打算喔<br />
+敏特：毕竟只有短短4个月，要是没在一次会议中迅速做好决定就会来不及了。<br />
+古斯塔夫：那为什么要特地加上『第一次』啊？<br />
+敏特：想加就加啰~？这样比较有气氛嘛！  </p>
+<p>帕布罗：先不说这些了。缇妲，你为什么要制作导力装甲Ⅳ？<br />
+古斯塔夫：Ⅲ才刚完成就要立刻打造更优秀的新型，太困难了吧<br />
+古斯塔夫：就算要博取艾莉卡博士的认可，挑其他题材应该比较好吧？<br />
+缇妲：不，我就要这个<br />
+缇妲：毕竟最初的导力装甲是妈妈设计的<br />
+缇妲：为了得到妈妈彻底的认同，超越她的作品才是最好的办法。<br />
+古斯塔夫：原来如此 <br />
+帕布罗：既然这样，我们也不多说什么<br />
+敏特：唔……但实际上该怎么做呢？超越小Ⅲ的阿Ⅳ已经有概念了吗？<br />
+古斯塔夫：为什么一个叫『小』Ⅲ，另一个叫『阿』Ⅳ…<br />
+帕布罗：还是一样搞不懂标准。 <br />
+缇妲：唔……我正在烦恼这部分。<br />
+缇妲：多亏大家的帮忙，导力装甲Ⅲ已经是完成度相当高的机体<br />
+缇妲：要打造超越前代的次世代机，究竟该从哪里着手才好…<br />
+敏特：真是个大难题呢~<br />
+古斯塔夫：感觉还得加上前所未有的功能<br />
+缇妲：前所未有的功能……<br />
+帕布罗：嗯~有什么呢？<br />
+帕布罗：说起憧憬，机甲兵第一次飞起来的时候，我心里非常激动呢。  </p>
+<p>缇妲：…………飞…………<br />
+缇妲（陷入沉思）：唔唔…………呃……嗯……  </p>
+<p>敏特：喔喔，这反应还真有趣<br />
+敏特：缇妲，你这个反应是觉得可以？还是不可以？ <br />
+缇妲：…我觉得『翱翔天际』是个好主意，但并不到前所未有的地步。<br />
+敏特：咦？是吗？<br />
+缇妲：2年前ZCF和爱普斯泰恩财团共同开发了《星灵装甲》……<br />
+缇妲：那也算是导力装甲的一种。<br />
+敏特：啊，像亚莉莎的《导力装甲EXA》那样？<br />
+缇妲：没错但EXA是3间公司共同开发的机体，《星灵装甲》则投入了更多财团自的技术<br />
+缇妲：应该也能载人飞行才对。 <br />
+帕布罗：哦~原来还有那种东西啊。<br />
+古斯塔夫：既然这样，为什么没有运用在Ⅲ的开发上呢？<br />
+缇妲：唔……关于《星灵装甲》的事情，我也不太清楚…<br />
+敏特：那么，直接问最快了~！  </p>
+<p>众人联系缇欧。<br />
+缇欧：事情我都知道了，我会尽力协助的。<br />
+缇妲：谢谢你，缇欧小姐！<br />
+缇欧：原本就是合作开发的专案，帮这点小忙是应该的。<br />
+缇欧：关于星灵装甲，确实在一定程度上实现了空中机动，但并不完善。 <br />
+敏特：什么意思？<br />
+缇欧：问题出在动力和运转时间。<br />
+缇欧：虽然成功让机体载着操纵者起飞，但很难再增加负重。<br />
+缇欧：再加上能运转的时间相当有限，先不论在紧急时刻支援战斗，它并不适合长时间的多功能作业。<br />
+缇妲：运转时间和环境适应力都已经在Ⅲ得到了改善吧…<br />
+缇欧：而且控制星灵装甲必须和《永恒系统》连动。<br />
+缇欧：虽然是非常有挑战性的机体，但整体来看还是缺乏通用性。 <br />
+敏特：原来如此~尽管有出色的特点，但不像Ⅲ那样万用啊<br />
+缇妲：只要以通用性高的Ⅲ为基础，加上飞行机能……！<br />
+帕布罗：哦哦！那就成了最强的啦！<br />
+古斯塔夫：确实有很大的可塑性呢。 <br />
+敏特：唔……但有那么容易做到吗？<br />
+敏特：不只是动力极限，这也不可能像机甲兵一样只要随便装上推进器就好。<br />
+帕布罗：那种形状要飞起来，也很难飞得灵活<br />
+缇妲：就算这样，我还是要试试看！ <br />
+缇妲：就算这样，我还是要试试看！<br />
+敏特：缇妲斗志十足呢！<br />
+缇欧：我先将有用的资料整理好，等等寄给你<br />
+缇妲：好，麻烦你了！<br />
+缇妲：我一定会开发出导力装甲Ⅳ，得到妈妈的认同！  </p>
+<p>一个月后——<br />
+第二分校机库中，缇妲一脸疲倦坐在地上  </p>
+<p>桑蒂：缇妲，状况怎样？<br />
+弗雷迪：我们代表大家带来了慰劳品喔！<br />
+缇妲：啊… …桑蒂小姐和弗雷迪先生…欢迎你们…<br />
+桑蒂：看来你相当疲惫呢。<br />
+弗雷迪：呵呵呵，既然这样，这次准备的<br />
+弗雷迪：特制精力饮料就能派上用场了<br />
+弗雷迪：来，一口气喝掉吧！<br />
+缇妲：这是……？ <br />
+缇妲：啊……唔……！？<br />
+弗雷迪：由七种昆虫调配而成，对缓解疲劳非常有效的特制饮料！<br />
+缇妲：好……苦！超苦…<br />
+缇妲：但之后浮现了奥妙的后劲……！<br />
+缇妲：总觉得身体不可思议地暖了起来··<br />
+缇妲：……<br />
+缇妲：呼……感觉整个人焕然一新<br />
+弗雷迪：恢复精神真是太好了，哈哈哈！<br />
+缇妲：与其说是恢复精神，更像是被逼出了精力…<br />
+桑蒂：我们也有准备普通的三明治，等等记得吃喔<br />
+缇妲：嗯，谢谢桑蒂小姐，也谢谢弗雷迪先生的招待。<br />
+弗雷迪：客气什么，我们可是料理研究会的伙伴。 <br />
+缇妲：最近几乎都没办法参加研究会，真抱歉<br />
+桑蒂：我们才觉得很抱歉。只能帮上这点忙呢~<br />
+桑蒂：我会为你加油的，你要好好努力，明年一定也要一起做料理喔！<br />
+缇妲：嗯，一言为定！ <br />
+弗雷迪：唔，那开发还顺利吗？<br />
+缇妲：这…<br />
+桑蒂：啊哈哈，看你刚才的样子，大概猜得到答案…<br />
+缇妲：我做出了许多试作机，但每一台都跟预期的性能差太多了…<br />
+缇妲：明明有大家的协助，却觉得陷入了瓶颈…<br />
+弗雷迪：直接去请教施密特博士呢？<br />
+桑蒂：唔~不知道那个恐怖的人会不会老实帮忙解惑…<br />
+缇妲：博士大概会嘴上碎碎念，然后给点提示吧…<br />
+缇妲：但找敏特小姐等人帮忙也就算了，总觉得不该借助博士的力量。<br />
+缇妲：我想要让妈妈确实看到『自己』的成长<br />
+弗雷迪：哈哈，真有决心呢。<br />
+弗雷迪：但那样一来，情况就更棘手了。<br />
+桑蒂：唔~也许这种时候不要太钻牛角尖，去散散心比较好<br />
+弗雷迪：嗯，研发料理遇到瓶颈的时候，去散散心比较好<br />
+弗雷迪：嗯，研发料理遇到瓶颈的时候，我也常出去打猎<br />
+弗雷迪：干脆现在一起去后山吧！<br />
+缇妲：这、这有点…不过，散心或许是个好主意。<br />
+缇妲：啊，说到这个，我还没分析之前博士交给我的装置<br />
+缇妲：嗯，就这么办！呵呵，通霄一个晚上应该能完成吧？<br />
+桑蒂：咦？不是要去散心吗…<br />
+弗雷迪：呵哈哈，不愧是缇妲！尽管照着自己的方式做吧！<br />
+桑蒂：啊哈哈…要注意不要太逞强哦<br />
+缇妲：耶嘿嘿，谢谢你们！  </p>
+<p>缇妲：这反应……莫非是重力机关！？但从来没见过这么小型的… <br />
+缇妲：唔……但似乎相当难运用是试制品吗？<br />
+缇妲：难怪博士要交给我处理原来如此…<br />
+缇妲：…嗯……若是这个…<br />
+缇妲：嗳嗳，施密特博士，可以打扰一下吗？ <br />
+施密特博士：干嘛？我现在很忙有事快说<br />
+缇妲：你之前交给我的那个装置…<br />
+施密特博士：我说过不用回报了。<br />
+缇妲：在运用方面，我有一点事情想确认。那个——<br />
+施密特博士：随你处置<br />
+缇妲：咦？<br />
+施密特博士：我说过全部由你自己看着办别动不动就来问我<br />
+缇妲：好、好的！谢谢博士！ <br />
+缇妲：那我先告辞了！<br />
+施密特博士：嗯……？  </p>
+<p>接下来的时间里，众人继续合力，一同帮助缇妲完成导力机甲Ⅳ，终于……  </p>
+<p>缇妲：终于到最后的启动实验了！<br />
+阿加特：离艾莉卡的测试还有两天…的确是最后了呢。<br />
+阿加特：真亏你竟然能做到这一步。 <br />
+缇妲：耶嘿嘿，没想到博士给的那个会是新型重力机关<br />
+缇妲：里面的构造看起来相当特殊，我花了好一番工夫改良，才能顺利拿来运用…<br />
+缇妲：试装在试作机上后，得到了惊人的成果<br />
+缇妲：也因此确立了方向，然后灵感源源不绝地涌出——就这样完成了试作机！<br />
+缇妲：透过多次的飞行实验又做了许多改良，所以现在—— <br />
+缇妲：呃……阿加特先生？<br />
+阿加特：没什么…只是觉得你一点也没变呢。<br />
+缇妲：啊…耶嘿嘿，不小心太激动了。<br />
+缇妲：总之，今天谢谢你陪我进行实验！ <br />
+阿加特：我总不能让你独自跑这么远。<br />
+阿加特：话说回来，有必要特地到这种地方来吗？<br />
+缇妲：毕竟是最终实验，我想多收集一些资料。<br />
+缇妲：这个朗格多克峡谷人烟稀少，更重要的是有许多高低落差，最适合做飞行实验<br />
+阿加特：原来如此……那么，你就大胆去做吧。<br />
+阿加特：我会在这里看着，有什么状况立刻叫我<br />
+缇妲：耶嘿嘿…好的，我去去就回！  </p>
+<p>缇妲：阿加特先生！我照着预定路线飞一圈了。<br />
+阿加特：我也依你说的做了测量，但实在看不懂数值<br />
+阿加特：结果怎么样？我觉得看起来飞得很不错。<br />
+缇妲：嗯，非常成功！ <br />
+缇妲：这样一来，一定也能得到妈妈的认可！<br />
+阿加特：这样啊…接着就只剩下通过艾莉卡的测试了吧<br />
+阿加特：不过，看起来你能顺利的。 <br />
+缇妲：阿加特先生……真的很谢谢你<br />
+缇妲：现在尚未通过测试，说这番话可能有点奇怪…<br />
+缇妲：但剩下的学生生活，也请你多多指教了！<br />
+阿加特：喔，嗯……那当然。<br />
+阿加特：帝国各地的协会因为重新运作而人手不足，我也预计要在这里继续待一阵子<br />
+阿加特：今后我也会偶尔过来看看你的 <br />
+缇妲：耶嘿嘿…  </p>
+<p>此时一架飞行艇晃晃悠悠地飘过两人上空……  </p>
+<p>阿加特：怎么回事？看起来怪怪的…<br />
+缇妲：难道要坠落了……？这样下去会撞上岩山！<br />
+阿加特：啧，怎么会这样！<br />
+缇妲：……若是这架机体… <br />
+缇妲：我这就过去！<br />
+阿加特：喂，缇妲！！<br />
+缇妲：（这是……飞翔机关停止了……！？）  </p>
+<p>缇妲：船内的人听得到吗！？<br />
+慌张的声音：是是是是是谁！？<br />
+缇妲：没时间了，请抓紧身边的东西！<br />
+缇妲：我会想办法救你们！<br />
+缇妲：必须提升高度才行……！<br />
+缇妲：动力全开——<br />
+缇妲：这样下去……不行！<br />
+缇妲：解除极限——！！<br />
+缇妲：拜托了，往上飞吧！！<br />
+缇妲：呀啊啊啊啊啊啊啊啊<br />
+缇妲：成功了…太好了，这样就没事了…<br />
+缇妲：总之，先回阿加特先生那里——  </p>
+<p>导力机甲逐渐不听使唤。  </p>
+<p>缇妲：咦？<br />
+缇妲：难道过热了——<br />
+缇妲：啊——<br />
+阿加特：喝！！（成功接下坠落的缇妲）<br />
+缇妲：阿加特先生——<br />
+阿加特：没事吧，缇妲？<br />
+缇妲：还以为死定了…<br />
+阿加特：我就是为了以防万一而来的<br />
+缇妲：对不起，我擅自冲出去，却弄得这么狼狈…<br />
+阿加特：毕竟情况紧急嘛。<br />
+阿加特：倒是你能成功救下那艘飞行艇，实在很了不起<br />
+阿加特：做得好，缇妲。<br />
+缇妲：阿加特先生…<br />
+阿加特：你平安无事最重要，但问题是——<br />
+缇妲：导力装甲Ⅳ…  </p>
+<p>之后——两人设法前往峡谷底部回收导力装甲Ⅳ试作机的残骸，但实在不可能短短几天就能修复…<br />
+更奇妙的是，原本装设在机体上的『新型重力机关』不知何时消失无踪。<br />
+阿加特温柔地拍拍垂头丧气的缇妲的背，踏上了返回分校的路…   </p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      最后更新: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2021年5月29日 23:13:35</span>
+      
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../ep10/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              堕落的皇子
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../ep12/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                下一页
+              </span>
+              新·导力装甲开发计划 后篇
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; 2021 Falcom
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "translations": {"clipboard.copy": "\u590d\u5236", "clipboard.copied": "\u5df2\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.d351de03.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.34eae1b6.min.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
