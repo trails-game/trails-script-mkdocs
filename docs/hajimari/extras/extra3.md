@@ -5,6 +5,8 @@
 	Your browser does not support the audio element.
 </audio>
 
+<img src="/images/hajimari/extra/extra3/vis5_0120.JPG"/>
+
 **S1208年·9月**
 
 「请容我拒绝。」  
@@ -350,3 +352,5 @@
 「恭喜你──《剑之少女》，A级游击士──艾蕾因·奥克雷尔！」  
   
 于是少女将握著手中的剑继续前进─完─  
+
+<img src="/images/hajimari/extra/extra3/vis5_0120_01.JPG"/>
