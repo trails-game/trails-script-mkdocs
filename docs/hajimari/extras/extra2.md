@@ -455,5 +455,3 @@
 春风已经停歇，但夏日尚未来临，这是某个平凡却又耀眼的午后──  
 
 某位少女的校园生活─完─  
-
-<img src="/images/hajimari/extra/extra3/vis5_012.JPG"/>
