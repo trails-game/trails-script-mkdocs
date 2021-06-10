@@ -40,7 +40,9 @@
 黎恩深呼吸了一次，让肺部充满夜晚清新的空气。  
 他想起了这次造访龙来的「真正目的」。  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_01.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_01.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_01.JPG" /></a>
+</div>
   
 《剑仙》云·卡法伊。  
 既是《八叶一刀流》的开山祖师，同时也是年逾仍拥有傲视大陆群伦实力的「活生生的传说」。  
@@ -56,7 +58,9 @@
 「（爸爸他们应该也很想见见阔别多时的师父，让他们太过期待，最后却落空也不好呢。）」  
 黎恩边这么想著，边独自走向入夜后的龙来街头。  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_02.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_02.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_02.JPG" /></a>
+</div>
 
 整座温泉乡·龙来都是东方风格的建筑物，在卡尔瓦德当中也有著独树一格的气氛。  
 虽说是东方风格，但和克洛斯贝尔的东侧大道也有所不同。不会过度抢眼，但在宁静当中又让人感受到历史痕迹的幽玄之美──算是体现了东方「侘寂」概念的城市。  
@@ -64,7 +68,9 @@
 黎恩信步走在城中，向店家和摊贩打听云师父的消息。只问不买难免觉得不好意思，于是也开始顺便看些伴手礼。  
 买给亚莉莎等旧Ⅶ班成员、托娃等同事，还有给班上学生的份。  
 
-<img src="/images/hajimari/extra/extra1/vis5_0100_03.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_03.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_03.JPG" /></a>
+</div>
 
 「话说回来，他们就快毕业了吗……总觉得比自己毕业时更令人充满感慨啊。」  
 悠娜他们即将结束两年的学业，从学院毕业。对黎恩而言，这是第一次体验到自己教的学生毕业，每次想起都让他心中充满复杂的情绪。  
@@ -83,7 +89,9 @@
 「虽然得在山中走夜路……但明天跟爸爸他们还有其他行程。趁现在去看看吧。」  
 打定主意后，黎恩先回旅馆一趟把伴手礼放好，之后立刻朝南方的山脉出发。  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_04.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_04.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_04.JPG" /></a>
+</div>
 
 夜晚的山路虽然危险，但也不到绝对走不得的程度。只要别过度依赖视觉就好。  
 听觉、嗅觉，在某些情况下甚至触觉都会是重要的资讯来源。集中精神于五感，再加上经验与推测，多方面掌握周遭的状况──  
@@ -115,7 +123,9 @@
 于是，有两道「黑影」般的存在，从暗处一声不响地走了出来。  
 用适合暗中行动的黑色装束包裹住身体和脸的他们，让人联想到东方传闻中所谓的『忍者』。  
 
-<img src="/images/hajimari/extra/extra1/vis5_0100_05.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_05.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_05.JPG" /></a>
+</div>
 
 「帝国的《剑圣》，你的洞察力果然是一大威胁。」  
 「虽然是在正式签约前的『事前勘察』，但既然是客户的清单上提到的『需注意人物』，就另当别论──」  
@@ -137,7 +147,9 @@
 仿佛要回应他们一般，黎恩也重新摆出中段架式。  
 就在战斗正要再次开始的瞬间──  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_06.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_06.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_06.JPG" /></a>
+</div>
 
 从暗处窜出一股呈圆盘状旋转的「黑色旋风」，用仿佛要切断碰触到的一切事物的气势，朝黎恩袭来。  
 这次偷袭从角度、距离到动手的时机都相当完美。两位《斑鸠》看来对此并不惊讶。看来这也是他们计划中的一环。  
@@ -170,7 +182,9 @@
 黎恩叹了口气，也重新调整姿势，摆出架式。  
 「《八叶一刀流》七型奥传，黎恩·舒华泽──接受挑战！」  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_07.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_07.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_07.JPG" /></a>
+</div>
 
 先采取行动的居然是黎恩。  
 黑铁所拿的奇特武器拥有相同长度的四根刀刃，刀刃底部互相交叠，组成十字形的大型投掷剑。  
@@ -259,7 +273,9 @@
 此人的口气虽然像在责备黑铁，但听起来却又有点开心。  
 黎恩朝著声音传来的方向看去，不由得倒抽了一口气。  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_08.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_08.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_08.JPG" /></a>
+</div>
 
 站在那里的人，模样实在太过奇特。  
 她身穿融合了东方风格和最新技术的强化服，长长的银发有如沐浴了月光一般，绽放出光芒。  
@@ -289,7 +305,9 @@
 黎恩连喊住她都来不及，只能茫然地目送她的背影逐渐消失在视线中。  
 回过神来，黑铁曾几何时也已离去。  
   
-<img src="/images/hajimari/extra/extra1/vis5_0100_10.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra1/vis5_0100_10.JPG"><img src="/images/hajimari/extra/extra1/vis5_0100_10.JPG" /></a>
+</div>
 
 「《斑鸠》和《黑神一刀流》，还有……『师弟』是吗。」  
 此行不仅没有达成目的，还多出好几道不可思议的疑问。除了刚才遇见的他们之外，这座山脉肯定也有著「某种东西」。  

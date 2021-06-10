@@ -5,14 +5,17 @@
 『浮游都市崩坏！王国的危机远去！』  
 空前阴谋被阻止！请把祝福献给年轻的游击士们吧！  
 
-<img src="/images/sora-3rd/star3/1.png"/>  
-<img src="/images/sora-3rd/star3/2.png"/>  
-<img src="/images/sora-3rd/star3/3.png"/>  
-<img src="/images/sora-3rd/star3/4.png"/>  
-<img src="/images/sora-3rd/star3/5.png"/>  
-<img src="/images/sora-3rd/star3/6.png"/>  
-<img src="/images/sora-3rd/star3/7.png"/>  
-<img src="/images/sora-3rd/star3/8.png"/>  
+<div class="imgLightbox">
+    <a href="/images/sora-3rd/star3/1.png"><img src="/images/sora-3rd/star3/1.png"/></a>  
+    <a href="/images/sora-3rd/star3/2.png"><img src="/images/sora-3rd/star3/2.png"/></a>  
+    <a href="/images/sora-3rd/star3/3.png"><img src="/images/sora-3rd/star3/3.png"/></a>  
+    <a href="/images/sora-3rd/star3/4.png"><img src="/images/sora-3rd/star3/4.png"/></a>  
+    <a href="/images/sora-3rd/star3/5.png"><img src="/images/sora-3rd/star3/5.png"/></a>  
+    <a href="/images/sora-3rd/star3/6.png"><img src="/images/sora-3rd/star3/6.png"/></a>  
+    <a href="/images/sora-3rd/star3/7.png"><img src="/images/sora-3rd/star3/7.png"/></a>  
+    <a href="/images/sora-3rd/star3/8.png"><img src="/images/sora-3rd/star3/8.png"/></a>  
+</div>
+
  
 【特辑】浮游都市《利贝尔·方舟》崩溃！  
 ————————————————————————  

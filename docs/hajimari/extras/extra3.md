@@ -5,7 +5,9 @@
 	Your browser does not support the audio element.
 </audio>
 
-<img src="/images/hajimari/extra/extra3/vis5_0120.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra3/vis5_0120.JPG"><img src="/images/hajimari/extra/extra3/vis5_0120.JPG" /></a>
+</div>
 
 **S1208年·9月**
 
@@ -353,4 +355,6 @@
   
 于是少女将握著手中的剑继续前进─完─  
 
-<img src="/images/hajimari/extra/extra3/vis5_0120_01.JPG"/>
+<div class="imgLightbox">
+<a href="/images/hajimari/extra/extra3/vis5_0120_01.JPG"><img src="/images/hajimari/extra/extra3/vis5_0120_01.JPG" /></a>
+</div>

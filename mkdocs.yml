@@ -57,12 +57,11 @@ plugins:
       prebuild_index: true
 # Customization
 extra_css:
-  - stylesheets/simple-lightbox.css
+  - stylesheets/simpleLightbox.css
   - stylesheets/extra.css
 extra_javascript:
   - https://code.jquery.com/jquery-3.6.0.min.js
-  - javascripts/simple-lightbox.jquery.js
-  - javascripts/simple-lightbox.js
+  - javascripts/simpleLightbox.js
   - javascripts/extra.js
 # Page tree
 nav:
