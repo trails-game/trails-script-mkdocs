@@ -60,6 +60,7 @@ extra_css:
   - stylesheets/simple-lightbox.css
   - stylesheets/extra.css
 extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.min.js
   - javascripts/simple-lightbox.jquery.js
   - javascripts/simple-lightbox.js
   - javascripts/extra.js
