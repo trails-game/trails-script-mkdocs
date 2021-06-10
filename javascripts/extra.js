@@ -9,4 +9,6 @@ location$.subscribe(function (url) {
   window.dataLayer.push({event: 'pageview'});
 });
 
-$('.imgLightbox').simpleLightbox();
+$(document).ready(() => {
+  $('.imgLightbox a').simpleLightbox();
+});
