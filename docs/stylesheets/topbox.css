@@ -1,0 +1,383 @@
+/*
+TopBox is derived from Nivo Lightbox v1.3.1, created by Dev7studios:
+http://dev7studios.com/nivo-lightbox
+
+TopBox is updated for jQuery 3 and has additional features / content support.
+Maintained by William Woodgate
+
+TopBox homepage:
+https://willwoodgate.com/projects/topbox/
+
+Free to use and abuse under the MIT license.
+http://www.opensource.org/licenses/mit-license.php
+*/
+/* Core CSS to make the lightbox work */
+.topbox_open .topbox_blur_wrapper {
+    filter: blur(1px);
+  }
+  
+  .topbox_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99995;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .topbox_overlay,
+  .topbox_overlay *,
+  .topbox_overlay *:before,
+  .topbox_overlay *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  
+  .topbox_fill {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .topbox_overlay.topbox_open {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .topbox_wrapper {
+    position: absolute;
+    z-index: 99996;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .topbox_content {
+    position: relative;
+    z-index: 99998;
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  .topbox_title_wrap {
+    position: relative;
+    z-index: 99998;
+  }
+  
+  .topbox_nav {
+    display: none;
+  }
+  
+  .topbox_prev,
+  .topbox_next,
+  .topbox_close {
+    position: absolute;
+    z-index: 99999;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topbox_prev {
+    left: 0;
+  }
+  
+  .topbox_next {
+    right: 0;
+  }
+  
+  .topbox_close {
+    top: 0;
+    right: 0;
+  }
+  
+  .topbox_close_layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99997;
+  }
+  
+  .topbox_image {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+  
+  .topbox_html5_audio_wrap {
+    width: 100%;
+  }
+  
+  .topbox_html5audio {
+    width: 100%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+  }
+  
+  .topbox_html5_video_wrap {
+    width: 100%;
+  }
+  
+  .topbox_html5video {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .topbox_iframe_wrap,
+  .topbox_iframe,
+  .topbox_pdf_wrap,
+  .topbox_pdf {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .topbox_pdf_mobile_message {
+    display: inline-block;
+    margin: auto;
+  }
+  
+  .topbox_embedded_web_video {
+    position: relative;
+    padding-bottom: 56.25% !important;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .topbox_embedded_web_video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .topbox_video_iframe_wrap {
+    position: relative;
+    padding-bottom: 56.25% !important;
+    height: 0;
+    width: 100%;
+  }
+  
+  iframe.topbox_video_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*
+  Fix for video sizing, if using the Plyr plugin for custom video controls
+  https://github.com/sampotts/plyr
+  */
+  .topbox_content .plyr {
+    min-width: 100%;
+  }
+  
+  .topbox_inline,
+  .topbox_ajax {
+    max-height: 100%;
+    width: 100%;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* https://bugzilla.mozilla.org/show_bug.cgi?id=308801 */
+  }
+  
+  .topbox_error {
+    display: table;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+  }
+  
+  .topbox_error p {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .topbox_notouch .topbox_effect_fade,
+  .topbox_notouch .topbox_effect_slideLeft,
+  .topbox_notouch .topbox_effect_slideRight,
+  .topbox_notouch .topbox_effect_slideUp,
+  .topbox_notouch .topbox_effect_slideDown {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+  
+  /* slideLeft / slideRight / slideUp / slideDown */
+  .topbox_notouch .topbox_effect_slideLeft .topbox_content,
+  .topbox_notouch .topbox_effect_slideRight .topbox_content,
+  .topbox_notouch .topbox_effect_slideUp .topbox_content,
+  .topbox_notouch .topbox_effect_slideDown .topbox_content {
+    -webkit-transition: all 0.5s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    -moz-transition: all 0.5s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    -ms-transition: all 0.5s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    -o-transition: all 0.5s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.5s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  }
+  
+  .topbox_notouch .topbox_effect_slideLeft .topbox_content {
+    -webkit-transform: translateX(-20%);
+    -moz-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    transform: translateX(-20%);
+  }
+  
+  .topbox_notouch .topbox_effect_slideRight .topbox_content {
+    -webkit-transform: translateX(20%);
+    -moz-transform: translateX(20%);
+    -ms-transform: translateX(20%);
+    transform: translateX(20%);
+  }
+  
+  .topbox_notouch .topbox_effect_slideLeft.topbox_open .topbox_content,
+  .topbox_notouch .topbox_effect_slideRight.topbox_open .topbox_content {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  
+  .topbox_notouch .topbox_effect_slideDown .topbox_content {
+    -webkit-transform: translateY(-20%);
+    -moz-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+  }
+  
+  .topbox_notouch .topbox_effect_slideUp .topbox_content {
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+  
+  .topbox_notouch .topbox_effect_slideUp.topbox_open .topbox_content,
+  .topbox_notouch .topbox_effect_slideDown.topbox_open .topbox_content {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  
+  /* Our default lightbox skin (darkroom) */
+  .topbox_open .topbox_blur_wrapper {
+    filter: blur(1px);
+  }
+  
+  .topbox_skin_darkroom .topbox_fill {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  .topbox_skin_darkroom .topbox_pdf_mobile_message {
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+  
+  .topbox_skin_darkroom a.topbox_pdf_mobile_button,
+  .topbox_skin_darkroom a.topbox_pdf_mobile_button:visited {
+    color: #FFFFFF;
+    border-radius: 1rem;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+    transition: all 300ms ease-in;
+    padding: 1rem;
+    line-height: 1;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .topbox_skin_darkroom .topbox_nav {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .topbox_skin_darkroom .topbox_prev,
+  .topbox_skin_darkroom .topbox_next,
+  .topbox_skin_darkroom .topbox_close {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 45px;
+    opacity: 0.5;
+    transition: all 300ms ease-in;
+    padding: 2vw;
+    line-height: 1;
+  }
+  
+  .topbox_skin_darkroom .topbox_close {
+    margin-top: -10px;
+    font-size: 55px;
+  }
+  
+  .topbox_skin_darkroom .topbox_prev:hover,
+  .topbox_skin_darkroom .topbox_next:hover,
+  .topbox_skin_darkroom .topbox_close:hover {
+    opacity: 1;
+  }
+  
+  .topbox_skin_darkroom .topbox_prev:before {
+    content: "←"
+  }
+  
+  .topbox_skin_darkroom .topbox_next:before {
+    content: "→"
+  }
+  
+  .topbox_skin_darkroom .topbox_close:before {
+    content: "×";
+  }
+  
+  .topbox_skin_darkroom .topbox_title {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    background: #000;
+    color: #fff;
+    padding: 7px 15px;
+    margin-top: 7px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+  }

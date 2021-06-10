@@ -9,4 +9,6 @@ location$.subscribe(function (url) {
   window.dataLayer.push({event: 'pageview'});
 });
 
-$('.imgGallery').simpleLightbox();
+$('.imgLightbox').topbox({
+  clickImgToClose: true,
+});
