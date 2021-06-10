@@ -8,3 +8,5 @@ location$.subscribe(function (url) {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event: 'pageview'});
 });
+
+$('.imgGallery').simpleLightbox();
