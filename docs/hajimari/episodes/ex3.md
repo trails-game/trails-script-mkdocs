@@ -196,4 +196,4 @@
 黎恩：哈哈…  
 黎恩：那么，我也差不多该做准备了。  
 
-![Placeholder](/images/hajimari/hajimariEX3.png){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/hajimariEX3.png){.imgLightbox tag=1 loading=lazy}

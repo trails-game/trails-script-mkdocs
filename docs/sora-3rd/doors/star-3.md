@@ -5,14 +5,14 @@
 『浮游都市崩坏！王国的危机远去！』  
 空前阴谋被阻止！请把祝福献给年轻的游击士们吧！  
 
-![Placeholder](/images/sora-3rd/star3/1.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/2.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/3.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/4.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/5.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/6.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/7.png){.imgLightbox tag=1}
-![Placeholder](/images/sora-3rd/star3/8.png){.imgLightbox tag=1}
+![Placeholder](/images/sora-3rd/star3/1.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/2.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/3.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/4.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/5.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/6.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/7.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star3/8.png){.imgLightbox tag=1 loading=lazy}
 
  
 【特辑】浮游都市《利贝尔·方舟》崩溃！  

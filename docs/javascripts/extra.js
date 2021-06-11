@@ -13,7 +13,6 @@ location$.subscribe(function (url) {
 $(document).ready(() => {
   const productImageGroups = [];
     $('.imgLightbox').each(function() {
-      $(this).attr('loading', 'lazy');
       const productImageSource = $(this).attr('src');
       const productImageTag = 't' + $(this).attr('tag');
       let productImageTitle = $(this).attr('title');

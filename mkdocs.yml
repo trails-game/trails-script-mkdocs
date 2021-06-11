@@ -64,7 +64,7 @@ extra_css:
 extra_javascript:
   - https://code.jquery.com/jquery-3.6.0.min.js
   - javascripts/glightbox.min.js
-  - javascripts/extra.js
+  - javascripts/extra.js?ver=0.1
 # Page tree
 nav:
   - 'Cafe主站': 'https://trails-game.com'

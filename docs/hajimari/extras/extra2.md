@@ -8,7 +8,7 @@
 因此，这里可说是共和国中最具代表性与历史的学校之一。  
 在每年春天兼具欢迎新生目的举办的「亚拉密斯学艺祭」结束后不久──  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110.JPG){.imgLightbox tag=1 loading=lazy}
 
 这一天早上，路上一如往常地充满准备上学的学生。其中有一位特别引人注目。  
 这位学生有著一头紫罗兰色长发，绑著可爱的缎带。如今的她已17岁。急速成长的身体已充满女性魅力，搭配还残留著些许可爱神情的脸蛋，自然散发出一种魅惑人心的气质。  
@@ -32,7 +32,7 @@
   
 结束一天的课程后，没有加入特定社团的蕾恩整理好书包，准备起身。  
 
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_01.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_01.JPG){.imgLightbox tag=1 loading=lazy}
 
 「蕾恩·布莱特同学，可以耽误一点时间吗？」  
 一位男学生上前对蕾恩攀谈，身后还有几个人陪著他一起来。  
@@ -98,7 +98,7 @@
 「那么各位，恕我失陪了。」  
 蕾恩对还在努力试图找话回嘴的罗纳尔等人视若无睹，优雅地鞠了个躬之后，便离开了教室。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_02.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_02.JPG){.imgLightbox tag=1 loading=lazy}
 
 「然后啊，妈妈她又拜托阿加特先生强人所难的委托，又让他把自己弄得浑身是伤……不过多亏如此，收集到很多资料就是了。」  
 「呵呵，艾莉卡阿姨还是老样子呢。」  
@@ -117,7 +117,7 @@
 两人隔著画面皱起眉头来。  
 最近让她们两个感到烦恼的话题没有别的，就是关于卡尔瓦德共和国的巨大技术制造商──乌尔努公司。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_03.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_03.JPG){.imgLightbox tag=1 loading=lazy}
 
 去年，当克洛斯贝尔再次独立事件的善后工作告一段落时，艾莉卡博士代表ZCF，再次侦巡乌尔努公司是否有意愿加入之前一直在筹备的《西塞姆利亚技术联盟》。不过，对方的回答就某种意义上而言在意料之中──这个提议遭到拒绝。  
 艾莉卡等人正准备想办法说服对方时，却发生了一起让这些努力化为乌有的大事。  
@@ -229,7 +229,7 @@
 于是，蕾恩宛如结束演出的演员般，朝「观众们」优雅地鞠了个躬。  
 之后，对蕾恩的恶作剧又反复发生了几次，但都被她华丽地化解，且每次都引发注目。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_04.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_04.JPG){.imgLightbox tag=1 loading=lazy}
 
 这种状况持续了数天。某天放学后，罗纳尔终于再也沉不住气，直接将蕾恩叫去校舍后方。  
 然而，带著数名跟班，对蕾恩摆出高高在上态度的他，表情看来却没有几天前游刃有余，反而充满了焦躁。  
@@ -261,7 +261,7 @@
 「（虽然会控制力道，但也得让他们尝到些苦头才行。毕竟是为了逼他们反省，艾丝蒂尔他们应该也无话可说吧。）」  
 就在蕾恩打定主意，准备采取行动的那一刹那。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_05.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_05.JPG){.imgLightbox tag=1 loading=lazy}
 
 「请住手！！」  
 校舍方向响起了一位少女的声音。当然，她不是要蕾恩住手，而是要阻止罗纳尔等人。  
@@ -322,7 +322,7 @@
 「不、不对……一定是哪里搞错了！这根本是胡说八道！」  
 这时，就像一直等著他说出这句话一般，大礼堂的入口处传来一个女学生的声音。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_06.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_06.JPG){.imgLightbox tag=1 loading=lazy}
   
 「──很遗憾，这全都是事实。」  
 那声音既清脆，又带有某种使人难以抗拒的魅力。有著一头飘逸的紫罗兰色头发的女孩从入口处慢慢走向讲台，继续说著。  
@@ -361,7 +361,7 @@
 他完全无法理解眼前发生的事情。就算在视觉上接受到了这样的资讯，大脑似乎还在拒绝相信。  
 他一声令下后，眼前的女孩便不知从哪里拿出一把巨大的钢铁镰刀。  
 
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_07.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_07.JPG){.imgLightbox tag=1 loading=lazy}
 
 这样的光景已经够超现实了，但接下来发生的事更是让他做梦也没想到。  
 眼前的一切简直就像玩弄著猎物的猫和四处窜逃的老鼠一般──最不合常理之处，则是拿著大镰刀的女孩竟然是猫，而十几个壮汉则是老鼠。  
@@ -369,7 +369,7 @@
 之后发生的一切，甚至称不上是一场战斗。老鼠们不知该逃往何处，小猫则乐在其中地追逐著牠们，让牠们感觉好像有机会逃掉，却又马上被追上。反复几次后，被玩腻的猎物就会被放倒，加入昏倒在地的鼠群行列。  
 就这样，男人们一个接一个倒下，不知不觉只剩下蕾恩和罗纳尔还站著。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_08.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_08.JPG){.imgLightbox tag=1 loading=lazy}
 
 「这是怎样……骗人的吧……」  
 罗纳尔还无法接受摆在眼前的现实。而蕾恩则像是还没玩够的孩子般，打了个呵欠。  
@@ -388,7 +388,7 @@
 「啊……啊啊啊……」  
 罗纳尔受到的打击过大，已经无法组织出像样的句子。然而，蕾恩似乎不打算就这样放过他。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_09.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_09.JPG){.imgLightbox tag=1 loading=lazy}
 
 「好了，关于令尊的事暂且先摆在一边──接下来该轮到『我们两个』好好玩玩了吧？」  
 蕾恩露出有些残忍的微笑，拿著镰刀逼近罗纳尔。罗纳尔正打算后退时被小石头绊了一跤，跌坐在地。  
@@ -399,7 +399,7 @@
 蕾恩用一只手遮住嘴巴，脸上泛起些微红晕。看来在一时激动下，让她不小心又用起从前惯用的第一人称。这个样子是不能以成熟淑女自居的。  
 等她让自己稍稍冷静下来，再次看向罗纳尔时，只见他已经昏过去了。  
 
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_10.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_10.JPG){.imgLightbox tag=1 loading=lazy}
 
 「──看来结束了呢。」  
 走出公园时，一个沉稳的青年嗓音叫住了蕾恩。  
@@ -439,7 +439,7 @@
 曾在校内呼风唤雨的派系也就此作鸟兽散，让校园恢复了宁静。  
 ──然而，唯独有一件事出乎她的意料之外。  
   
-![Placeholder](/images/hajimari/extra/extra2/vis5_0110_11.JPG){.imgLightbox tag=1}
+![Placeholder](/images/hajimari/extra/extra2/vis5_0110_11.JPG){.imgLightbox tag=1 loading=lazy}
 
 「会长，这是下个月预算的相关文件。」  
 从担任学生会庶务的金发学妹手中接过文件，阿拉密斯高等学校的新科学生会长──蕾恩·布莱特快速地扫过其中的内容。  
