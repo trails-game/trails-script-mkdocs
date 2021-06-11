@@ -11,25 +11,19 @@ location$.subscribe(function (url) {
 
 
 $(document).ready(() => {
-  var productImageGroups = [];
+  const productImageGroups = [];
     $('.imgLightbox').each(function() {
       $(this).attr('loading', 'lazy');
-      var productImageSource = $(this).attr('src');
-      var productImageTag = $(this).attr('tag');
-      var productImageTitle = $(this).attr('title');
-      if ( productImageTitle != undefined ){
-          productImageTitle = 'title="' + productImageTitle + '" '
-      }
-      else {
-          productImageTitle = ''
-      }
+      const productImageSource = $(this).attr('src');
+      const productImageTag = 't' + $(this).attr('tag');
+      let productImageTitle = $(this).attr('title');
+      productImageTitle = productImageTitle ? 'title="' + productImageTitle + '" ' : '';
 
       $(this).wrap('<a class="' + productImageTag + '" ' + productImageTitle +
-                  'href="' + productImageSource + '"></a>');
+                   'href="' + productImageSource + '"></a>');
       productImageGroups.push('.' + productImageTag);
     });
     jQuery.unique( productImageGroups );
-    productImageGroups.forEach(value => $(value).simpleLightbox());
+    productImageGroups.forEach(value => GLightbox({selector: value}));
 
-  //$('.imgLightbox a').simpleLightbox();
 });
