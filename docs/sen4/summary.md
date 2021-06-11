@@ -5,6 +5,8 @@
  Your browser does not support the audio element.
 </audio>
 
+### 剧情视频
+[闪之轨迹Ⅳ全主线、支线、羁绊视频](https://www.bilibili.com/video/BV1kb411q7qe)
 
 ### 故事背景
 
