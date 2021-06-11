@@ -196,6 +196,4 @@
 黎恩：哈哈…  
 黎恩：那么，我也差不多该做准备了。  
 
-<div class="imgLightbox">
-    <a href="/images/hajimari/hajimariEX3.png"><img src="/images/hajimari/hajimariEX3.png"/></a>
-</div>
+![Placeholder](/images/hajimari/hajimariEX3.png){.imgLightbox tag=1}

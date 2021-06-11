@@ -6,7 +6,7 @@
 这座都市不仅是由大陆东部通往西部的玄关，同时也是著名的温泉乡。吸引不少国内外观光客慕名前来。  
 今天，一组来自遥远的埃雷波尼亚北部的另一处温泉乡的旅客造访了龙来。  
 
-![Placeholder](/images/hajimari/extra/extra1/vis5_0100.JPG){.imgLightbox tag=1 title="test"}
+![Placeholder](/images/hajimari/extra/extra1/vis5_0100.JPG){.imgLightbox tag=1}
 
 「这高雅的口感和入口后的浓郁香气，真的是非常美味的一道料理呢。」  
 「是啊，虽然我们《凰翼馆》的料理也绝不逊色，但恐怕无法重现这独特的味道。不愧是高级旅馆《碧山楼》，非常出色的一道菜。」  

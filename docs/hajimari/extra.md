@@ -6,6 +6,4 @@
 抑或是从时空的夹缝间泄露出的些许投影？  
 真相无人知晓——  
 
-<div class="imgLightbox">
-    <a href="/images/hajimari/extra/vis5_0130_03.JPG"><img src="/images/hajimari/extra/vis5_0130_03.JPG"/></a>
-</div>
+![Placeholder](/images/hajimari/extra/vis5_0130_03.JPG){.imgLightbox tag=1}
