@@ -9,6 +9,20 @@ location$.subscribe(function (url) {
   window.dataLayer.push({event: 'pageview'});
 });
 
+
 $(document).ready(() => {
-  $('.imgLightbox a').simpleLightbox();
+  var productImageGroups = [];
+    $('.imgLightbox').each(function() {
+      $(this).attr('loading', 'lazy');
+      var productImageSource = $(this).attr('src');
+      var productImageTag = $(this).attr('tag');
+
+      $(this).wrap('<a class="' + productImageTag + '" ' +
+                  'href="' + productImageSource + '"></a>');
+      productImageGroups.push('.' + productImageTag);
+    });
+    jQuery.unique( productImageGroups );
+    productImageGroups.forEach(value => $(value).simpleLightbox());
+
+  //$('.imgLightbox a').simpleLightbox();
 });
