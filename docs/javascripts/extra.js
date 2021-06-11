@@ -16,8 +16,15 @@ $(document).ready(() => {
       $(this).attr('loading', 'lazy');
       var productImageSource = $(this).attr('src');
       var productImageTag = $(this).attr('tag');
+      var productImageTitle = $(this).attr('title');
+      if ( productImageTitle != undefined ){
+          productImageTitle = 'title="' + productImageTitle + '" '
+      }
+      else {
+          productImageTitle = ''
+      }
 
-      $(this).wrap('<a class="' + productImageTag + '" ' +
+      $(this).wrap('<a class="' + productImageTag + '" ' + productImageTitle +
                   'href="' + productImageSource + '"></a>');
       productImageGroups.push('.' + productImageTag);
     });

@@ -59,11 +59,11 @@ markdown_extensions:
   - attr_list
 # Customization
 extra_css:
-  - stylesheets/simple-lightbox.css
+  - stylesheets/simpleLightbox.min.css
   - stylesheets/extra.css
 extra_javascript:
   - https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js
-  - javascripts/simple-lightbox.jquery.min.js
+  - javascripts/simpleLightbox.min.js
   - javascripts/extra.js
 # Page tree
 nav:
