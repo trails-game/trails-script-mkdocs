@@ -5,7 +5,7 @@ site_author: '轨迹系列 - Cafe'
 site_url: 'https://book.trails-game.com'
 
 # Copyright
-copyright: '&copy; 2021 Falcom'
+copyright: "<p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' rel='noopener'>沪ICP备2021002641号-1</a></p><p>沪公网安备: <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008841' target='_blank' rel='noopener'>31010402008841号</a></p>"
 
 # Repository
 repo_name: 'GitHub'

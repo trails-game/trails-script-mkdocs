@@ -35,6 +35,7 @@ jobs:
           sed -i 's/24px/48px/g' src/assets/stylesheets/main/layout/_header.scss
           npm run build
           cd ..
+          cp overrides/footer.html mkdocs-material/src/partials/
 
       - name: Install python dependencies
         run: |
