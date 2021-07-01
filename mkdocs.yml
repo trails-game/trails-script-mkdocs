@@ -58,6 +58,10 @@ plugins:
 markdown_extensions:
   - attr_list
 # Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/trails-game
 extra_css:
   - stylesheets/glightbox.min.css
   - stylesheets/extra.css
