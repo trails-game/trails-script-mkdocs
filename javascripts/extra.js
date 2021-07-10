@@ -1,3 +1,17 @@
+const productImageGroups = [];
+$('.imgLightbox').each(function() {
+  const productImageSource = $(this).attr('src');
+  const productImageTag = 't' + $(this).attr('tag');
+  let productImageTitle = $(this).attr('title');
+  productImageTitle = productImageTitle ? 'title="' + productImageTitle + '" ' : '';
+
+  $(this).wrap('<a class="' + productImageTag + '" ' + productImageTitle +
+               'href="' + productImageSource + '"></a>');
+  productImageGroups.push('.' + productImageTag);
+});
+jQuery.unique( productImageGroups );
+productImageGroups.forEach(value => GLightbox({selector: value}));
+
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -7,22 +21,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 location$.subscribe(function (url) {
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({event: 'pageview'});
-});
-
-
-$(document).ready(() => {
-  const productImageGroups = [];
-    $('.imgLightbox').each(function() {
-      const productImageSource = $(this).attr('src');
-      const productImageTag = 't' + $(this).attr('tag');
-      let productImageTitle = $(this).attr('title');
-      productImageTitle = productImageTitle ? 'title="' + productImageTitle + '" ' : '';
-
-      $(this).wrap('<a class="' + productImageTag + '" ' + productImageTitle +
-                   'href="' + productImageSource + '"></a>');
-      productImageGroups.push('.' + productImageTag);
-    });
-    jQuery.unique( productImageGroups );
-    productImageGroups.forEach(value => GLightbox({selector: value}));
-
 });
