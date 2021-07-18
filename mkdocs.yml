@@ -119,6 +119,7 @@ nav:
     - '终章 ｢只管一路向前｣': 'sen2/chapter-3.md'
     - '外传 「占领下的克洛斯贝尔」': 'sen2/chapter-4.md'
     - '后日谭 「冬日的尾声」': 'sen2/chapter-5.md'
+    - '全羁绊事件': 'sen2/bond-events.md'
   - '闪之轨迹Ⅰ':
     - '闪之轨迹Ⅰ - 剧情简介': 'sen1/summary.md'
     - '序章 ｢托尔兹军官学院｣': 'sen1/chapter-0.md'
@@ -126,7 +127,11 @@ nav:
     - '第二章 ｢美丽翡翠之都｣': 'sen1/chapter-2.md'
     - '第三章 ｢横跨铁路～苍穹的大地～｣': 'sen1/chapter-3.md'
     - '第四章 ｢绯之帝都 ～仲夏祭～｣': 'sen1/chapter-4.md'
+    - '第五章 ｢开始行动的意志｣': 'sen1/chapter-5.md'
+    - '第六章 ｢黑与银～钢都动乱～｣': 'sen1/chapter-6.md'
     - '幕间 ｢返乡～迷惘的尽头～｣': 'sen1/intermission.md'
+    - '终章 ｢军官学院祭，然后──｣': 'sen1/chapter-7.md'
+    - '全羁绊事件': 'sen1/bond-events.md'
   - '碧之轨迹':
     - '碧之轨迹 - 剧情简介': 'aoi/summary.md'
     - '第一章 ｢预兆～崭新的日子｣': 'aoi/chapter-1.md'
