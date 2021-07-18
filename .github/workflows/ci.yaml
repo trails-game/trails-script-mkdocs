@@ -45,6 +45,9 @@ jobs:
       - name: Build mkdocs and deploy
         run: mkdocs gh-deploy --force
 
+      - name: Copy .htaccess
+        run: cp .htaccess site/
+
       - name: Upload mkdocs artifacts
         uses: actions/upload-artifact@v2
         with:
