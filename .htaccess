@@ -176,3 +176,40 @@
     Header set X-XSS-Protection "1; mode=block"
     Header set Referrer-Policy "no-referrer-when-downgrade"
 </IfModule>
+
+<IfModule mod_headers.c>
+    # Serve brotli compressed CSS files if they exist
+    # and the client accepts brotli.
+    RewriteEngine On
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.css"              "$1\.css\.br" [QSA]
+
+    # Serve brotli compressed JS files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.js$"               "$1\.js\.br" [QSA]
+
+    # Serve brotli compressed JSON files if they exist
+    # and the client accepts brotli.
+    RewriteCond "%{HTTP:Accept-encoding}" "br"
+    RewriteCond "%{REQUEST_FILENAME}\.br" "-s"
+    RewriteRule "^(.*)\.json"               "$1\.json\.br" [QSA]
+
+
+    # Serve correct content types, and prevent double compression.
+    RewriteRule "\.css\.br$" "-" [T=text/css,E=no-brotli:1]
+    RewriteRule "\.js\.br$"  "-" [T=text/javascript,E=no-brotli:1]
+    RewriteRule "\.json\.br$"  "-" [T=application/json,E=no-brotli:1]
+
+
+    <FilesMatch "(\.js\.br|\.css\.br|\.json\.br)$">
+      # Serve correct encoding type.
+      Header append Content-Encoding br
+
+      # Force proxies to cache brotli &
+      # non-brotli css/js/json files separately.
+      Header append Vary Accept-Encoding
+    </FilesMatch>
+</IfModule>

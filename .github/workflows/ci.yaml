@@ -45,8 +45,11 @@ jobs:
       - name: Build mkdocs and deploy
         run: mkdocs gh-deploy --force
 
-      - name: Copy .htaccess
-        run: cp .htaccess site/
+      - name: Compress search index and copy .htaccess
+        run: |
+          sudo apt install brotli -y
+          brotli -q 9 site/search/search_index.json
+          cp .htaccess site/
 
       - name: Upload mkdocs artifacts
         uses: actions/upload-artifact@v2
