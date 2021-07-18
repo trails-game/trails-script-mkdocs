@@ -47,7 +47,6 @@ jobs:
 
       - name: Compress search index and copy .htaccess
         run: |
-          sudo apt install brotli -y
           brotli -q 9 site/search/search_index.json
           cp .htaccess site/
 
