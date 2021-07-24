@@ -2,6 +2,8 @@
 
 莱维从哈梅尔的噩梦中醒来。
 
+![Placeholder](/images/sora-3rd/star_annulled/20-1.webp){.imgLightbox tag=1 loading=lazy}
+
 **莱维**：“？！”  
 **莱维**：“呵，又是这个梦啊……”  
 莱维起身出门。  
@@ -32,6 +34,8 @@
 **玲**：“在《塔》中也出现了啊，虽然素质不错，不过，归根到底是执行秘密行动的人。下次有机会的话，一定会将其彻底击毁。”  
 **莱维**：“如果是这样就好了。不过，那家伙也有那家伙的战斗方式，一定要警惕。慎防那家伙从暗处下手。”  
 **玲**：“呵，这就不用你操心了。下次就提着那小东西的脑袋给你当礼物了，你就好好期盼着吧。”
+
+![Placeholder](/images/sora-3rd/star_annulled/20-2.webp){.imgLightbox tag=1 loading=lazy}
 
 ### 露茜奥拉的房间
 
