@@ -9,8 +9,7 @@ location$.subscribe(function (url) {
   window.dataLayer.push({event: 'pageview'});
 });
 
-
-$(document).ready(() => {
+function updateLightBox() {
   const productImageGroups = [];
     $('.imgLightbox').each(function() {
       const productImageSource = $(this).attr('src');
@@ -24,5 +23,8 @@ $(document).ready(() => {
     });
     jQuery.unique( productImageGroups );
     productImageGroups.forEach(value => GLightbox({selector: value}));
+}
 
+document$.subscribe(function (url) {
+  updateLightBox();
 });

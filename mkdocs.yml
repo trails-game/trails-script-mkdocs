@@ -5,7 +5,7 @@ site_author: '轨迹系列 - Cafe'
 site_url: 'https://book.trails-game.com'
 
 # Copyright
-copyright: '&copy; 2021 Falcom'
+copyright: "<p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' rel='noopener'>沪ICP备2021002641号-1</a></p><p>沪公网安备: <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008841' target='_blank' rel='noopener'>31010402008841号</a></p>"
 
 # Repository
 repo_name: 'GitHub'
@@ -58,6 +58,10 @@ plugins:
 markdown_extensions:
   - attr_list
 # Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/trails-game
 extra_css:
   - stylesheets/glightbox.min.css
   - stylesheets/extra.css
@@ -107,7 +111,15 @@ nav:
     - '序章 ｢春日再临｣': 'sen3/chapter-0.md'
   - '闪之轨迹Ⅱ':
     - '闪之轨迹Ⅱ - 剧情简介': 'sen2/summary.md'
+    - '序章 「归乡～失意的尽头～」': 'sen2/chapter-0.md'
+    - '第Ⅰ部 「灰色战记」': 'sen2/chapter-1.md'
+    - '幕间 「白银巨船」': 'sen2/chapter-1-5.md'
+    - '第Ⅱ部 「红翼～苏醒的狮子们」': 'sen2/chapter-2.md'
     - '外传 ｢边境小镇阿尔斯塔｣': 'sen2/memoir.md'
+    - '终章 ｢只管一路向前｣': 'sen2/chapter-3.md'
+    - '外传 「占领下的克洛斯贝尔」': 'sen2/chapter-4.md'
+    - '后日谭 「冬日的尾声」': 'sen2/chapter-5.md'
+    - '全羁绊事件': 'sen2/bond-events.md'
   - '闪之轨迹Ⅰ':
     - '闪之轨迹Ⅰ - 剧情简介': 'sen1/summary.md'
     - '序章 ｢托尔兹军官学院｣': 'sen1/chapter-0.md'
@@ -115,7 +127,11 @@ nav:
     - '第二章 ｢美丽翡翠之都｣': 'sen1/chapter-2.md'
     - '第三章 ｢横跨铁路～苍穹的大地～｣': 'sen1/chapter-3.md'
     - '第四章 ｢绯之帝都 ～仲夏祭～｣': 'sen1/chapter-4.md'
+    - '第五章 ｢开始行动的意志｣': 'sen1/chapter-5.md'
+    - '第六章 ｢黑与银～钢都动乱～｣': 'sen1/chapter-6.md'
     - '幕间 ｢返乡～迷惘的尽头～｣': 'sen1/intermission.md'
+    - '终章 ｢军官学院祭，然后──｣': 'sen1/chapter-7.md'
+    - '全羁绊事件': 'sen1/bond-events.md'
   - '碧之轨迹':
     - '碧之轨迹 - 剧情简介': 'aoi/summary.md'
     - '第一章 ｢预兆～崭新的日子｣': 'aoi/chapter-1.md'
