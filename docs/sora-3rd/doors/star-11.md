@@ -1,8 +1,13 @@
 『『怪盗B』调查报告』  
+
+![Placeholder](/images/sora-3rd/star11/1.png){.imgLightbox tag=1 loading=lazy}
   
 『怪盗B』调查报告——  
 其犯罪史及经历相关之考察。  
 《帝国时报社》调查组篇  
+
+![Placeholder](/images/sora-3rd/star11/2.png){.imgLightbox tag=1 loading=lazy}
+
 正如我们收集来的海量资料所证明——  
 『怪盗B』在帝国有着辉煌的的活跃史。  
 以帝国美术馆收藏的数枚绘画为始端——  
@@ -59,7 +64,9 @@
 并不是所有的说法均毫不可信。  
 于兹。我们即将最近坊间流传的  
 3个假说介绍之。  
-   
+
+![Placeholder](/images/sora-3rd/star11/3.png){.imgLightbox tag=1 loading=lazy}
+
 《CASE1：『多情的欺诈师X』》  
 《经历》——  
 “X”是不断捏造身份，  
