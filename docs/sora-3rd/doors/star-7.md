@@ -1,5 +1,7 @@
 『爱普斯泰恩财团』  
   
+ ![Placeholder](/images/sora-3rd/star7/1.png){.imgLightbox tag=1 loading=lazy}
+  
 导力器（欧布门特）——  
 利用七耀石所具有的《导力》  
 引起各种现象的装置——  
@@ -57,6 +59,8 @@ A·拉赛尔博士——
 正因为有了先行者们的诸多努力，  
 才产生了之后被称为『导力革命』的  
 导力器迅速普及的现象。  
+   
+![Placeholder](/images/sora-3rd/star7/2.png){.imgLightbox tag=1 loading=lazy}
    
 本财团的活动以以下3点为主——  
 导力器的基础研究  
