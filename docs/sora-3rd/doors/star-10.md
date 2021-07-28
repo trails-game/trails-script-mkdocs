@@ -1,5 +1,7 @@
 『戈尔地雅斯级实验计划书』  
   
+ ![Placeholder](/images/sora-3rd/star10/1.png){.imgLightbox tag=1 loading=lazy}
+  
 读入中〉〉〉〉〉结束  
 《13工房》——  
 戈尔地雅斯级战略人形兵器开发计划  
@@ -15,6 +17,8 @@ Code：帕蒂尔·玛蒂尔
 令大陆全境都位于作战范围内。  
 装备有在无补给的境况下可以连续作战数年的  
 主副2系统的高输出功率导力装置。  
+  
+![Placeholder](/images/sora-3rd/star10/2.png){.imgLightbox tag=1 loading=lazy}
   
 自律战斗能力  
 由于实际装备了集成化导力演算器《Mars》，  
@@ -33,6 +37,8 @@ Code：帕蒂尔·玛蒂尔
 导力能量炮作为主体，  
 在各种导力兵器之外，  
 装备有复数的实弹兵器作为预备武器。  
+  
+![Placeholder](/images/sora-3rd/star10/3.png){.imgLightbox tag=1 loading=lazy}
   
 此外为了应付操纵者的危险，  
 搭载了利用战术导力器的治愈复苏能量生成装置——  
@@ -117,7 +123,7 @@ Code：帕蒂尔·玛蒂尔
 CodeR3对实机的操纵已经成功。  
 《结社》正试探着恢复开发——  
    
-   
+![Placeholder](/images/sora-3rd/star10/4.png){.imgLightbox tag=1 loading=lazy}
    
    
    
