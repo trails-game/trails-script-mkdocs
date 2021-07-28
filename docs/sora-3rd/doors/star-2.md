@@ -3,7 +3,7 @@
 诺桑比亚旧大公国由于『盐之桩』所造成的损害情况。  
 以及有关『桩』的研究报告――亚尔特利亚法典国·封圣省。  
 
- ![Placeholder](/images/sora-3rd/star2/1.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star2/1.png){.imgLightbox tag=1 loading=lazy}
  
 谨以本报告，向作为众生之母的女神之座前，最可敬的导师，至高的法王阁下复命  
 机密  
@@ -24,7 +24,7 @@
 星杯骑士驾驶当时刚刚投入应用的  
 特殊作战艇『梅尔卡瓦』八号机，急速赶往当地。  
 
- ![Placeholder](/images/sora-3rd/star2/2.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star2/2.png){.imgLightbox tag=1 loading=lazy}
  
 同日上午６时２２分。  
 该事件已得到确认  
@@ -63,7 +63,7 @@
 总高度仅２．５亚矩有余――  
 表面发现有像被某种东西划过的条状痕迹。  
  
-  ![Placeholder](/images/sora-3rd/star2/3.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star2/3.png){.imgLightbox tag=1 loading=lazy}
  
 （※以下为审问会注记）  
 推测伴随『盐化』现象的进行，  
@@ -143,7 +143,7 @@
 为了终有一天解决这些难题，  
 封圣省管内现在仍在继续对『桩』的研究――  
  
-![Placeholder](/images/sora-3rd/star2/3.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star2/5.png){.imgLightbox tag=1 loading=lazy}
    
 其中，甚至有将『桩』视为女神的恩恵，  
 认为其应当被用于教会使命的考量。  
