@@ -2,6 +2,8 @@
 
 诺桑比亚旧大公国由于『盐之桩』所造成的损害情况。  
 以及有关『桩』的研究报告――亚尔特利亚法典国·封圣省。  
+
+ ![Placeholder](/images/sora-3rd/star2/2.png){.imgLightbox tag=1 loading=lazy}
  
 谨以本报告，向作为众生之母的女神之座前，最可敬的导师，至高的法王阁下复命  
 机密  
@@ -21,6 +23,8 @@
 被派遣到当地。  
 星杯骑士驾驶当时刚刚投入应用的  
 特殊作战艇『梅尔卡瓦』八号机，急速赶往当地。  
+
+ ![Placeholder](/images/sora-3rd/star2/1.png){.imgLightbox tag=1 loading=lazy}
  
 同日上午６时２２分。  
 该事件已得到确认  
@@ -58,6 +62,8 @@
 在『盐化』现象的中心地发现的『桩』  
 总高度仅２．５亚矩有余――  
 表面发现有像被某种东西划过的条状痕迹。  
+ 
+  ![Placeholder](/images/sora-3rd/star2/4.png){.imgLightbox tag=1 loading=lazy}
  
 （※以下为审问会注记）  
 推测伴随『盐化』现象的进行，  
@@ -113,6 +119,8 @@
 其中大半人都想尽快赚取外快――
 结果，被称为『北之猎兵』的大规模佣兵部队诞生了。 
 
+ ![Placeholder](/images/sora-3rd/star2/5.png){.imgLightbox tag=1 loading=lazy}
+
 就这样，事件在『世俗面』迎来了结局――
 但还残留有数个包括教义性问题的重大谜团。  
 到底『桩』是从何而来…………  
@@ -142,6 +150,8 @@
  
 装配使用以盐的结晶所制造的筒  
 便可避免直接接触而将『桩』投射向目标。  
+ 
+  ![Placeholder](/images/sora-3rd/star2/3.png){.imgLightbox tag=1 loading=lazy}
  
 攻击对象如果是人类，  
 在数秒内就会全身结晶化至死――  
