@@ -422,6 +422,9 @@
 都是为我而转动着。  
 所以……  
 我无所可哀泣之事。  
+
+![Placeholder](/images/sora-3rd/star15/7.png){.imgLightbox tag=1 loading=lazy}
+
 玲：……呵呵…………  
 　　呵呵……我才不管那些假爸爸假妈妈呢。  
 　　因为，我还有真正的爸爸妈妈。  
