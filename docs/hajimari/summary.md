@@ -5,6 +5,10 @@
 	Your browser does not support the audio element.
 </audio>
 
+### 剧情视频
+[创之轨迹主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1Wq4y1T76y/)
+[创之轨迹追忆石盘、游戏方石剧情合集](https://www.bilibili.com/video/BV1DQ4y1h7rZ/)
+
 ### 故事背景  
   
 侵蚀帝国全图的灾厄「巨硕黄昏」降临——  
