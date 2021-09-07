@@ -22,6 +22,9 @@
 当然，我们并不知晓乐园究竟在何方，  
 也不知晓我们究竟所做何事。  
 甚至也不知晓，我们为何身在此处。  
+
+![Placeholder](/images/sora-3rd/star15/1.png){.imgLightbox tag=1 loading=lazy}
+
 声音：早安。  
 ？？？：……………………  
 声音：早安，15号。  
@@ -49,7 +52,7 @@
 但不知道为什么，我一直没有工作。  
 没错，自从我来到这里，从来都没有接到过工作。  
 
-![Placeholder](/images/sora-3rd/star15/1.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star15/2.png){.imgLightbox tag=1 loading=lazy}
   
 眼看别的孩子在逐渐衰弱、消瘦下去，  
 只有我一个人吃着美味可口的食物，  
@@ -71,7 +74,9 @@
 艾挞是个有些随性的女孩子。  
 有时候，  
 她喜欢笑着讲一些冷笑话。  
-  
+
+![Placeholder](/images/sora-3rd/star15/3.png){.imgLightbox tag=1 loading=lazy}
+
 爱婕是个老成的可怜女孩。  
 所以常常被大叔们点名。  
   
@@ -88,6 +93,9 @@
   
 爱婕：这样对我来说就足够了。因为，只要玲觉得幸福  
 　　　的话，我也会很幸福的。  
+   
+![Placeholder](/images/sora-3rd/star15/4.png){.imgLightbox tag=1 loading=lazy}
+
 喀特尔总是遭到别人的欺负和殴打。  
 这个小男孩，因为身材十分瘦小，  
 总是被人当成玩偶一样玩弄。  
@@ -106,9 +114,15 @@
 总是在看不见的地方流着血。  
 那便是，诅咒的一种吧。  
 美丽的人所流的血，一定也会很美丽。  
+
+![Placeholder](/images/sora-3rd/star15/5.png){.imgLightbox tag=1 loading=lazy}
+
 克洛斯：我回来了哦，玲。这次稍微有点久了。  
 最后是克洛斯。  
 他就是我们的领导。  
+
+![Placeholder](/images/sora-3rd/star15/6.png){.imgLightbox tag=1 loading=lazy}
+
 克洛斯、艾挞、爱婕、喀特尔，  
 然后，还有我……  
 我们都是同住在一个房间里的，  
@@ -121,7 +135,9 @@
 2.公主  
 玲：呐，克洛斯。其它人呢？?  
 　　为什么房间里只有玲跟克洛斯在呢？?  
-  
+
+![Placeholder](/images/sora-3rd/star15/7.png){.imgLightbox tag=1 loading=lazy}
+
 克洛斯：哈哈，你在说什么啊，玲。  
 　　　　这里一直就只有我们两人住啊。只有我们两人  
 　　　　住在这里而已哦。  
@@ -263,6 +279,9 @@
 我就像往常一样。  
 我就像往常一样。  
 我一如往日般，出去工作。  
+
+![Placeholder](/images/sora-3rd/star15/8.png){.imgLightbox tag=1 loading=lazy}
+
 啊啊，这是生命之水。  
 克洛斯说过的。  
 它能让濒临死亡的人再次焕发精神。  
@@ -279,6 +298,8 @@
 客人：来，小玲玲。我们坐下来谈吧。  
   
 玲：是的，我很乐意。  
+
+![Placeholder](/images/sora-3rd/star15/9.png){.imgLightbox tag=1 loading=lazy}
   
 客人：嗯嗯，回答得不错哦。  
 是的，我很乐意。  
@@ -293,10 +314,13 @@
 嗯，嗯……我也不知道……他们都说只是玩一个新游戏啊。所以我也不明白……啊，我没关系的啦。玲，我没事的。真的没事哦。这已经是很平常的事了，我已经不会痛了哟。只要有玲在的话就完全没事了。那，我、我也……那个啊，绝对不可以哭着说『对不起』哦。因为说了『对不起』的话，只会被揍得更厉害的。即使再痛再难过也不能哭。因为就算你怎么说『对不起』，也不会被原谅的。我们大家会保护你的。所以玲，你什么都不需要看哦。  
 『玲』  
 玲，你在干什么？那是罪恶的颜色吗?真不错哦。哈哈，是啊。肚子一定要是白的。……玲。这里一直就只有我们俩而已啊。是这样的哦，这里是我们两个的世界哦。只有我们两人。来吧，来画画吧。……………………不是说了没什么的吗！…………是你的错。是你的错。全部都是你的错。明明立刻就杀了别的人，为什么只让我一个人活下来了。是你的错。因为你没杀了我。是你的错。因为你没杀了我。是你的错。因为你没杀了我。我，不是早就已经死了吗？  
+
+![Placeholder](/images/sora-3rd/star15/10.png){.imgLightbox tag=1 loading=lazy}
+
 『玲』  
 玲：大家，都不见了呢。  
 
-![Placeholder](/images/sora-3rd/star15/4.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](/images/sora-3rd/star15/11.png){.imgLightbox tag=1 loading=lazy}
 
 银发青年：这是……  
 　　　　　……这群垃圾。  
@@ -308,7 +332,9 @@
 银发青年：……………………………………  
 　　　　　……这些交叉着的伤痕。这应该是她自己划  
 　　　　　的吧。  
-　　　　　恐怕只有这样，她才能保存自我吧。  
+　　　　　恐怕只有这样，她才能保存自我吧。
+
+![Placeholder](/images/sora-3rd/star15/12.png){.imgLightbox tag=1 loading=lazy}
   
 黑发少年：…………………………………………  
 　　　　　……即使必须要忍受这样的痛苦和折磨，也  
@@ -317,6 +343,8 @@
 　　　　　……莱维，我想看看这个孩子真正活着的样  
 　　　　　子。  
 　　　　　我能把她带回《结社》吗？  
+     
+![Placeholder](/images/sora-3rd/star15/13.png){.imgLightbox tag=1 loading=lazy}
  
 5.梦的延续  
 玲很强。  
@@ -333,8 +361,6 @@
 约修亚消失了。  
 又像从前那样，世界又开始旋转了。  
 
-![Placeholder](/images/sora-3rd/star15/5.png){.imgLightbox tag=1 loading=lazy}
-
 玲：啊……约修亚真是的，到底去哪了呢？  
 　　虽说是去工作了，可是怎么会去这么长时间呢。  
 　　玲难得正式成为了『执行者』了说……  
@@ -346,6 +372,8 @@
 　　回来后……会把那些有趣的传说故事讲给玲听哦。  
 　　是啊…………只要他想回来，什么时候都可以的  
 　　………  
+  
+![Placeholder](/images/sora-3rd/star15/14.png){.imgLightbox tag=1 loading=lazy}  
   
 婴儿：……哇，哇…………  
 　　　哇哇！哇哇！?  
@@ -362,6 +390,9 @@
 对我来说，已经不可能了。  
 不知名的婴儿啊，  
 请你一定要幸福。  
+
+![Placeholder](/images/sora-3rd/star15/15.png){.imgLightbox tag=1 loading=lazy}
+
 玲：………………………………………………  
 　　………………………………………………为……  
 　　什么…………？?  
@@ -382,6 +413,9 @@
 婴儿：哇，哇……  
   
 面熟的女人：啊，乖，乖孩子哦～。  
+
+![Placeholder](/images/sora-3rd/star15/16.png){.imgLightbox tag=1 loading=lazy}
+
 『玲』  
 变得污秽的孩子们。  
 往昔之事。  
@@ -394,8 +428,6 @@
 玲是  
 玲是　母　亲　所　生　的。  
 
-![Placeholder](/images/sora-3rd/star15/6.png){.imgLightbox tag=1 loading=lazy}
-
 青年的声音：……玲。  
   
 玲：……啊…………  
@@ -406,6 +438,9 @@
 　　　　　想怎么处置那两个人都可以……随你便了。  
 　　　　　虽然，我怀疑他们是否有我们动手的价值  
 　　　　　……  
+     
+![Placeholder](/images/sora-3rd/star15/17.png){.imgLightbox tag=1 loading=lazy}
+     
 超越善恶生死之处  
 我曾淡然走过。  
 无所谓幸与不幸。亦无所谓喜乐伤悲。  
@@ -423,11 +458,11 @@
 所以……  
 我无所可哀泣之事。  
 
-![Placeholder](/images/sora-3rd/star15/7.png){.imgLightbox tag=1 loading=lazy}
-
 玲：……呵呵…………  
 　　呵呵……我才不管那些假爸爸假妈妈呢。  
 　　因为，我还有真正的爸爸妈妈。  
+
+![Placeholder](/images/sora-3rd/star15/18.png){.imgLightbox tag=1 loading=lazy}
   
 玲：……啊……………………  
 　　……好冷…………  
