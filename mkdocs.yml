@@ -73,6 +73,8 @@ extra_javascript:
 nav:
   - 'Cafe主站': 'https://trails-game.com'
   # Summary
+  - '黎之轨迹2':
+    - '黎之轨迹2 - 剧情简介': 'kuro2/summary.md'
   - '黎之轨迹':
     - '黎之轨迹 - 剧情简介': 'kuro/summary.md'
   - '创之轨迹':
