@@ -59,9 +59,6 @@ jobs:
           Sitemap: https://book.trails-game.com/sitemap.xml
           EOF
 
-Sitemap: http://scodoc.org/sitemap.xml
-EOF
-
       - name: Upload mkdocs artifacts
         uses: actions/upload-artifact@v2
         with:
