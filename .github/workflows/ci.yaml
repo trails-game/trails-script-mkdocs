@@ -50,6 +50,15 @@ jobs:
           brotli -q 9 site/search/search_index.json
           cp .htaccess site/
 
+      - name: Generate robots.txt 
+        run: |
+          cat > site/robots.txt <<EOF
+          User-agent: *
+          Allow: /
+          
+          Sitemap: https://book.trails-game.com/sitemap.xml
+          EOF
+
       - name: Upload mkdocs artifacts
         uses: actions/upload-artifact@v2
         with:
