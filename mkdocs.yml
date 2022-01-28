@@ -9,7 +9,7 @@ copyright: "<p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' re
 
 # Repository
 repo_name: 'GitHub'
-repo_url: 'https://github.com/trails-game/trails-script-mkdocs'
+repo_url: https://github.com/trails-game/trails-script-mkdocs" target="_blank
 
 theme:
   name: null
@@ -71,7 +71,7 @@ extra_javascript:
   - javascripts/extra.js?ver=0.1
 # Page tree
 nav:
-  - 'Cafe主站': 'https://trails-game.com'
+  - 'Cafe主站': https://trails-game.com" target="_blank
   # Summary
   - '黎之轨迹':
     - '黎明之轨迹 - 剧情简介': 'kuro/summary.md'
