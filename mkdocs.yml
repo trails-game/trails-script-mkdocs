@@ -38,7 +38,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   favicon: images/webicons/favicon-32x32.webp
-  logo: images/webicons/apple-touch-icon.png
+  logo: images/webicons/apple-touch-icon.webp
 
   features:
     - navigation.instant

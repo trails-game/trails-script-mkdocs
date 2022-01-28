@@ -30,7 +30,6 @@ jobs:
 
       - name: Build mkdocs-material with custom setting
         run: |
-          cp overrides/footer.html mkdocs-material/src/partials/
           cd mkdocs-material
           npm i
           sed -i 's/24px/48px/g' src/assets/stylesheets/main/layout/_header.scss
@@ -50,12 +49,12 @@ jobs:
           brotli -q 9 site/search/search_index.json
           cp .htaccess site/
 
-      - name: Generate robots.txt 
+      - name: Generate robots.txt
         run: |
           cat > site/robots.txt <<EOF
           User-agent: *
           Allow: /
-          
+
           Sitemap: https://book.trails-game.com/sitemap.xml
           EOF
 
