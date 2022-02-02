@@ -44,10 +44,10 @@ jobs:
       - name: Build mkdocs and deploy
         run: mkdocs gh-deploy --force
 
-      - name: Compress search index and copy .htaccess
+      - name: Compress search index and copy .htaccess and Google verification file
         run: |
           brotli -q 9 site/search/search_index.json
-          cp .htaccess site/
+          cp .htaccess googlee6574b95bbae1639.html site/
 
       - name: Generate robots.txt
         run: |
