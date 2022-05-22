@@ -1,4 +1,4 @@
-『『怪盗B』调查报告』  
+# 『『怪盗B』调查报告』  
 
 ![Placeholder](/images/sora-3rd/star11/1.png){.imgLightbox tag=1 loading=lazy}
   

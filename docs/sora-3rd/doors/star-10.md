@@ -1,4 +1,4 @@
-『戈尔地雅斯级实验计划书』  
+# 『戈尔地雅斯级实验计划书』  
   
  ![Placeholder](/images/sora-3rd/star10/1.png){.imgLightbox tag=1 loading=lazy}
   
