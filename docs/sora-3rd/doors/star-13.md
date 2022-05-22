@@ -1,4 +1,4 @@
-『帝国支部连续袭击事件』  
+# 『帝国支部连续袭击事件』  
 
 ![Placeholder](/images/sora-3rd/star13/1.png){.imgLightbox tag=1 loading=lazy}
 
