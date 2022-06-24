@@ -77,6 +77,16 @@ nav:
     - '黎之轨迹2 - 剧情简介': 'kuro2/summary.md'
   - '黎之轨迹':
     - '黎之轨迹 - 剧情简介': 'kuro/summary.md'
+    - '序章 「旧市街的地下万事屋」': 'kuro/chapter-0.md'
+    - '第一章 「纯真之焰～启程～」': 'kuro/chapter-1.md'
+    - '第二章 「宿星～煌都的麒麟儿」': 'kuro/chapter-2.md'
+    - '第三章 「萨尔巴德狂想曲」': 'kuro/chapter-3.md'
+    - '第四章 「灾厄协定」': 'kuro/chapter-4.md'
+    - '间章 「龙来温泉乡奇谭」': 'kuro/chapter-4-5.md'
+    - '第五章 「白夜的嘉年华」': 'kuro/chapter-5.md'
+    - '最终章 「为了总有一天终将归来的你」': 'kuro/chapter-6.md'
+    - '连结事件': 'kuro/bond-events.md'
+    - '电影文本&全角色赏析': 'kuro/movies.md'
   - '创之轨迹':
     - '创之轨迹 - 剧情简介': 'hajimari/summary.md'
     - '追忆石盘':

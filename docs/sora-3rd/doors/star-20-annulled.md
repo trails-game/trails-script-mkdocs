@@ -1,6 +1,6 @@
 # 『执行者的真实』
 
-莱维从哈梅尔的噩梦中醒来。
+莱维从哈梅尔的恶梦中醒来。
 
 ![Placeholder](/images/sora-3rd/star_annulled/20-1.webp){.imgLightbox tag=1 loading=lazy}
 
