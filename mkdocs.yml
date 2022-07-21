@@ -73,8 +73,8 @@ extra_javascript:
 nav:
   - 'Cafe主站': https://trails-game.com" target="_blank
   # Summary
-  - '黎之轨迹2':
-    - '黎之轨迹2 - 剧情简介': 'kuro2/summary.md'
+  - '黎之轨迹Ⅱ':
+    - '黎之轨迹Ⅱ - 剧情简介': 'kuro2/summary.md'
   - '黎之轨迹':
     - '黎之轨迹 - 剧情简介': 'kuro/summary.md'
     - '序章 「旧市街的地下万事屋」': 'kuro/chapter-0.md'
