@@ -9,13 +9,14 @@
         <meta name="description" content="轨迹游戏剧情和脚本">
       
       
+      
         <meta name="author" content="轨迹系列 - Cafe">
       
       
         <link rel="canonical" href="https://book.trails-game.com/sora-3rd/doors/moon-2/">
       
       <link rel="icon" href="../../../images/webicons/favicon-32x32.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-7.1.7">
     
     
       
@@ -23,25 +24,26 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.f3d9153d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.554f0662.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a8006861.min.css">
         
       
     
     
     
       
+    
     
     
       <link rel="stylesheet" href="../../../stylesheets/glightbox.min.css">
     
       <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+
 
     
     
@@ -58,8 +60,9 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
   
     
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
-      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -76,11 +79,8 @@
       
     </div>
     
-    
-      
-
-<header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="页眉">
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-header__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
       
   <img src="../../../images/webicons/apple-touch-icon.webp" alt="logo">
@@ -113,7 +113,7 @@
           <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="暗色模式"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="暗色模式" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 10a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2m10-3a5 5 0 0 1 5 5 5 5 0 0 1-5 5H7a5 5 0 0 1-5-5 5 5 0 0 1 5-5h10M7 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3h10a3 3 0 0 0 3-3 3 3 0 0 0-3-3H7z"/></svg>
             </label>
           
         
@@ -133,22 +133,19 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+<div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="查找">
-        
-        <button type="reset" class="md-search__icon md-icon" aria-label="清空当前内容" tabindex="-1">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-        </button>
-      </nav>
-      
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -165,7 +162,8 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往仓库" class="md-source" data-md-component="source">
+        
+<a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -177,7 +175,6 @@
       </div>
     
   </nav>
-  
 </header>
     
     <div class="md-container" data-md-component="container">
@@ -185,8 +182,7 @@
       
         
           
-            
-<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
@@ -399,7 +395,6 @@
     </ul>
   </div>
 </nav>
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -415,7 +410,7 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-nav__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
       
@@ -426,7 +421,8 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往仓库" class="md-source" data-md-component="source">
+      
+<a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往 GitHub 仓库" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
@@ -467,14 +463,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_2">
-          黎之轨迹Ⅱ
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_2">
+        黎之轨迹Ⅱ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="黎之轨迹Ⅱ" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
@@ -483,7 +475,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -494,7 +485,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -515,14 +505,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_3">
-          黎之轨迹
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_3">
+        黎之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="黎之轨迹" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
@@ -531,7 +517,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -542,10 +527,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -556,10 +539,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -570,10 +551,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -584,10 +563,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -598,10 +575,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -612,10 +587,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -626,10 +599,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -640,10 +611,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -654,10 +623,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -668,10 +635,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -682,7 +647,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -703,14 +667,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4">
-          创之轨迹
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_4">
+        创之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="创之轨迹" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
@@ -719,7 +679,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -730,10 +689,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -745,14 +702,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_2">
-          追忆石盘
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_4_2">
+        追忆石盘
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="追忆石盘" data-md-level="2">
         <label class="md-nav__title" for="__nav_4_2">
           <span class="md-nav__icon md-icon"></span>
@@ -761,7 +714,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -772,10 +724,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -786,10 +736,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -800,10 +748,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -814,10 +760,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -828,10 +772,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -842,10 +784,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -856,10 +796,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -870,10 +808,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -884,10 +820,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -898,10 +832,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -912,10 +844,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -926,10 +856,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -940,10 +868,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -954,10 +880,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -968,10 +892,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -982,10 +904,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -996,10 +916,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1010,10 +928,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1024,10 +940,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1038,10 +952,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1052,10 +964,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1066,10 +976,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1080,17 +988,14 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1102,14 +1007,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_4_3">
-          创始的彼方
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_4_3">
+        创始的彼方
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="创始的彼方" data-md-level="2">
         <label class="md-nav__title" for="__nav_4_3">
           <span class="md-nav__icon md-icon"></span>
@@ -1118,7 +1019,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1129,10 +1029,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1143,10 +1041,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1157,10 +1053,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1171,14 +1065,12 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1199,14 +1091,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_5">
-          闪之轨迹Ⅳ
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_5">
+        闪之轨迹Ⅳ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="闪之轨迹Ⅳ" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
@@ -1215,7 +1103,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1226,7 +1113,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1247,14 +1133,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_6">
-          闪之轨迹Ⅲ
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_6">
+        闪之轨迹Ⅲ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="闪之轨迹Ⅲ" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
@@ -1263,7 +1145,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1274,10 +1155,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1288,7 +1167,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1309,14 +1187,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_7">
-          闪之轨迹Ⅱ
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_7">
+        闪之轨迹Ⅱ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="闪之轨迹Ⅱ" data-md-level="1">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
@@ -1325,7 +1199,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1336,10 +1209,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1350,10 +1221,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1364,10 +1233,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1378,10 +1245,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1392,10 +1257,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1406,10 +1269,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1420,10 +1281,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1434,10 +1293,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1448,10 +1305,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1462,7 +1317,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1483,14 +1337,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_8">
-          闪之轨迹Ⅰ
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_8">
+        闪之轨迹Ⅰ
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="闪之轨迹Ⅰ" data-md-level="1">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
@@ -1499,7 +1349,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1510,10 +1359,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1524,10 +1371,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1538,10 +1383,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1552,10 +1395,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1566,10 +1407,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1580,10 +1419,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1594,10 +1431,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1608,10 +1443,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1622,10 +1455,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1636,10 +1467,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1650,7 +1479,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1671,14 +1499,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_9">
-          碧之轨迹
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_9">
+        碧之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="碧之轨迹" data-md-level="1">
         <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
@@ -1687,7 +1511,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1698,10 +1521,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1712,7 +1533,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1733,14 +1553,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_10">
-          零之轨迹
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_10">
+        零之轨迹
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="零之轨迹" data-md-level="1">
         <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
@@ -1749,7 +1565,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1760,10 +1575,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1774,7 +1587,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -1797,14 +1609,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" checked>
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_11">
-          空之轨迹3RD
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_11">
+        空之轨迹3RD
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="空之轨迹3RD" data-md-level="1">
         <label class="md-nav__title" for="__nav_11">
           <span class="md-nav__icon md-icon"></span>
@@ -1813,7 +1621,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1824,10 +1631,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1838,10 +1643,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1852,10 +1655,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1866,10 +1667,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1880,10 +1679,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1894,10 +1691,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1908,10 +1703,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1922,10 +1715,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1936,10 +1727,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1950,10 +1739,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -1965,14 +1752,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_11" type="checkbox" id="__nav_11_11" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_11_11">
-          星之门
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_11_11">
+        星之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="星之门" data-md-level="2">
         <label class="md-nav__title" for="__nav_11_11">
           <span class="md-nav__icon md-icon"></span>
@@ -1981,7 +1764,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -1992,10 +1774,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2006,10 +1786,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2020,10 +1798,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2034,10 +1810,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2048,10 +1822,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2062,10 +1834,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2076,10 +1846,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2090,10 +1858,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2104,10 +1870,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2118,10 +1882,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2132,10 +1894,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2146,10 +1906,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2160,10 +1918,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2174,10 +1930,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2188,10 +1942,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2202,10 +1954,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2216,10 +1966,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2230,10 +1978,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2244,10 +1990,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2258,10 +2002,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2272,17 +2014,14 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
     
@@ -2296,14 +2035,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_12" type="checkbox" id="__nav_11_12" checked>
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_11_12">
-          月之门
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_11_12">
+        月之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="月之门" data-md-level="2">
         <label class="md-nav__title" for="__nav_11_12">
           <span class="md-nav__icon md-icon"></span>
@@ -2312,7 +2047,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -2323,10 +2057,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2337,10 +2069,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2351,10 +2081,8 @@
     </li>
   
 
-            
           
             
-              
   
   
     
@@ -2375,10 +2103,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2389,10 +2115,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2403,10 +2127,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2417,17 +2139,14 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2439,14 +2158,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_13" type="checkbox" id="__nav_11_13" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_11_13">
-          太阳之门
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_11_13">
+        太阳之门
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="太阳之门" data-md-level="2">
         <label class="md-nav__title" for="__nav_11_13">
           <span class="md-nav__icon md-icon"></span>
@@ -2455,7 +2170,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -2466,10 +2180,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2480,10 +2192,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2494,10 +2204,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2508,14 +2216,12 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -2536,14 +2242,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_12">
-          空之轨迹SC
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_12">
+        空之轨迹SC
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="空之轨迹SC" data-md-level="1">
         <label class="md-nav__title" for="__nav_12">
           <span class="md-nav__icon md-icon"></span>
@@ -2552,7 +2254,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -2563,10 +2264,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2577,10 +2276,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2591,10 +2288,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2605,10 +2300,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2619,10 +2312,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2633,10 +2324,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2647,10 +2336,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2661,10 +2348,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2675,10 +2360,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2689,10 +2372,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2703,7 +2384,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -2724,14 +2404,10 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
       
-      
-      
-      
-        <label class="md-nav__link" for="__nav_13">
-          空之轨迹FC
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
+      <label class="md-nav__link" for="__nav_13">
+        空之轨迹FC
+        <span class="md-nav__icon md-icon"></span>
+      </label>
       <nav class="md-nav" aria-label="空之轨迹FC" data-md-level="1">
         <label class="md-nav__title" for="__nav_13">
           <span class="md-nav__icon md-icon"></span>
@@ -2740,7 +2416,6 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
-              
   
   
   
@@ -2751,10 +2426,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2765,10 +2438,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2779,10 +2450,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2793,10 +2462,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2807,10 +2474,8 @@
     </li>
   
 
-            
           
             
-              
   
   
   
@@ -2821,7 +2486,6 @@
     </li>
   
 
-            
           
         </ul>
       </nav>
@@ -2841,7 +2505,6 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
-
 <nav class="md-nav md-nav--secondary" aria-label="目录">
   
   
@@ -2859,12 +2522,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank/edit/master/docs/sora-3rd/doors/moon-2.md" title="编辑此页" class="md-content__button md-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
-</a>
-
-
-<h1 id="_1">月之门: 委托人</h1>
+                  <a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank/edit/master/docs/sora-3rd/doors/moon-2.md" title="编辑此页" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="_1">月之门: 委托人</h1>
 <p>七耀历1202年 地方都市洛连特——  </p>
 <p>声音：…………雪拉扎德、<br />
 声音：……雪拉扎德！<br />
@@ -4073,37 +3736,43 @@
 <p>爱娜来到游击士协会提出了给伯父减刑的志愿书。<br />
 ……不过被她灌得烂醉的我，连和她见面也没能做到。  </p>
 </blockquote>
+                
+                  
+                    
 
-  <hr>
-<div class="md-source-file">
+<hr>
+<div class="md-source-date">
   <small>
     
-      最后更新:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 22, 2022 20:08:34</span>
+      最后更新: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">May 22, 2022 20:08:34</span>
       
-        <br>
-        创建日期:
-        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">February 18, 2021 00:24:44</span>
+        <br>创建日期: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">February 18, 2021 00:24:44</span> 
       
     
   </small>
 </div>
+                  
+                
+              
+              
+                
+
 
               
             </article>
           </div>
         </div>
         
-          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
-            回到页面顶部
           </a>
         
       </main>
       
-        <footer class="md-footer">
+        
+<footer class="md-footer">
   
-    <nav class="md-footer__inner md-grid" aria-label="页脚">
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
         <a href="../moon-1-2/" class="md-footer__link md-footer__link--prev" aria-label="上一页: ｢导力装甲开发计划/后篇｣" rel="prev">
@@ -4140,33 +3809,32 @@
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-    <div class="md-copyright__highlight">
-      <p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' rel='noopener'>沪ICP备2021002641号-1</a></p><p>沪公网安备: <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008841' target='_blank' rel='noopener'>31010402008841号</a></p>
-    </div>
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            <p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' rel='noopener'>沪ICP备2021002641号-1</a></p><p>沪公网安备: <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008841' target='_blank' rel='noopener'>31010402008841号</a></p>
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
       
-        <div class="md-social">
-  
-    
+  <div class="md-footer-social">
     
       
       
-    
-    <a href="https://github.com/trails-game" target="_blank" rel="noopener" title="github.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-    </a>
-  
-</div>
+        
+        
       
+      <a href="https://github.com/trails-game" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+  </div>
+
     </div>
   </div>
 </footer>
@@ -4175,10 +3843,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "search": "../../../assets/javascripts/workers/search.22074ed6.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version.title": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "search": "../../../assets/javascripts/workers/search.b0710199.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.config.lang": "ja", "search.config.pipeline": "trimmer, stemmer", "search.config.separator": "[\\uff0c\\u3002]+", "search.placeholder": "\u641c\u7d22", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.76f349be.min.js"></script>
       
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       
