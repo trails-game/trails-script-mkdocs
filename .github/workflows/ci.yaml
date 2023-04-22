@@ -26,7 +26,7 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Build mkdocs-material with custom setting
         run: |
@@ -72,7 +72,7 @@ jobs:
     steps:
       - uses: yizhoumo/setup-ossutil@v1
         with:
-          ossutil-version: '1.7.9' # Optional, default to '1.7.0'
+          ossutil-version: '1.7.15' # Optional, default to '1.7.0'
           endpoint: oss-cn-hangzhou.aliyuncs.com
           access-key-id: ${{secrets.ACCESS_ID}}
           access-key-secret: ${{secrets.ACCESS_KEY_SECRET}}

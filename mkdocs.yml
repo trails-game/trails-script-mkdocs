@@ -12,7 +12,7 @@ repo_name: 'GitHub'
 repo_url: https://github.com/trails-game/trails-script-mkdocs" target="_blank
 
 theme:
-  name: null
+  name: material
   custom_dir: mkdocs-material/material
   palette:
     - scheme: default
@@ -27,10 +27,6 @@ theme:
   # 404 page
   static_templates:
     - 404.html
-
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
   language: zh
@@ -51,10 +47,10 @@ plugins:
       type: datetime
       enable_creation_date: true
   - search:
+      jieba_dict: dict.txt
       lang:
         - ja
         - en
-      prebuild_index: true
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
