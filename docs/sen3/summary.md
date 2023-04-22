@@ -1,6 +1,6 @@
 # 闪之轨迹Ⅲ - 剧情简介
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
  <source src="/bgms/sen3/Things-Entrusted.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>

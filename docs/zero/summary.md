@@ -1,6 +1,6 @@
 # 零之轨迹 - 剧情简介
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
 	<source src="/bgms/zero/zero-no-kiseki.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
