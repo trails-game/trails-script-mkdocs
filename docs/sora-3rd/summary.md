@@ -1,6 +1,6 @@
 # 空之轨迹3rd - 剧情简介
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/仄かに煌く光.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
