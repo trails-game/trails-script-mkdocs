@@ -6,8 +6,8 @@
 </audio>
 
 ### 剧情视频
-[闪之轨迹Ⅲ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1Av411J7Wr/)
-[闪之轨迹Ⅲ全主线、支线、羁绊视频](https://www.bilibili.com/video/av35035828/)
+[闪之轨迹Ⅲ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1Av411J7Wr/){:target="_blank"}  
+[闪之轨迹Ⅲ全主线、支线、羁绊视频](https://www.bilibili.com/video/av35035828/){:target="_blank"}  
 
 ### 故事背景
 

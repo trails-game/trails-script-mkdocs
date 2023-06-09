@@ -74,6 +74,7 @@ nav:
   # Summary
   - '黎之轨迹Ⅱ':
     - '黎之轨迹Ⅱ - 剧情简介': 'kuro2/summary.md'
+    - '电影文本&全角色赏析': 'kuro2/movies.md'
   - '黎之轨迹':
     - '黎之轨迹 - 剧情简介': 'kuro/summary.md'
     - '序章 「旧市街的地下万事屋」': 'kuro/chapter-0.md'

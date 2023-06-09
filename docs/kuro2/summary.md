@@ -1,12 +1,12 @@
 # 黎之轨迹2 - 剧情简介
 
 <audio controls loop style="width: 100%">
-	<source src="/bgms/kuro/ed91225.mp3" type="audio/mpeg">
+	<source src="/bgms/kuro2/01_76_愛しき刻限の果てに.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 
 ### 剧情视频
-
+[《黎之轨迹Ⅱ》 主线剧情合集，含电影，羁绊，CID情报，有声故事（4K60）](https://www.bilibili.com/video/BV1kR4y1B7Sd/){:target="_blank"}  
 
 ### 故事背景
 七耀历1209年。  

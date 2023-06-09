@@ -6,8 +6,8 @@
 </audio>
 
 ### 剧情视频
-[闪之轨迹Ⅳ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1iA411P7E1/)
-[闪之轨迹Ⅳ全主线、支线、羁绊视频](https://www.bilibili.com/video/BV1kb411q7qe)
+[闪之轨迹Ⅳ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1iA411P7E1/){:target="_blank"}  
+[闪之轨迹Ⅳ全主线、支线、羁绊视频](https://www.bilibili.com/video/BV1kb411q7qe){:target="_blank"}  
 
 ### 故事背景
 

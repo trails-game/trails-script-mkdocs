@@ -6,7 +6,7 @@
 </audio>
 
 ### 剧情视频
-[黎之轨迹主线剧情剪辑（无战斗、跑路等，包含电影）](https://www.bilibili.com/video/BV1sd4y1N7Wc/)
+[黎之轨迹主线剧情剪辑（无战斗、跑路等，包含电影）](https://www.bilibili.com/video/BV1sd4y1N7Wc/){:target="_blank"}  
 
 ### 故事背景
 

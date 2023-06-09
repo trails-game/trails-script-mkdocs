@@ -6,7 +6,7 @@
 </audio>
 
 ### 剧情视频
-[闪之轨迹Ⅰ全主线、支线任务视频](https://www.bilibili.com/video/BV1yi4y1P73N/)
+[闪之轨迹Ⅰ全主线、支线任务视频](https://www.bilibili.com/video/BV1yi4y1P73N/){:target="_blank"}  
 
 ### 故事背景
 
