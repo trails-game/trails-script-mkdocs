@@ -26,19 +26,20 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Build mkdocs-material with custom setting
         run: |
           cd mkdocs-material
           npm i
-          sed -i 's/24px/48px/g' src/assets/stylesheets/main/layout/_header.scss
-          sed -i 's/16px/32px/g' src/assets/stylesheets/main/layout/_footer.scss
+          sed -i 's/24px/48px/g' src/assets/stylesheets/main/components/_header.scss
+          sed -i 's/16px/32px/g' src/assets/stylesheets/main/components/_footer.scss
           npm run build
           cd ..
 
       - name: Install python dependencies
         run: |
+          python3 -m pip install mkdocs-material
           pip3 install -r requirements.txt
 
       - name: Build mkdocs and deploy
@@ -71,7 +72,7 @@ jobs:
     steps:
       - uses: yizhoumo/setup-ossutil@v1
         with:
-          ossutil-version: '1.7.9' # Optional, default to '1.7.0'
+          ossutil-version: '1.7.15' # Optional, default to '1.7.0'
           endpoint: oss-cn-hangzhou.aliyuncs.com
           access-key-id: ${{secrets.ACCESS_ID}}
           access-key-secret: ${{secrets.ACCESS_KEY_SECRET}}
