@@ -1,13 +1,13 @@
 # 闪之轨迹Ⅲ - 剧情简介
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
  <source src="/bgms/sen3/Things-Entrusted.mp3" type="audio/mpeg">
  Your browser does not support the audio element.
 </audio>
 
 ### 剧情视频
-[闪之轨迹Ⅲ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1Av411J7Wr/)
-[闪之轨迹Ⅲ全主线、支线、羁绊视频](https://www.bilibili.com/video/av35035828/)
+[闪之轨迹Ⅲ主线剧情剪辑（无战斗、跑路等）](https://www.bilibili.com/video/BV1Av411J7Wr/){:target="_blank"}  
+[闪之轨迹Ⅲ全主线、支线、羁绊视频](https://www.bilibili.com/video/av35035828/){:target="_blank"}  
 
 ### 故事背景
 

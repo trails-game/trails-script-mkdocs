@@ -1,6 +1,6 @@
 # 于是少女将握著手中的剑继续前进  
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
 	<source src="/bgms/hajimari/ed82123.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>

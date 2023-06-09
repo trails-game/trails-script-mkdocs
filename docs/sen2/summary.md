@@ -6,7 +6,7 @@
 </audio>
 
 ### 剧情视频
-[闪之轨迹Ⅱ全主线、支线任务、二周目内容视频](https://www.bilibili.com/video/BV1av411j7o4/)
+[闪之轨迹Ⅱ全主线、支线任务、二周目内容视频](https://www.bilibili.com/video/BV1av411j7o4/){:target="_blank"}  
 
 ### 故事背景
 

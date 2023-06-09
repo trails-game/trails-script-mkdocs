@@ -1,12 +1,12 @@
 # 黎之轨迹 - 剧情简介
 
-<audio controls autoplay loop style="width: 100%">
+<audio controls loop style="width: 100%">
 	<source src="/bgms/kuro/ed91225.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.
 </audio>
 
 ### 剧情视频
-[黎之轨迹主线剧情剪辑（无战斗、跑路等，包含电影）](https://www.bilibili.com/video/BV1sd4y1N7Wc/)
+[黎之轨迹主线剧情剪辑（无战斗、跑路等，包含电影）](https://www.bilibili.com/video/BV1sd4y1N7Wc/){:target="_blank"}  
 
 ### 故事背景
 
