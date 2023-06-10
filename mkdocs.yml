@@ -151,7 +151,7 @@ nav:
     - '第一章 ｢预兆～崭新的日子｣': 'aoi/chapter-1.md'
   - '零之轨迹':
     - '零之轨迹 - 剧情简介': 'zero/summary.md'
-    - 'place-holder': 'zero/chapter-1.md'
+    - '序章 ｢特别任务支援科｣': 'zero/prologue.md'
   - '空之轨迹3RD':
     - '空之轨迹3RD - 剧情简介': 'sora-3rd/summary.md'
     - '第零话 ｢星杯骑士｣': 'sora-3rd/chapter-0.md'
