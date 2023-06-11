@@ -39,7 +39,7 @@ const authorInfo = {
   "Winston": {
     name: "Winston",
     avatar: "/images/contributors/winston.png",
-    link: "https://yuntaowu2000.github.io"
+    link: "https://space.bilibili.com/392143020"
   },
   "Rieveldt": {
     name: "Rieveldt624",
