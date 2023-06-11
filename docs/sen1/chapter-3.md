@@ -1,4 +1,5 @@
 # 第三章 横跨铁路～苍穹的大地～  
+![Placeholder](){.authors authorList=["CC"]}
   
 ## 期中考  
 6.15 TUESDAY  

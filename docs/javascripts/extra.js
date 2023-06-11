@@ -25,6 +25,71 @@ function updateLightBox() {
     productImageGroups.forEach(value => GLightbox({selector: value}));
 }
 
+const authorInfo = {
+  "冰镇南瓜汁": {
+    name: "冰镇南瓜汁",
+    avatar: "/images/contributors/冰镇南瓜汁.png",
+    link: "https://trails-game.com/about/team/"
+  },
+  "CC": {
+    name: "C.C.",
+    avatar: "/images/contributors/cc.png",
+    link: "https://trails-game.com/about/team/"
+  },
+  "Winston": {
+    name: "Winston",
+    avatar: "/images/contributors/winston.png",
+    link: "https://yuntaowu2000.github.io"
+  },
+  "Rieveldt": {
+    name: "Rieveldt624",
+    avatar: "/images/contributors/Rieveldt624.jpg",
+    link: "https://trails-game.com/about/team/"
+  },
+  "linsage": {
+    name: "linsage",
+    avatar: "/images/contributors/linsage.jpg",
+    link: "https://trails-game.com/about/team/"
+  },
+  "XDi": {
+    name: "XDi",
+    avatar: "/images/contributors/XDi.jpg",
+    link: "https://space.bilibili.com/10822381"
+  },
+};
+
+function renderAuthorBlock() {
+  $('.authors').each(function() {
+    try {
+      const authors = JSON.parse($(this).attr('authorList'));
+      
+      var listStr = "";
+      for (let user of authors) {
+        const currAuthor = authorInfo[user];
+        listStr += `<li><a href="${currAuthor.link}" target="__blank"><img src="${currAuthor.avatar}"/>${currAuthor.name}</a></li>\n`;
+      }
+
+      $(this).replaceWith(`
+    <ul class="metadata page-metadata">
+      <li class="contributors">
+      <span class="contributors-text">本页面由以下成员整理提供</span>
+      <ul class="contributors">
+        ${listStr}
+      </ul>
+      </li>
+    </ul>
+    `);
+  } catch (e) {
+    $(this).replaceWith(`
+    <div class="metadata page-metadata">
+      <span class="contributors-text">If you see this message, make sure you have properly defined the author name in javascripts/extra.js. Also make sure you have no space in authorList attribute.</span>
+    </div>
+    `);
+  }
+  })
+}
+
 document$.subscribe(function (url) {
   updateLightBox();
+  renderAuthorBlock();
 });

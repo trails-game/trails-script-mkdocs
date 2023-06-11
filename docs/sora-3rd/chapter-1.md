@@ -1,4 +1,5 @@
 # 第一话: 影之国
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/翡翠回廊.mp3" type="audio/mpeg">

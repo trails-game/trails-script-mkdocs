@@ -1,4 +1,5 @@
 # 碧之轨迹 - 剧情简介
+![Placeholder](){.authors authorList=["Winston"]}
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/ao/ao-no-kiseki.mp3" type="audio/mpeg">

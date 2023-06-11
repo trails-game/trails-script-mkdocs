@@ -1,4 +1,5 @@
 # 另一个温泉乡  
+![Placeholder](){.authors authorList=["Rieveldt","Winston"]}
 
 **S1208年·1月**  
 

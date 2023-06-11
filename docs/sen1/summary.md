@@ -1,5 +1,7 @@
 # 闪之轨迹Ⅰ - 剧情简介
 
+![Placeholder](){.authors authorList=["Winston"]}
+
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sen1/Prelude-Age-of-Upheaval.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.

@@ -1,4 +1,5 @@
 # 第五章 开始行动的意志  
+![Placeholder](){.authors authorList=["CC"]}
 
 ## 8/18 新同学  
 **【剧情时间】S.1204 8.18 WEDNESDAY**  

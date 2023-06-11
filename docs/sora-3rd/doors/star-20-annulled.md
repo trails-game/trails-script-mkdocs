@@ -1,4 +1,5 @@
 # 『执行者的真实』
+![Placeholder](){.authors authorList=["linsage"]}
 
 莱维从哈梅尔的恶梦中醒来。
 

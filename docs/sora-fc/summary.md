@@ -1,3 +1,5 @@
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
+
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/風を共に舞う気持ち.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.

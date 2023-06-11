@@ -1,6 +1,6 @@
-  
 # 序章 托尔兹军官学院  
-  
+![Placeholder](){.authors authorList=["CC"]}
+
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sen1/Artillery-Class-VII.mp3" type="audio/mpeg">
 	Your browser does not support the audio element.

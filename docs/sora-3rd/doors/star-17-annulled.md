@@ -1,5 +1,5 @@
 # 『酒的诱惑』
-
+![Placeholder](){.authors authorList=["linsage"]}
 
 这个星门主要讲述的是雪拉扎德和爱娜认识后不久的故事。  
 

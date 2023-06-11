@@ -1,4 +1,6 @@
 # 黎之轨迹2 - 剧情简介
+![Placeholder](){.authors authorList=["Winston"]}
+
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/kuro2/01_76_愛しき刻限の果てに.mp3" type="audio/mpeg">

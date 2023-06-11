@@ -1,4 +1,5 @@
 # 『乐园的少女』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
   
 超越善恶生死之处  
 我曾淡然走过。  

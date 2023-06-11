@@ -1,4 +1,5 @@
 # 第四章 绯之帝都～仲夏节～  
+![Placeholder](){.authors authorList=["CC"]}
   
 ## 皇城剧情  
 七耀历1204年 七月某日  

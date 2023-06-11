@@ -1,4 +1,5 @@
 # 终章 军官学院祭，然后──  
+![Placeholder](){.authors authorList=["CC"]}
   
 ## 悠米尔剧情概述  
 【黎恩自述】  

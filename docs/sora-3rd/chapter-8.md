@@ -1,4 +1,5 @@
 # 最终话: 时光的终焉，艰辛的彼岸
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/幻影城《Phantasmagoria》.mp3" type="audio/mpeg">

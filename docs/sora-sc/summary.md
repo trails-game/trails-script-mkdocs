@@ -1,4 +1,5 @@
 # 空之轨迹SC - 剧情简介
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-sc/Shine of Eidos ~空の軌跡~.mp3" type="audio/mpeg">

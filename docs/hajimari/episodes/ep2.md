@@ -1,4 +1,6 @@
 # EP2. 再出发～支援课的一天  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
   
 七耀历1207年2月20日  
 特务支援课及克洛斯贝尔的有志之士解放了克洛斯贝尔的6天后  

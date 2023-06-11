@@ -1,4 +1,5 @@
 # 创之轨迹 - 追忆石盘
+![Placeholder](){.authors authorList=["Winston"]}
 
 EP1. 退路、岔路、前方的路  
 EP2. 再出发～支援课的一天  

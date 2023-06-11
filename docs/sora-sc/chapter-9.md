@@ -1,4 +1,5 @@
 # 终章: 空之轨迹
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-sc/中枢塔《アクシスピラー》.mp3" type="audio/mpeg">

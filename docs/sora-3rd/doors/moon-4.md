@@ -1,4 +1,5 @@
 # 月之门: 启程的清晨  
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 （一片漆黑的梦境之中——）
 

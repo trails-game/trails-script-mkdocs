@@ -1,4 +1,5 @@
 # 第六章 黑与银～钢都动乱～  
+![Placeholder](){.authors authorList=["CC"]}
   
 ## 学院理事会  
 **【剧情时间】S.1204 9.15 WEDNESDAY**  

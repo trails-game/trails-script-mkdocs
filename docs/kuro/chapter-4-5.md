@@ -1,4 +1,6 @@
 # 间章 「龙来温泉乡奇谭」  
+![Placeholder](){.authors authorList=["CC"]}
+
 【地名介绍】卡尔瓦德最东端 温泉乡《龙来》（Ronlai Town）  
 【入夜的龙来市街上熙熙攘攘】  
   

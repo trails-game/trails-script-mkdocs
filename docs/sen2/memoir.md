@@ -1,4 +1,5 @@
 # 外传 「边境小镇阿尔斯塔」  
+![Placeholder](){.authors authorList=["Winston"]}
 
 **——卡雷贾斯·舰桥（早晨）**  
 

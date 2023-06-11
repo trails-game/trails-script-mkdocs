@@ -1,4 +1,6 @@
 # 连结事件  
+![Placeholder](){.authors authorList=["CC"]}
+
   
 ## 亚妮艾丝  
 ### 亚妮艾丝在找的东西（9/19）  

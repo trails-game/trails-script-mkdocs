@@ -1,4 +1,5 @@
 # 『旅途的终点』
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
 
 （游击士协会·格兰赛尔支部内）  
 艾南：——是吗。  

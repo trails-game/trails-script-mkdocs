@@ -1,4 +1,5 @@
 # 幕间 「返乡～迷惘的尽头～」  
+![Placeholder](){.authors authorList=["Winston"]}
 
 **——凰翼馆·楼梯**  
 
