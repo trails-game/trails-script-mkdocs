@@ -28,32 +28,32 @@ function updateLightBox() {
 const authorInfo = {
   "冰镇南瓜汁": {
     name: "冰镇南瓜汁",
-    avatar: "/images/contributors/冰镇南瓜汁.png",
+    avatar: "/images/contributors/冰镇南瓜汁.webp",
     link: "https://trails-game.com/about/team/"
   },
   "CC": {
     name: "C.C.",
-    avatar: "/images/contributors/cc.png",
+    avatar: "/images/contributors/cc.webp",
     link: "https://trails-game.com/about/team/"
   },
   "Winston": {
     name: "Winston",
-    avatar: "/images/contributors/winston.png",
+    avatar: "/images/contributors/winston.webp",
     link: "https://space.bilibili.com/392143020"
   },
   "Rieveldt": {
     name: "Rieveldt624",
-    avatar: "/images/contributors/Rieveldt624.jpg",
+    avatar: "/images/contributors/Rieveldt624.webp",
     link: "https://trails-game.com/about/team/"
   },
   "linsage": {
     name: "linsage",
-    avatar: "/images/contributors/linsage.jpg",
+    avatar: "/images/contributors/linsage.webp",
     link: "https://trails-game.com/about/team/"
   },
   "XDi": {
     name: "XDi",
-    avatar: "/images/contributors/XDi.jpg",
+    avatar: "/images/contributors/XDi.webp",
     link: "https://space.bilibili.com/10822381"
   },
 };
@@ -66,13 +66,13 @@ function renderAuthorBlock() {
       var listStr = "";
       for (let user of authors) {
         const currAuthor = authorInfo[user];
-        listStr += `<li><a href="${currAuthor.link}" target="__blank"><img src="${currAuthor.avatar}"/>${currAuthor.name}</a></li>\n`;
+        listStr += `<li><a href="${currAuthor.link}" target="__blank"><img class="avatar" src="${currAuthor.avatar}"/>${currAuthor.name}</a></li>\n`;
       }
 
       $(this).replaceWith(`
     <ul class="metadata page-metadata">
       <li class="contributors">
-      <span class="contributors-text">本页面由以下成员整理提供</span>
+      <span class="contributors-text">本页面由以下成员整理提供:</span>
       <ul class="contributors">
         ${listStr}
       </ul>
