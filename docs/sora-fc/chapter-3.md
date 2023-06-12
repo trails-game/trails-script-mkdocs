@@ -1,4 +1,5 @@
 # 第三章：黑色导力器
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
 	<source src="/bgms/sora-fc/工房都市ツァイス.mp3" type="audio/mpeg">

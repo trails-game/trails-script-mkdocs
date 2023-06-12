@@ -1,4 +1,5 @@
 # 『戈尔地雅斯级实验计划书』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
   
  ![Placeholder](/images/sora-3rd/star10/1.png){.imgLightbox tag=1 loading=lazy}
   

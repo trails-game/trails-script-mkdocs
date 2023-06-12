@@ -1,4 +1,5 @@
 # 『庆祝会之夜』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
 
 号外！！  
 利贝尔通讯：特别号  

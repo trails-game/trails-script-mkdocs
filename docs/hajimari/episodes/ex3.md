@@ -1,4 +1,6 @@
 # EX3. 回忆的眼神无比火热  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
 
 那是《大地之龙战役》后3个多月某日的事  
 收到来自克蕾雅少校『机密信件』的我——  

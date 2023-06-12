@@ -1,4 +1,5 @@
 # 太阳之门: THE CASINO ～赌博师杰克～
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 ——卡尔瓦德共和国。
 

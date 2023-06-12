@@ -5,3 +5,41 @@ body, input {
 pre, code, kbd {
   font-family: Roboto Mono, SFMono-Regular, Consolas, Menlo, monospace;
 }
+
+/* The following css are modified from https://github.com/byrnereese/mkdocs-git-committers-plugin */
+.metadata{
+  list-style:none;
+  padding:0;
+  margin:0 0 2em 0!important;
+  margin-bottom: 15px;
+}
+.metadata.page-metadata .contributors-text{
+  margin-right:5px
+}
+body[dir=rtl] .metadata.page-metadata .contributors-text{
+  margin-right:0;
+  margin-left:5px
+}
+.page-metadata .contributors{
+  display:inline-block;
+  list-style:none;
+  margin:0!important;
+  padding:0!important
+}
+.page-metadata .contributors li{
+  display:inline-block;
+  vertical-align:top;
+  margin:0;
+  padding:0
+}
+.page-metadata .contributors li img{
+  border-radius:100%;
+  height:32px;
+  overflow:hidden;
+  width:32px;
+  position:relative;
+  top:8px
+}
+.avatar{
+  margin: 0 5px 0 0;
+}

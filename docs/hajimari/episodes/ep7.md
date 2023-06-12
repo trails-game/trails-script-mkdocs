@@ -1,4 +1,6 @@
 # EP7. 重逢～少女的忧郁～
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
 
 ——我背负着数种罪孽。  
 协助『黄昏』让帝国  

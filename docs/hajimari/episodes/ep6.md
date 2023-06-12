@@ -1,4 +1,6 @@
 # EP6. 光辉中的全新一步  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
   
 七耀历1207年3月2日——奥利巴特皇子和雪拉扎德婚礼前一天  
   

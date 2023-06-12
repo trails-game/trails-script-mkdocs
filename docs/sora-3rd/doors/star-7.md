@@ -1,6 +1,7 @@
 # 『爱普斯泰恩财团』  
-  
- ![Placeholder](/images/sora-3rd/star7/1.png){.imgLightbox tag=1 loading=lazy}
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
+
+![Placeholder](/images/sora-3rd/star7/1.png){.imgLightbox tag=1 loading=lazy}
   
 导力器（欧布门特）——  
 利用七耀石所具有的《导力》  

@@ -1,4 +1,5 @@
 # 序章 「春日再临」
+![Placeholder](){.authors authorList=["Winston"]}
 
 ### 倒叙剧情  
 

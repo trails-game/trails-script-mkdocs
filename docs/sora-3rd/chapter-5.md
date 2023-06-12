@@ -1,4 +1,5 @@
 # 第五话: 光与影的迷宫
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/光と影の迷宮.mp3" type="audio/mpeg">

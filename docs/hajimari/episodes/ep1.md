@@ -1,4 +1,5 @@
 # EP1. 退路、岔路、前方的路    
+![Placeholder](){.authors authorList=["Rieveldt"]}
   
 斯温和娜狄雅抵达克洛斯贝尔~  
   

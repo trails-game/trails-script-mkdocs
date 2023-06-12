@@ -1,4 +1,6 @@
 # 第Ⅰ部 「灰色战记」  
+![Placeholder](){.authors authorList=["CC"]}
+
 ## 灰色战记①主线  
 **【剧情时间】S.1204.12.1 WEDNESDAY 从悠米尔出发**  
 【黎恩自述】  

@@ -1,4 +1,5 @@
 # 『『怪盗B』调查报告』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
 
 ![Placeholder](/images/sora-3rd/star11/1.png){.imgLightbox tag=1 loading=lazy}
   

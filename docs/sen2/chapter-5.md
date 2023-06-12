@@ -1,4 +1,6 @@
 # 后日谭 「冬日的尾声」  
+![Placeholder](){.authors authorList=["CC"]}
+
 ## “英雄”归来  
 **【剧情时间】S.1205.3.9 WEDNESDAY**  
 帝国军据点 双龙桥  

@@ -1,4 +1,5 @@
 # 第二章 美丽翡翠之都  
+![Placeholder](){.authors authorList=["CC"]}
   
 ## 5/22 上课  
 **【剧情时间】S.1204 5.22 SATURDAY**  

@@ -1,4 +1,5 @@
 # 月之门: 委托人
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 七耀历1202年 地方都市洛连特——  
    

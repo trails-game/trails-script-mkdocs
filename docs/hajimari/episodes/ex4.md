@@ -1,4 +1,6 @@
 # EX4. 第Ⅱ分校研修祭  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
   
 朗格多克峡谷道某处——  
 亚修：喝啊！！  

@@ -1,4 +1,6 @@
 # EP8. 我所选择的路  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
   
 S.1207.2.21  
 克洛斯贝尔事件解决后的一周——  

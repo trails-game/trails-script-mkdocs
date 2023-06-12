@@ -1,4 +1,5 @@
 # 『调查委托，敬悉』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
   
 海港都市卢安（Ruan City）  
 R&A调查公司 卢安事务所  

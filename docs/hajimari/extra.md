@@ -1,4 +1,5 @@
 # 创始的彼方  
+![Placeholder](){.authors authorList=["Winston"]}
   
 这是漂浮在情报之海当中的片段记录  
 发生在不久的将来之事  

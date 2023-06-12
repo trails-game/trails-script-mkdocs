@@ -1,4 +1,5 @@
 # 第七话: 邃远的炙炎
+![Placeholder](){.authors authorList=["冰镇南瓜汁"]}
 
 <audio controls loop style="width: 100%">
     <source src="/bgms/sora-3rd/深淵.mp3" type="audio/mpeg">

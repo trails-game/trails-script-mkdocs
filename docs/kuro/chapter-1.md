@@ -1,4 +1,6 @@
 # 第一章 「纯真之焰～启程～」  
+![Placeholder](){.authors authorList=["CC"]}
+
 【场景】阳炎沙丘  
 【猎兵正在交火】  
 队长阶级的男人：现在就是决定胜负的关键——全员转换为《双枪骑兵【Doppel Lanze Reite】》阵形！  

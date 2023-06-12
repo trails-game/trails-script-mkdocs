@@ -1,5 +1,6 @@
 # 第一章 新学期～首次实习～  
-  
+![Placeholder](){.authors authorList=["CC"]}
+
 ## 4/17 上课  
 **【剧情时间】S.1204 4.17 SATURDAY**  
   

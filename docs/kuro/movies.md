@@ -1,4 +1,6 @@
 # 电影文本&全角色赏析  
+![Placeholder](){.authors authorList=["CC"]}
+
 ## 昼场电影  
   
 ### 【电影】黄金血  

@@ -1,4 +1,5 @@
 # 某位少女的校园生活  
+![Placeholder](){.authors authorList=["Rieveldt","Winston"]}
   
 **S1208年·4月**  
   

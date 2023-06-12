@@ -1,4 +1,5 @@
 # 『帝国支部连续袭击事件』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
 
 ![Placeholder](/images/sora-3rd/star13/1.png){.imgLightbox tag=1 loading=lazy}
 

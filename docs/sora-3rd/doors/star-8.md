@@ -1,4 +1,5 @@
 # 『回归帝都』  
+![Placeholder](){.authors authorList=["冰镇南瓜汁","XDi"]}
   
 利贝尔·方舟崩坏后一个月……  
 在格兰赛尔城举办的庆祝会过后，  

@@ -1,4 +1,6 @@
 # EP5. 白兔与沉睡的傀儡  
+![Placeholder](){.authors authorList=["Rieveldt"]}
+
   
 米尔香缇，葛拉湖周游道入口附近——  
 米莉亚姆：呀喝~抵达~！  
