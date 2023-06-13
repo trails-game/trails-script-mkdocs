@@ -56,6 +56,11 @@ const authorInfo = {
     avatar: "/images/contributors/XDi.webp",
     link: "https://space.bilibili.com/10822381"
   },
+  "Flytutu": {
+    name: "Flytutu",
+    avatar: "/images/contributors/flytutu.webp",
+    link: "https://trails-game.com/about/team/"
+  },
 };
 
 function renderAuthorBlock() {

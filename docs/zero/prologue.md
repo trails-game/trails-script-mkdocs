@@ -1,4 +1,5 @@
 # 序章 特别任务支援科  
+![Placeholder](){.authors authorList=["Flytutu"]}
 
 **【场景】谜之遗迹**  
 罗伊德：缇欧，情况如何……？  
