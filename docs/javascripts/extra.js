@@ -61,6 +61,11 @@ const authorInfo = {
     avatar: "/images/contributors/flytutu.webp",
     link: "https://trails-game.com/about/team/"
   },
+  "无始无过亦无终": {
+    name: "无始无过亦无终",
+    avatar: "/images/contributors/无始无过亦无终.webp",
+    link: "https://space.bilibili.com/13364946"
+  },
 };
 
 function renderAuthorBlock() {
