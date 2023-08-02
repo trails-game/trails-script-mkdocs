@@ -74,7 +74,19 @@ nav:
   # Summary
   - '黎之轨迹Ⅱ':
     - '黎之轨迹Ⅱ - 剧情简介': 'kuro2/summary.md'
+    - '序幕 「绯红咆哮」': 'kuro2/chapter-0.md'
+    - '幕前 「童话庭园」': 'kuro2/chapter-pre.md'
+    - '第Ⅰ部side A  「北方港都随想曲」': 'kuro2/chapter-1a.md'
+    - '第Ⅰ部side B 「代理地下万事屋」': 'kuro2/chapter-1b.md'
+    - '第Ⅱ部side A 「再访煌都～黑月撩乱～」': 'kuro2/chapter-2a.md'
+    - '第Ⅱ部side B 「潜入亚拉密斯～并不那么悠闲的日子～」': 'kuro2/chapter-2b.md'
+    - '断章 「涅梅丝岛～另一个节日～」': 'kuro2/chapter-mid.md'
+    - '第Ⅲ部 「普世欢腾」': 'kuro2/chapter-3.md'
+    - '尾声 「流转的终点」': 'kuro2/chapter-4.md'
+    - 'EXTRA 「扭曲童话者～然后……」': 'kuro2/chapter-extra.md'
+    - '连结事件': 'kuro2/bond-events.md'
     - '电影文本&全角色赏析': 'kuro2/movies.md'
+    - '调查报告&有声故事': 'kuro2/extrastories.md'
   - '黎之轨迹':
     - '黎之轨迹 - 剧情简介': 'kuro/summary.md'
     - '序章 「旧市街的地下万事屋」': 'kuro/chapter-0.md'
