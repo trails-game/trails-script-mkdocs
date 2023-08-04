@@ -1,0 +1,6690 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="轨迹游戏剧情和脚本">
+      
+      
+        <meta name="author" content="轨迹系列 - Cafe">
+      
+      
+        <link rel="canonical" href="https://book.trails-game.com/kuro2/bond-events/">
+      
+      
+        <link rel="prev" href="../chapter-extra/">
+      
+      
+        <link rel="next" href="../movies/">
+      
+      <link rel="icon" href="../../images/webicons/favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.1.7">
+    
+    
+      
+        <title>连结事件 - 咖啡屋 | 轨迹系列 - Cafe</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.de0fc54a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/glightbox.min.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-header__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
+      
+  <img src="../../images/webicons/apple-touch-icon.webp" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            咖啡屋 | 轨迹系列 - Cafe
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              连结事件
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="暗色模式"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="暗色模式" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="浅色模式"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="浅色模式" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="https://trails-game.com" target="_blank" class="md-tabs__link">
+      Cafe主站
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../summary/" class="md-tabs__link md-tabs__link--active">
+        黎之轨迹Ⅱ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../kuro/summary/" class="md-tabs__link">
+        黎之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../hajimari/summary/" class="md-tabs__link">
+        创之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sen4/summary/" class="md-tabs__link">
+        闪之轨迹Ⅳ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sen3/summary/" class="md-tabs__link">
+        闪之轨迹Ⅲ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sen2/summary/" class="md-tabs__link">
+        闪之轨迹Ⅱ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sen1/summary/" class="md-tabs__link">
+        闪之轨迹Ⅰ
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../aoi/summary/" class="md-tabs__link">
+        碧之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../zero/summary/" class="md-tabs__link">
+        零之轨迹
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sora-3rd/summary/" class="md-tabs__link">
+        空之轨迹3RD
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sora-sc/summary/" class="md-tabs__link">
+        空之轨迹SC
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../sora-fc/summary/" class="md-tabs__link">
+        空之轨迹FC
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="咖啡屋 | 轨迹系列 - Cafe" class="md-nav__button md-logo" aria-label="咖啡屋 | 轨迹系列 - Cafe" data-md-component="logo">
+      
+  <img src="../../images/webicons/apple-touch-icon.webp" alt="logo">
+
+    </a>
+    咖啡屋 | 轨迹系列 - Cafe
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/trails-game/trails-script-mkdocs" target="_blank" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://trails-game.com" target="_blank" class="md-nav__link">
+        Cafe主站
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          黎之轨迹Ⅱ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          黎之轨迹Ⅱ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary/" class="md-nav__link">
+        黎之轨迹Ⅱ - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-0/" class="md-nav__link">
+        序幕 「绯红咆哮」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-pre/" class="md-nav__link">
+        幕前 「童话庭园」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-1a/" class="md-nav__link">
+        第Ⅰ部side A  「北方港都随想曲」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-1b/" class="md-nav__link">
+        第Ⅰ部side B 「代理地下万事屋」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-2a/" class="md-nav__link">
+        第Ⅱ部side A 「再访煌都～黑月撩乱～」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-2b/" class="md-nav__link">
+        第Ⅱ部side B 「潜入亚拉密斯～并不那么悠闲的日子～」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-mid/" class="md-nav__link">
+        断章 「涅梅丝岛～另一个节日～」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-3/" class="md-nav__link">
+        第Ⅲ部 「普世欢腾」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-4/" class="md-nav__link">
+        尾声 「流转的终点」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapter-extra/" class="md-nav__link">
+        EXTRA 「扭曲童话者～然后……」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          连结事件
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        连结事件
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#314" class="md-nav__link">
+    亚妮艾丝想商量的事（3/14，亚妮艾丝&amp;蕾恩）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_1" class="md-nav__link">
+    陪同水边操练（3/14莉婕特&amp;卡特尔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_2" class="md-nav__link">
+    难得吵架（3/14斯温&amp;娜狄雅）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_3" class="md-nav__link">
+    少女与剑圣（3/14艾蕾因＆静名）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_4" class="md-nav__link">
+    公女的未来展望（3/14玛莉艾儿&amp;吉塔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_5" class="md-nav__link">
+    菲莉的特训（3/14晚，菲莉&amp;亚伦）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_6" class="md-nav__link">
+    来自当红女演员的邀约（3/14晚，茱迪丝&amp;妮娜）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_7" class="md-nav__link">
+    在月下的湖畔（3/14晚，塞莉丝&amp;里翁）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    在重要的地方（4/12，亚妮艾丝）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_1" class="md-nav__link">
+    战士的成年礼（4/12，菲莉）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_2" class="md-nav__link">
+    关于某个男人的传闻（4/12，亚伦）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_3" class="md-nav__link">
+    错过的青春（4/12，莉婕特）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_4" class="md-nav__link">
+    卡特尔的秘密（4/12，卡特尔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_5" class="md-nav__link">
+    幻夜之猫的危机（4/12，茱迪丝）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_6" class="md-nav__link">
+    来自代理人的挑战信（4/12，斯温&amp;娜狄雅）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_7" class="md-nav__link">
+    艾蕾因的急事（4/12，艾蕾因）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_8" class="md-nav__link">
+    能干男人的烦恼（4/12，金凯德）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_9" class="md-nav__link">
+    在学生会长室（4/12，蕾恩）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_10" class="md-nav__link">
+    欣赏莱诺花（4/12，静名）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_11" class="md-nav__link">
+    小梦的脚踏车（4/12，梦）
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../movies/" class="md-nav__link">
+        电影文本&全角色赏析
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../extrastories/" class="md-nav__link">
+        调查报告&有声故事
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          黎之轨迹
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          黎之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/summary/" class="md-nav__link">
+        黎之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-0/" class="md-nav__link">
+        序章 「旧市街的地下万事屋」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-1/" class="md-nav__link">
+        第一章 「纯真之焰～启程～」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-2/" class="md-nav__link">
+        第二章 「宿星～煌都的麒麟儿」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-3/" class="md-nav__link">
+        第三章 「萨尔巴德狂想曲」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-4/" class="md-nav__link">
+        第四章 「灾厄协定」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-4-5/" class="md-nav__link">
+        间章 「龙来温泉乡奇谭」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-5/" class="md-nav__link">
+        第五章 「白夜的嘉年华」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/chapter-6/" class="md-nav__link">
+        最终章 「为了总有一天终将归来的你」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/bond-events/" class="md-nav__link">
+        连结事件
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kuro/movies/" class="md-nav__link">
+        电影文本&全角色赏析
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          创之轨迹
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          创之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/summary/" class="md-nav__link">
+        创之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          追忆石盘
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          追忆石盘
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episode/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep1/" class="md-nav__link">
+        退路、岔路、前方的路
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep2/" class="md-nav__link">
+        再出发～支援课的一天
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep3/" class="md-nav__link">
+        女子学院事件簿～美嘉与美丽的剑士～
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep4/" class="md-nav__link">
+        令人怀念的家乡
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep5/" class="md-nav__link">
+        白兔与沉睡的傀儡
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep6/" class="md-nav__link">
+        光辉中的全新一步
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep7/" class="md-nav__link">
+        重逢～少女的忧郁～
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep8/" class="md-nav__link">
+        我所选择的路
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep9/" class="md-nav__link">
+        两人的正义
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep10/" class="md-nav__link">
+        堕落的皇子
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep11/" class="md-nav__link">
+        新·导力装甲开发计划 前篇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep12/" class="md-nav__link">
+        新·导力装甲开发计划 后篇
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep13/" class="md-nav__link">
+        魔女们的追忆
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep14/" class="md-nav__link">
+        同窗的标杆
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep15/" class="md-nav__link">
+        究极的野味
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep16/" class="md-nav__link">
+        幸运之石与不幸之船
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep17/" class="md-nav__link">
+        无尽之剑
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ep18/" class="md-nav__link">
+        猜猜我是谁
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ex1/" class="md-nav__link">
+        布莱特家的假日
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ex2/" class="md-nav__link">
+        踏出的一步
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ex3/" class="md-nav__link">
+        回忆的眼神无比火热
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/episodes/ex4/" class="md-nav__link">
+        第Ⅱ分校研修祭
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+          创始的彼方
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          创始的彼方
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/extra/" class="md-nav__link">
+        前言
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/extras/extra1/" class="md-nav__link">
+        另一个温泉乡
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/extras/extra2/" class="md-nav__link">
+        某位少女的校园生活
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hajimari/extras/extra3/" class="md-nav__link">
+        于是少女将握著手中的剑继续前进
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          闪之轨迹Ⅳ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅳ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen4/summary/" class="md-nav__link">
+        闪之轨迹Ⅳ - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          闪之轨迹Ⅲ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅲ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen3/summary/" class="md-nav__link">
+        闪之轨迹Ⅲ - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen3/chapter-0/" class="md-nav__link">
+        序章 ｢春日再临｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          闪之轨迹Ⅱ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅱ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/summary/" class="md-nav__link">
+        闪之轨迹Ⅱ - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-0/" class="md-nav__link">
+        序章 「归乡～失意的尽头～」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-1/" class="md-nav__link">
+        第Ⅰ部 「灰色战记」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-1-5/" class="md-nav__link">
+        幕间 「白银巨船」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-2/" class="md-nav__link">
+        第Ⅱ部 「红翼～苏醒的狮子们」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/memoir/" class="md-nav__link">
+        外传 ｢边境小镇阿尔斯塔｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-3/" class="md-nav__link">
+        终章 ｢只管一路向前｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-4/" class="md-nav__link">
+        外传 「占领下的克洛斯贝尔」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/chapter-5/" class="md-nav__link">
+        后日谭 「冬日的尾声」
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen2/bond-events/" class="md-nav__link">
+        全羁绊事件
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          闪之轨迹Ⅰ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          闪之轨迹Ⅰ
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/summary/" class="md-nav__link">
+        闪之轨迹Ⅰ - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-0/" class="md-nav__link">
+        序章 ｢托尔兹军官学院｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-1/" class="md-nav__link">
+        第一章 ｢新学期～首次实习～｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-2/" class="md-nav__link">
+        第二章 ｢美丽翡翠之都｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-3/" class="md-nav__link">
+        第三章 ｢横跨铁路～苍穹的大地～｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-4/" class="md-nav__link">
+        第四章 ｢绯之帝都 ～仲夏祭～｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-5/" class="md-nav__link">
+        第五章 ｢开始行动的意志｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-6/" class="md-nav__link">
+        第六章 ｢黑与银～钢都动乱～｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/intermission/" class="md-nav__link">
+        幕间 ｢返乡～迷惘的尽头～｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/chapter-7/" class="md-nav__link">
+        终章 ｢军官学院祭，然后──｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sen1/bond-events/" class="md-nav__link">
+        全羁绊事件
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          碧之轨迹
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          碧之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aoi/summary/" class="md-nav__link">
+        碧之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aoi/prologue/" class="md-nav__link">
+        序章 ｢D之残影｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aoi/chapter-1/" class="md-nav__link">
+        第一章 ｢预兆～崭新的日子｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          零之轨迹
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          零之轨迹
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../zero/summary/" class="md-nav__link">
+        零之轨迹 - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../zero/prologue/" class="md-nav__link">
+        序章 ｢特别任务支援科｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../zero/chapter-1/" class="md-nav__link">
+        第一章 ｢神狼们的午后｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          空之轨迹3RD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹3RD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/summary/" class="md-nav__link">
+        空之轨迹3RD - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-0/" class="md-nav__link">
+        第零话 ｢星杯骑士｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-1/" class="md-nav__link">
+        第一话 ｢影之国｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-2/" class="md-nav__link">
+        第二话 ｢异界化王都｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-3/" class="md-nav__link">
+        第三话 ｢金之道，银之道｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-4/" class="md-nav__link">
+        第四话 ｢昏暗圣痕｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-5/" class="md-nav__link">
+        第五话 ｢光与影的迷宫｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-6/" class="md-nav__link">
+        第六话 ｢守护者的试炼｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-7/" class="md-nav__link">
+        第七话 ｢邃远的炙炎｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/chapter-8/" class="md-nav__link">
+        最终话 ｢时光的终焉，艰辛的彼岸｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11_11" id="__nav_11_11_label" tabindex="0">
+          星之门
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11_11">
+          <span class="md-nav__icon md-icon"></span>
+          星之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/star/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-1/" class="md-nav__link">
+        ｢尤莉亚大人的假日｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-2/" class="md-nav__link">
+        ｢盐之桩｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-3/" class="md-nav__link">
+        ｢庆祝会之夜｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-4/" class="md-nav__link">
+        ｢旅途的终点｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-5/" class="md-nav__link">
+        ｢剑之道｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-6/" class="md-nav__link">
+        ｢重剑流特训法｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-7/" class="md-nav__link">
+        ｢爱普斯泰恩财团｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-8/" class="md-nav__link">
+        ｢回归帝都｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-9/" class="md-nav__link">
+        ｢操之过急的关怀｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-10/" class="md-nav__link">
+        ｢戈尔地雅斯级实验计划书｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-11/" class="md-nav__link">
+        ｢『怪盗B』调查报告｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-12/" class="md-nav__link">
+        ｢调查委托，敬悉｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-13/" class="md-nav__link">
+        ｢帝国支部连续袭击事件｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-14/" class="md-nav__link">
+        ｢幻焰计划｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-15/" class="md-nav__link">
+        ｢乐园的少女｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-16-annulled/" class="md-nav__link">
+        ｢科洛丝的毕业典礼｣（废案）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-17-annulled/" class="md-nav__link">
+        ｢酒的诱惑｣（废案）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-18-annulled/" class="md-nav__link">
+        ｢百日战役的新星｣（废案）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-19-annulled/" class="md-nav__link">
+        ｢圣痕的背叛｣（废案）
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/star-20-annulled/" class="md-nav__link">
+        ｢执行者的真实｣（废案）
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11_12" id="__nav_11_12_label" tabindex="0">
+          月之门
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11_12">
+          <span class="md-nav__icon md-icon"></span>
+          月之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/moon/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-1-1/" class="md-nav__link">
+        ｢导力装甲开发计划/前篇｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-1-2/" class="md-nav__link">
+        ｢导力装甲开发计划/后篇｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-2/" class="md-nav__link">
+        ｢委托人｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-3/" class="md-nav__link">
+        ｢飘落的羽翼｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-4/" class="md-nav__link">
+        ｢启程的清晨｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/moon-5/" class="md-nav__link">
+        ｢幸福之石｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_13" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11_13" id="__nav_11_13_label" tabindex="0">
+          太阳之门
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_13_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11_13">
+          <span class="md-nav__icon md-icon"></span>
+          太阳之门
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/sun/" class="md-nav__link">
+        章节
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/sun-1/" class="md-nav__link">
+        ｢山猫卡普亚的特快专递｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/sun-2/" class="md-nav__link">
+        ｢爆钓传说艾丝蒂尔｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-3rd/doors/sun-4/" class="md-nav__link">
+        ｢THE CASINO ～赌博师杰克～｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          空之轨迹SC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹SC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/summary/" class="md-nav__link">
+        空之轨迹SC - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-0/" class="md-nav__link">
+        序章 ｢少女的决意｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-1/" class="md-nav__link">
+        第一章 ｢潜行的白影｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-2/" class="md-nav__link">
+        第二章 ｢狂暴的大地｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-3/" class="md-nav__link">
+        第三章 ｢纷乱的茶会｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-4/" class="md-nav__link">
+        第四章 ｢雾魔的标矢｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-5/" class="md-nav__link">
+        第五章 ｢守护的信念｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-6/" class="md-nav__link">
+        第六章 ｢羁绊的所在｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-7/" class="md-nav__link">
+        第七章 ｢四轮之塔｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-8/" class="md-nav__link">
+        第八章 ｢迷乱的大地｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-sc/chapter-9/" class="md-nav__link">
+        终章 ｢空之轨迹｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+          空之轨迹FC
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          空之轨迹FC
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/summary/" class="md-nav__link">
+        空之轨迹FC - 剧情简介
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/chapter-0/" class="md-nav__link">
+        序章 ｢父亲，启程｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/chapter-1/" class="md-nav__link">
+        第一章 ｢消失的定期船｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/chapter-2/" class="md-nav__link">
+        第二章 ｢白花恋诗｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/chapter-3/" class="md-nav__link">
+        第三章 ｢黑色导力器｣
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sora-fc/chapter-4/" class="md-nav__link">
+        终章 ｢王都缭乱｣
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#314" class="md-nav__link">
+    亚妮艾丝想商量的事（3/14，亚妮艾丝&amp;蕾恩）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_1" class="md-nav__link">
+    陪同水边操练（3/14莉婕特&amp;卡特尔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_2" class="md-nav__link">
+    难得吵架（3/14斯温&amp;娜狄雅）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_3" class="md-nav__link">
+    少女与剑圣（3/14艾蕾因＆静名）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_4" class="md-nav__link">
+    公女的未来展望（3/14玛莉艾儿&amp;吉塔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_5" class="md-nav__link">
+    菲莉的特训（3/14晚，菲莉&amp;亚伦）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_6" class="md-nav__link">
+    来自当红女演员的邀约（3/14晚，茱迪丝&amp;妮娜）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#314_7" class="md-nav__link">
+    在月下的湖畔（3/14晚，塞莉丝&amp;里翁）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412" class="md-nav__link">
+    在重要的地方（4/12，亚妮艾丝）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_1" class="md-nav__link">
+    战士的成年礼（4/12，菲莉）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_2" class="md-nav__link">
+    关于某个男人的传闻（4/12，亚伦）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_3" class="md-nav__link">
+    错过的青春（4/12，莉婕特）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_4" class="md-nav__link">
+    卡特尔的秘密（4/12，卡特尔）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_5" class="md-nav__link">
+    幻夜之猫的危机（4/12，茱迪丝）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_6" class="md-nav__link">
+    来自代理人的挑战信（4/12，斯温&amp;娜狄雅）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_7" class="md-nav__link">
+    艾蕾因的急事（4/12，艾蕾因）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_8" class="md-nav__link">
+    能干男人的烦恼（4/12，金凯德）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_9" class="md-nav__link">
+    在学生会长室（4/12，蕾恩）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_10" class="md-nav__link">
+    欣赏莱诺花（4/12，静名）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#412_11" class="md-nav__link">
+    小梦的脚踏车（4/12，梦）
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="_1">连结事件</h1>
+<p><img alt="Placeholder" authorList="[&quot;CC&quot;]" class="authors" src="" />  </p>
+<h2 id="314">亚妮艾丝想商量的事（3/14，亚妮艾丝&amp;蕾恩）</h2>
+<p>事件概要<br />
+亚妮艾似乎有事想找我商量。看来和蕾恩有关……<br />
+有时间的话，或许该听听她怎么说。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩一行人暂时结束在岛上散步的行程，大家各自进行自由活动。  </p>
+<p>【场景】涅梅丝岛·住宿设施 一号馆临海面露天茶座<br />
+蕾恩：【操作笔记本终端】……这样器材就准备完成了。<br />
+蕾恩：【打开Xipha通信】啊，亚尔贝尔？抱歉假日打扰你。<br />
+蕾恩：之前那份会议资料，可以也让奥黛特确认一下，并且传送给我吗？<br />
+蕾恩：【调皮】那就拜托了喔。<br />
+呵呵，好好期待我带回去的伴手礼吧。<br />
+蕾恩：【继续操作笔记本终端】对了，也要寄一封信给那位业者……<br />
+蕾恩：既然这样，也整理一下来宾的行程好了。  </p>
+<p>【场景】涅梅丝岛·住宿设施<br />
+【范恩和亚妮艾丝看向屋外的蕾恩】<br />
+范恩：（原来如此……）<br />
+亚妮艾丝：【心情复杂】（那个，刚才的作战有办法成功吗？）<br />
+范恩：（这就要看你的努力了）<br />
+【范恩和亚妮艾丝走向蕾恩】  </p>
+<p>【场景】涅梅丝岛·住宿设施 一号馆临海面露天茶座<br />
+范恩：蕾恩，你在这里啊。<br />
+蕾恩：哎呀，是范恩先生还有亚妮艾丝。<br />
+有什么事吗？<br />
+亚妮艾丝：那个，学姐有空的话，要不要一起去海滩玩？<br />
+亚妮艾丝：因为平常没什么机会跟学姐一起这样度假……<br />
+蕾恩：嗯～你的好意我心领了，但我还有些事情要处理。<br />
+蕾恩：如果只是短时间喝杯茶的话——<br />
+亚妮艾丝：——那些应该不是现在马上就要处理的急事吧？<br />
+亚妮艾丝：如果真的很重要，我晚点也会帮忙……请务必跟我一起去玩。<br />
+蕾恩：【惊讶】……呵呵，我知道了，那我就休息一下吧。<br />
+范恩：那就这么说定了，赶快去换衣服，到海滩上集合吧！  </p>
+<p>【场景】涅梅丝岛 海滩<br />
+蕾恩：沙滩排球啊……呵呵，好久没玩了。<br />
+范恩：你有打过啊？<br />
+蕾恩：我有在克洛斯贝尔的米修拉姆海滩上，跟朋友的家人{海瓦兹家}一起打过。<br />
+蕾恩：但那时候因为有小孩子{柯林}一起打，所以只是玩玩罢了——<br />
+蕾恩：【坏笑】没想到这次亚妮艾丝主动提出要跟我比赛。<br />
+亚妮艾丝：【苦笑】那个……我只是觉得这个很适合放松。<br />
+范恩：【苦笑】也很适合发泄平常对学生会长累积的不满。<br />
+亚妮艾丝：才、才不是呢！<br />
+蕾恩：哎呀，我觉得学生会比某个打工还要有良心多了啊。<br />
+蕾恩：不仅会定期开茶会，甜点也可以吃到饱。<br />
+范恩：什么！太让人羡慕——不对。<br />
+范恩：既然都到海滩来了，你就好好陪我们玩几场吧。<br />
+蕾恩：嗯，只是打几场的话是无所谓，但打完之后我就要马上换衣服回房间去了。<br />
+亚妮艾丝：………………<br />
+蕾恩：可是既然要打沙滩排球，希望能多找一些人——<br />
+声音：【画外】呵呵，那我也一起吧？<br />
+【露克蕾琪亚走来】<br />
+亚妮艾丝：结、结社的……<br />
+范恩：喂喂喂……我本来想说另一个随便找人来充数就好了。<br />
+《黄金蝶》露克蕾琪亚：那不就正好吗，感觉很有趣。<br />
+《黄金蝶》露克蕾琪亚：毕竟很少有机会能打败蕾恩呀～<br />
+蕾恩：【坏笑】呵呵，还真敢说，就没想过可能是你会输吗？<br />
+亚妮艾丝：【汗无奈】总、总觉得情况好像变得很复杂……<br />
+范恩：算了，感觉会很有趣，应该无所谓吧？那我们就来决定分组吧——  </p>
+<p>于是，考虑到沙滩排球的经验和运动能力等要素，经过一番讨论后决定……<br />
+范恩&amp;蕾恩VS亚妮艾丝&amp;露克蕾琪亚。  </p>
+<p>亚妮艾丝：【苦笑】……没想到分组竟然会变成这样……<br />
+《黄金蝶》露克蕾琪亚：呵呵呵，意外地势均力敌对吧？<br />
+《黄金蝶》露克蕾琪亚：还是说你比较想跟地下万事屋小哥一组？<br />
+蕾恩：抱歉喔，亚妮艾丝，范恩先生被我抢走了。<br />
+亚妮艾丝：【脸微红】才、才不是那样呢……<br />
+范恩：【无奈挠头】（虽然跟原本的预定不太一样……但应该没关系吧）<br />
+范恩：——难得打沙滩排球，既然要打就想认真分出胜负。<br />
+范恩：赢的那组可以任意命令输的那组做一件事，这样如何？<br />
+亚妮艾丝：……！<br />
+《黄金蝶》露克蕾琪亚：不错耶，感觉很刺激。<br />
+《黄金蝶》露克蕾琪亚：能让蕾恩和地下万事屋乖乖听我的话，真教人兴奋呢～<br />
+蕾恩：呵呵，那是我要说的才对，虽然这对教育有不太好的影响就是了。<br />
+蕾恩：不过，亚妮艾丝应该不太喜欢这种方式吧？<br />
+亚妮艾丝：……不会，我也会认真打球，蕾恩学姐，请多多指教！<br />
+蕾恩：是吗……？那就这样决定了喔？<br />
+蕾恩：【抱住范恩左臂，调皮】既然要打就全力以赴，范恩先生，一起加油吧❤<br />
+范恩：【无奈】喂喂……<br />
+亚妮艾丝：【脸微红，吃醋】——露克蕾琪亚小姐，我们一定要赢！<br />
+《黄金蝶》露克蕾琪亚：喔喔，真有干劲——那就开始吧！  </p>
+<p>就这样，两组人展开了沙滩排球比赛。<br />
+一开始气氛还算和乐融融，但比赛越来越激烈……  </p>
+<p>范恩：【起跳发球】嘿咻……<br />
+《黄金蝶》露克蕾琪亚：【击球】呼……<br />
+蕾恩：【击球】呀！<br />
+亚妮艾丝：（糟糕，手滑了……！）<br />
+【露克蕾琪亚扣杀得分】<br />
+范恩：好强劲的杀球……！<br />
+蕾恩：呵呵，不愧是蕾琪。<br />
+《黄金蝶》露克蕾琪亚：呵呵，因为托球来得正好嘛～看着吧，我的实力可不只这样喔？<br />
+亚妮艾丝：【苦笑】啊、啊哈哈……那就万事拜托了。  </p>
+<p>【比赛再开】<br />
+蕾恩：【发球出界】这招如何——！<br />
+蕾恩：呼，真可惜，不小心出界了。<br />
+范恩：别介意，继续打吧！<br />
+亚妮艾丝：呼，多亏了露克蕾琪亚小姐，总算是拿下这一局了……<br />
+亚妮艾丝：没想到蕾恩学姐也有失败的时候。<br />
+《黄金蝶》露克蕾琪亚：呵呵，这是当然的呀～<br />
+虽说有打过，但好像没有很熟悉的样子。<br />
+《黄金蝶》露克蕾琪亚——不过接下来应该没那么容易了。<br />
+亚妮艾丝：那是什么意思……<br />
+《黄金蝶》露克蕾琪亚：好了，开始下一局吧。  </p>
+<p>就这样，第一局由亚妮艾丝组领先——但第二局开始，气氛突然骤变。  </p>
+<p>范恩：趁现在，快上……！<br />
+蕾恩：【起跳发球得分】——看我的！<br />
+亚妮艾丝：【看向露克蕾琪亚】！！？<br />
+《黄金蝶》露克蕾琪亚：看吧？我就说嘛？<br />
+范恩：哈，热身这么久终于进入状况啊？<br />
+蕾恩：【点头】嗯，大概掌握到诀窍了，现在要开始认真了。  </p>
+<p>【一个回合过去】<br />
+亚妮艾丝：跟、跟刚才简直判若两人……！<br />
+《黄金蝶》露克蕾琪亚：因为她是「天才」呀。她可以适应任何状况和环境——<br />
+《黄金蝶》露克蕾琪亚：第一局大概是先观察我们的动作，彻底记下我们的行动模式吧？<br />
+亚妮艾丝：她不只是聪明……而是真正的「天才」。<br />
+亚妮艾丝：虽然原本就知道了……但蕾恩学姐真的好厉害。<br />
+亚妮艾丝：但是——<br />
+《黄金蝶》露克蕾琪亚：嗯？<br />
+亚妮艾丝：……没什么，我只是觉得不能只靠你。<br />
+亚妮艾丝：我也要尽全力战斗……！<br />
+《黄金蝶》露克蕾琪亚：呵呵，就是要有这种骨气。  </p>
+<p>之后，认真起来的蕾恩制住露克蕾琪亚，再加上范恩的助攻，使他们顺利拿下第二局——<br />
+比赛要由最后一局分出胜负。  </p>
+<p>范恩：终于到最后的第三局了。<br />
+蕾恩：【调皮】呵呵，得趁现在先想好等一下要命令她们做什么才行❤<br />
+亚妮艾丝：我是不会输的……！<br />
+《黄金蝶》露克蕾琪亚：我会尽情享受到最后一刻……！<br />
+【蕾恩发球】  </p>
+<p>最后一局战况更加激烈，双方互不相让，一直打到比赛的尾声……<br />
+进行到只要再拿下一分就能获胜的局面。<br />
+然后——  </p>
+<p>【排球过网】<br />
+范恩：这是……<br />
+亚妮艾丝：呀啊啊啊……！<br />
+【亚妮艾丝在露克蕾琪亚身后起跳，扣球得分】<br />
+蕾恩：【苦笑】啊……<br />
+范恩：……唉唉。<br />
+《黄金蝶》露克蕾琪亚：15对14——是我们赢了呢。  </p>
+<p>【比赛结束】<br />
+蕾恩：【无奈】呼，最后太大意了，没想到居然是由亚妮艾丝杀球。<br />
+蕾恩：明明直到最后一局都是蕾琪主导比赛。<br />
+《黄金蝶》露克蕾琪亚：呵呵，想说只要让你们把注意力集中在我身上，最后或许能杀你们一个措手不及呀。<br />
+亚妮艾丝：【无奈抠脸】但是……能不能成功完全是孤注一掷就是了。<br />
+亚妮艾丝：觉得如果想赢过范恩先生和学姐，堂堂正正决胜负是行不通的。<br />
+范恩：哈，你挺厉害的嘛。<br />
+蕾恩：【点头】是呀，在地下万事屋打工的经验，让你成长了不少吧。<br />
+蕾恩：赢的人可以命令输的人做一件事——来吧，尽管开口说来听听，不用客气。<br />
+蕾恩：只要是不破坏今后友情的程度，什么命令我都愿意接受。<br />
+《黄金蝶》露克蕾琪亚：呵呵呵，最后能赢都靠大小姐的作战，这个权利可以让给你。<br />
+亚妮艾丝：谢谢，那么——<br />
+亚妮艾丝：蕾恩学姐——学生会的工作请多分给我们一些。<br />
+蕾恩：…………咦？<br />
+亚妮艾丝：……学姐太常自己一个人扛下所有工作了。<br />
+亚妮艾丝：【无奈】虽然学艺祭快到了，需要开始认真准备，但你来到岛上也还是一直处于工作模式。<br />
+蕾恩：【心虚】这……<br />
+亚妮艾丝：我知道学姐是什么都做得很好的「天才」。<br />
+亚妮艾丝：无论在学校还是各方面都能独当一面，亚拉密斯的事件也帮了我不少……<br />
+亚妮艾丝：但是我——奥黛特和亚尔贝尔也是学生会的成员。<br />
+亚妮艾丝：学姐不用自己一个人扛——我们应该都能帮学姐分摊才对。<br />
+亚妮艾丝：所以……请你尽管找我们帮忙。<br />
+蕾恩：亚妮艾丝……<br />
+蕾恩：呵呵……这样啊，你就是想说这些，才找我一起打沙滩排球。<br />
+范恩：虽然只是游戏，但如果不展现「真本事」，你应该也听不进去吧。<br />
+范恩：虽然没料到黄金蝶会突然加入，但多亏如此，比赛也很精采。<br />
+范恩：【鄙视眼】……你该不会是早就料到会这样才刻意加入吧？<br />
+《黄金蝶》露克蕾琪亚：这个嘛，我不知道你在说什么。<br />
+蕾恩：……呵呵……<br />
+蕾恩：谢谢你，亚妮艾丝，还有范恩先生和蕾琪。<br />
+蕾恩：既然是「命令」就没办法了——我答应你，以后会多找奥黛特他们帮忙。<br />
+蕾恩：【调皮】不过，也要有工作倍增的心理准备喔。<br />
+亚妮艾丝：学姐……嗯！正合我意！<br />
+【亚妮艾丝笑着看向范恩】<br />
+蕾恩：【严肃看向露克蕾琪亚】（……我得努力查出「那个大叔」的企图才行）<br />
+《黄金蝶》露克蕾琪亚：…………………………  </p>
+<p>之后，确保蕾恩真的有去玩乐后，与伙伴们会合并再次展开行动。  </p>
+<p>【蕾恩】：竟然让学妹替我操心，看来我没资格以学姐自居了呢。谢谢你，亚妮艾丝、范恩先生——还有蕾琪。<br />
+【亚妮艾丝】：我一直很希望能多帮上学姐一点忙。呵呵，这证明了我在范恩先生那里多少有些成长吧。  </p>
+<p>亚妮艾丝·克劳蒂尔Connect Stage+100<br />
+亚妮艾丝的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《能力值UP》<br />
+ADF+5 ATS+5<br />
+蕾恩·布莱特Connect Stage+100<br />
+蕾恩的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《S.C.L.M.支援强化》<br />
+「S.C.L.M.支援」的效果+10%<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_1">陪同水边操练（3/14莉婕特&amp;卡特尔）</h2>
+<p>事件概要<br />
+卡特尔似乎想借此机会学会游泳，拜托我陪他练习。<br />
+作为测试拟体的一环，莉婕特似乎也想在海边游泳——或许陪陪他们两个也无妨。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩一行人暂时结束在岛上散步的行程，大家各自进行自由活动。  </p>
+<p>【场景】涅梅丝岛 海滩<br />
+范恩：好，热身完成了吧。<br />
+范恩：话说回来，没想到居然要找我教你游泳，应该有很多比我更好的老师吧？<br />
+卡特尔：哈哈，我觉得你应该也很擅长教别人。<br />
+卡特尔：【无奈】我之前一直在博士那里埋头做研究，没有机会学游泳。<br />
+卡特尔：觉得学会之后在紧急状况下可以派上用场，可以请你趁这次机会教我吗？<br />
+范恩：嗯，好啊，万事屋的工作也不是没有需要游泳的情况。<br />
+范恩：刚开业的时候不小心惹祸上身，被一群人追着跑，我那时是游过下水道才逃走……真怀念啊。<br />
+卡特尔：【无可奈何抠脸】老实说我不想遇到那种情况……<br />
+声音：【画外】——久等了，范恩先生、卡特尔先生。<br />
+卡特尔：唔……<br />
+莉婕特：抱歉，我好像迟到了一下下。<br />
+范恩：没关系，你替我们所有人准备了饮料吧？<br />
+范恩：还真是体贴入微的服务专员啊。<br />
+莉婕特：呵呵，不敢当——卡特尔先生？<br />
+卡特尔：【抠脸，别开视线，抓狂】呃，没有，只是觉得你真漂亮……——没什么！<br />
+卡特尔：【清嗓子】咳咳……莉婕特小姐是在进行拟体的测试吧？<br />
+莉婕特：呵呵，但这不是正式的工作，只是我自己私下测试罢了。<br />
+莉婕特：MK作为运动机能测试的一环，也有做过基础的水中训练……<br />
+莉婕特：但没有机会在实际的自然环境——而且还是这么美丽的海里游泳。<br />
+范恩：反正整体的设计应该也能适应海水，应该不需要担心那些吧。<br />
+卡特尔：你可以自由游泳，不用太顾虑我，我也想趁这个难得的机会参考一下。<br />
+莉婕特：呵呵，不知道我的泳姿能不能当作参考……但如果有什么事还请尽管开口，不用客气。<br />
+范恩：那么就赶快开始吧。<br />
+卡特尔：请、请多多指教……！  </p>
+<p>【范恩拉着卡特尔双手在站在近海教他游泳】<br />
+范恩：我本来是先从最基础的开始，但你的天份挺不错的嘛？<br />
+范恩：身体的伸展和脚游动的方式，整体好像都有很不错的平衡。<br />
+卡特尔：这、这样啊……我只是埋头照着你说的游罢了。<br />
+卡特尔：呼，总觉得有点不好意思……让你抓着我的手，感觉很像小孩子。<br />
+卡特尔：（而、而且……）<br />
+【卡特尔抬头看向范恩】<br />
+范恩：嗯？怎么了？<br />
+卡特尔：咳咳，没事……！<br />
+卡特尔：……那个，只是觉得如果我也能游得那么好就好了……<br />
+莉婕特：【游过来浮出水面】呵呵……范恩先生、卡特尔先生，两位练习得如何呢？<br />
+卡特尔：啊哈哈，就跟你看到的一样，倒是莉婕特小姐你游得真好。<br />
+范恩：对啊，你游得很好耶，是下更分不出是拟体了。<br />
+莉婕特：呵呵，很高兴能听到你这么说。看来在海水中的活动也没问题。<br />
+莉婕特：卡特尔先生，我刚才从远处看，觉得你好像有点太注意脚部的动作了。<br />
+莉婕特：如果不要太专注于脚部，而是用整个身体去游，这样姿势也会比较稳定。<br />
+卡特尔：原来如此，不要只专注于脚部的动作……啊，你一边游泳还能注意到我的动作？<br />
+范恩：【无奈】唉唉，你给的建议比我的教学细心一百倍。<br />
+莉婕特：呵呵，非常抱歉，但我觉得这应该只是无用的意见罢了。<br />
+莉婕特：我接下来打算去深一点的地方看看——晚点见了。<br />
+【莉婕特游走，卡特尔起身】<br />
+范恩：哈……她看起来很乐在其中，真是太好了。感觉她比平常还要开心的样子。<br />
+范恩：【坏笑】你要看她是无所谓，但可别一直盯着看喔？<br />
+卡特尔：我、我才没有一直看……（……但也不能否认就是了）<br />
+卡特尔：只是觉得她真的很厉害，「拟体」的感觉应该只有她自己才知道，但是……<br />
+卡特尔：觉得要能游得那么好，不知道得付出多少心血认真努力。<br />
+范恩：……对啊，但我觉得应该不只是这样。<br />
+范恩：莉婕特在获得那具身体之前，已经在虚拟空间累积了许多经验。<br />
+范恩：明知道那不是「现实」—不是真的，却还是不断地学习。<br />
+范恩：对莉婕特来说，无论在好的方面还是坏的方面，她的「心和身体之间」都会有所落差——<br />
+范恩：正因为她全心全意地面对这些落差，才能活动得那么自然吧。<br />
+卡特尔：……落差啊……<br />
+卡特尔：……如果是这样，那莉婕特小姐真的很厉害。<br />
+卡特尔：能积极地面对自己的不足，并且乐在其中…………我就没辨法……<br />
+范恩：【摸卡特尔头】这个嘛——关于这个问题，也许每个人都有自己的难处……<br />
+范恩：但在烦恼之前，应该先从对现在的自己更有自信开始吧？<br />
+范恩：这样即使有烦恼，也能用稍微正面一点的方式烦恼，而不是全部都往负面想。<br />
+卡特尔：范恩先生……嗯，也对。<br />
+卡特尔：我也得向莉婕特小姐看齐——<br />
+卡特尔：【一惊】……等一下，范恩先生，莉婕特小姐的状况不太对劲……！<br />
+【莉婕特在水中抽筋】<br />
+莉婕特：……咳咳咳……<br />
+范恩：喂喂喂，该不会……！<br />
+范恩：卡特尔，在这里等我一下。我去——<br />
+卡特尔：……莉婕特小姐！我现在马上过去……！<br />
+【卡特尔向莉婕特游过去】<br />
+范恩：喂喂喂，伤脑筋……！<br />
+【范恩也跟着游过去】  </p>
+<p>之后，范恩和卡特尔好不容易救起莉婕特，顺利回到岸上。  </p>
+<p>莉婕特：呼、呼……谢谢范恩先生和卡特尔先生……<br />
+卡特尔：咳咳……哈哈……幸好莉婕特小姐平安无事……<br />
+范恩：没想到你会溺水……难道是拟体出了什么问题吗？<br />
+莉婕特：那个……好像是我游得太尽兴，输出不小心超过了负荷上限。<br />
+莉婕特：【无奈】为了抑制高负荷状态，所以暂时降频运作。<br />
+莉婕特：……说来真不好意思，其实就是不小心玩得太开心了。<br />
+范恩：【无奈】真是的……既然没什么事就好。<br />
+莉婕特：【愧疚】真不好意思……<br />
+卡特尔：【无奈】啊哈哈……没关系，我真羡慕你。<br />
+卡特尔：你能接纳自己的身体，用非常正面的方式面对……<br />
+卡特尔：真的好厉害。<br />
+莉婕特：卡特尔先生……<br />
+莉婕特：【摇头】……哪里，卡特尔先生才厉害呢。<br />
+莉婕特：虽然还在练习游泳……却一心一意地冲过来救我。<br />
+莉婕特：这就是你每分每秒甚至在这个瞬间都在持续成长的证据。<br />
+莉婕特：我也很羡慕你——我的身体虽然能提升性能，但应该很难有这种「成长」吧。<br />
+卡特尔：啊……<br />
+卡特尔：这么说来……我为什么突然会游泳了……<br />
+范恩：这就是危机下的超常发挥吧？毕竟你刚才也观摩了莉婕特的泳姿啊。<br />
+范恩：【无奈】只是有可能反而一起落难，害我有点捏了一把冷汗就是了。<br />
+范恩：不过——你应该可以更有自信一点吧？毕竟你刚才成功救了伙伴啊。<br />
+卡特尔：【无奈】……嗯，也对，但也只增加一点点自信就是了。<br />
+卡特尔：范恩先生、莉婕特小姐，谢谢你们。  </p>
+<p>之后，卡特尔也协助莉婕特调整拟体零件的极限控制设定……<br />
+他们再次享受了一阵子海水浴之后，继续在岛上四处巡视。  </p>
+<p>【范恩和莉婕特离开，卡特尔站在原地】<br />
+卡特尔：（……我得重新再想一想才行）<br />
+卡特尔：（我今后该怎么自处……希望有天能够抬头挺胸地面对范恩他们）  </p>
+<p>【莉婕特】：呵呵，看来我有点兴高采烈过头了……能经历这种体验，也都是多亏了范恩先生呢。<br />
+【卡特尔】：多亏了你们，我更有自信了——-谢谢。呃，如果今后也能多加指点我，我会很开心的。  </p>
+<p>莉婕特·唐宁Connect Stage+100<br />
+莉婕特的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《S.C.L.M.支援强化》<br />
+「S.C.L.M.支援」的效果+10%<br />
+卡特尔·萨里西翁Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_2">难得吵架（3/14斯温&amp;娜狄雅）</h2>
+<p>事件概要<br />
+虽然在其他人面前没表现出来，但斯温和娜狄雅之间的气氛似乎有点尴尬。<br />
+很难得看他们两人这样。或许该抽空关心一下才好。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩一行人暂时结束在岛上散步的行程，大家各自进行自由活动。  </p>
+<p>【场景】涅梅丝岛 别墅停车场<br />
+娜狄雅：小斯为什么要这样说！？<br />
+斯温：你冷静想一想，要调查座岛的话，分头行动比较有效率。<br />
+斯温：再说，是你先说要去侦查的吧？<br />
+娜狄雅：是我说的没错……但写做侦查念做「约会」啊！<br />
+斯温：别胡闹了……再说，你也知道我们其实不是来度假的吧？<br />
+娜狄雅：我知道啊……！这叫「战略性的休息」嘛！<br />
+斯温：一般会说这是「摸鱼」，而且上次也……<br />
+范恩：【远远看着二人】（……哎哎，比想象中还闹别扭啊）<br />
+范恩：（先不说娜狄雅老是耍任性，斯温那家伙也不轻易退让……）<br />
+范恩：（……但他们在亚拉密斯好像发生了一些事情）<br />
+【范恩走上前】<br />
+娜狄雅：也不需要现在提起那些吧……小斯真是个木头人！<br />
+斯温：你才该给我成熟一点！<br />
+范恩的声音：【画外】到此为止了。<br />
+娜狄雅：范恩先生！你来得正好！快点来念念不懂少女心的小斯啦！<br />
+斯温：话虽这么说，真的该纠正的是你那总是漫不经心的态度吧。<br />
+范恩：你们两个都一样，不要在这种地方吵侦查的问题。<br />
+范恩：虽然人敷不多，但好歹也有其他观光客，你们应该没忘记万事屋做的是地下的工作吧？<br />
+范恩：……不过旅行吵架本来就是难免的，平常累积的不满也会一口气爆发出来。<br />
+范恩：但就这样被大人训一顿，要你们乖乖听话，你们也不服气吧？<br />
+娜狄雅：咦？<br />
+斯温：……这……<br />
+范恩：难得出来度假，和好当然也要弄得盛大一点。  </p>
+<p>【场景】涅梅丝岛 海滩<br />
+【众人拿着水枪来到海滩】<br />
+莉婕特：那么，现在即将举办「第一届（不会有第二届了）亚克莱德解决事务所水枪大战」。<br />
+莉婕特：男子组代表选手是斯温先生、亚伦先生和卡特尔先生。<br />
+莉婕特：女子组代表选手是是娜狄雅小姐、亚妮艾丝小姐和菲莉小姐。<br />
+莉婕特：两组的监督负责人分别是范恩先生和茱迪丝小姐。<br />
+莉婕特：裁判则由在下我莉婕特·唐事，以及FIO一起担任。<br />
+卡特尔：【无奈】为、为什么会变成这样……？<br />
+亚伦：哈，虽然是挺有趣的，但我可不想被卷入情侣之间的吵架。<br />
+斯温：也对……不知道有几年没有闹成这样了。<br />
+亚妮艾丝：那个，娜狄雅，你还好吧？我听说你们吵架了。<br />
+娜狄雅：【摇头】你在说什么啊～？我根本就不认识什么小斯。<br />
+菲莉：呵呵，虽然不是很清楚……但感觉可以当作不错的集体战斗训练！<br />
+【亚妮艾丝无奈汗】<br />
+范恩：监督{我和茱迪丝}会负责防止大家受伤，以及做好周围防护，你们就放手去做吧。<br />
+范恩：附带一提，输的那组的监督要请所有人吃刨冰。<br />
+茱迪丝：我怎么没听说有这种规则！？算了，是无所胃。<br />
+茱迪丝：大家都要堂堂正正的比赛，但千万别受伤了！<br />
+莉婕特：正如刚才的说明，规则是被击中超过三次就出局，让对手全部出局的那组获胜。<br />
+莉婕特：被击中与否交给裁判、两位监督和FIO公正地判定。<br />
+莉婕特：那么，我要下达比赛开始的口号了，请大家各就各位。<br />
+娜狄雅：小斯，我要上了……！让你见识一下少女的厉害！<br />
+斯温：娜狄雅，耍任性就到此为止了……！尝过这次苦头之后就给我认真点！<br />
+莉婕特：那么，比赛开始！  </p>
+<p>【娜狄雅和菲莉躲在箱子后面】<br />
+娜狄雅：菲莉，快上啊！<br />
+菲莉：先下手为强，看我的！<br />
+【菲莉冲出掩体，背后偷袭，水枪射中卡特尔后背】<br />
+卡特尔：哇啊，什么时候……！？<br />
+斯温：果然是由她抢攻……！<br />
+亚伦：【躲在亚妮艾丝后方的箱子后】哈，我们也一样！<br />
+【亚伦坏笑着向亚妮艾丝后背射击】<br />
+亚妮艾丝：【坐倒在地】呀啊，好冰……！<br />
+娜狄雅：唔喔喔，我要替小亚亚报仇～！<br />
+【娜狄雅跑来正要射击，头部被水枪射中】<br />
+娜狄雅：哇呜……！<br />
+【娜狄雅生气的看向射击的方向，斯温躲在箱子后】<br />
+斯温：【坏笑】专注力不够喔，太常摸鱼都变迟纯了吗？<br />
+娜狄雅：【阴险，射击】消除气息……！小·斯·看·招～！  </p>
+<p>【斯温和亚伦躲在箱子后】<br />
+亚伦：好耶，她们都聚在一起了……！<br />
+亚伦：小子，在这里等着！<br />
+卡特尔，你从另一边包夹！<br />
+卡特尔：【躲在另一个箱子后】嗯，左右包夹她们！<br />
+【卡特尔和亚伦从两翼冲出掩体】<br />
+斯温：等一下，这是——<br />
+【卡特尔和亚伦从两翼冲出掩体，往中央射水枪，却打在了自己人身上】<br />
+亚伦：噗啊……不见了！？<br />
+菲莉：【在卡特尔身后举枪射击】在这里！<br />
+【亚妮艾丝在亚伦身后举枪射击】<br />
+亚伦：什么！？<br />
+卡特尔：我们的计划被识破了！？<br />
+亚妮艾丝：呵呵，一切都照娜狄雅的计划走！<br />
+娜狄雅：【从背后射中斯温】砰～<br />
+娜狄雅：【躲在箱子后坏笑】专注力不够喔，变迟钝了吗～？<br />
+斯温：【无奈】……我就知道你差不多会拟定精准的作战计划了。<br />
+娜狄雅：呵呵，当然啰，小斯，比赛现在才要开始～！  </p>
+<p>之后比赛越来越激烈，实在不象是普通的水枪游戏。<br />
+男子组靠着斯温的隐身和奇袭，女子组则仰赖娜狄雅的谋略，上演一场非常精采的大战。<br />
+在亚妮艾丝和卡特尔出局之后，比赛节奏变得更快，迎向了最后高潮——  </p>
+<p>菲莉：【背后被射中】啊呜！<br />
+范恩：菲莉出局！<br />
+亚伦：【背后被娜狄雅射中】啧！<br />
+茱迪丝：亚伦出局！<br />
+卡特尔：两边都只剩下一个人了！<br />
+亚妮艾丝：娜狄雅、斯温，加油喔～！<br />
+莉婕特：呵呵，终于进入最后高潮了呢！<br />
+茱迪丝：唔，战况真热血～！<br />
+范恩：比赛结果会如何呢……<br />
+斯温&amp;娜狄雅：——要上了！！——要上啰！！<br />
+【斯温和娜狄雅同时冲出掩体】<br />
+娜狄雅：【射击】嗳，小斯，真好玩呢～！<br />
+斯温：【射击】嗯，好久没这么开心了！<br />
+娜狄雅：但也差不多了——<br />
+斯温：嗯——要结束了！<br />
+斯温：【冲上前】唔喔喔喔……<br />
+娜狄雅：【冲上前】呀啊啊啊……！！<br />
+莉婕特：斯温先生和娜狄雅小姐都中弹了——根据FIO先生的判定，两人完全同时中弹！<br />
+莉婕特：两组都没有幸存者——<br />
+莉婕特：「第一届亚克莱德解决事务所水枪大战」的结果是——平手！<br />
+【斯温、娜狄雅坐在地上】<br />
+斯温：平手啊……哈哈。<br />
+娜狄雅：……真是的，小斯你在笑什么啊～？<br />
+斯温：没什么……只是觉得你果然很厉害。<br />
+斯温：没想到你会在种游戏用上那种心机和谋略。<br />
+娜狄雅：【苦笑】这是我要说的吧～居然认真匿踪来突袭。<br />
+娜狄雅：【坏笑】没想到小斯还挺孩子气的呢～<br />
+斯温：【无奈】你倒是一点都不意外地很孩子气。<br />
+斯温：你已经15岁……今年要16岁了，应该要更符合年纪——<br />
+娜狄雅：讨厌，每次都马上扯到这里来……呵呵……<br />
+娜狄雅：对了，我们一开始为什么要比赛啊～……？<br />
+斯温：不知道……我忘了。<br />
+斯温：【起身】范恩，姑且先跟你道个谢……多亏了你，我心情也舒坦多了。<br />
+范恩：那真是太好了，虽然我也只是在旁边看而已。<br />
+娜狄雅：【起身，坏笑】范恩先生真的是个很爱管闲事的人耶～……但也有点投机就是了。<br />
+斯温：对啊，不否认有种不弄脏自己的手，又让事情圆满解决的感觉。<br />
+斯温：如果不让你跟我们一样变成落汤鸡，实在说不过去。<br />
+亚妮艾丝：这、这个……<br />
+卡特尔：【坏笑】确实有点同感。<br />
+菲莉：难得有机会玩水枪，我希望你们也能加入！<br />
+亚伦：以年长者自居，袖手旁观的态度也该到此为止了吧？<br />
+茱迪丝：连我们也要一起吗！？<br />
+范恩：【不满】喂……你们这些人怎么偏偏在这种时候意气相投啊！<br />
+莉婕特：【无奈挠头】呵呵，是该付出代价的时候了。  </p>
+<p>之后，年长组也加入战局，这次改为类似大混战的形式……<br />
+大家尽情地大玩水枪大战，直到每个人都全身淫透、沾满沙子。  </p>
+<p>【斯温】：哈哈，总觉得都无所谓了……难得有机会，要不要再比一场？<br />
+【娜狄雅】：这次我要和小斯同队！我们是最强的搭档～！  </p>
+<p>斯温·亚贝尔Connect Stage+100<br />
+斯温的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《能力值UP》<br />
+AGL+5 STR+5<br />
+娜狄雅·莱恩Connect Stage+100<br />
+娜狄雅的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《能力值UP》<br />
+ATS+5 ADF+5<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_3">少女与剑圣（3/14艾蕾因＆静名）</h2>
+<p>事件概要<br />
+《不动》私下找我商量某件事。看来艾蕾因和静名正处于一触即发的紧张状态。<br />
+虽然觉得麻烦得不得了，但还是该插手吧……？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩一行人暂时结束在岛上散步的行程，大家各自进行自由活动。  </p>
+<p>【场景】涅梅丝岛 树林里<br />
+艾蕾因：也差不多该告诉我了吧？——《白银剑圣》。<br />
+艾蕾因：斑鸠「暗地里」的可疑动作……还有在煌都跟地下万事屋{他们}敌对的那次。<br />
+静名：呵呵，《剑之少女》，别露出那么可怕的表情嘛。<br />
+静名：【坏笑】那次最后还是跟范恩合作了啊——喔，你其实也对这个有意见吗？<br />
+艾蕾因：……顾左右而言他，再说下去也没完没了。<br />
+艾蕾因：名闻遐迩的剑圣——看来打从一开始就只有这条路。<br />
+【二人拔出武器】<br />
+静名：呵呵，这才象话嘛。接下来就用剑来沟通吧——<br />
+声音：【画外】啊！停下来，快停下来！<br />
+【范恩、阵跑来】<br />
+艾蕾因：范恩，阵先生也在……<br />
+范恩：【无奈】赶上了吗？真是的……不要在这种地方认真起来交锋好不好！<br />
+《不动》的阵：【无奈】又不是瓦尔特，可以稍微忍耐一下吧。<br />
+《不动》的阵：现在连老板的目的是什么都不知道，先别进行无谓的私斗了。<br />
+艾蕾因：这才不是私斗——……不，你说得没错。我好像有失冷静了。<br />
+【二人收起武器】<br />
+静名：嗯～真可惜，这本来是试探传说中的「少女」之剑的大好机会呢。<br />
+静名：我随时都接受挑战喔？毕竟讲着讲着也很跃跃欲试。<br />
+艾蕾因：……嗯，下次有机会再切磋吧。也许机会很快就来了也说不定。<br />
+【艾蕾因和静名对视，范恩很无奈】<br />
+《不动》的阵：【无奈】（呼……原本协会也很注意她，好像是听到煌都那件事就一发不可收拾了）<br />
+范恩：【摇头】（剑圣也半开玩笑地刻意挑衅，结果差点擦枪走火。真是麻烦死了）<br />
+范恩：（……但也不能放着不管）<br />
+【范恩走上前】<br />
+静名：哦？你有什么好主意吗？<br />
+静名：用不会流血的方法，让我们发泄一下精力。<br />
+范恩：【不满】不要精准地看穿我的想法啦！<br />
+艾蕾因：到底是什么……呃，你刚才读了范恩的心？<br />
+静名：【坏笑】对呀，羡慕吗？<br />
+艾蕾因：【生气】………………<br />
+范恩：【抓狂】啊！就说别闹了！<br />
+范恩：【无奈】既然都来这种度假胜地了，应该可以用更合适的方法分出胜负吧？<br />
+范恩：总之我已经安排好了——你们两个跟我来。  </p>
+<p>【场景】涅梅丝岛 车道上<br />
+【艾蕾因和静名骑上机车，范恩驾驶轿车在后】<br />
+范恩：——好了，就是这样，众所瞩目的活动要开始了！<br />
+范恩：《剑之少女》VS《白银剑圣》——环岛一周的泳装机车竞速！<br />
+范恩：千万别错过只有在这里才看得到的激烈竞速！搞不好还会有香艳刺激的「意外」发生喔！<br />
+艾蕾因：【抓狂】才不会有！！<br />
+艾蕾因：【无奈】为什么会变成这样……<br />
+艾蕾因：【不满】话说回来，为什么要提议穿泳装啊！？<br />
+静名：考虑到风阻的问题，双方都穿同样的服装比较好啊。<br />
+静名：另外一个原因就是这样感觉比较好玩呀？<br />
+范恩：哈，你很了解怎么炒热气氛嘛，这也是「观之眼」的能力之一吗？<br />
+艾蕾因：【无可奈何】不要讲得好像很有道理好不好！唉，真是的……<br />
+静名：呵呵，嘴上这么说，却还是乖乖穿了泳装，你的个性真是认真。<br />
+静名：我听说导力机车也是「师弟」平常骑的，之前也试骑过好几次。<br />
+静名：虽然是第一次参加赛车……感觉会很有趣。<br />
+艾蕾因：【无奈】我看你很乐在其中嘛……<br />
+范恩：虽然你有身为剑士的坚持，但游击士的工作也不只这样吧？<br />
+范恩：能与剑圣一较高下，又能用另一个角度巡视这座岛——不是一石二鸟吗？<br />
+《不动》的阵：附带一提，观众的安全由殿下他们和万事屋的助手们负责。<br />
+《不动》的阵：可以趁这个机会好好一较高下。<br />
+艾蕾因：【很无奈】连阵先生都……啊啊，算了，好吧！<br />
+艾蕾因：这确实是个好机会——就来比一场吧！<br />
+静名：呵呵，还请手下留情啰。<br />
+范恩：赛道跟刚才说的一样，就是这整座岛，逆时针绕两圈，先回来的那一方获胜。<br />
+范恩：那就开始比赛啰！两位选手预备！<br />
+范恩：3、2、1——开始！！<br />
+【2人出发】  </p>
+<p>于是，艾蕾因和静名展开了机车竞速。  </p>
+<p>艾蕾因：抢得起步先机了——就让我这样保持领先吧！<br />
+静名：呵呵，太天真了……！<br />
+【静名超车】<br />
+范恩：哎呀，剑圣一口气超越了！<br />
+凯尔：唔喔喔喔！？刚、刚才那是怎么回事！？<br />
+夏侬：从没见过那种骑法～<br />
+亚妮艾丝：好、好强……机车竟然可以做出那种动作。<br />
+娜狄雅：唔，完全超越人类的范围了。<br />
+艾蕾因：呜……太大意了！<br />
+静名：比赛才刚开始，再多给我一些乐趣吧……！<br />
+【2人进入草地路段】<br />
+范恩：比赛开始后，赛况越来越激烈！<br />
+范恩：两人娇嫩的身体随风舞动～！千万别错过按下快门的机会！<br />
+【艾蕾因不满】  </p>
+<p>【艾蕾因在草地路段追上静名】<br />
+艾蕾因：好……！<br />
+静名：嗯，应该是这里吧？<br />
+【静名抄近道进入遗迹区域】<br />
+艾蕾因：……！？<br />
+【静名从岔路传出超车】<br />
+艾蕾因：怎么会……！<br />
+静名：嗯，顺利创造一条捷径了！<br />
+范恩：用「观之眼」掌握地形吗……！——剑之少女该怎么扳回一城呢！？<br />
+范恩：散发性感魅力的同时也流出耀眼的汗水！是不是可以期待「意外」的养眼画面呢～！<br />
+静名：要不要实现大家的期待呢？<br />
+艾蕾因：【抓狂】我才不要！<br />
+【2人回到主车道上】<br />
+《不动》的阵：哎呀，第一圈由白银领先吗……！<br />
+亚伦：哈，下一圈就是最后一圈了！<br />
+菲莉：最后结果到底会是如何呢……！  </p>
+<p>第二圈——最后一圈也进入尾声……<br />
+艾蕾因紧追不舍，努力不被拉开太长的距离，但静名依旧保持领先。<br />
+而在最后关头——  </p>
+<p>【静名以领先姿态进入草地区域】<br />
+静名：呵呵，现在应该没办法翻盘了吧？比赛是很有趣啦——<br />
+【艾蕾因抄近道】<br />
+静名：【惊讶】嗯？为什么要刻意绕去那边——难道！？<br />
+【艾蕾因飞车冲到前方】<br />
+范恩：喔喔，剑之少女竟然在这时候逆转！一口气冲到前方了！<br />
+静名：——呵呵，还有那种路线啊……！<br />
+艾蕾因：没错，这是可以赢过你的唯一一条路……！就这样冲到最后了！<br />
+【艾蕾因、静名先后冲线】<br />
+范恩：——抵达终点！！  </p>
+<p>【场景】涅梅丝岛 别墅停车场<br />
+【2人停车】<br />
+范恩：获胜的是《剑之少女》艾蕾因·奥克雷尔！！<br />
+范恩：她展现出了A级游击士的骨气～！<br />
+范恩：比赛到此结束……！你们看得还开心吗！？<br />
+范恩：虽然很遗憾没出现众所期待的决定性「意外」……但这次比赛依旧非常热血！<br />
+范恩：两位选手在各方面都带来许多精彩镜头，睛为她们献上热烈的掌声！  </p>
+<p>【众人聚集到停车场】<br />
+静名：【两手一摊，无奈摇头】嗯～真可惜……！居然会被那样逆转。<br />
+静名：关键在于第一圈——让我的「观之眼」认定「假的极限」吧？<br />
+艾蕾因：第一圈我确实有使出全力，但只是「A级游击士」的范围而已。<br />
+艾蕾因：如果用了某人爱用的密技，或许可以一瞬间超越——<br />
+艾蕾因：我只是放手一搏赌赌看罢了。<br />
+静名：呵呵，剑之少女，这次真是太精彩了。看来你也发挥了最近在首都学到的经验嘛？<br />
+静名：嗯～我还有得学呢，得继续精进才行。<br />
+范恩：【无奈】你还想继续精进啊………真是的……<br />
+范恩：【叉腰】这样艾蕾因应该也能松一口气了吧？<br />
+艾蕾因：【无奈】……是啊，我也许是有点太过紧绷了。<br />
+艾蕾因：现在还有其他该做的事——不该把注意力都放在她身上吗……<br />
+静名：【点头】呵呵，如果你愿意放过我，我也是很感激呢。<br />
+静名：虽然对你的剑术也很感兴趣，但那就等以后有机会再一探究竟了。<br />
+艾蕾因：嗯，到时候我也会全力以赴面对挑战。<br />
+《不动》的阵：哎哎，终于告一段落了，亚克莱德，今天谢啦。<br />
+范恩：不客气，我也看到了很精采的比赛，那就快点把东西收一收——<br />
+【静名、艾蕾因沉默片刻，静名坏笑看向范恩，艾蕾因鄙视的看向范恩】<br />
+静名：嗯～这样是不是有点不公平呀？<br />
+艾蕾因：对啊……让我们穿成这样，还擅自播报赛况报得很开心。<br />
+范恩：咦？<br />
+艾蕾因：如果不多陪我们一下，就说不过去了吧？<br />
+艾蕾因：【脸微红】……我先说清楚，我是真的觉得很难为情喔？<br />
+静名：呵呵，这次三个人来比赛吧？但当然要堂堂正正全力以赴喔？<br />
+范恩：等、等一下！再怎么说要跟你们比赛都太勉强了！<br />
+《不动》的阵：【无奈】抱歉啊，既然都到这一步了，你就奉陪到底吧。<br />
+【范恩无奈汗】  </p>
+<p>就这样，虽然范恩自知不敌，却还是参加了三人比赛——<br />
+在艾蕾因和静名天衣无缝的合作之下，范恩被她们狠狠击败。  </p>
+<p>【静名】：呵呵，虽然不是用剑，让人觉得不过瘾……但托你的福，我应该算是有充分享受到乐趣吧？<br />
+【艾蕾因】：而且也逮到机会好好教训了范恩一下呢——不过，总有一天我还是会用剑向你挑战的。  </p>
+<p>艾蕾因·奥克雷尔Connect Stage+100<br />
+静名·雷姆·御折木Connect Stage+100<br />
+静名的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+能力值UP<br />
+STR+5 AGL+5<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_4">公女的未来展望（3/14玛莉艾儿&amp;吉塔）</h2>
+<p>事件概要<br />
+之前交换过联络方式的公女殿下发讯息给我，似乎有事想要拜托。<br />
+内容提到「希望我协助某次采访」，不如先听听她怎么说吧？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩一行人暂时结束在岛上散步的行程，大家各自进行自由活动。  </p>
+<p>【场景】涅梅丝岛·住宿设施 二号馆1F大厅<br />
+吉塔公女：范恩先生，突然把你叫过来，真的很不好意思。<br />
+范恩：没关系，这点小事不用客气，话说回来，没想到居然会特地来拜托我。<br />
+吉塔公女：呵呵，因为我哥哥说如果遇到什么麻烦，可以试着拜托你。<br />
+吉塔公女：我很期待亲眼见识传说中的地下万事屋的厉害。<br />
+范恩：是、是喔……但我不知道能不能符合你的期待。（果然是她哥跟她说的啊）<br />
+范恩：你好像说是要进行某种采访？我不太确定能不能帮上忙——<br />
+范恩：但既然有职业的，应该没问题吧。<br />
+玛莉艾儿：耶嘿嘿，包在我身上！<br />
+玛莉艾儿：能帮上公女殿下的忙，我真的备感光荣！<br />
+玛莉艾儿：而且还能顺便采访杂志要用的题材，以及独家专访公女殿下……<br />
+吉塔公女：呵呵，不知道我这种不成气候的人，能不能帮上你的忙就是了。<br />
+吉塔公女：但相对的，在交涉和采访的过程中，我希望能借用两位的力量。<br />
+吉塔公女：对了对了，我带了我国的伴手礼要给范恩先生。<br />
+吉塔公女：这是我国的传统点心之一，叫做「巴拉瓦饼」。<br />
+吉塔公女：是一种用很多层派皮叠起来的酥皮点心，香酥的开心果和糖浆更是搭配得恰到好处——<br />
+范恩：——我跟你哥哥也是老朋友了，我一定会全心全意协助。<br />
+玛莉艾儿：突、突然变得很有干劲呢。<br />
+吉塔公女：（呵呵，哥哥给的建议果然没错）……那么，关于最重要的采访内容……<br />
+吉塔公女：作为公国观光政策的一环，计划在艾尔萨姆的离岛建设一座度假胜地。<br />
+吉塔公女：从设施的维护到活用当地资源的方式，甚至是管理与人才培育——<br />
+吉塔公女：我想借这个机会以不同的角度采访高级度假胜地涅梅丝岛。<br />
+玛莉艾儿：也就是……侦察敌情吗？<br />
+吉塔公女：【摇头】不是的，请把这当成不懂事的小女孩私下做的研究。<br />
+吉塔公女：尤其是我听说这间别墅是由瓦利斯体系的饭店集团管理——<br />
+吉塔公女：所以觉得应该能学到比想象中更多的知识。<br />
+玛莉艾儿：是喔，原来如此……真不愧是那位歇里德殿下的妹妹。<br />
+范恩：（原来如此……对艾尔萨姆来说，瓦利斯市国近年来逐渐成为威胁）<br />
+范恩：（这么做一方面也是打算从末端观察对方的动向——真是的，还真是有其兄必有其妹啊）<br />
+吉塔公女：【起身】总之就是这样，我们快点开始采访吧！<br />
+吉塔公女：当然，我也希望能从两位身上学到很多知识。<br />
+吉塔公女：如果我有哪里做得不好，还请尽管纠正我，不用客气！<br />
+玛莉艾儿：啊、啊哈哈，但实在不可能毫不客气地纠正啦……<br />
+范恩：总之，我会在我能力范围内帮忙。  </p>
+<p>就这样，两人开始陪同吉塔公女进行涅梅丝岛度假胜地的采访。  </p>
+<p>吉塔公女：嗯～食物果然可以展现出当地的特色呢！<br />
+范恩：根据简介手册，虽然有从本土运食材过来……<br />
+范恩：但海产和水果等配菜，基本上都是在岛上采集的。<br />
+主厨拉札佛德：嗯，因为还是希望能让客人品到当地的食物。<br />
+主厨拉札佛德：这也能实现地产地销的精神——让客人彻底享受「旅行」。<br />
+吉塔公女：【点头】这份坚持真是太棒了，希望公国也能纳入参考。<br />
+玛莉艾儿：我来做个笔记……刚才那句话可以当成专访的标题吗？  </p>
+<p>【场景】涅梅丝岛 海滩<br />
+吉塔公女：沙滩真的很漂亮呢……<br />
+吉塔公女：几乎不输给我国的《纯白天堂》。<br />
+玛莉艾儿：啊，我有听过，好像是……<br />
+范恩：那是位于艾尔萨姆的一个观光胜地，据说有一片晶莹剔透的纯白沙滩。<br />
+范恩：克洛斯贝尔的米修拉姆沙滩，好像还特地从那里进口沙子。<br />
+泰瑞莎总管：能与被评为世界第一美的纯白天堂相提并论，真是太光荣了。<br />
+泰瑞莎总管：我们平日就非常细心清扫沙滩，并进行美化工作。<br />
+泰瑞莎总管：这也是本度假别墅最大的目标之一……要让所有客人都能舒适地在这里度假。<br />
+吉塔公女：这样的待客精神真是太伟大了！真佩服你们！  </p>
+<p>【场景】涅梅丝岛 遗迹区域<br />
+范恩：【挠头】伤脑筋，没想到你居然说要用走的来这里。<br />
+吉塔公女：呵呵，毕竟这座遗迹这么宏伟，只用观光车过来就太可惜了吧？<br />
+吉塔公女：我认为要亲自走过，才能真正体验到探访遗迹的乐趣。<br />
+玛莉艾儿：我懂！这跟独家新闻一样！<br />
+玛莉艾儿：要自己亲眼看过、亲手摸过，才能写出最具临场感的报导！<br />
+吉塔公女：没错没错！就是这样！<br />
+导览人员尤因：那、那个，各位旅客，这附近还有魔兽出没，我们差不多该——<br />
+【魔兽包围众人】<br />
+导览人员尤因：啊，出现了！<br />
+范恩：【拔出武器】伤脑筋……殿下，请你们退后一点！<br />
+吉塔公女：啊！终于可以亲眼看到范恩先生大显身手了呀！？<br />
+玛莉艾儿：我、我不会错过按下快门的机会的！请好好加油！  </p>
+<p>就这样，虽然有些突发状况，但三人还是顺利地完成了采访。<br />
+最后由泰瑞莎总管介绍特殊的休闲活动……于是他们借了出租游艇航行到近海。  </p>
+<p>【场景】涅梅丝岛 海上 游艇上<br />
+玛莉艾儿：嗯～风吹来好舒服啊！<br />
+范恩：别墅的休闲活动之一「赏鲸」……搭乘游艇探访栖息在近海的「梦幻鲸鱼」。<br />
+范恩：小心别让相机掉进海里了喔？<br />
+玛莉艾儿：我、我知道啦！我又不是小孩子。<br />
+玛莉艾儿：采访过程中拍了很多照片，我一定会把相机带回陆地上的！<br />
+范恩：真是的……<br />
+吉塔公女：呵呵，好期待把那些照片洗出来。<br />
+范恩：殿下的目的已经达到了吗？<br />
+吉塔公女：……是的，很多东西心里大概都有个底了。<br />
+吉塔公女：建设符合客人需要的观光胜地——就等于提升观光产业的国际竞争力。<br />
+吉塔公女：为了实现这一点，计划性的经营和与邻国的交流都是不可或缺的。<br />
+吉塔公女：瓦利斯在这方面已经领先了几步……果然是不容小觑的对手。<br />
+吉塔公女：呵呵，不好意思，我自言自语起来了。<br />
+范恩：【无奈】……不，我隐约能够了解到歇里德殿下为什么这么信任妹妹了。<br />
+范恩：你充满好奇心的个性，其实也都是为了祖国着想吧。<br />
+吉塔公女：刚才也说过了，这只是因为我不懂事罢了。<br />
+吉塔公女：哥哥有哥哥才能做到的事，而我也有我能做到的事——<br />
+吉塔公女：我很清楚自己的能耐，只是用我自己的方式帮助哥哥和公国罢了。<br />
+玛莉艾儿：哇……总觉得很佩服你呢。<br />
+玛莉艾儿：我们一定要看到鲸鱼！<br />
+玛莉艾儿：把这次的涅梅丝岛采访写成报导的时候，鲸鱼一定可以当作吸睛的题材！<br />
+吉塔公女：呵呵，是呀……不过好像得费一番工夫才能找到。<br />
+范恩：毕竟是「梦幻鲸鱼」啊，听说因为气候的关系，这几个月都看不到。<br />
+范恩：总之就赌赌看你的幸运体质吧。<br />
+玛莉艾儿：咦……？该、该不会是说我吧？<br />
+范恩：【无奈】不然还有谁啊？<br />
+范恩：因为你至今遇到过好几次危机，但都能顺利逃过一劫啊。<br />
+吉塔公女：哎呀，是这样吗？<br />
+玛莉艾儿：【抠脸】呜呜，我觉得只是侥幸……刚好以结果来说平安无事罢了——<br />
+【玛莉艾儿沉默片刻】<br />
+范恩：……怎么了？<br />
+玛莉艾儿：没什么，只是想起一件事，以前跟他一起行动的时候，他曾经跟我说过……  </p>
+<p>【回忆】<br />
+【丁格】：——呵，你那种体质以记者来说，反而是很令人羡慕的天分。<br />
+【丁格】：不过最重要的是必须加强自己的实力，不受「运气」左右。<br />
+【丁格】：别想靠着一篇独家新闻一炮而红，要脚踏实地训练自己的眼睛、耳朵和嗅觉。<br />
+【丁格】：这样一来一定可以找到一条路，顺利通往你「真正想做的事」。<br />
+【回忆完】  </p>
+<p>范恩：……他说过这种话啊。<br />
+吉塔公女：虽然只是听你转述，但听过之后觉得……这是很关心你的人的回忆吧？<br />
+玛莉艾儿：嗯……因为他的每一句话都让我有所成长。<br />
+玛莉艾儿：希望我能做出一点成果，慢慢追上他的脚步……<br />
+范恩：哈，你也知道你还差得很远吧？<br />
+玛莉艾儿：嗯，当然，现在唯有不断精进了！<br />
+玛莉艾儿：【起身】等着看吧……！我将来一定可以不靠运气——<br />
+玛莉艾儿：成功追上你的背影！<br />
+【一条大鱼从玛莉艾儿背后的水面窜出】<br />
+范恩/玛莉艾儿/吉塔公女：————————————<br />
+【大鱼回到水里】<br />
+范恩：……太壮观了……<br />
+吉塔公女：那就是……梦幻鲸鱼吗……！！<br />
+玛莉艾儿：………………………………<br />
+吉塔公女：【双手一拍】真是又大又美……！看到了相当不得了的美景呢！<br />
+吉塔公女：玛莉艾儿小姐，有拍到吗！？刚才有拍下来吗！？<br />
+玛莉艾儿：啊……我忘记拍——咦？有、有拍到耶！？<br />
+玛莉艾儿：好像是不小心按到快门……啊，但碰巧构图和对焦都很棒！<br />
+玛莉艾儿：……太、太好了～！<br />
+范恩：【鄙视眼，汗】……才刚说不要靠运气，结果根本都是靠运气啊。<br />
+玛莉艾儿：不、不要说出来啦！<br />
+呜呜，我真的可以为此开心吗……<br />
+【游艇熄火】<br />
+范恩：【无可奈何】……看来这次不幸紧接而来了。<br />
+吉塔公女：呃，该不会是船故障了吧……？<br />
+玛莉艾儿：就、就说不要推到我身上了啊～！<br />
+话说回来，在茫茫大海里该怎么办啊！？<br />
+范恩：【无奈】……通讯也没有讯号，也许只能等待救援了。<br />
+玛莉艾儿：怎么会这样～！？<br />
+吉塔公女：没关系，这种意外就某种意义上来说，或许也是旅行的乐趣所在！  </p>
+<p>之后，事先料到会发生这种事的娜洁很快就派出豪尔瓦塔特号赶来救援……<br />
+范恩一行人怀着奇妙的兴奋之情回到涅梅丝岛。  </p>
+<p>【玛莉艾儿】：耶嘿嘿……老是让范恩先生帮忙呢。包含之前的建议在内，总有一天我一定会回报你的恩情的！<br />
+【吉塔公女】：呵呵，能多认识范恩先生一些，我真的很开心♪哥哥和娜洁小姐他们两个，今后都要拜托你多照顾了唷？  </p>
+<p>玛莉艾儿·埃梅Connect Stage+100<br />
+玛莉艾儿的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《范恩的能力值UP》<br />
+范恩的DEF+5<br />
+吉塔·阿斯瓦尔Connect Stage+100<br />
+吉塔的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《范恩的能力值UP》<br />
+范恩的DEF+5<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_5">菲莉的特训（3/14晚，菲莉&amp;亚伦）</h2>
+<p>事件概要<br />
+卡希姆抵达岛上之后，菲莉那家伙看起来就心事重重。  </p>
+<p>她似乎打算单独前往遗迹……<br />
+是否该去看看状况？  </p>
+<p>是否要消耗连结行动点数解决私事？<br />
+开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+看到菲莉板着一张脸前往岛上的遗迹，范恩决定跟过来看看。<br />
+但已经有其他人抢先了一步。  </p>
+<p>【场景】涅梅丝岛 树林区域 晚<br />
+范恩：……我隐约有猜到，你果然也来了啊？<br />
+亚伦：没有啊……只是正好有空过来看看罢了。没有别的意思。<br />
+亚伦：话说回来——你觉得怎么样？  </p>
+<p>【菲莉半跪在地】<br />
+卡希姆警备主任：——武器的使用和身体的动作，确实都比之前进步了。<br />
+卡希姆警备主任：但是——刀刃的轻重依然停留在暂时的范围。<br />
+卡希姆警备主任：你应该要自己点燃火焰，让它持续燃烧，不然总有一天会燃烧殆尽。<br />
+菲莉：呜……还没结束！<br />
+哥哥，再陪我切磋一次……！<br />
+卡希姆警备主任：【收起武器】……现在这样不管交手几次都一样，你得面对你必须跨越的障碍才行。<br />
+卡希姆警备主任：家人能做的就到这里了——接下来就交给所长大人和你的同事吧。<br />
+【范恩和亚伦走来】<br />
+菲莉：啊……范恩先生还有亚伦先生都来了啊……<br />
+范恩：唉唉，果然被发现了吗？<br />
+范恩：不过，我不觉得我们能取代你啊。<br />
+亚伦：对方是你亲妹妹，你却置之不理啊？<br />
+卡希姆警备主任：你们不需要「取代」我——这是菲莉妲自己的问题。<br />
+卡希姆警备主任：我在煌都也说过了，在你好好面对自己的火焰之前……我没什么好说的。<br />
+【卡希姆离开】<br />
+菲莉：【起身】哥哥……<br />
+亚伦：哈，你哥依旧是很爱故弄玄虚。<br />
+亚伦：——那么，你打算怎么办？想切磋的话我可以陪你。<br />
+范恩：……面对实力比你强那么多的对手，确实反而没办法进行特训吧。<br />
+范恩：过去曾接受过教官大人的战术指导，现在把人情还给妹妹好像也不错。<br />
+菲莉：范恩先生、亚伦先生……<br />
+菲莉：……呵呵，谢谢你们！那我就恭敬不如从命了！<br />
+【众人拔出武器】  </p>
+<p>之后，范恩和亚伦陪菲莉特训了一阵子……<br />
+直到她耗尽体力才决定休息一下。  </p>
+<p>亚伦：我是不排斥再陪你打一场啦，你觉得呢？<br />
+菲莉：不用了……对两位太不好意思了，而且我也训练够了。<br />
+菲莉：【无奈】再说……我也想静下来好好想一想……<br />
+范恩：想你哥哥刚才说的那些话啊？要你别想太多可能也很难吧。<br />
+范恩：他在煌都好像也刻意说些很冷淡的话……<br />
+范恩：……去年回乡的时候他有跟你说些什么吗？<br />
+菲莉：【一惊，苦笑】啊哈哈……范恩先生果然很敏锐。<br />
+亚伦：你不是说担任「巫女」的工作已经顺利完成了吗？<br />
+菲莉：继承村子的传统舞蹈和各项仪式，我确实是都顺利完成了。<br />
+菲莉：【看向双手】但是……我完全没有深入理解最重要的核心。<br />
+菲莉：无法体会舞蹈中隐含的传承意义……  </p>
+<p>【闪回】<br />
+卡希姆警备主任：菲莉妲——这个仪式的真正意义在于火焰之子认真面对库鲁格的根源。<br />
+卡希姆警备主任：透过亲自了解箇中的意义，点燃自己的火焰，为将来的挑战做好准备……<br />
+卡希姆警备主任：就跟过去与我们同源的「兄弟一族」完成使命一样——<br />
+卡希姆警备主任：如果你没办法做到，想必很快就会到达极限了吧。<br />
+【闪回完】  </p>
+<p>范恩：（……「兄弟一族」啊？这么说来，跟帝国的缓冲地带那边……）<br />
+菲莉：……我因为舞跳得很成功就得意忘形……<br />
+菲莉：【无奈】但听哥哥这么一说，我才明白到「那件事」。<br />
+菲莉：我……我连自己的骄傲建立在什么之上都不知道……<br />
+亚伦：哈……我听不太懂。<br />
+亚伦：但感觉你哥对你的态度变得比去年还要严厉了。<br />
+范恩：对啊……《灼飙》是个很公正的人，想必是有「合理的理由」吧。<br />
+范恩：——不过原则和面对事物的态度这种事情，要靠每个人自己琢磨后才能慢慢培养。<br />
+范恩：正因为这样，你爸爸才希望你能累积各式各样的经验。<br />
+菲莉：嗯……我知道爸爸{Ab}和哥哥的想法。<br />
+菲莉：但就算我找到自己的答案，也不知道那究竟是不是「正确」的……<br />
+菲莉：【低头】想来想去就越来越混乱了。<br />
+亚伦：真是的，根本不像你的作风。<br />
+亚伦：这样只会连你的那个什么火焰都蒙上湿气啊。<br />
+亚伦：这种时候就该华丽地大肆庆祝才行！<br />
+菲莉：……呃，这是什么意思……<br />
+范恩：喂喂喂……居然在想一样的事啊。<br />
+亚伦：啊？该不会你也——  </p>
+<p>【3人放烟火】<br />
+菲莉：耶嘿嘿，烟火真漂亮……！<br />
+菲莉：火的颜色会改变，真是美得不得了……！<br />
+范恩：我也不知道有几年没放烟火了。<br />
+范恩：不过，因为别墅有提供烟火的服务，我就拿来想让你放松一下……<br />
+范恩：没想到居然你也在想一样的事。<br />
+亚伦：唔……我没有想那么多啦。<br />
+亚伦：……只是想到以前曾经跟妈妈和亚仙放过烟火。<br />
+亚伦：觉得偶尔放一下也不错。<br />
+菲莉：嗯……是啊。<br />
+菲莉：烟火真的很不可思议。<br />
+菲莉：明明同样都是火焰，却比火堆还要弱很多，但有很多不同的颜色和形状，让人看得很入迷。<br />
+菲莉：——库鲁格的「火焰」是不是也跟烟火一样，可以有很多不同的形式呢……？<br />
+菲莉：不光只是因为实力强弱——火焰可以依照每个人的经历展现不同颜色……<br />
+范恩：……要我来说的话，我觉得只要你自己能接受，就已经足够了。<br />
+范恩：虽说是一族的使命，但原则还是只能由你自己来决定。<br />
+范恩：你哥哥也一样——他是在面对了自己之后，凭着他的原则选了那条路。<br />
+亚伦：（选择自己的道路啊……）<br />
+菲莉：对啊……哥哥他一定也……<br />
+菲莉：范恩先生——还有亚伦先生，各方面都很谢谢你们。<br />
+亚伦：哈……不用跟我道谢啦。<br />
+亚伦：——为什么要用那种肉麻的眼神看我啊。<br />
+范恩：没有啦，只是觉得你好像也想通了一些事，觉得这样很好罢了。<br />
+范恩：难得这么关心菲莉，也是因为——你有自己的事情在烦恼吧？<br />
+亚伦：哈……我确实是因为曹那家伙和高朗的事情觉得很心烦。<br />
+亚伦：不过……<br />
+亚伦：我现在开始觉得，一直追着对方的脚步也不是办法。<br />
+亚伦：我也只要走我的路就行了，同时诚实地面对自己。<br />
+菲莉：亚伦先生……<br />
+范恩：哈……这样很好啊。<br />
+范恩：不过我还是会给予最低限度的照顾，你就继续努力烦恼个够吧。<br />
+亚伦：哈……不用你说我也会这么做。<br />
+菲莉：耶嘿嘿……<br />
+【烟火熄灭】<br />
+菲莉：啊……消失了。<br />
+菲莉：只有我们几个欣赏烟火，总觉得对其他人有点不好意思。<br />
+亚伦：哈，既然这样，难得放烟火，要不要也去邀请其他人？<br />
+范恩：毕竟也还有很多烟火——来放第二轮吧！  </p>
+<p>【场景】涅梅丝岛 海滩 晚<br />
+【众人聚在海滩上放烟火】<br />
+亚妮艾丝：呵呵，真漂亮……<br />
+菲莉：嗯，对啊……！<br />
+卡特尔：嗯，偶尔放个烟火也不错。<br />
+娜狄雅：小斯，你看你看～！<br />
+斯温：嗯，我有在看。<br />
+茱迪丝：你可别太兴奋结果烫伤喔？<br />
+莉婕特：呵呵，烟火还有很多，请不用客气。<br />
+亚伦：烧吧烧吧！尽管烧吧！<br />
+范恩：真是的，还真热闹啊。  </p>
+<p>【场景】涅梅丝岛 别墅临海面走廊 晚<br />
+【李曹和卡希姆站在走廊俯视众人】<br />
+曹：呵呵，稍微想通了吗？亚伦……我很期待你的表现喔。<br />
+卡希姆警备主任：菲莉妲，尽管好好烦恼吧。……直到你找到自己的答案。<br />
+【卡希姆离开】  </p>
+<p>在大家彻底享受过烟火之后，范恩与菲莉和亚伦一起留下来收拾……<br />
+在有些不舍的气氛下回到各自的别墅。  </p>
+<p>【菲莉】：耶嘿嘿，抱歉让你们担心了……不过，托你们的福，我或许离找到自己的「火焰」更近一步了。<br />
+【亚伦】：哈，我也算是有发泄到情绪吧。……总之，你们两个，下次有机会我再奉陪啊。  </p>
+<p>菲莉·阿尔法德Connect Stage+100<br />
+亚伦·魏Connect Stage+100<br />
+亚伦的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《能力值UP》<br />
+STR+5 AGL+5<br />
+范恩·亚克莱德Connect Stage+20<br />
+— Connect Bonus —<br />
+范恩的连结等级上升，发现了其新的一面。<br />
+《能力值UP》<br />
+STR+5 DEF+5  </p>
+<h2 id="314_6">来自当红女演员的邀约（3/14晚，茱迪丝&amp;妮娜）</h2>
+<p>事件概要<br />
+茱迪丝和妮娜似乎拜托饭店的员工<br />
+将某样东西搬进了房间。  </p>
+<p>她们好像还买了不少酒和下酒菜……<br />
+到底打算在这度假胜地做什么啊？<br />
+也许该去看看状况才是。  </p>
+<p>是否要消耗连结行动点数解决私事？<br />
+开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+【场景】涅梅丝岛·住宿设施 一号馆3F 301门外 晚<br />
+范恩：（这里是那两位演员的房间吧？结果她们还是同住一间吗？）<br />
+【范恩敲门】<br />
+茱迪丝的声音：【门内】不对～肯定先从震撼刺激的开始比较好啦～！<br />
+妮娜的声音：【门内】不行不行，正因为是来度假胜地，选择幽静恐怖的也不错……<br />
+范恩：【汗，继续敲门】（她们在吵架吗……？）——喂，还好吧？  </p>
+<p>【场景】涅梅丝岛·住宿设施 一号馆3F 301 晚<br />
+【范恩进屋】<br />
+妮娜：啊，范恩先生。<br />
+茱迪丝：【叉腰，鄙视眼】喂，不要肆无忌惮地突然闯进女生的房间啦！？<br />
+范恩：【无奈挠头】呃，我好歹有先敲门啊。<br />
+范恩：走廊上都听得到你们的声音……该不会是吵架了吧？<br />
+茱迪丝：没有吵架啦。<br />
+茱迪丝：我今天想要好好地跟妮娜一起在房间里看很多电影。<br />
+妮娜：【抠脸】呵呵，但迟迟没办法决定第一片要看什么。<br />
+范恩：原来如此，要看电影啊？没想到你们居然搬了那么大的荧幕进来。<br />
+妮娜：【点头】对啊，我们从别墅的介绍手册上看到有出借大荧幕的服务。<br />
+茱迪丝：呵呵，毕竟也很难得跟妮娜住在一起啊。<br />
+茱迪丝：虽然是出来旅行，但这样度假也不错吧？<br />
+范恩：嗯，不错啊。毕竟白天应该也很累了。<br />
+范恩：不过，两位顶尖演员一起看电影啊？想必会有很多可以讨论的吧？<br />
+茱迪丝：喔，那你要不要一起看？<br />
+范恩：【挠头】呃，你们是要两个人一起看吧？我一个大男人加入不就太扫兴了。<br />
+妮娜：呵呵，我无所谓。<br />
+妮娜：毕竟我之前就很想跟范恩先生一起聊电影了。<br />
+茱迪丝：【点头】的确，电影迷的现场观影意见也很宝贵！<br />
+茱迪丝：既然决定了就快点加入吧！酒也可以尽量喝喔～！<br />
+茱迪丝：【调皮】你难得加入，第一部片也由你来选吧？<br />
+范恩：【汗，为难】（算了，在这种地方应该也不用担心遇到狗仔）<br />
+范恩：好吧，那我就跟你们一起看。<br />
+【范恩上前】  </p>
+<p>就这样，开始和两位顶尖演员一起在房间举办电影欣赏会……<br />
+如果是大家都看过的电影，在播放时也能聊天，所以观赏的过程非常放松。  </p>
+<p>【电影内容】<br />
+【微笑的莉莉】：演艺圈竞争很激烈的。睡过一次就有工作可接，多划算啊。<br />
+【哭泣的莉莉】：是这样没错……但我有点累了。我想离开这个圈子，回去当一个普通的自己——<br />
+【电影内容完】  </p>
+<p>茱迪丝：哇～妮可小姐真厉害～！这两种情绪的转变好棒……！<br />
+范恩：【点头】对啊，感觉得到她经验老道的演技。<br />
+妮娜：嗯，连带整个气氛都不一样了，让人起鸡皮疙瘩……很值得学习。<br />
+妮娜：【黑化眼】「演艺圈竞争很激烈的。睡过一次就有工作可接，多划算啊。」<br />
+妮娜：【可怜状】「是这样没错……但我有点累了。我想离开这个圈子，回去当一个普通的自己——」<br />
+范恩：喔喔……<br />
+茱迪丝：哇喔，很棒耶！真不愧是「附身型」演员♪<br />
+妮娜：【苦笑】啊哈哈……好，继续看下去吧。  </p>
+<p>【电影内容】<br />
+【康纳】：咪西你好厉害！照你说的去申请之后，我这次抽中了Z1赛车的模型欸！<br />
+【咪西】：那你这次该按约定给我长靴了吧！我的愿望就是穿上靴子，走在康纳的身旁☆<br />
+【电影内容完】  </p>
+<p>妮娜：呵呵，这部电影好可爱，但其实藏了一点恶意就是了。<br />
+茱迪丝：哎呀～没想到包装成给小孩子看的电影，却有那样的剧情。<br />
+范恩：我记得当时也有小孩在电影院哭出来……对了，艾蕾因好像说过她也看了。<br />
+范恩：【无奈摇头】在年末「孽缘酒会」上听起来，她对这部片赞不绝口……但她是狂热粉丝，感想不能当作参考就是了。<br />
+茱迪丝：【坏笑】……对了，应该差不多可以深入打听一下「那方面」的事情了吧？<br />
+茱迪丝：我很想知道你们学生时代的甜蜜爱情故事耶～<br />
+妮娜：原来是这样……我也很好奇！<br />
+妮娜：那个范恩先生和那个艾蕾因小姐交往的时候到底发生过什么事……！？<br />
+范恩：【抓狂】够了，你们不要一直追问啦！  </p>
+<p>【电影内容】<br />
+【戴眼镜的办事员】：啊，里克…………请你原谅我……<br />
+【戴眼镜的办事员】：能不能至少请你转过身…………我会害羞……<br />
+【电影内容完】  </p>
+<p>范恩/妮娜：………………………………<br />
+茱迪丝：【苦笑】那个～……你们两个用那么认真的表情看，反而很让人害羞耶……<br />
+范恩：没有啦，只是觉得茱迪丝·兰斯塔的演技真的很好。<br />
+妮娜：对啊，这段娇羞的表情真的演得很逼真——啊，倒带回去再看一次刚才那段吧！<br />
+茱迪丝：【抓狂】等、等一下啦，妮娜～！？真是的，故意捉弄我——看我的！<br />
+茱迪丝：看招看招～咕叽咕叽咕哦……！<br />
+妮娜：【苦笑】啊哈哈！前辈，不要啦！呵呵，遭样没办法看电影了啦～！<br />
+范恩：【无奈】（……我真的可以待在这里吗？）  </p>
+<p>【3人看完电影】<br />
+范恩：哎呀，不愧是你们选的片，每一部真的都很好看。<br />
+范恩：下一片要看什么？<br />
+茱迪丝：【叉腰】呵呵呵，其实这里有珍藏的秘宝呢～<br />
+妮娜：【操作完笔记本终端】就是我们演出的两部最新电影——档案就装在这里面。<br />
+范恩：什么……！？我真的可以看那部片吗！？<br />
+妮娜：呵呵，毕竟两部片在之前的试映会上，都已经播放给业界人士看过了。<br />
+妮娜：杂志规划了让两部片的演员交换发表观后感的企划，把档案给了我们。<br />
+茱迪丝：也事先征得许可，只要愿意遵守保密义务，就可以让朋友一起看。<br />
+茱迪丝：时间也不早了，大家只能一起再看最后一部片……这次就特别让你来选要看谁主演的电影吧♪<br />
+范恩：真、真的假的……<br />
+妮娜：呵呵，还请随便挑一片，不要有压力，反正两部都能在电影院看。<br />
+妮娜：附带一提，我建议选茱迪丝前辈演出的《洛克福特的冒险  黄金灾祸》。<br />
+妮娜：这是一部冒险剧，以目前正开放参观的远古遗迹为背景——我很期待能看到真实的影像。<br />
+茱迪丝：不对不对，应该要看妮娜演的《献给你的香水百合》吧！<br />
+茱迪丝：以富有历史的女子学院为背景，描写清纯的青春故事——我也很想快点看到！<br />
+范恩：（第一部是出差的地方没有上映的大作，第二部则是还没上映的电影啊……！）<br />
+范恩：（呜，两部都很难取舍——）  </p>
+<p>【选项】<br />
+《洛克福特的冒险》  茱迪丝主演<br />
+《献给你的香水百合》  妮娜主演  </p>
+<p>【选择“《洛克福特的冒险》  茱迪丝主演”】<br />
+范恩：～～～……那就看《洛克福特的冒险》吧！<br />
+妮娜：呵呵，那就看这部。<br />
+茱迪丝：呼，好吧。那就赶快来播放吧～！  </p>
+<p>【电影内容】<br />
+【丽塔】：……绝对不会交给你！<br />
+【威拉德】：快把「萨拉金杖」给我……！不然就杀了这个小女孩！<br />
+【亚夏】：丽塔！不可以交给他……！<br />
+【电影内容完】  </p>
+<p>茱迪丝：（………嗯，音效跟我想得一样。应该可以清楚表达情绪，不会受到音响的影响……）<br />
+范恩：（真是的，演技太吸引人了。不愧是顶尖的演员啊）<br />
+妮娜：（前辈的演技果然充满了生命力，情绪甚至能影响到观众……）<br />
+妮娜：（我果然还是赢不过「真正的演员」……）  </p>
+<p>【看完电影】<br />
+茱迪丝：【陶醉】呼～……好满足啊！<br />
+茱迪丝：透过电影也能再次检视自己的演技，这段时间真的很有意义。<br />
+范恩：哈，之前明明说要放轻松看，结果你还是以职业的角度在看嘛。<br />
+妮娜：对啊，总觉得再次体认到茱迪丝前辈的厉害之处了。<br />
+茱迪丝：哎哟～我……其实有一点点啦！  </p>
+<p>【选择“《献给你的香水百合》  妮娜主演”】<br />
+范恩：～～～……那就看《献给你的香水百合》吧！<br />
+茱迪丝：呵呵，那就看这部！<br />
+妮娜：啊哈哈，我知道了。那就马上来播放啰。  </p>
+<p>【电影内容】<br />
+【雪莉】：这、这种事我当然也知道啊，但是……<br />
+【海蕾娜】：哎呀，难道以为写日记的人是你心目中「命中注定的对象」吗？还真是纯情啊。<br />
+【海蕾娜】：满脑子浪漫幻想是无所谓……但雪莉你也差不多该长大一贴了吧。<br />
+【电影内容完】  </p>
+<p>茱迪丝：（……她的演技真的很不得了……啊啊真是的，我不能输给她……！）<br />
+范恩：（她有阵子好像暗自在烦恼的样子……看来已经渐渐突破那层壳了）<br />
+妮娜：（……嗯，果然跟我当初想得一样，无论好的坏的都一样）<br />
+妮娜：（我是不是离我心目中「真正的演员」更近一步了呢……）  </p>
+<p>【看完电影】<br />
+茱迪丝：呼～……好满足啊！<br />
+茱迪丝：之前就很好奇妮娜的演技，这次终于观摩到了，这段时间真的很有意义。<br />
+范恩：【坏笑】哈，你完全被她的演技迷住了。<br />
+妮娜：【苦笑】啊哈哈……有点难为情呢。<br />
+妮娜：跟别人一起看自己演出的电影，真的能学到很多呢。  </p>
+<p>【分支剧情完】<br />
+范恩：【无奈】虽然意外地赚到了先睹为快的机会……<br />
+范恩：但我还是想在大银幕上看最新的电影。<br />
+茱迪丝：因为以影音设备来说，电影院还是无可取代的啊。<br />
+茱迪丝：嗯～感觉好像剥夺了你的乐趣，有点过意不去……<br />
+范恩：啊，你不用介意啦，撇除这点，这也是很难得的体验啊！<br />
+范恩：反正我过阵子也会去电影院看，想到可以看两次，反而是赚到呢。<br />
+妮娜：呵呵，谢谢你这么说。<br />
+妮娜：……呼……<br />
+茱迪丝：怎么突然叹气？<br />
+妮娜：没什么……只是再次体认到自己真的身在很幸福的世界。<br />
+妮娜：能让很多人看到我的作品，并让大家认同我的演技。<br />
+妮娜：还能认识茱迪丝前辈、哥奇导演、拉姆导演，以及许许多多的珍贵缘分。<br />
+妮娜：这我这种人来说真的……太奢侈了。<br />
+范恩：咦……？<br />
+茱迪丝：…………………<br />
+妮娜：啊哈哈……不好意思，我本来只想对自己说的。<br />
+茱迪丝：呵呵，没关系呀，毕竟感恩之心是最重要的。<br />
+茱迪丝：成为业界顶尖之后，很有可能会变得很傲慢，站在这个位置上的我们更该怀有感恩之心。<br />
+茱迪丝：不过，妮娜——就算谦虚也不要说什么「我这种人」。<br />
+茱迪丝：电影是结合很多人的专业打造出的作品……<br />
+茱迪丝：演员的演技也不是光靠自己一个人就能成就的。<br />
+茱迪丝：从演员的演技到剧本、导演、编剧、美术、音响，甚至是经纪人的管理都很重要……<br />
+茱迪丝：集结这些结晶完成的作品……才能让你成为「真正的演员」吧？<br />
+妮娜：……啊……<br />
+茱迪丝：看来你好像懂我的意思了？<br />
+妮娜：……嗯……我这样说好像太失礼了。<br />
+妮娜：【无奈】这对制作团队和观众……最重要的是对「我」自己都很失礼。<br />
+茱迪丝：嗯。<br />
+茱迪丝：【起身】妮娜，你要更有自信一点，要相信你自己。<br />
+茱迪丝：因为我和范恩……还有观众们都很肯定你的实力。<br />
+妮娜：【点头】……嗯！<br />
+范恩：就算不是演员，这番话应该也能通用。<br />
+范恩：【坏笑】即使不演戏，真正的你应该也会很受影迷们欢迎。<br />
+妮娜：咦……？<br />
+妮娜：【无奈抠脸】这、这么说来……虽然喝了一点酒……<br />
+妮娜：【脸微红】但我好像表现出不少有失演员形象的态度……？<br />
+茱迪丝：【两手一摊，摇头】对啊，刚才完全就是在自家客厅看电影的心情……<br />
+范恩：【无奈】茱迪丝就算了，没想到你私底下会是那种感觉。<br />
+范恩：这些都是你之所以是「妮娜·芬里」的理由吧。<br />
+范恩：你还年轻，今后还有很长的路要走……但只要坚持这点就行了。<br />
+妮娜：【点头】……好的，我会铭记在心，范恩先生……谢谢你。<br />
+妮娜：（将来……我是不是也能喜欢上自己呢……）<br />
+范恩：话说回来，我好像是第一次看到你摆出「前辈」的样子。<br />
+范恩：【坏笑】我还以为你在演艺事务所也是摆烂耍废，要别人处处照顾你呢。<br />
+茱迪丝：【鄙视眼，叉腰】谁在摆烂耍废啊！……咦？妮娜，我有这样吗！？<br />
+妮娜：【苦笑】……呃，没那回事！<br />
+妮娜：话说回来，要不要再讨论一下刚才看的那部电影？<br />
+妮娜：其实有些地方我想听听看两位的感想……<br />
+范恩：喔，不错耶，我也喝得不太够，就再陪你们聊一下吧。<br />
+茱迪丝：【抓狂】喂，不要转移话题啦！？  </p>
+<p>后来三人聊了一阵子电影的话题之后，努力安无了似乎还有点无法接受的茱迪丝，结束了这次的电影播放会。  </p>
+<p>【妮娜】：呵呵，真的很开心呢——但我也展现了不象是女演员的一面，总觉得有点不好意思。<br />
+【茱迪丝】：啊哈哈，要这样说的话，我早就已经——不对。……那边的！你笑个什么劲啊！  </p>
+<p>茱迪丝·兰斯塔Connect Stage+100<br />
+茱迪丝的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《能力值UP》<br />
+STR+5 ATS+5<br />
+妮娜·芬里Connect Stage+100<br />
+妮娜的连结等级上升，发现了其新的一面。<br />
+— Connect Bonus —<br />
+《范恩的能力值UP》<br />
+范恩的DEX+3<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="314_7">在月下的湖畔（3/14晚，塞莉丝&amp;里翁）</h2>
+<p>事件概要<br />
+同样师事贝尔加德师父，可称得上是同门师姐弟的塞莉丝和里翁<br />
+似乎外出到某处去了。  </p>
+<p>他们还带了武器同行……<br />
+是否该去确认一下比较保险？  </p>
+<p>是否要消耗连结行动点数解决私事？<br />
+开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩前往塞莉丝和里翁去的地方后……<br />
+不久就听到刀剑相碰的声音。  </p>
+<p>【场景】涅梅丝岛 湖畔 晚<br />
+守护骑士里翁：看我的——！<br />
+【里翁出招】<br />
+守护骑士塞莉丝：哼，差得远呢——！<br />
+【范恩躲在树后观察】<br />
+范恩：（还以为他们一起外出是有什么事，看样子就只是单纯地切磋罢了）<br />
+范恩：（嗯，既然这样，不管他们也没关系吧）<br />
+【范恩转身欲走】<br />
+守护骑士里翁：——哎呀，偷窥够了吗？<br />
+守护骑士塞莉丝：该不会想就这样默默离开，不跟师姐打声招呼吧？<br />
+【范恩汗，走上前，2人收起武器】<br />
+范恩：【无奈】呃……抱歉偷窥了你们，但我并没有要打扰你们的意思。<br />
+范恩：只是看到星杯骑士一起外出，有点好奇就跟来看看罢了。<br />
+守护骑士里翁：如果能顺便确认一下我们来这座岛究竟打些什么主意就更好了。<br />
+守护骑士里翁：即使合作过也不能掉以轻心——我不排斥这种谨慎的态度。<br />
+范恩：【挠头】对对对，都被你看穿了，我马上滚，可以高抬贵手吗？<br />
+守护骑士塞莉丝：【叉腰】嗯，快走吧——不对，等一下。<br />
+守护骑士塞莉丝：……你来得正好嘛。<br />
+范恩：……咦？<br />
+守护骑士里翁：……塞莉丝小姐？你该不会是……<br />
+守护骑士塞莉丝：哎呀，难得有这种机会啊，偶尔为之也不错嘛？<br />
+守护骑士塞莉丝：我正好流了一贴汗想休息一下，我带了好东西来，你也加入吧？<br />
+范恩：好东西……？  </p>
+<p>【塞莉丝拿出酒来摆在木箱上】<br />
+范恩：赏月酒啊——还真风雅。<br />
+范恩：我原本还期待你带了什么法典国限定的甜点，但这个也挺不错的。<br />
+【里翁、塞莉丝汗】<br />
+守护骑士里翁：【鄙视眼】……你以为我们会因为什么甜点大半夜的特地溜出来吗？<br />
+守护骑士里翁：再抱怨就不分你酒喝了。<br />
+范恩：【无奈摇头】不不不，我怎么会有怨言呢！真要说的话，我比较希望是甜酒。<br />
+范恩：但要一边赏月的话，还是要喝东方酒才对味。<br />
+守护骑士塞莉丝：哼，你也挺懂的嘛。<br />
+守护骑士塞莉丝：其实之前巴克——贝尔加德师父在法典国的时候，我曾经看到他一边赏月一边喝酒。<br />
+守护骑士塞莉丝：东方武术家之间好像偶尔会办这种酒会，我一直在想哪天有机会要效仿一下。<br />
+守护骑士塞莉丝：像这样同门师兄弟一起喝酒，不也挺不错的嘛？<br />
+守护骑士里翁：呼……但我原本完全没有想要邀请你就是了。<br />
+守护骑士里翁：酒的部分餐厅刚好有之前师父推荐的龙来冷酒，所以就拿了一瓶过来。<br />
+守护骑士里翁：下酒菜只有两人份，还请小心别喝醉了。<br />
+范恩：那我就不客气加入了。<br />
+范恩：话说回来，我之前就觉得……你们真的很仰慕师父耶。<br />
+范恩：已经到「盲目崇拜」的地步了。<br />
+守护骑士塞莉丝：你说谁盲目了啊！我们这叫敬老尊贤好吗！<br />
+守护骑士塞莉丝：不只是我们两个，《吼天狮子》的名号对星杯骑士来说就是——<br />
+守护骑士里翁：好了好了，塞莉丝小姐。跟不懂的人解释这些也没用。<br />
+守护骑士里翁：还是在月亮沉下之前快点开始吧。<br />
+守护骑士塞莉丝：【清嗓子】也对，咳咳，虽然有点迟了……<br />
+守护骑士塞莉丝：再次庆祝贝尔加德师父平安无事，并预祝今后一切顺利——干杯！<br />
+范恩/守护骑士里翁：干杯。<br />
+【3人一饮而尽】  </p>
+<p>几十分钟后，三人意外地热烈讨论着贝尔加德的话题——<br />
+范恩等人边喝边聊，很快就有点微醺了。  </p>
+<p>守护骑士塞莉丝：……所以我就跟里翁一起跟师父说，拜托也找点工作以外的兴趣好不好。<br />
+守护骑士塞莉丝：所以重逢的时候看到师父开心地骑着机车，我真的很开心。<br />
+守护骑士里翁：【无奈】没想到居然是受到范恩先生的影响……<br />
+守护骑士里翁：一直严守骑士规范的师父居然会迷上那种风格。<br />
+守护骑士里翁：老实说我心里真的是五味杂陈喔？<br />
+范恩：绝对不是我教他的喔……唉，但我也有被你们念的心理准备了。<br />
+守护骑士塞莉丝：呵呵，毕竟我们非常仰慕的人就某种意义而言，比任何人都关照你啊。<br />
+守护骑士塞莉丝：除了我们之外，也有很多徒弟们都这么觉得，今后你也要皮绷紧一点。<br />
+范恩：其他的徒弟啊……光是教会的范畴，好像就有不少人了。<br />
+范恩：除了你们之外还有那位副兵长……之前工作上有接触过的刺猬头大哥也是？  </p>
+<p>【背景立绘图：凯文、莉丝】<br />
+守护骑士里翁：没想到你跟凯文神父已经认识了……不过他的师父另有其人。<br />
+守护骑士里翁：虽然他的师父年纪轻轻就过世了，但现在仍默默支持着他和搭档{莉丝修女}。<br />
+守护骑士塞莉丝：但即使如此，他依然毫无疑问地是所有年轻的守护骑士的师父。<br />
+守护骑士塞莉丝：毕竟包含总长和副长在内，他是最资深的——有数不清的人都曾经受过他的照顾。<br />
+【背景立绘图：阿巴斯、瓦奇】<br />
+守护骑士塞莉丝：但能称得上是真正武术徒弟的人，大概只有瓦奇的「副手」吧？<br />
+守护骑士里翁：你是说阿巴斯先生吧？毕竟听说他是昆仑流的直传弟子。<br />
+守护骑士里翁：最近风格强烈的伙伴们越来越多，要照顾他们好像也费了不少苦心。<br />
+守护骑士塞莉丝：但能够顺利带领大家，或许也是受到了师父的熏陶吧。<br />
+范恩：……总觉得越听越觉得你们都是一群异于常人的人。<br />
+守护骑士里翁：毕竟大家都是来自各个不同的地方啊。<br />
+守护骑士里翁：自己讲虽然也有点奇怪，但唯一正常的大概也只有师父「最后的徒弟」了吧？<br />
+【背景CG图：巴克霍恩、里翁、盖乌斯和摸着盖乌斯头的塞莉丝】<br />
+守护骑士塞莉丝：盖乌斯啊……虽然还很年轻，但怎么说……他打从一开始就是个完人了。<br />
+守护骑士塞莉丝：毕竟师父挺身保护他，又把圣痕托付给他，应该是打算要好好栽培他吧。<br />
+守护骑士里翁：出身高原又来自「那一班」……我们也不能掉以轻心呢。<br />
+守护骑士里翁：因为他跟某个人不一样，个性老实又认真，连我都想向他看齐了。<br />
+范恩：【不满】喂，不要有事没事就讽刺我行不行！<br />
+【背景图完】  </p>
+<p>范恩：【无奈】……不过老实说，既然能有这么多话题可以聊，几乎都不需要下酒菜了。<br />
+范恩：附带一提，你们两个好像也认识很久了？<br />
+范恩：不对，看你们至今的相处模式，说是「搭档」比较正确吧？<br />
+范恩：两个有圣痕的人搭档，在骑士团里应该也很少见吧？<br />
+守护骑士塞莉丝：哦？没想到你会追问这个。我先说喔，我们可没有在交往。<br />
+守护骑士里翁：……请别说那么可怕的话。<br />
+守护骑士塞莉丝：啊？你什么意思啊？<br />
+范恩：【无奈摇头】呃，我没有别的意思啦，只是趁着酒意问问看罢了。<br />
+范恩：不想说的话，我也不打算逼问。<br />
+守护骑士里翁：【起身】也没什么好隐瞒的。<br />
+守护骑士里翁：的确，如果是随从骑士的话倒还无所谓，两个守护骑士搭档或许比较少见。<br />
+守护骑士塞莉丝：应该算是认识十多年自然促成的。……但一开始是师父安排的吧。  </p>
+<p>【背景CG图：巴克霍恩和少年时代的里翁、塞莉丝】<br />
+守护骑士塞莉丝：在大家开始认同我是守护骑士的时候，师父不知道从哪里带来一个阴沉的小鬼……<br />
+守护骑士塞莉丝：莫名其妙就跟他凑成搭档，一开始我们还冲突不断。<br />
+【背景CG图：带有裂痕的少年时代的里翁和塞莉丝】<br />
+守护骑士里翁：毕竟那时候的塞莉丝小姐简直就是标准的粗暴不良少女啊。<br />
+守护骑士里翁：有事没事就揪着我的衣领大叫，我当时每天都在想为什么要跟这种人搭档。<br />
+守护骑士塞莉丝：你根本就说出口了吧！……总之，好一阵子都是这样水火不容。<br />
+【背景图完】  </p>
+<p>守护骑士塞莉丝：我们这对搭档不管做什么都不顺利……<br />
+守护骑士塞莉丝：但经过了「某个事件」，就稍微有点改变了。  </p>
+<p>【背景CG图：里翁和瞪大眼的塞莉丝】<br />
+守护骑士塞莉丝：他虽然是比谁都让我烦躁的家伙，却也是最值得依赖的伙伴。<br />
+【背景CG图：巴克霍恩和少年时代的里翁、塞莉丝】<br />
+守护骑士里翁：……师父大概早就看穿这一点了吧。<br />
+守护骑士里翁：眼前这个本来觉得是最合不来的伙伴，其实正是最能够信任的「搭档」。<br />
+守护骑士里翁：两人内心的阴暗面，也是能相辅相成的火与冰。<br />
+【背景图完】  </p>
+<p>守护骑士塞莉丝：【脸红】……里翁，这下不妙，莫名开始有点害羞了。<br />
+守护骑士里翁：呼，都是因为借着酒意说太多的关系，你说话不经大脑这点还真是一直都没变。<br />
+守护骑士里翁：这样会被副兵长说是「猛牛」也无可厚非。<br />
+守护骑士塞莉丝：啊？你才是借着酒意胡说八道吧！算了，好像本来就这样。<br />
+范恩：哈……真不愧是师父啊。<br />
+范恩：感觉我终于能理解你们这对水火不容的搭档为什么能维持这么久了。<br />
+守护骑士塞莉丝：什么水火不容，你喔……<br />
+守护骑士里翁：【无奈】呼……好像有点说太多了。<br />
+守护骑士里翁：要说互惠似乎也不太对，但是，范恩先生……<br />
+守护骑士里翁：【阴险】你该不会以为可以引诱我们说出往事，自己什么都不说吧？<br />
+范恩：【无奈】我就知道你会这样说。<br />
+范恩：不过，也对……那件事也迟早该跟你们说。<br />
+守护骑士里翁：那件事是指……？<br />
+守护骑士塞莉丝：喂喂喂，不好了，酒没了！我们什么时候喝了这么多啊？<br />
+【范恩、里翁汗】<br />
+守护骑士里翁：【无奈】……那今天就到此为止吧。<br />
+守护骑士里翁：毕竟意外地聊了很久，再占用范恩先生的时间也不太好意思。<br />
+守护骑士塞莉丝：嗯，也对。<br />
+范恩：【点头】我知道了，既然这样就回去吧，跟你们聊得很开心。<br />
+守护骑士塞莉丝：嗯，我也是。  </p>
+<p>之后，范恩怀着与同门师姐弟喝酒的愉快心情与他们两个人告别……<br />
+吹着晚风稍微醒醒酒之后再次展开行动。  </p>
+<p>【守护骑士里翁】：虽然我不打算跟你混得太熟……不过，偶尔有这种机会倒也不坏呢。<br />
+【守护骑士塞莉丝】：哼哼，这样未免太不直率了吧，里翁？算了，下次轮到你详细说说自己的事了，师弟。  </p>
+<p>塞莉丝·奥提希亚Connect Stage+100<br />
+塞莉丝的连结等级上升，发现了其新的一面。<br />
+《S.C.L.M.支援强化》<br />
+「S.C.L.M.连锁」的效果+15％<br />
+范恩·亚克莱德Connect Stage+100<br />
+里翁·巴塔札尔<br />
+里翁的连结等级上升，发现了其新的一面。<br />
+《S.C.L.M.支援强化》<br />
+「S.C.L.M.连锁」的效果+15％<br />
+范恩·亚克莱德Connect Stage+20<br />
+— Connect Bonus —  </p>
+<h2 id="412">在重要的地方（4/12，亚妮艾丝）</h2>
+<p>事作概要<br />
+亚妮艾丝问我能不能陪她去一趟特里昂塔。<br />
+她好像和汉弥尔顿博士约了在那见面……有时间的话不妨陪她去吧。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩暂时和同行者各自分开行动……<br />
+与亚妮艾丝会合之后，前往特里昂塔。  </p>
+<p>【场景】伊帝斯·特里昂购物中心 特里昂塔·展望台<br />
+汉弥尔顿博士：呵呵，一阵子没见了呢。范恩先生、亚妮艾丝小姐。<br />
+亚妮艾丝：汉弥尔顿博士……<br />
+范恩：应该有两周没见了吧。<br />
+汉弥尔顿博士：听说你们为了学艺祭忙得不可开交，不好意思还把你们找出来。<br />
+汉弥尔顿博士：即使如此，我还是认为「这个」应该尽快交给亚妮艾丝小姐比较好。<br />
+汉弥尔顿博士：事不宜迟，就把这还给你吧。<br />
+【汉弥尔顿博士递出创世，亚妮艾丝接过】<br />
+亚妮艾丝：谢谢你。<br />
+【亚妮艾丝收起创世】<br />
+范恩：重启停止运作的创世的调查工作吗……我听说现阶段能做的调查全部做完了。<br />
+范恩：难道有什么进展吗？<br />
+汉弥尔顿博士：很遗憾……我也动用理科大学的渠道，利用各种检测工具调查过了。<br />
+汉弥尔顿博士：别说新的事实了，连至今发生的各种不可思议现象都无法厘清。<br />
+汉弥尔顿博士：我们接下来还想继续调查，不知道你们意下如何……<br />
+亚妮艾丝：是的，我们才想拜托各位继续下去呢。虽然会给你们添麻烦……<br />
+亚妮艾丝：为了替将来做好准备，我……我们需要知道更多。<br />
+亚妮艾丝：包含尚未厘清的许多事情在内。<br />
+【范恩、亚妮艾丝对视点头】<br />
+汉弥尔顿博士：……呵呵，看见你果然会让我回想起来呢。<br />
+汉弥尔顿博士：爱普斯泰恩老师……以及莉莉雅小姐。<br />
+范恩：莉莉雅……我记得那是亚妮艾丝外婆的名字对吧。<br />
+亚妮艾丝：是的，虽然我不曾直接见过面。<br />
+亚妮艾丝：根据笔记，外婆似乎也常常进出研究室。<br />
+汉弥尔顿博士：是的……应该是莉莉雅小姐十岁左右的时候吧。<br />
+汉弥尔顿博士：她是个聪明、坚强又温柔的孩子。常常替老师以及我们这些徒弟们泡茶……<br />
+汉弥尔顿博士：偶尔也会因为她天外飞来一笔的一句话让我们找到研究的线索呢。<br />
+汉弥尔顿博士：老师和我们都从那孩子身上得到许多活力。<br />
+范恩：哈，拿我们来说，就跟小梦差不多吧？<br />
+亚妮艾丝：呵呵，或许正是如此呢。……能听到这些事，真令人开心。<br />
+亚妮艾丝：因为外婆在我出生前就已经过世了。<br />
+亚妮艾丝：只不过，我曾听母亲说，外婆是位独自拉拔母亲长大，温柔又坚强的人。<br />
+汉弥尔顿博士：这样啊………呵呵，很像莉莉雅小姐的作风。<br />
+汉弥尔顿博士：但关于她的事情，就连身为博士门生的我们也所知不多。<br />
+汉弥尔顿博士：特别是在老师过世之后——她留下简单的字条后就失踪了。<br />
+范恩：这……<br />
+亚妮艾丝：………这我也有稍微听说。外婆前半生有段空白时期……<br />
+汉弥尔顿博士：【摇头】就连当时刚成立的协会也在还没找到人的情况下结束搜索行动……<br />
+汉弥尔顿博士：当我在巴泽尔见到身为她外孙女的你时，真的吓了一大跳。<br />
+亚妮艾丝：……………………<br />
+汉弥尔顿博士：……不管怎样，卡特尔当然不用说，我也没办法把亚妮艾丝小姐当外人。<br />
+汉弥尔顿博士：范恩先生也是……就算与创世无关，有什么困扰随时都可以来找我。<br />
+范恩：谢谢你，我就恭敬不如从命了。<br />
+亚妮艾丝：博士也是，如果有我能帮上忙的事情还请尽管说。<br />
+亚妮艾丝：另外如果你方便，也请来学艺祭看看——<br />
+亚妮艾丝：卡特尔也有帮忙，我们准备了相当棒的活动。<br />
+汉弥尔顿博士：呵呵，我听艾丝梅蕾说了。我会设法抽空去拜访的。<br />
+【汉弥尔顿博士点头致意，离开】<br />
+范恩：那么，既然也拿到创世了，差不多该回学艺祭去了吧？<br />
+亚妮艾丝：啊，那个……<br />
+【范恩疑惑】<br />
+亚妮艾丝：既然………还有时间，我们要不要在这里多留一下子呢？<br />
+亚妮艾丝：我一直想要来一次。来这个地方——和范恩先生一起。<br />
+范恩：啊，这么说来，这或许是我们第一次两个人一起来。<br />
+范恩：……嗯，学艺祭那边人潮十分拥挤，我确实也想要稍微喘口气。<br />
+范恩：机会难得，要不要稍微逛一逛。<br />
+亚妮艾丝：【点头】呵呵，谢谢你……！  </p>
+<p>就这样，范恩和亚妮艾丝悠闲地在展望台逛了起来……<br />
+还用望远镜眺望整座城市。  </p>
+<p>亚妮艾丝：嗯，这个方向是……<br />
+亚妮艾丝：啊，看见旧市街了。事务所和蒙马特应该就在那一带吧。<br />
+范恩：真是的，难得有机会用望远镜，你最先找的竟然是那个吗？<br />
+亚妮艾丝：呵呵，那对我而言是重要的地方之一，每次来这里时一定会看一下。<br />
+亚妮艾丝：再说也会担心我没去打工的日子范恩先生三餐是不是都随便乱吃。<br />
+范恩：【无奈】哪能看到那么细节的地方啊……真是的，你又不是管家婆。<br />
+亚妮艾丝：呵呵……接下来就看那边吧。<br />
+亚妮艾丝：中央市场今天也很热闹呢。<br />
+亚妮艾丝：在许多街区逐步现代化中，可说只有这里完全没变。<br />
+范恩：哦，你以前很常来吗？我记得你老家在第十区那边。<br />
+亚妮艾丝：小时候偶尔会和母亲一起来买东西而已。<br />
+亚妮艾丝：家人的生日或什么纪念日，或是忙碌的父亲罕见能早点回家的日子……<br />
+亚妮艾丝：在这种日子，我们两人就会边讨论要做怎样的大餐，边去各个摊贩四处看。<br />
+亚妮艾丝：那时真的很开心呢……<br />
+范恩：哈……还真是让人感到温馨呢。<br />
+亚妮艾丝：那边就是迪尔克纪念公园……<br />
+亚妮艾丝：小时候常常跟爸爸来这里兜风，顺便带艾尔冯斯散步。<br />
+范恩：是你家养的狗吗？年底送你回老家的时候有见过它。<br />
+范恩：【无奈】才摸几下就拼命缠着我陪它玩，迟迟不肯放过我，真的很伤脑筋。<br />
+亚妮艾丝：呵呵，它对家人以外的人通常都很乖，看来是特别喜欢你呢。<br />
+亚妮艾丝：有空的话请再来找它玩。<br />
+范恩：呃，平常都是养在官邸吧……总之，有机会再说吧。<br />
+亚妮艾丝：接着就是欧贝尔地区……亚拉密斯高等学校了吧。<br />
+范恩：哈，既然第一天就这么热闹，应该会一直忙到最后一天吧？<br />
+亚妮艾丝：呵呵，我会努力的。<br />
+亚妮艾丝：…………………………<br />
+范恩：嗯？怎么了？<br />
+亚妮艾丝：没有，那个……只是迟来地深深体会到自己是这里的学生。<br />
+亚妮艾丝：因为亚拉密斯——也是我父母相遇的地方。  </p>
+<p>【看完望远镜】<br />
+范恩：哦，原来是这样啊？<br />
+亚妮艾丝：其实啊，刚刚提到的我的外婆，当时似乎在学校的福利社工作。<br />
+亚妮艾丝：听说身为单亲妈妈的外婆，在校方许可下带着女儿——也就是我的母亲苏菲一起到学校去。<br />
+亚妮艾丝：妈妈在那遇见了刚进入亚拉密斯就读的爸爸……后来在缘分安排下，双方的家庭开始密切来往。<br />
+范恩：【摇头】这样啊，那还真是命中注定呢……也就是说，你父母年纪相差不少啰？<br />
+亚妮艾丝：是的，差了八岁——听说他们刚认识时跟兄妹一样。<br />
+亚妮艾丝：但在一起共度时光，逐渐长大成人的过程中，开始意识到彼此，接着培养出爱情……<br />
+亚妮艾丝：最后，爸爸就在这座塔的展望台向妈妈求婚了。<br />
+范恩：哇喔……♪原来如此啊。<br />
+范恩：我听说设计这座塔的人是你的曾外祖父{爱普斯泰恩博士}。<br />
+范恩：但这里对你来说，似乎是比我想像中还要重要的地方。<br />
+亚妮艾丝：是的，这也是象征我的家人——克劳蒂尔家，以及格兰哈特家的「羁绊」的地方。<br />
+亚妮艾丝：我出生后不久，爸爸便进军政坛，开始变得忙碌……我也从那时开始感到寂寞。<br />
+亚妮艾丝：然而爸爸和妈妈还是努力抽出时间来，带我来这座塔上。  </p>
+<p>【背景CG图：年幼的亚妮艾丝和父母在特里昂塔展望台上俯视首都】<br />
+亚妮艾丝：妈妈………真的告诉了我非常多事情。例如和外婆相依为命时的事，以及和爸爸认识的经过——<br />
+亚妮艾丝：包含外婆在内，他们三人常常一起来这座塔，以及和年龄相差许多的爸爸孕育出爱情的宝贵时光。<br />
+亚妮艾丝：还有爸爸虽然因军务繁忙而无法见证我出生的那一刻，但在扼腕之余还是打从心底开心地抱起我……<br />
+亚妮艾丝：以及妈妈开心地接受求婚的经过——据说爸爸开口时，竟然难得地露出害羞的表情……<br />
+亚妮艾丝：……老实说，对年幼的我来说，也有很多难以理解的话题。<br />
+亚妮艾丝：但我真的好喜欢听我所不知道的爸爸与外婆的事迹，还有妈妈在诉说那些事时那种开心的表情。<br />
+亚妮艾丝：除了曾外祖父的笔记之外，我得知了我最重要的「家人」的故事……<br />
+【背景图完】  </p>
+<p>亚妮艾丝：也让我希望将来有一天，我自己也会遇到这样重要的人——然后能和他一起来这里。<br />
+范恩：……亚妮艾丝……<br />
+亚妮艾丝：【苦笑抠脸】啊哈哈……说笑的。好像说得有点太夸张了。<br />
+范恩：【摇头】……不，都让我有点羡慕起你了。<br />
+范恩：这里正是联系起你们家人的地方吧。包含你从未谋面的外祖母在内。<br />
+亚妮艾丝：呵呵……是的。<br />
+亚妮艾丝：无论背后有什么缘由，爸爸和妈妈仍旧遇见彼此并且相爱，最后生下了我……<br />
+亚妮艾丝：这个事实提醒了我，让我愿意相信……我的家人之间确实有着难以磨灭的羁绊。<br />
+亚妮艾丝：所以我——非常喜欢这里。<br />
+亚妮艾丝：但是，自从开始当地下万事屋的助手之后，不再只是这样……<br />
+亚妮艾丝：和范恩先生还有大家，在首都四处解决了好多4spg……<br />
+亚妮艾丝：从这里眺望首都，真的让我感到很骄傲。<br />
+亚妮艾丝：毕竟我亲手保护了过去和家人们一起欣赏过不知多少次的景色。<br />
+亚妮艾丝：让我觉得自己能当地下万事屋真是太好了。<br />
+亚妮艾丝：所以包含搜集创世在内……请让我郑重地再次对你说……<br />
+亚妮艾丝：——范恩先生，谢谢你。<br />
+亚妮艾丝：是你让我有所成长，甚至还有了这些想法——我真的非常感谢你。<br />
+范恩：【摇头】……哈……你干嘛突然这么严肃地说这种话啦。<br />
+范恩：你的成长都要归功于你自己的努力。<br />
+范恩：是你主动找到「地下万事屋」这个舞台，并借此获得成长……<br />
+范恩：凭着你那不寻常的坚强意志，坚持着你自己的作风，赢得你想要的东西。<br />
+范恩：【挠头】特别是关于那件事……简直超乎我的想像。<br />
+范恩：无论是去年让我在消失之后能毫无迷惘地再次振作起来……<br />
+范恩：还有对着可能危及这个世界的存在毫不畏惧地正面喊话……<br />
+亚妮艾丝：……啊……  </p>
+<p>【回忆】<br />
+亚妮艾丝：我们是在和范恩先生说话……！<br />
+亚妮艾丝：你是谁无关紧要——<br />
+亚妮艾丝：请把范恩先生还给我们……！！<br />
+【回忆完】  </p>
+<p>【亚妮艾丝脸红，微微一笑】<br />
+范恩：【抠脸】我也……多多少少有受到你的坚强影响，得以继续向前吧。<br />
+范恩：甚至让我对几乎要放弃的自己，产生了不管发生什么事情都绝不愿放手的想法。<br />
+范恩：嗯，总之……我要说的是，如果你觉得只有你单方面觉得感谢，那你就错了。<br />
+亚妮艾丝：范恩先生……<br />
+范恩：正如我之前所说，寻找创世委托的「交换条件」依旧有效。<br />
+范恩：今后也让我尽情依赖你啰——一号助手？<br />
+亚妮艾丝：呵呵……好的。<br />
+亚妮艾丝：再次请你多多指教啰，范恩·亚克莱德所长……！  </p>
+<p>在那之后——两人离开特里昂塔，回到同伴们所在之处。  </p>
+<p>【范恩离开】<br />
+亚妮艾丝：（……范恩先生……有发现吗？）<br />
+亚妮艾丝：（虽然现在范恩先生满25岁了，又拉开了一点距离……）<br />
+亚妮艾丝：（但我和范恩先生……也是「相差八岁」）<br />
+亚妮艾丝：（………虽然那个宽阔的背影还很遥远）<br />
+亚妮艾丝：（但是—总有一天，我一定会……）<br />
+范恩：【转身】亚妮艾丝，你怎么了，我要丢下你啰？<br />
+亚妮艾丝：呵呵——我马上过去。  </p>
+<p>【亚妮艾丝】：为了不辜负从范恩先生和大家身上学到的东西，今后我会继续努力的—而且可以的话，我想在你身边努力。……呵呵，小女子不才，今后还请多多指教。  </p>
+<p>亚妮艾丝·克劳蒂尔Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_1">战士的成年礼（4/12，菲莉）</h2>
+<p>事件概要<br />
+菲莉似乎接到了来自战士团的「工作」。好像是为了某项重要任务，使她打算找空档离开学艺祭……<br />
+看她露出那种非比寻常的认真表情，或许该去看看状况比较好。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩暂时和同行者各自分开行动……<br />
+叫住正准备出发的菲莉，询问她跟任务有关的事情。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区<br />
+范恩：……所以啦，我有点担心你的状态。<br />
+范恩：那个直接从战士团来的「工作」真的没问题吗？<br />
+菲莉：范恩先生……对不起，让你担心了。<br />
+菲莉：【无奈】我本来也很犹豫是不是该告诉你……这也是个好机会。<br />
+菲莉：从战士团那里来的任务就是这个。<br />
+【菲莉拿出那个人的照片】<br />
+范恩：嗯？没见过这个人……<br />
+菲莉：他叫达温——是被称为「犯罪顾问」的坏人。<br />
+菲莉：据说只要支付米拉，他就会提供不着痕迹的犯罪计划。<br />
+范恩：哈，我听说那个「破戒」也在暗地里做这种事……<br />
+菲莉：对啊……但他跟破戒比起来，应该只是个不足挂齿的小角色。<br />
+菲莉：这个叫达温的人在几个星期前，向战士团提供了一项情报和委托。<br />
+菲莉：据说大陆西边有个十恶不赦的仲介商——于是要我们讨伐那些绑架战争孤儿进行人口贩卖的人。<br />
+菲莉：如果是真的——身为战士实在无法忽视这项情报。<br />
+范恩：这样啊……所以对方提供了假的情报吧？<br />
+菲莉：【点头】爸爸{Ab}他们去当地调查过后发现，目标跟他所描述的完全相反。<br />
+菲莉：是保护和帮助战争孤儿的某个NGO团体的重要人物。<br />
+菲莉：同时也发现那个叫达温的人真正的目的是计划进行「培育并仲介少年兵的生意」。<br />
+范恩：【无奈】原来如此，所以是利用库鲁格来消灭可能会妨碍他做生意的组织啊。<br />
+范恩：真是的，不要命也该有个限度吧，偏偏挑上库鲁格来行骗。<br />
+菲莉：……库鲁格就算是在战场上，也严格规定不能杀害手无寸铁的普通人。<br />
+菲莉：居然利用战士的骄傲，甚至想破坏我们的守则……这种行为实在是罪该万死。<br />
+菲莉：然后「处理」这件事的工作就全权交给我负责。<br />
+范恩：处理……也只有一个意思了吧。<br />
+范恩：这跟你之前过完生日就「成年」的事情有关吗？<br />
+菲莉：啊哈哈……你知道啊？在库鲁格满14岁就算成年了。<br />
+范恩：嗯，之前接受你哥哥指导的时候，我曾经调查过库鲁格的传统。<br />
+范恩：也知道所有成年的战士都必须通过「成年礼」。<br />
+菲莉：……嗯，这次的任务应该就是……<br />
+菲莉：【心情复杂】大概是那时候由范恩先生代替我拿的小刀，终于到了由我自己拿的时候了吧。<br />
+范恩：……菲莉妲……<br />
+菲莉：【摇头】请不用担心我，爸爸{Ab}已经给了我目标的情报了。<br />
+菲莉：范恩先生请好好享受学艺祭……<br />
+范恩：不，这我办不到。<br />
+范恩：虽然这跟食火鸟{阿伊妲}那时候的意义完全不一样……<br />
+范恩：但那时我擅自接手你的工作，也不能说是毫无关系。<br />
+范恩：既然这样，身为事务所的所长和现任监护人，我必须代替你爸爸和食火鸟{阿伊妲}……<br />
+范恩：就算你拒绝，我也要从旁看着你执行任务——这是我必须坚守的原则。<br />
+菲莉：范恩先生……<br />
+菲莉：耶嘿嘿，我明白了……感觉放心多了。<br />
+菲莉：请范恩先生助我一臂之力，达成战士的职责！  </p>
+<p>之后，菲莉透过从哈桑那里获得的情报，开始对达温展开彻底的情报收集……<br />
+也利用了范恩认识的渠道，精确地找出对方在首都内的多个据点。<br />
+然后——开始采取行动将达温逼入绝境。  </p>
+<p>【场景】黑芒街·废弃区<br />
+达温：【躲在掩体后】呼、呼、呼……！！<br />
+达温：【打开Xipha通讯】可恶，一个手下也没现身……！该不会其他据点也全被摧毁了吧！？<br />
+达温：【收起Xipha】在、在这么短的时间内……简直像是早已被看穿了……！<br />
+达温：【摇头】唔，库鲁格那些家伙终于认真起来——不、不对，从规模来看应该只是侦察部队等级而已！！<br />
+达温：……嘎、嘎哈哈，正合我意！就让我回敬你们一番，趁主力来之前逃走……！  </p>
+<p>【场景】伊帝斯·格兰赛道 巷道死路<br />
+达温：啧，无路可走了啊！但、但只要来到这里，就暂时——<br />
+声音：【画外】——不，到此为止了。<br />
+菲莉：【从背后走来】犯罪顾问达温——你最后果然逃到这个地方来了。<br />
+达温：你、你是谁啊！？——你那身打扮……！<br />
+达温：该、该不会就是你这小鬼吧！？到处破坏我的据点，还打倒我手下的……！！<br />
+菲莉：是的，我就是库鲁格战士的一员。你已经无处可逃了——做好觉悟吧。<br />
+达温：等、等等，等一下啊小姑娘！我真的只是一时鬼迷心窍而已！<br />
+达温：我完全没有要污蔑你们的骄傲的意思啊！所以——<br />
+【一个戴墨镜的男子握着步枪蹲在大楼屋顶】<br />
+达温：——所以你就快点去死一死，然后放过我啊啊啊啊！<br />
+【达温的手下被范恩打倒】<br />
+达温的手下：唔噗……<br />
+达温：【抬头】……咦……？<br />
+范恩：哈，轻轻松松就赶上了啊。<br />
+范恩：伏兵的位置也完全如我们所预料呢，菲莉妲。<br />
+菲莉：谢谢你，范恩先生。帮大忙了。<br />
+【菲莉收起武器走上前】<br />
+达温：哇、哇啊啊啊啊啊啊！！<br />
+【菲莉的小刀已经架到达温脖子上，达温吓得面色发黑】<br />
+达温：等、等、等等啊啊啊啊啊！<br />
+达温：对、对了……我家乡还有生病的母亲在！小姑娘你行行好，放过我好不好！？<br />
+达温：拜托，拜托饶我一命……！<br />
+菲莉：要用制裁烈焰净化邪恶的灵魂——这是我们代代传承的战士守则。<br />
+达温：【闭眼】噫噫噫噫噫噫……！！<br />
+【小刀扎在墙上，达温吓倒坐倒在地】<br />
+达温：【睁眼】——啊、啊、啊啊……？<br />
+达温：……咦、咦……我还活着……！？<br />
+菲莉：就到此结束——我不可能让你选择那么轻松的道路。<br />
+菲莉：你到处散播的犯罪计划，加上应该早已朝各方面延伸出去的邪恶人脉……<br />
+菲莉：如果不把这些也彻底烧毁，就不能说尽到战士该尽的义务。<br />
+菲莉：我需要你成为做这件事情的「柴薪」。<br />
+菲莉：把你丢进适当的地方烧，希望你成为把潜藏在黑暗中的人引出来的「火焰」。<br />
+达温：【惊疑】难、难不成……你该不会打算把我交给CID吧！？<br />
+达温：【摇头】等、等等啊，至少交给协会或警察啦！要是被他们逼问出所有事情，那我……！<br />
+菲莉：你会遭到所有被你泄密的同伴与同业者怨恨，失去在台面下世界的居所。<br />
+菲莉：但这是你自己的「罪孽」……是你犯下诸多罪恶，自己招惹上身的。<br />
+菲莉：——我绝不允许你逃避。起码替自己祈祷，向火焰与翼之女神{亚露纱}祈祷。<br />
+达温：……啊……<br />
+【达温低头，范恩走来】<br />
+范恩：哈……成功做到了啊。<br />
+【范恩打开Xipha联络】  </p>
+<p>在那之后——联络上卡艾拉少尉，把达温交到CID手上。  </p>
+<p>【场景】伊帝斯·格兰赛道<br />
+【CID驾车赶来逮捕达温】<br />
+卡艾拉少尉：没想到你竟然如此完美逮捕到那个犯罪顾问啊……<br />
+卡艾拉少尉：即使年轻也是库鲁格的战士——不对，这边应该要老实地说，实在了不起。<br />
+菲莉：我只是完成我的任务而已。……之后的事情就拜托你们了。<br />
+卡艾拉少尉：【点头】交给我们吧。包括他的人脉在内，我们会彻底调查的。<br />
+达温：【无奈摇头】……完、完蛋了一切都结束了……要是不对库鲁格出手，也不会这样……<br />
+菲莉：……就算我不做，肯定也会有其他人来阻止你。<br />
+菲莉：你就诚实面对自己的罪行并为此赎罪吧。希望你下一次别再被战士盯上了。<br />
+达温：……唔……！<br />
+菲莉：……但是，将来有天你赎完了罪，可以回到故乡的时候。<br />
+菲莉：请好好珍惜你母亲——尽管你说她「生病」似乎也是假的。<br />
+达温：……咦……<br />
+达温：……你连我妈的事情也完全掌握了……？既然如此，你明明可以使出更无情的手段……<br />
+达温：……呵呵、哈哈哈……这是怎样啊，可恶……<br />
+【达温被押解上车离去】<br />
+菲莉：……………………………<br />
+范恩：……真是的，你这家伙。<br />
+范恩：我没想到你竟然能做得如此彻底啊。<br />
+范恩：不仅以「战士」身份制裁对方——还贯彻了你自己的「原则」。<br />
+菲莉：……呵呵，这全多亏有范恩先生帮忙搜集情报。<br />
+菲莉：我从小就被这样教育长大，我也一直深信……要消灭罪恶——这才是所谓的「战士」。<br />
+菲莉：【无奈】但是……去年发生阿伊姐姐姐那件事，我因此来到地下万事屋，经历了许多考验。<br />
+菲莉：我面对着犹豫不决的自己，也开始对「使命」产生迷惘。<br />
+菲莉：因而出现这样的想法——「答案」肯定不是只有这个。<br />
+菲莉：所以——我想我肯定是想要证明这一点。<br />
+菲莉：证明透过这个成年礼——我可以找到属于我自己的答案。<br />
+菲莉：虽然我不清楚爸爸{Ab}和哥哥知道事情始末之后会怎么想……<br />
+范恩：这是你遵守「守则」后找到的结果对吧？没有人可以对这说三道四。<br />
+范恩：……真是的，和你跑来我这要打工那时完全无法相比啊……<br />
+范恩：让我重新说一次——菲莉妲，你做得很好。<br />
+菲莉：范恩先生……<br />
+菲莉：耶嘿嘿……如果真是这样，这也多亏了在地下万事屋和大家以及范恩先生相处的缘故。<br />
+菲莉：我真的非常感谢你——范恩先生。<br />
+菲莉：对了……虽然顺道说这个好像有点怪。<br />
+菲莉：还有一件事——可以听我一个任性要求吗？<br />
+范恩：哦？是什么啊——  </p>
+<p>【场景】首都伊帝斯·旧市街 蒙马特·居住楼层 事务所大楼屋顶<br />
+【范恩看着掌心的饰品】<br />
+菲莉：以成人与战士的身份执行的第一项任务结束后会执行「装饰仪式」。<br />
+菲莉：按照习俗，一般是由最信任的家人或朋友协助进行。<br />
+菲莉：……我原本是打算拜托阿伊妲姐姐帮忙的。<br />
+范恩：我好像也听说过……那是一生只有一次的神圣仪式。<br />
+范恩：交给既不是战士也不是佣兵的我来帮忙，真的没关系吗？<br />
+菲莉：【点头】是的——对我而言范恩先生是最佳人选。<br />
+菲莉：就请你见证我以大人的身份迈出第一步的瞬间吧。<br />
+范恩：既然你都把话说到这里了，那也没办法。虽然责任重大，但我也只能接下来了吧。<br />
+范恩：「汝，火焰之子菲莉妲·阿尔法德——」<br />
+范恩：「愿汝能持续走在高洁之路上直至火焰燃烧殆尽之时为止」<br />
+菲莉：「——以受翼之女神{亚露纱}遴选之火焰子民的荣耀立誓，我必将遵循此道」<br />
+菲莉：【戴上发饰，抠脸】……耶嘿嘿，如何？总觉得有点难为情呢。<br />
+范恩：嗯，很适合你嘛。<br />
+范恩：【无奈】不过，连这种仪式都见证了，总觉得越来越担心被你爸爸盯上……<br />
+菲莉：被爸爸{Ab}盯上？呃，他为什么要……<br />
+范恩：啊，没什么啦。在这方面的人情世故，你还有很多要学的呢。<br />
+菲莉：【无奈】唔，虽然听不太懂……但我知道自己还不够成熟。<br />
+菲莉：呵呵……所以今后还请继续让我跟在你身边学习。<br />
+菲莉：为了回报让我能有所成长的大家，我今后也会好好努力的……！<br />
+范恩：嗯，万事拜托了，菲莉妲。  </p>
+<p>之后，两人又聊了一阵子才回到伙伴们身边。<br />
+已取得菲莉的发饰。  </p>
+<p>【菲莉】：我虽然还不成气候，但还是很以现在的自己为荣！所以，在我决定自己要走的路那天到来前——请让我继续跟在范恩先生身边多加学习！  </p>
+<p>菲莉·阿尔法德Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_2">关于某个男人的传闻（4/12，亚伦）</h2>
+<p>事作概要<br />
+不久之前听说过一则传闻说「有人在到处打听亚伦的事」。<br />
+……趁当事人正在享受学艺祭乐趣时，稍微查证一下真伪吧。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩暂时与伙伴分开，去找那个传闻中的男人……<br />
+经过他一番追踪，总算联络上那个男人，两人决定在站前大道的小巷碰头。  </p>
+<p>【场景】首都伊帝斯·站前大道 小巷<br />
+【范恩走进小巷】<br />
+青年的声音：【画外】……你够了吧！<br />
+红发中年男子：嘿嘿，你还记得我的长相啊。<br />
+红发中年男子：十几年没见了，你要再开心一点啊，伦儿。<br />
+亚伦：……不要用小时候的乳名叫我，恶心死了。你今天怎么有脸跑来？<br />
+红发中年男子：【摇头】喂喂，我来看自己的儿子也不行吗？我可是明查暗访之下，千里迢迢来到首都耶。<br />
+红发中年男子：不过，你真的长大了。长得也越来越像叶花——<br />
+亚伦：你没资格随口讲出妈妈的名字！<br />
+范恩的声音：【画外】原来如此，是这么回事。<br />
+【范恩走来】<br />
+亚伦：……这么快就来了。<br />
+范恩：【画外】唉，你怎么会在这里？我应该没说要和他在这里见面。<br />
+亚伦：……哈，别以为只有你鼻子很灵。<br />
+亚伦：我也是听到这家伙的风声，自己查出他会来这个地方的。<br />
+红发中年男子：喔喔，老兄，你就是照顾我儿子的地下万事屋啊！<br />
+李罗伊：我是李罗伊。伦儿——亚伦的父亲。<br />
+李罗伊：谢谢你这么照顾我儿子。<br />
+范恩：幸会，我是范恩·亚克莱德。<br />
+亚伦：少摆出爸爸的架子！你也不用理他！<br />
+李罗伊：不要那么激动嘛。……既然雇主来了，那正好。<br />
+李罗伊：咳咳，我这趟来首都只有一个目的——<br />
+李罗伊：拜托！能不能借我一点米拉！<br />
+李罗伊：其实啊～我跟坏人借了一点钱，现在正被他们追杀。<br />
+李罗伊：如果不先至少还清利息，他们大概会把我绑在石头上丢到海里去。<br />
+李罗伊：伦儿，拜托啦，我们不是父子吗？我只能靠你了。<br />
+李罗伊：如果现在没有米拉，可以先跟雇主借一些……喔，如果需要下跪拜托的话我来就好！<br />
+亚伦：你够了。<br />
+亚伦：……混帐……真的和那时候完全一个样子……<br />
+亚伦：妈妈那时候不知道因为你这个废物吃了多少苦……<br />
+亚伦：我不会再见你，给我滚。<br />
+李罗伊：【无奈】唔……这样啊。唉，那就没办法了。<br />
+李罗伊：那我的事情就办完了。再见啦，老兄。<br />
+范恩：嗯，如果你要躲债的话，可以去黑芒街。那边不少跟你一样的人。<br />
+李罗伊：哦，我听过这个地方。应该挺适合我的。  </p>
+<p>【范恩和亚伦走出小巷】<br />
+范恩：……之前听你说一出生就没有父亲。<br />
+亚伦：哈……确实没有啊。我根本没把那种人当成父亲。<br />
+亚伦：我妈以前是东方华剧的头号演员……<br />
+亚伦：那家伙把妈妈赚到的钱全拿去买酒跟赌博，让妈妈过得很苦。<br />
+亚伦：最后他被卢家盯上，在我六岁的时候，被赶出煌都……<br />
+亚伦：十几年没见，结果一见面就那副德行。<br />
+范恩：【无奈】嗯，老实说，他和你一点也不像。<br />
+范恩：虽然从发色的确看得出你们有血缘关系。<br />
+亚伦：……所以才更令人不爽啊。没想到我体内流着那种烂人的血。<br />
+亚伦：啧………实在不懂妈妈怎么会和那种烂人在一起。<br />
+范恩：不过话说回来，他怎么会事到如今跑来首都呢？<br />
+亚伦：啊？看了刚才状况不就知道了，就只是为了无聊的金钱{米拉}问题。<br />
+范恩：和儿子明明超过十年没见，都知道儿子早就疏远自己了，却还特地来借钱吗？<br />
+范恩：他应该早就明白你不可能帮他还钱。<br />
+范恩：顶多期待你能给他一点「零用钱」吧。<br />
+亚伦：……你到底想说什么？<br />
+范恩：【无奈】没什么——只是觉得这样下去真的好吗？<br />
+范恩：【坏笑】让妈妈难过的垃圾爸爸就在眼前，你却连给他一拳都没有。<br />
+范恩：当然，你们突然重逢，想必你心里还很乱，不知道怎么面对他吧。<br />
+范恩：但是人称「罗州小霸王」和「麒麟儿」的男人，却这么犹豫不决的，太不像你了。<br />
+范恩：如果你有这个打算，我至少能帮你教训一下老爸喔。<br />
+亚伦：【咬牙】唔……！<br />
+亚伦：可恶，你摆明在激我……但这确实不像我的作风。<br />
+亚伦：……我要去找他，你陪我一起去吧。<br />
+范恩：哈……这样才对。  </p>
+<p>【场景】黑芒街<br />
+不久前——  </p>
+<p>【李罗伊被雷家残党围堵，坐倒在地】<br />
+雷家残党：【拳掌相击】哼，你难道真的以为能从我们手中逃掉吗？<br />
+雷家残党：快把钱{米拉}还来，人渣……！<br />
+李罗伊：【无奈】别、别这样，冷静点嘛……<br />
+李罗伊：难得的帅大叔，如果弄伤了，要用身体偿还也很困难哦。<br />
+李罗伊：唔……<br />
+【李罗伊扑倒在地，照片掉落出来】<br />
+雷家残党：哦？是家人的照片吗？<br />
+李罗伊：这、这是，那个……<br />
+雷家残党：你在慌张什么？李罗伊·魏。<br />
+雷家残党：我们早就查出你是「麒麟儿」的亲生父亲了。<br />
+雷家残党：十多年前被从煌都放逐的无赖……<br />
+雷家残党：你终究只是那个恶童的父亲，我们原本认为你没有任何利用价值，但状况变了。<br />
+雷家残党：被曹当作弃子操纵，又被高朗抛弃，雷家完全没救了……<br />
+雷家残党：既然如此，至少要让你们受到报应……！让卢家、李家、亚伦·魏受到报应！<br />
+雷家残党：【踩在照片上】协助我们，李罗伊·魏，把你的儿子引出来到我们面前。<br />
+雷家残党：只要你这么做，就把你的债务一笔勾消。<br />
+雷家残党：反正那是你已经舍弃的家人——这是不错的提议吧。<br />
+雷家残党：对于放逐你的卢家，这也是不错的报复方式哦。<br />
+李罗伊：…………………………………嘿、嘿嘿……<br />
+雷家残党：【被踢翻】你、你这家伙……！<br />
+李罗伊：【无奈摇头】哎呀哎呀，别那么急嘛……！米拉我会好好偿还的。<br />
+李罗伊：所以，不许对伦儿……不许对亚伦下手……！<br />
+雷家残党：……不过是个人渣，还敢说这种大话……！<br />
+李罗伊：【被打趴在地】咳、咳……！<br />
+雷家残党：呼、呼，看样子你还没认清自己的立场啊……！！<br />
+雷家残党：你无权拒绝！老实听从我们就对了……！<br />
+声音：【画外】——没认清自己立场的是你们。<br />
+雷家残党：【转身】亚伦·魏！连地下万事屋也……！<br />
+雷家残党：追查到这里了吗！？算了，这样正合我们的意思——<br />
+亚伦：【愤怒爆气】——闭嘴。<br />
+雷家残党：！！！？<br />
+李罗伊：唔………伦儿，你——<br />
+【范恩和亚伦拔出武器】<br />
+范恩：一口气决胜负吧！<br />
+亚伦：嗯……！！<br />
+【雷家残党被打倒】<br />
+范恩：真是的……是雷家的余党啊。竟然还有余党潜伏在这种地方。<br />
+李罗伊：【无奈起身】哎呀～多谢啦，小哥！<br />
+李罗伊：还有伦儿，你变强了呢。这种家伙完全不是你的对手——<br />
+【亚伦长剑一挺，李罗伊吓了一跳】<br />
+李罗伊：噫！？<br />
+亚伦：少得意忘形了，混帐……！刚才那是什么！？<br />
+亚伦：你该不会以为我会因为那种事……以为我会只因为你带着那种照片，就对你心软吗……！<br />
+范恩：……冷静点，亚伦。<br />
+范恩：在来这里的途中，我思考了各种可能的理由。<br />
+范恩：你来到首都的理由……大概是为了据说在年底的老婆的「忌日」吧？<br />
+【亚伦一惊】<br />
+李罗伊：【无奈】哈哈……毕竟我被煌都拒之门外，自从叶花去世后，我就一次都没扫过墓。<br />
+李罗伊：但是我听说了伦儿……听说了亚伦暂时会在首都活动的传闻。<br />
+李罗伊：【无奈摇头】既然如此，我想说至少今年就来看一下她遗留下的小孩的脸……<br />
+李罗伊：不过，真要说起来，借钱{米拉}才是主要目的就是了。<br />
+李罗伊：【从腰间取出一枝花】生长在煌都海蚀洞的《清翠百合》……为了找相似的花，我费了很大的工夫。<br />
+李罗伊：能替我去墓前献花吗？<br />
+亚伦：【情绪激动】呜……开什么玩笑，混帐……！<br />
+亚伦：如果你对老妈是真心的，为什么不在老妈还活着时去见她一面……！<br />
+亚伦：这跟你有没有被卢家拒之门外无关吧……！我就是对你这点很……！！<br />
+【亚伦咬牙挥拳上去】<br />
+李罗伊：【右臂护在身前】唔……<br />
+亚伦：……不说了。<br />
+亚伦：【看着手里的花】和你说话后，我总算明白了，明白你不值得我揍，我也没理由揍你。<br />
+范恩：哈……<br />
+亚伦：这东西我姑且就先收下。……老妈大概也不会拒绝。<br />
+亚伦：快从我眼前消失，臭老爸。<br />
+李罗伊：【无奈】哈、哈哈……我会那么做的。<br />
+女孩的声音：【画外】——关于雷家，交给我们善后吧。<br />
+【李曹和卢亚仙走来】<br />
+李罗伊：呃……！？<br />
+亚伦：亚仙，连曹也……<br />
+范恩：【鄙视眼】你们……我可没听说还有残党啊。<br />
+曹：呵呵，对黑月而言那已是微不足道的小事，所以也没必要告诉各位吧？<br />
+亚仙：【无奈】只是我们没想到连李罗伊叔叔也有参一脚。<br />
+亚仙：无论如何，多亏如此，抓到他们的把柄了，再次彻底消灭他们的据点吧。<br />
+亚仙：包括在台面下进行的强硬高利贷在内——李家方面也拜托你啰。<br />
+曹：是的，联手合作，尽快收拾干净吧。为了今后也建立良好的关系。<br />
+亚伦：……真是的，居然完全看开了。<br />
+李罗伊：哈……！这么说，总有一天我就不用还欠雷家的债务了吗！？<br />
+李罗伊：耶！真幸运！<br />
+范恩：唉，总觉得这样有点不负责任……再说，你还有其他债务吧？<br />
+曹：对了对了，顺带一提，似乎有复数的讨债人查到了李罗伊的所在地。<br />
+曹：那些人似乎陆陆续续聚集到首都了哦。<br />
+【李罗伊汗】<br />
+亚伦：【不满】你这家伙……真的是个混帐。<br />
+李罗伊：我、我不能再耗在这里了……必须现在马上离开首都！<br />
+李罗伊：伦儿，还有地下万事屋的小哥都要保重哦，再见！<br />
+【李罗伊跑掉】  </p>
+<p>就这样，李罗伊立刻销声匿迹……<br />
+亚仙和曹也为了收拾雷家残党而离开。<br />
+范恩和亚伦重新回到同伴们身边。  </p>
+<p>【场景】黑芒街 地下通道<br />
+亚伦：【心情复杂】可恶……感觉被看见不少难看的地方。<br />
+范恩：哈哈，事到如今还有什么好在意的。……总之，这样应该算是不错的结果吧？<br />
+范恩：好歹也是令堂选的对象……至少能得知如今那样的「缘分」还没断。<br />
+亚伦：【转身，挠头】……少不懂装懂了。<br />
+亚伦：那家伙确实是个没出息的混帐，我至今也还没办法原谅他让我妈吃了很多苦。<br />
+亚伦：不过，若就这样放着不管，心底确实也会一直有个疙瘩。<br />
+亚伦：就这层意义来说……追上去或许是正确的抉择。<br />
+范恩：哈……光是能这样想就是很大的进步了。真是的，你也成长了不少嘛。<br />
+亚伦：【弹开范恩的手】你真的很啰嗦耶！  </p>
+<p>【场景】首都伊帝斯·站前大道<br />
+李罗伊：……果然有「那种血统」……<br />
+【剧情图：亚伦。CG图：被困在囚笼里的大君】<br />
+李罗伊：……抱歉啊，伦儿。要是能在我这一代结束就好了……<br />
+李罗伊：但是，如果你身边有这样的一群人陪伴，或许你可以……<br />
+李罗伊：【无奈挠头】唉，我没资格讲这些吧。<br />
+【李罗伊离开】  </p>
+<p>【亚伦】：虽然所谓的血统只不过是一种符号——但借此联系起的缘分或许是很重要的吧。啊……我能这样想，或许是因为你——当我没说吧！  </p>
+<p>亚伦·魏Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_3">错过的青春（4/12，莉婕特）</h2>
+<p>事件抓要<br />
+莉婕特在逛学艺祭时露出若有所思的表情。<br />
+她好像打算和人会合后一起逛学艺祭，要去看看她的状况吗？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩和同行者暂时分开……<br />
+并前往正在逛学艺祭的莉婕特身旁。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 亚拉密斯高等学校 中庭<br />
+莉婕特：范恩先生，巡逻辛苦你了。<br />
+米拉贝儿：【叉腰，抓狂】怎么啦，一个人？难得的学艺祭却这么闲太可惜了吧～！<br />
+范恩：【无奈】我才不闲啦。<br />
+范恩：不过没想到那边的大姐也来逛学艺祭了啊。<br />
+米拉贝儿：是啊，因为我跟莉婕特约好要一起逛了嘛。<br />
+米拉贝儿：我的搭档刚好要处理别的事情，就出来顺便见个面这样。<br />
+范恩：（「搭档」啊……？）<br />
+米拉贝儿：我们上一次见面已经是年底了，今天可要好好享受才行～！<br />
+莉婕特：呵呵，最近也几乎没有机会一起出来玩呢。<br />
+范恩：你们看起来很开心真是太好了。我就不打扰你们，先告退……<br />
+米拉贝儿：你怎么这么见外，机会难得，你就一起来逛嘛！<br />
+米拉贝儿：告诉我们你推荐哪间店吧？感觉就很有趣！<br />
+莉婕特：没错，如果能请到来自这里的前学生来介绍学校看点的话就帮大忙了。<br />
+范恩：这样喔？既然你们都这么说了，就让我打扰一下吧。<br />
+米拉贝儿：就这么决定了，赶快出发吧～！<br />
+莉婕特：呵呵，还请多多指教。  </p>
+<p>后来范恩一行人就这样去逛学校还有市集的摊位。<br />
+莉婕特一脸耐人寻味地在逛摊子，米拉贝儿则是随兴地在花钱……<br />
+他们一起度过了短暂但又充实的时光。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 亚拉密斯高等学校 入口广场<br />
+【莉婕特和米拉贝儿坐在树下长椅上】<br />
+米拉贝儿：哎呀～每个地方都很有看头呢～！真不愧是首都代表性的学艺祭！<br />
+莉婕特：是啊，在范恩先生的介绍下，也参观了校内各个地方。<br />
+范恩：介绍有帮助到你就好。<br />
+范恩：不过，莉婕特比起参观摊位，好像对学校本身更感兴趣？<br />
+莉婕特：呵呵……对啊。<br />
+莉婕特：因为我虽然上过主日学校，但没什么机会体验校园生活。<br />
+米拉贝儿：……莉婕特……<br />
+范恩：（……没机会体验啊……）<br />
+范恩：（我没有详细问过莉婕特变成现在的身体时的事……）<br />
+莉婕特：……呵呵，真抱歉。难得的活动却说了沉重的话。<br />
+莉婕特：还请别放在心上，现在能跟范恩先生你们在一起，我就——<br />
+米拉贝儿：【思索片刻】——不对，这样是不够的。<br />
+米拉贝儿：莉婕特，我不是常常说吗？你要更贪心一点才行。<br />
+【米拉贝儿打开Xipha发送了东西，莉婕特打开Xipha接收】<br />
+莉婕特：……嗯？这是……某种测试程式吗？<br />
+米拉贝儿：我把简单的说明书传给你了。<br />
+米拉贝儿：你就用这个跟哥哥一起连接《童话庭园》吧。<br />
+范恩：我也要吗？这到底——<br />
+米拉贝儿：这是今天约好一起逛的另一个原因。<br />
+米拉贝儿：【起身】哎呀，我差不多该回去了，两位再见啰～<br />
+【米拉贝儿离开】<br />
+莉婕特：呃……？<br />
+范恩：【无奈摇头】有点搞不懂……<br />
+范恩：……但反正还有时间，要不要去看看？<br />
+莉婕特：……也是。<br />
+莉婕特：她带来的程式……我也有点感兴趣。  </p>
+<p>他们就这样参照说明书上的指示，启动了程式……<br />
+范恩和莉婕特就这样踏进了《童话庭园》里面。  </p>
+<p>【场景】童话庭园 亚拉密斯高等学校教室<br />
+范恩：这是……！<br />
+【范恩戴着眼镜拿着课本在讲桌前】<br />
+范恩：在《童话庭园》中重现了亚拉密斯的教室吗？看起来就跟真的一模一样呢……<br />
+范恩：不过这个眼镜跟课本到底是……还有莉婕特又上哪去——<br />
+？？？：【画外】……范恩先生，你在这里吗？<br />
+范恩：【看向关闭的房门】喔，原来莉婕特在那啊。<br />
+？？？：【门外】是的……那个，我可以进去吗？<br />
+范恩：你怎么突然这么见外？<br />
+？？？：【门外】不，那是因为…………那我就打扰了。<br />
+？？？：【开门】那个……抱歉我来迟了，范恩先生。<br />
+范恩：——！？难、难不成……<br />
+范恩：你……你真的是莉婕特吗！？<br />
+【穿着校服的莉婕特进入教室】<br />
+莉婕特：是的……我也很吃惊。<br />
+莉婕特：这是将我14岁时的模样模拟出来的晶片体化身……<br />
+莉婕特：好像是利用了童话庭园创造出来的新型虚拟体验系统。<br />
+范恩：14岁的莉婕特，喂喂……这种事情居然办得到喔？<br />
+范恩：……原来如此，那就是那个大姐的目的吗。<br />
+莉婕特：嗯，是的………这好像是她之前趁工作闲暇之余偷偷测试的程式。<br />
+莉婕特：【无奈】她设计这个好像只是为了让我体验错过的时光……<br />
+莉婕特：米拉贝儿……这个人真的是。<br />
+范恩：哼……这个眼镜跟课本也是为此特别准备的吧。<br />
+范恩：【无奈】……不过，仔细想想，我也是从学生生活途中逃了出来。<br />
+范恩：当年给老师造成了这么多的困扰，现在换我扮演老师，也是很讽刺呢。<br />
+范恩：莉婕特，随便找个位置坐吧。我要开始上课了——希望你不介意我这个不良老师。<br />
+莉婕特：呵呵……请你多多指教了。亚克莱德老师。  </p>
+<p>就这样，以虚拟的方式来体验的「莉婕特的学生时代」就这样开始了。  </p>
+<p>【莉婕特坐在课桌后】<br />
+范恩：再来是这个问题——请问卡尔瓦德革命是在哪年发生的？<br />
+莉婕特：【起立】是七耀历1100年。<br />
+范恩：莉婕特很会嘛。不愧是我们班的班长。<br />
+莉婕特：【捂嘴苦笑】呵呵，原来还有这个设定吗——我只是做好了预习跟复习。………而且问题好像有点太简单了。<br />
+莉婕特：老师，你也可以出难一点的问题喔。<br />
+范恩：哼，是你说的喔。那么下一题——  </p>
+<p>两人都很清楚，这只是一场扮家家酒………  </p>
+<p>范恩：然后这个问题的解法……<br />
+莉婕特：啊，老师，那边的方程式不对。<br />
+范恩：哦，真的假的？<br />
+范恩：【为难】我好久没碰数学了……呃……该怎么解啊？<br />
+莉婕特：【走上讲台】听好了，方程式是X=-b±√b²-4ac/2a，所以这边的解应该是——<br />
+范恩：【无奈汗】（等等，这样反而搞不清谁才是老师了）  </p>
+<p>两人就像是要好好弥补过去错失、放弃的时光一般地<br />
+认真享受这段时间，不放过任何一分一秒。  </p>
+<p>【范恩坐到课桌前】<br />
+莉婕特：呵呵，没想到可以在休息时间独占老师，对其他同学很不好意思呢。<br />
+范恩：毕竟如果你有什么上课没听懂的部分也是身为老师的我的责任啊。<br />
+范恩：尽管问我吧。我会在我知道的范围回答的。<br />
+莉婕特：嘻嘻，那我想问这个问题——<br />
+范恩：嗯，怎么了？<br />
+莉婕特：……呵呵，没什么。<br />
+莉婕特：（待在这个身体里，不知为何有种他比平常更「成熟」的感觉呢……）<br />
+莉婕特：（……亚妮艾丝小姐跟其他人平常也是这种感觉吗……）  </p>
+<p>——揪心却又有着酸甜滋味的时光就这样一转眼便过去了。  </p>
+<p>【场景忽闪忽闪】<br />
+莉婕特：……啊……<br />
+范恩：【无奈】……原来已经要结束了吗。比我想像得还要快啊。<br />
+范恩：是因为信息处理的关系所以不能运作太久吗……<br />
+莉婕特：不过——这真是一段非常快乐的时光。<br />
+范恩：是啊，我也不小心就变得很投入。谢谢你啦。<br />
+范恩：好，那今天的课就先上到这边吧。<br />
+范恩：………………<br />
+莉婕特：课程就这样结束，向老师道别……夕阳捎来了自由的放学时间。<br />
+莉婕特：这就是学生时代可以体会到的日常景色。也就是青春……<br />
+莉婕特：我真的觉得……能多少体会到这样的生活真的很开心。<br />
+范恩：那真是太好了。<br />
+范恩：虽然说我这次是担任老师，但我也久违地感受到学校的氛围。<br />
+范恩：我还不小心想像了一下……要是这段时间能继续下去会怎么样呢。<br />
+莉婕特：呵呵，大家都说学生时代总是一下子就过去了。<br />
+莉婕特：……这真的是一段耀眼的时光呢。<br />
+莉婕特：【感慨】只是扮演学生的角色，居然就能让人这么地有感触……<br />
+范恩：莉婕特……<br />
+莉婕特：【无奈】我一定……没办法完全放下呢。<br />
+莉婕特：放不下对一般生活的憧憬……放不下想过普通人生的想法……<br />
+范恩：这样啊……<br />
+莉婕特：呵呵……「那一天」失去的东西虽然多到无法计算——<br />
+莉婕特：但是能以那样的方式获得新身体并活下来，已是一场奇迹。<br />
+莉婕特：而且，正因为我有着这样的人生，才能跟范恩先生、米拉贝儿还有地下万事屋的大家认识……<br />
+莉婕特：这样一想，我真的过得很幸福。<br />
+范恩：【摇头】……真是的，你不管什么时候都很成熟呢。<br />
+范恩：不只是年龄上成熟，你比其他助手都更冷静，而且也很懂事。<br />
+莉婕特：嗯……？谢谢你。<br />
+范恩：只不过……你现在是14岁的样子，可以稍微幼稚点没关系吧？<br />
+范恩：我从平常就觉得你应该多放松一点的。<br />
+莉婕特：………………<br />
+范恩：听你这样说，你从「那一天」开始……<br />
+范恩：原本只是一个小孩的你，被迫成为一个大人。<br />
+莉婕特：【无奈】……是这样吗……<br />
+范恩：不过我觉得你可以——再往前踏出一步，多依靠我们一点。<br />
+范恩：就算超过了20岁也可以享受青春啊。<br />
+范恩：像是在这边模拟体验，或是去想去的地方都可以，放马过来吧。<br />
+范恩：我们可是「伙伴」啊，帮这些小忙不需要算人情的。<br />
+莉婕特：【惊讶】……！<br />
+莉婕特：【感慨】……范恩先生，谢谢你。我觉得心情上轻松了许多。<br />
+莉婕特：呵呵，真是上了一堂不错的课呢。<br />
+范恩：哼……<br />
+范恩：那么，虽然有点可惜，差不多该收尾了。——莉婕特，麻烦你了。<br />
+莉婕特：【起身】是的，亚克莱德老师。<br />
+莉婕特：【鞠躬】——起立、敬礼。  </p>
+<p>就这样，范恩跟莉婕特从「童话庭园」登出——<br />
+两人向米拉贝儿道谢之后，和伙伴会合，再次进行巡逻。  </p>
+<p>【莉婕特】：呵呵……多亏了范恩先生和米拉贝儿，让我得以面对原本深藏于心中的憧憬和遗憾。下次要是发生什么事——请务必让我来支持你。  </p>
+<p>莉婕特·唐宁Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_4">卡特尔的秘密（4/12，卡特尔）</h2>
+<p>事件题要<br />
+卡特尔似乎突然想起有事，一副坐立难安的样子。<br />
+他好像打算回事务所的房间去……保险起见，要去看看状况吗？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+卡特尔突然说有急事，回事务所去了。<br />
+然而等了很久他还是没归队，联络他也不接。保险起见，范恩单独前来查看他的状况。  </p>
+<p>【场景】首都伊帝斯·旧市街 居住楼层·蒙马特303卡特尔房间外<br />
+范恩：（看来他至少有回到房间。是忘了什么和帮忙学艺祭有关的东西吗？）<br />
+范恩：（他看起来有点慌张，至少问问是怎么回事吧——）<br />
+【范恩正要开门，听见里面的声音】<br />
+？？？：——耶嘿嘿，能让这么多人看见，我真的好开心唷）<br />
+？？？：果然还是直播最赞了！大家请把握这个机会订阅——<br />
+范恩：【一惊，鄙视眼】（……什么？这个有点做作的声音是？）<br />
+范恩：（他该不会带女生回房间……——不，这声音是……）  </p>
+<p>【场景】首都伊帝斯·旧市街 居住楼层·蒙马特303卡特尔房间<br />
+？？？：那么，伊帝斯的大家，谢谢你们今天邀请我♪<br />
+？？？：请大家今后也要多多支持卡特蕾雅频道唷☆<br />
+范恩：……卡特尔，我要进去啰？<br />
+【范恩开门进屋，一惊，女装卡特尔显示在屏幕上】<br />
+？？？：【脸红】咦？<br />
+？？？：范、范恩先生……！？<br />
+卡特尔：不、不是那样的！这是……！<br />
+范恩：【抠脸】啊……<br />
+范恩：【无奈】……总觉得是我该说声抱歉。  </p>
+<p>【2人坐到茶几前】<br />
+范恩：新人「网络偶像」《科学少女卡特蕾雅》……<br />
+范恩：我听说过最近在导力网络领域出现这类偶像，其中她的知名度在这几周内更是爆炸性地提高……<br />
+范恩：没想到她的真面目其实是你啊。<br />
+卡特尔：【无奈抠脸】嗯、嗯……<br />
+卡特尔：最近，个人透过导力网络进行直播好像逐渐被视为一种新的娱乐。<br />
+卡特尔：我在研究最新技术时对这产生了兴趣，所以也试着用自己制作的虚拟模型开始直播。<br />
+范恩：没想到一试就上瘾，而且还博得了超乎预期的人气，是吗。<br />
+范恩：但是仅限在首都的网络上举行的「直播活动」刚好跟学艺祭撞期……<br />
+范恩：所以你只好找空档跑回来吗。<br />
+卡特尔：【无奈】……那个……对不起。我还擅自使用了事务所的线路……<br />
+范恩：为什么要道歉？既然你决定要做，反追踪措施之类的应该都做得很完善吧。<br />
+范恩：不过，「直播」是吗——相当发人深省呢。感觉在几年前根本无法想像会出现这种文化。<br />
+范恩：而且你还让FIO扫描你在现实中的动作，与画面中的模型即时同步对吧？<br />
+范恩：【摇头】要是今后流行起来，各种传统媒体想必会有危机意识——不，应该是会开始寻找自家的定位吧。<br />
+卡特尔：………………………<br />
+范恩：嗯？怎么了？<br />
+卡特尔：【无奈摇头】……不，你说的对，抱歉。是我对范恩先生失礼了。<br />
+卡特尔：我特地打扮成女孩子，偷偷摸摸做出这种事……<br />
+卡特尔：【无奈】原本还以为会被你嘲笑，或是让你觉得不舒服。<br />
+范恩：啊……我确实觉得惊讶，但那是因为觉得你很厉害。<br />
+范恩：每个人都有不同的兴趣和倾向，这应该也是一种个人风格吧。<br />
+范恩：虽然我也能体会你觉得害怕的心情就是了。<br />
+卡特尔：呵呵……谢谢你。<br />
+卡特尔：【看向笔记本屏幕】——我并不是因为钻牛角尖才开始做这件事。起初真的只是好奇。<br />
+卡特尔：我既为男性，同时也是女性。<br />
+卡特尔：【看向双手】不过，因为男性因子较为显著，在被博士收养之后，是以男孩子的身份长大。<br />
+卡特尔：【无奈】我也会受到可爱的女孩子吸引……（虽然也不是只有女孩子……）<br />
+卡特尔：但我也会想——过去要是作为一位女孩子而活，现在的我不知会怎么样。<br />
+范恩：这是专属于你的想法……不，或许并非如此。<br />
+卡特尔：嗯，毕竟世上有着形形色色的人，也有着形形色色的生存之道和价值观。<br />
+卡特尔：所以，我也希望能更积极地探索自己的「可能性」。<br />
+范恩：这样啊……<br />
+范恩：——你真的很不简单呢。<br />
+卡特尔：呵呵……听你这么说，我很开心。<br />
+卡特尔：【无奈】对了……可以的话，能耽误你一点时间吗？<br />
+卡特尔：可不是因为穿帮了才决定这么做。我一直想测试一件事——  </p>
+<p>之后，范恩照着卡特尔所说，陪他一起前往某处。  </p>
+<p>【场景】童话庭园 浮岛<br />
+卡特尔？：【画外】那个……范恩先生，抱歉让你久等了。<br />
+【范恩转身，女装卡特尔传送而来】<br />
+范恩：喔喔……<br />
+卡特尔：请问……这个「卡特蕾雅」的高精细度全身模型……你觉得怎么样？<br />
+卡特尔：这是我第一次实际「穿上」它，很多地方还不太清楚……<br />
+卡特尔：不、不会很怪吧……？<br />
+范恩：【无奈】呃……你到底要让我吃惊几次才满意啊。<br />
+范恩：看来你不仅保留着卡特尔的特质，同时也已经彻底习惯了「卡特蕾雅」这个身份啊。<br />
+卡特尔：呵呵，毕竟是运用了《童话庭园》这里的资料和AI制作的。<br />
+卡特尔：我把用在《童话庭园》中的自己的扫描模型改成能自由调整的模组——<br />
+卡特尔：然后让AI进行深度学习，模拟出「假如我是女性时的状况」，反映在实机环境当中。<br />
+范恩：唉……技术的进步日新月异，让人听了只有感慨的份。<br />
+卡特尔：现在因为运算能力和同步速度的限制，直播时只有胸部以上的部位能动……<br />
+卡特尔：但将来甚至连跳舞之类的动作都能即时同步进行直播——至、至于要不要跳舞就另当别论。<br />
+范恩：哈，到时务必让我开开眼界。<br />
+范恩：不过，真不愧是研究者。一旦起了个头，就要钻研到极致呢。<br />
+卡特尔：……呵呵，如果是不久之前的我，或许会把每个环节都想得很严重，最后连挑战都不敢。<br />
+卡特尔：我要当什么都可以——多亏了范恩先生你们，如今我才明白了这一点。<br />
+卡特尔：所以——谢谢你，范恩先生。<br />
+范恩：【无奈摇头】哈……你除了我之外还有很多人要谢吧。<br />
+范恩：总之，今后你就再多加尝试，慢慢找到属于自己的风格吧。<br />
+范恩：既然这么受欢迎，不如认真考虑走偶像这一行如何？<br />
+卡特尔：【汗无奈】啊哈哈……豁出去扮演卡特蕾雅之后，不知不觉间就吸引到不少支持者呢。<br />
+卡特尔：该说是已经骑虎难下，还是说这个身份也开始逐渐成为「真正的我」呢……<br />
+范恩：……事到如今，让你当「门面」来替地下万事屋宣传，好像也不错？<br />
+范恩：不，那样未免太高调了……不过，若今后要拓展活动范围，或许该评估一下——<br />
+卡特尔：【脸红，鄙视眼】拜托别认真地烦恼这种事好吗！？  </p>
+<p>于是，范恩在和卡特尔的虚拟人物漫无边际地聊了聊后，便返回了现实世界。  </p>
+<p>【场景】首都伊帝斯·旧市街 事务所大楼前方<br />
+【2人走出事务所大楼】<br />
+范恩：也就是说，今天的直播到刚才那里就告一段落了吧。<br />
+卡特尔：【点头】嗯，所以接下来我应该可以和范恩先生你们一起行动——<br />
+卡特尔：……怎么了，一直盯着我看。<br />
+范恩：不——只是觉得仔细一看，这个样子的你也是「卡特尔」呢。<br />
+卡特尔：呵呵，那不是当然的吗？<br />
+卡特尔：啊一一先不说这个了，关于这次的事……<br />
+范恩：我知道，要对其他人保密对吧？这我知道，你不用担心。<br />
+范恩：不过，等你越来越出名，或许亚妮艾丝他们自然会发现吧。<br />
+卡特尔：【一惊】是、是吗………确实有这种可能。<br />
+卡特尔：【双手负头，抓狂】万一被亚伦先生之类的人发现——哇啊～我完全不敢想像～！<br />
+卡特尔：【无奈】该趁现在调整模型，改得更不像我吗……？不，那样一来反而会让粉丝退订，招来猛烈批评……！<br />
+范恩：【汗无奈】……抱歉，我不是有意要让你不知所措的。  </p>
+<p>在那之后，范恩他们回到学艺祭会场，和同伴们会合。  </p>
+<p>【卡特尔】：那个……无论我是什么样的人，你都愿意接纳我，真的很谢谢你，范恩先生。今后我会用自己的方式寻找自己的定位如果你愿意见证我的努力，我会很开心的。  </p>
+<p>卡特尔·萨里西翁Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_5">幻夜之猫的危机（4/12，茱迪丝）</h2>
+<p>事件概要<br />
+茱迪丝好像掌握了与以幻夜之猫身份行动时打算下手的目标相关的信息。<br />
+虽然她说会在学艺祭期间找空档去顺手处理，但总觉得有种不好的预感——还是先做好准备，应付任何可能的状况吧。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+茱迪丝趁着学艺祭的空档，前去进行幻夜之猫的活动。<br />
+过了不久，接到她听起来很紧张的联络……  </p>
+<p>【场景】首都伊帝斯·泰雷尔地区 巷道 垃圾桶<br />
+范恩：……真是的，茱迪丝那家伙把我叫来这里到底是什么意思？<br />
+声音：【画外】你、你来了啊……我在这里！<br />
+【幻夜之猫蹲在垃圾桶后面】<br />
+范恩：……你在这里做什么？<br />
+【幻夜之猫起身】<br />
+范恩：「工作」不是已经结束了吗？为什么还一直穿着这身衣服……<br />
+范恩：不赶快换回原本的样子，真的会有人报警说看到变态喔。<br />
+茱迪丝：烦死了，我也不想这样啊！<br />
+茱迪丝：——我解除不了变身！<br />
+范恩：……什么？  </p>
+<p>茱迪丝在学艺祭中，掌握到能够定罪让许多女性陷入绝望的恶劣结婚诈骗犯的情报。<br />
+她立即把握机会行动，顺利偷出重要证据交给警方。<br />
+但之后一一发现无论怎么努力，都只能解除一部分的变身。  </p>
+<p>【场景】首都伊帝斯 市内道路 轻型货卡<br />
+范恩：【无奈】姑且是紧急找来了浴袍和帽子……<br />
+范恩：【鄙视眼】……但总觉得看起来更像可疑人物了。<br />
+茱迪丝：你、你很啰唆耶！但谢谢你，这样就能先松一口气了……<br />
+茱迪丝：总之，得努力找找该怎么变回去才行！<br />
+范恩：真是的，事情变得很麻烦呢。<br />
+范恩：巡逻车就连车内的状况都会仔细检查，光是载你这样的人，风险就很高了……<br />
+茱迪丝：什么「你这样的人」！……拜托啦，快点帮我！<br />
+茱迪丝：我之前不是说过了吗？我们两个变身咖今后也要好好相处！<br />
+范恩：【无奈】我变身后可没有现在的你那么奇怪……算了，我也没打算见死不救。<br />
+范恩：再说我对你那份能力完全没有任何知识喔？<br />
+范恩：如果不先稍微说明一下大致上的状况，我也不知道该从何帮起。<br />
+茱迪丝：确、确实是这样没错，但也有些身为怪盗没办法公开的秘密……<br />
+范恩：总之，你变身不会需要像我的《梅亚》那样的媒介。<br />
+范恩：但也不是亚伦和《大君》那样的因缘产物。<br />
+范恩：既然这样，我的猜测是有某种「核心」的物品，或是继承某种能力，是这样吗？<br />
+茱迪丝：【摇头】呼，真不知道你是可靠还是难缠。<br />
+茱迪丝：没办法，既然你都看穿到这个地步了……<br />
+【茱迪丝拿出个圆形装置】<br />
+范恩：原来如此，就是那个……<br />
+茱迪丝：嗯，这是从我奶奶那一代继承下来的随身「怪盗道具」。<br />
+茱迪丝：我们在继承这个的同时，也继承幻夜之猫的使命。<br />
+茱迪丝：无论在哪个时代，只要有这个，「幻夜之猫」就——<br />
+范恩：所以——你对那个怪盗道具的「构造」了解多深？<br />
+茱迪丝：咦？<br />
+范恩：如果那个装置就是变身的关键，一般来说都会先怀疑是故障了吧？<br />
+范恩：【鄙视眼】……喂，你该不会连构造都不知道就一直用到现在吧？<br />
+茱迪丝：……我、我有什么办法！反正之前用起来都没出问题啊！<br />
+茱迪丝：我从没听说妈妈和奶奶那代有出过这种事！<br />
+范恩：唉……那只能直接去请了解这类物品的人帮忙了。<br />
+茱迪丝：……只能去拜托奶奶了吗。<br />
+茱迪丝：啊～捅出这么大的篓子，不知道会被怎么数落！<br />
+范恩：至少要有被打屁股的心理准备吧。<br />
+茱迪丝：怎么可能！但我也没办法肯定就是了…<br />
+茱迪丝：【打开Xipha】真是的，但也没其他选择了……！奶奶现在在哪里啊！？  </p>
+<p>就这样，两人决定去找多明尼克……<br />
+但她似乎有事情，怎么样都联络不上，只能直接去她可能会去的地方找找看。  </p>
+<p>【场景】首都伊帝斯·赛登地区 《玛赛拉蒂饭店》前方<br />
+【2人走出饭店】<br />
+茱迪丝：【伸懒腰】啊啊，真是的，也没回饭店！亏我觉得有可能是这里，特地下来的耶～！<br />
+范恩：【无奈】站在大厅的时候，柜台的人显然觉得我很可疑……真是的，这下感觉会比想像中费工夫。<br />
+范恩：她是很醒目的老太太，本来以为至少可以找到一些线索的……<br />
+声音：【画外】哎呀，这不是范恩吗？<br />
+声音：【画外】咦？那边那位是……<br />
+茱迪丝：（糟糕……偏、偏偏在这种时候……！）<br />
+范恩：是哥奇导演和妮娜啊。你们不是去参加学艺祭了吗？<br />
+妮娜：呵呵，因为有东西忘在房间，导演则是来拿题材笔记的。<br />
+哥奇导演：嗯，看到学生们的展出，我突然涌出好多灵感！<br />
+哥奇导演：话说回来，范恩，你居然大白天的在饭店跟打扮得那么性感的女人幽会啊！？<br />
+哥奇导演：话说那个面具是……？还有那头秀发好像在哪见过——<br />
+茱迪丝：（糟了……！）<br />
+妮娜：……呃，导演，不要问太多啦，搞不好是范恩先生的委托人啊。<br />
+茱迪丝：——对、对对对，没错！<br />
+茱迪丝：因为我实在没办法表明身份……很不好意思，只能打扮成这样来谈委托细节！<br />
+范恩：【故作无奈】因为她是有点不食人间烟火的大小姐，这样反而很醒目，真的很伤脑筋。<br />
+茱迪丝：（喂喂！？）<br />
+哥奇导演：唔唔，原来如此……真不愧是范恩，会接各式各样的委托啊。<br />
+哥奇导演：不过，这位小姐，你浴袍下的身体感觉比例相当不错啊！<br />
+哥奇导演：应该有跟茱迪丝同样的身材比例……不嫌弃的话要不要出演我下一部片——<br />
+妮娜：好了好了，导演，我们该走了，那么，范恩先生，我们先走啰。<br />
+范恩：好——对了，顺便问一下，你们有在哪看到多明尼克婆婆吗？<br />
+范恩：因为有点事，我跟茱迪丝正在分头找她。<br />
+妮娜：多明尼克女士？……啊，会不会是在特里昂购物中心？<br />
+妮娜：我之前听说要在那里讨论活动相关的细节。<br />
+茱迪丝：真的吗！？……不对，您说的是真的吗！？<br />
+范恩：抱歉啊，真是太感谢了。那就之后学艺祭上见吧。<br />
+【妮娜点头，跟哥奇导演离去】<br />
+茱迪丝：呼～总算是蒙混过关了……而且还得到了线索！<br />
+范恩：虽然其实转得很硬就是了……得要好好感谢她{妮娜}才行。<br />
+范恩：事不宜迟，我们去特里昂购物中心吧。  </p>
+<p>【场景】伊帝斯·特里昂购物中心 下沉广场 舞台上<br />
+多明尼克：——好，就照这个步调进行。也别忘了检查音响。<br />
+工作人员：【点头】是……！<br />
+声音：【画外】找到了～！奶奶～！<br />
+多明尼克：【咬牙不满】唔！？<br />
+【茱迪丝快步跑来，引来路人围观，范恩捂脸】<br />
+茱迪丝：太好了，找到你了——……啊，糟糕，引起注意了！？<br />
+多明尼克：【无奈】……那孩子真是的……  </p>
+<p>【场景】伊帝斯·特里昂购物中心 下沉广场 僻静处<br />
+多明尼克：【鄙视眼】到底在搞什么。<br />
+茱迪丝：抱歉、抱歉～！！<br />
+范恩：——那么，确定是那台装置出了问题吗？<br />
+范恩：能修好吗？难道茱迪丝一辈子都会这样——<br />
+茱迪丝：不、不要说触霉头的话！奶奶，到底怎么样！？<br />
+多明尼克：唉，吵死了。——给我一下，我马上修好。  </p>
+<p>多明尼克拿到怪盗道具后，用带来的精密工具俐落地进行维修……<br />
+一转眼便解决了装置的故障。  </p>
+<p>茱迪丝：解除变身……！！<br />
+【茱迪丝解除变身，看向双手】<br />
+茱迪丝：太、太好了……变回来了，变回来了！！<br />
+范恩：唉……总算解决了。<br />
+多明尼克：【摇头】受不了，这点程度就让你狼狈成这样，你还太青涩了。<br />
+多明尼克：我做了最佳化调整，暂时应该不用担心。<br />
+茱迪丝：呜呜，谢谢你，奶奶。<br />
+多明尼克：——话说回来。你到底多不认真维修？<br />
+茱迪丝：【心虚抠脸】呃……<br />
+多明尼克：我耳提面命多少次了，平常不要疏于维修跟确认动作！<br />
+多明尼克：最重要的是作为搭档的「怪盗道具」随时都要跟自己心意相通！<br />
+多明尼克：【摇头】唉……想不到活到这把年纪，还要打孙女的屁股……<br />
+茱迪丝：【求饶】我、我在反省了！拜托不要打我～！<br />
+范恩：话说回来……没想到幻夜之猫的变身「关键」居然是导力器。<br />
+范恩：而且从初代就一直使用同样的东西。<br />
+多明尼克：是啊，我最初拿到这个的时候，大概是五十多年前的事了。<br />
+多明尼克：半个世纪以来，「幻夜之猫」翩然出现在恶意蠢动的夜晚，不轻易现身……<br />
+多明尼克：……这么令人冷汗直流的用法是她开始的。<br />
+茱迪丝：我、我也很小心啊，只是运气非常不好……<br />
+多明尼克：但我承认跟我和克洛伊比起来，你打击犯罪的步调非常惊人。<br />
+多明尼克：【鄙视眼】……听说你在萨尔巴德时，因为误会而攻击了地下万事屋？<br />
+茱迪丝：【弱气】你、你、你、你怎么知道……！<br />
+范恩：（……说到这个，那天晚上亚妮艾丝说创世有了反应……）<br />
+范恩：（用来变身的「怪盗道具」……虽然觉得有某种关联，但好像是不同的东西）<br />
+范恩：（以年代来说，是导力革命后不久……不会是我想的那样吧……）<br />
+茱迪丝：总、总之——虽然已经说过了，但真的很谢谢你的照顾。<br />
+多明尼克：我也要向你说声谢谢。孙女似乎给你添了麻烦。<br />
+多明尼克：尽管没料到会揭开「道具」的事……但你应该是值得信任的。<br />
+范恩：【无奈摇头】我只不过是当司机而已，有帮上忙就好。<br />
+范恩：当然，内幕消息我也不会告诉任何人。<br />
+多明尼克：【点头】谢谢——那么，我先告辞了。<br />
+多明尼克：地下万事屋，虽然我的孙女笨手笨脚，但今后还请多多关照。<br />
+茱迪丝：喂，奶奶……！？<br />
+【多明尼克离开】<br />
+范恩：唉，好像连亲人都认为你是这里的成员了。<br />
+茱迪丝：【无奈】没关系啦，现在说这个也晚了。……总之，真的很谢谢你，范恩。<br />
+茱迪丝：无论是当女演员还是幻夜之猫，你都帮了我很多忙。<br />
+范恩：……难得听你说这种话。是穿太少感冒了吗？<br />
+茱迪丝：才没有！……不过，我确实很少这么说。<br />
+茱迪丝：为了完成打击邪恶的「使命」，这也是非常方便的立场。<br />
+茱迪丝：——真的很谢谢你。<br />
+范恩：……哈，不客气。<br />
+范恩：今后大概还会发生许多事，但想必我们能够互相帮助。<br />
+茱迪丝：【调皮】毕竟我们都是有秘密的人。呵呵，今后也请多指教啰。<br />
+茱迪丝：那么，我们差不多该——<br />
+【多明尼克突然回来，茱迪丝吓了一跳】<br />
+茱迪丝：唔！？奶奶！？<br />
+多明尼克：【故作无奈，坏笑】唉呀，差点忘了。这次得好好罚你才行。<br />
+多明尼克：不只要打屁股，还要复习幻夜之猫的规矩……干脆也把克洛伊找来，从头训练一遍？<br />
+茱迪丝：饶、饶了我吧～奶奶！<br />
+范恩，快帮帮我啊……<br />
+范恩：【转身】抱歉，这次不行。你就借这个机会彻底锻炼吧。<br />
+【范恩离开】<br />
+茱迪丝：【抓狂摇头】不、不是说要互相帮忙吗！？太无情了……！  </p>
+<p>就这样，范恩丢下被多明尼克训斥的茱迪丝，离开了这里……<br />
+过了一阵子，一脸精疲力尽的茱迪丝过来会合了。  </p>
+<p>【茱迪丝】：呼，仔细想想，真的被你知道了不少事呢……呃，我这样说可没什么特别的意思！——总之，既然彼此都知道对方的秘密了，今后也好好相处吧♪  </p>
+<p>茱迪丝·兰斯塔Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_6">来自代理人的挑战信（4/12，斯温&amp;娜狄雅）</h2>
+<p>事件概要<br />
+斯温和娜狄雅两人送了一封「挑战信」给我。<br />
+他们要我有时间时到事务所去……真是的，该奉陪下去吗？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩暂时和同行者分开……并联络斯温和娜狄雅，和他们约在事务所碰面。  </p>
+<p>【场景】首都伊帝斯·旧市街 居住楼层·蒙马特401<br />
+【范恩开门】<br />
+娜狄雅：【故作正经】咳咳，你来得好，地下万事屋范恩·亚克莱德。<br />
+娜狄雅：【右手一指】为了让在首都这段繁华绚烂的日子能够华丽落幕——让我们赌上真正的地下万事屋名号，一决胜负吧～！<br />
+范恩：【鄙视眼看向斯温】……拜托帮忙翻译一下。<br />
+斯温：【无奈抠脸】呃……大致上就是她所说的意思。<br />
+娜狄雅：【双手一拍，开心】我们就要离开了，陪我们一起玩嘛？<br />
+范恩：【无奈摇头】真是的……陪你们玩是无妨啦。<br />
+范恩：所以……你刚才提到「一决胜负」吗？还说要赌上真正的地下万事屋名号。<br />
+斯温：那确实说得有点夸张。<br />
+娜狄雅：我们来到伊帝斯之后，做起了「代理地下万事屋」……<br />
+娜狄雅：在那之后……真的发生了很多事，好不容易才达成了目的，一路到了今天。<br />
+斯温：要是受了这么多照顾却没偿还人情，不管对我们找回的「妹妹」或是对「首领」都无法交代。<br />
+斯温：所以，我们想说至少得用自己的方式——对范恩先生你展现我们的成果。<br />
+娜狄雅：原本我们就有从事类似地下万事屋业务的经验，要较量的话，「4spg对决」应该会是个不错的方式吧～<br />
+娜狄雅：【坏笑】不如顺便将范恩先生踹落神坛，把你的招牌抢过来自己开吧？<br />
+范恩：【汗无奈】我说你们啊……算了，状况我明白了。<br />
+范恩：毕竟你们也帮了我不少忙。<br />
+范恩：就把这当作是你们发给我的4spg，破例接一次吧。<br />
+范恩：不过，既然要比就要全力以赴——让我展现地下万事屋{Spriggan}认真起来的实力，当作是为你们钱别吧。<br />
+斯温＆娜狄雅：正合我意……！/这才像话嘛！  </p>
+<p>之后，范恩用上各种人脉，联络手边有空的帮手们……<br />
+以「超限期优惠，委托费半价」的名义招揽了远多于平时的4spg。  </p>
+<p>【场景】首都伊帝斯·旧市街 车库前<br />
+【范恩坐车上，斯温和娜狄雅骑摩托车】<br />
+范恩：——委托应该已经张贴在各地区的布告栏上了。<br />
+范恩：在限制时间内解决较多委托的一方获胜……你们也准备好了吗？<br />
+娜狄雅：【点头】我们随时都可以开始唷～话说回来……<br />
+斯温：虽然一开始是我们出的主意，没想到你竟然能弄到这么大量的4spg呢。<br />
+范恩：我还是有做过挑选，只留下符合4spg宗旨的委托。<br />
+范恩：刚好也想趁现在一举处理掉比较琐碎的工作，你们的提议来得正是时候。<br />
+娜狄雅：【点头】是啊，接下来在舞台表演过程中万一收到紧急联络就太扫兴了～<br />
+斯温：既然如此，就让我们不客气地使出全力吧。<br />
+范恩：【点头】很好，那就开始吧。<br />
+范恩：地下解决业务对决开始！<br />
+【双方驾驶载具分别向街道两边开走】  </p>
+<p>就这样，范恩和斯温与娜狄雅展开对决。  </p>
+<p>【场景】首都伊帝斯·赛登地区 小巷<br />
+【娜狄雅追猫】<br />
+娜狄雅：小斯，过去那边了喔～！<br />
+斯温：知道了！<br />
+【斯温堵在猫前面】<br />
+猫：喵～！<br />
+斯温：【半蹲下去抱起猫】没事了，不用担心。<br />
+娜狄雅：耶！达成委托了～！<br />
+委托人：【小跑而来】哎呀～做得真是太好了！<br />
+委托人：我心爱的安娜！谢谢你们抓到它～！<br />
+猫：嘶——！<br />
+斯温：——我想确定一下，你真的是这只猫的主人吗？<br />
+娜狄雅：项圈上的刻印跟名字不一样耶～<br />
+娜狄雅：这么说来，我听说有恶质的仲介商，专门偷抓有血统书的猫……<br />
+委托人？：这、这个……<br />
+真正的委托人：【小跑而来】啊啊，安洁拉……！你没事啊，太好了……！<br />
+【娜狄雅坏笑看向冒牌委托人，冒牌委托人冒汗】  </p>
+<p>【场景】首都伊帝斯·泰雷尔地区 《马克米兰咖啡》1F<br />
+委托人【女】：【无奈】因、因为我管理不当，任职的宅邸出现了大量老鼠……<br />
+委托人【女】：再这样下去我会被开除的……有没有办法不动声色地解决呢！？<br />
+范恩：（原来如此，跟我想得一样……两者的需求好像刚好互补）<br />
+范恩：再等我一下，「解决办法」很快就会到了。<br />
+委托人【男】：【跑来】你、你就是传说中的地下万事屋吗？拜托请帮帮我！<br />
+委托人【男】：【无奈摇头】我在某间药物研究设施工作，但不小心把实验用的老鼠全部杀死了……！<br />
+委托人【男】：有没有办法找到大量老鼠呢！？<br />
+委托人【女】：【撑桌而起】啊！<br />
+委托人【男】：咦？<br />
+范恩：【喝咖啡】（两个委托同时解决。这是大量接案的小技巧）  </p>
+<p>【场景】首都伊帝斯 首都高速公路<br />
+【斯温骑摩托载着娜狄雅被两台轿车追赶】<br />
+娜狄雅：……小斯啊，这是因为我们刚刚「运送」的东西造成的吗～？<br />
+斯温：啧，好像被抓到小辫子了……！<br />
+斯温：我会把他们甩开的——<br />
+娜狄雅，抓好啰！<br />
+娜狄雅：嗯❤  </p>
+<p>【场景】黑芒街<br />
+地痞：【吓得坐倒在地】救、救救我……！<br />
+范恩：别担心，我不会对你们怎样，前提是你们要把拥有的恐吓资料全部交出来。<br />
+范恩：至今你们尝过了很多甜头，你们不认为到了该认命的时候吗？<br />
+地痞：【点头】知道了，我们交出来，交出来就是了……！<br />
+范恩：【接过存储器】好——那么接下来是另一个委托。<br />
+范恩：【拳掌相击】你们至今让所有受害人流下多少眼泪，就付出多少代价吧。<br />
+地痞：【摇头】噫噫噫……！？  </p>
+<p>【场景】首都伊帝斯·站前大道<br />
+斯温：伤脑筋……原以为在这里埋伏，就可以逮到委托提到的黑心商人。<br />
+娜狄雅：难道他们察觉了，所以改变路线了吗～？虽然能重新计算，但时间就不够了……<br />
+声音：【画外】怎么，原来你们也在查这个委托啊。<br />
+【斯温、娜狄雅转身，范恩走来】<br />
+娜狄雅：啊，范恩先生。<br />
+斯温：撞案子了吗？<br />
+范恩：【摇头】唉，现在才开始的话应该会被你们抢先。<br />
+范恩：贝尔默提似乎有很不错的情报，但我还是改做其他委托好了。<br />
+范恩：那你们慢慢加油吧。<br />
+娜狄雅：……他是说河畔区的情报贩子对吧？<br />
+斯温：【无奈】……真是的，过去看看吧。  </p>
+<p>没过多久，他们的赛法各自响起了通知预定时间的铃声。<br />
+于是回去事务所报告今天的成果。  </p>
+<p>【场景】首都伊帝斯·旧市街 居住楼层·蒙马特2F《亚克莱德解决事务所》<br />
+【3人坐在沙发上】<br />
+范恩：最后我解决的4spg数量是11件。至于你们——则是12件吗。<br />
+范恩：是你们赢了——真是的，叫我这靠这行吃饭的脸往哪摆啊。<br />
+【斯温心情复杂，娜狄雅鄙视眼】<br />
+范恩：怎么，看你们表情好像很不满意？是你们赢了不是吗？<br />
+娜狄雅：【无奈摇头】唔唔……感觉好不痛快！<br />
+斯温：【无奈】我有同感。<br />
+斯温：我们之所以能解决最后的委托，是因为在范恩的建议下去拜托情报贩子……<br />
+斯温：老实说，完全没有赢了的感觉。<br />
+范恩：不小心说溜嘴是我的失误。没有漏听这则情报，也是算你们厉害吧？<br />
+范恩：反正，对我而言是谁解决的一点也不重要——只要最后合乎地下万事屋的行事作风就好。<br />
+范恩：多亏了你们，这次分工合作非常成功，先谢过了。<br />
+【斯温、娜狄雅汗】<br />
+娜狄雅：【无奈汗】……唉，被摆了一道呢。<br />
+斯温：【无奈】是啊，就对决来说是赢了，但本质来说是我们输了……从用这种形式向他挑战时起就已经注定了。<br />
+斯温：真是的，你这个人还真是老谋深算。<br />
+范恩：【摇头】哈，你也真会对奇怪的地方认真呢。<br />
+斯温：不过……虽然还有许多不足之处，但应该算是做出证明了吧？<br />
+娜狄雅：嗯，就是说啊。<br />
+范恩：说到这个，详情我还没问清楚，你们到底想证明什么啊？<br />
+娜狄雅：之前也说过，这几个月来真的发生了许多事。<br />
+娜狄雅：像是在涅梅丝岛遇到老巢里的后辈，或是照理说已经死去的哥哥再次现身……<br />
+娜狄雅：还有小拉和小斯的事……<br />
+斯温：虽然总算全都顺利解决了……但还是让我不经意地浮现某种想法。<br />
+斯温：——或许我们还是无法逃离过去的枷锁，只能选择在黑暗中活下去。<br />
+范恩：这……<br />
+娜狄雅：所以，我们希望能做出证明。<br />
+娜狄雅：就算是像我们这样的人，只要努力活着，一定也能活出自己的人生，过着快乐的日子。<br />
+娜狄雅：就像现在的范恩先生一样。<br />
+范恩：你们两个……<br />
+斯温：不过，或许这还是不能称之为正大光明的生存之道吧。<br />
+范恩：【无奈挠头】一点也没错。<br />
+范恩：听说艾蕾因也有邀请你们成为游击士，难道不打算走走看那条路吗？<br />
+娜狄雅：游击士一年到头的工作量都很繁重，才不要呢！小娜想要的是躺平的悠哉生活！<br />
+斯温：【无奈抠脸】更何况还得考量合不合乎我们个性的问题。<br />
+斯温：除此之外……我们还想证明另一件事。<br />
+范恩：另一件事？<br />
+斯温：我们想让范恩看看。<br />
+斯温：让你看见我们比起两年前那时有所成长了。<br />
+娜狄雅：虽然那时全都仰赖范恩先生帮忙……<br />
+娜狄雅：但现在的我们，应该稍微有点可靠了吧？<br />
+范恩：【点头】……嗯，你们变得更成熟了。这点绝对不会错。<br />
+范恩：就算过去不断前来纠缠，你们都能一一击退。<br />
+范恩：身为旧市街的地下万事屋{Spriggan}，我敢打包票保证。你们是自由的，要去哪里都行。<br />
+斯温：虽然还嫌太早了些……但这么一来，我们随时都能出发了呢。<br />
+娜狄雅：下次再见时，一定会让你见识成长了更～多更～多的我们的～！<br />
+范恩：嗯——我很期待。  </p>
+<p>【娜狄雅】：虽然代理地下万事屋的工作结束了，但我们不会忘记和范恩先生与小亚亚等人一起度过的时间的～<br />
+【斯温】：虽然没办法随传随到，但有需要时就联络我们吧。到时就换我们帮忙解决你的4spg。  </p>
+<p>斯温·亚贝尔Connect Stage+100<br />
+娜狄雅·莱恩Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_7">艾蕾因的急事（4/12，艾蕾因）</h2>
+<p>事件概要<br />
+艾蕾因在学艺祭期间似乎还接了协会发来的某件委托。<br />
+感觉不太好解决，但她似乎很坚持要办妥。保险起见，是否该陪着去帮忙？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩暂时和同行者分开，展开自由活动……<br />
+与艾蕾因会合后去拜访委托人。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 伊帝斯大教堂1F房间<br />
+【艾蕾因敲门，门内的人看向门口】<br />
+艾蕾因：让大家久等了，我是协会的人。<br />
+【艾蕾因和范恩开门进入，房间里的女生起身】<br />
+罗德里克：喔喔，等你很久了……！啊，你就是那位A级的……！？<br />
+朵洛希亚：这次委托很突然，谢谢你愿意接受……！<br />
+罗德里克：还有——范恩先生也在啊！<br />
+范恩：嗯，只是顺便帮忙罢了，但没想到委托人是你啊。<br />
+艾蕾因：你们认识？<br />
+范恩：之前因为4spg结缘。<br />
+范恩：你还有继续跟布鲁诺爷联络吗？<br />
+罗德里克：【点头】嗯，这次的事情也跟他商量过……既然你也来了，那就更放心了。<br />
+艾蕾因：所以——这是真的吗？<br />
+艾蕾因：跟踪新娘的跟踪狂可能会出现在今天要举办的婚礼上。<br />
+罗德里克：【无奈】……是的……<br />
+朵洛希亚：【无奈】到底该怎么办才好……  </p>
+<p>——事情一开始是因为朵洛希亚好心照顾了一个醉倒在路边的陌生男子。<br />
+她当时已经订婚了，但被救的那名男子却越来越纠缠不休……<br />
+她去找过警察和协会，不断设法远离对方，但他狡猾地逃过法眼，迟迟无法逮捕他。<br />
+而在决定好婚礼日期的那天——她收到了一个包裹。<br />
+里面是新郎新娘的偷拍照，但把脸的部分剪掉，还用鲜血写着「永远的爱」……<br />
+并且还写上当天才刚定下来的婚礼日期。  </p>
+<p>【众人落座】<br />
+艾蕾因：——不可原谅……竟然让这可喜可贺的重要日子蒙上阴影……<br />
+范恩：这毫无疑问是恐吓信……先不说警察，应该算是协会可以出动的程度吧？<br />
+范恩：但考虑到你们的「规定」……<br />
+艾蕾因：……嗯……现在眼前有危机，我们必须把平民的安全摆在第一位。<br />
+艾蕾因：如果可以的话……现在可能只能请两位延后婚礼了。<br />
+罗德里克：……果然是这样……朵洛希亚，抱歉。<br />
+朵洛希亚：……没办法了，总不能让受邀的亲朋好友遭遇危险……<br />
+朵洛希亚：【无奈】大家百忙之中抽空参加…………可以的话，真的很想受到大家的祝福……<br />
+范恩：——这已经符合4spg的标准了。<br />
+艾蕾因：范恩……<br />
+范恩：地下万事屋会跟协会合作处理这个委托。<br />
+范恩：我也想到了一个好主意，可以不更改婚礼日期解决问题。<br />
+朵洛希亚：真、真的吗……！？<br />
+罗德里克：到底——不，费用多少都不是问题！拜托你守护我们的幸福……！<br />
+范恩：最不可或缺的就是《剑之少女》的帮助，你愿意帮忙吗？<br />
+艾蕾因：嗯——当然！  </p>
+<p>之后，范恩也请求大教堂协助，急忙开始准备作战计划。<br />
+婚礼依照预定举办。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 伊帝斯大教堂1F<br />
+神父：以空之女神{爱德斯}之名，在此询问两位。<br />
+神父：新郎罗德里克，你是否愿意发誓，无论患病或者健康——<br />
+神父：富有或者贫困，都以身边的朵洛希亚为妻，爱她、忠诚于她并终生扶持她呢？<br />
+新郎罗德里克：是，我愿意。<br />
+神父：新娘朵洛希亚，你是否愿意发誓，无论患病或者健康——<br />
+神父：富有或者贫困，都以身边的罗德里克为夫，爱他、忠诚于他并终生扶持他呢？<br />
+新娘朵洛希亚：……是，我愿意——<br />
+歇斯底里的声音：【画外】到此为止！！<br />
+【一个怒气冲冲的男人跑来】<br />
+神父：你、你是谁！怎么可以擅闯神圣的婚礼会场……！<br />
+布鲁诺老先生：啧，他就是之前听说的混蛋吗！？<br />
+跟踪狂：朵洛希亚啊啊啊……你为什么要跟那种人结婚……<br />
+跟踪狂：你那时候不是救了我吗？你应该很爱我吧……！？<br />
+新郎罗德里克：……你有完没完！那只是你自己的幻想罢了！<br />
+新郎罗德里克：我绝对不会把我心爱的人让给你这种单方面把爱强加在她身上折磨她的人！！<br />
+跟踪狂：……什么！你是怎样啊……！<br />
+跟踪狂：无关的家伙给我闪边去……<br />
+朵洛希亚，跟我走吧？<br />
+跟踪狂：【拔出手枪】我们一起去女神面前……让你我的爱化为永恒……！<br />
+【跟踪狂连人带枪被打落在地，穿婚纱的艾蕾因一柄长剑指着坐倒在地的跟踪狂】<br />
+跟踪狂：……咦……？<br />
+新娘朵洛希亚？：连新娘都认错的你——根本没有资格。<br />
+跟踪狂：你、你是……！<br />
+宾客：A级游击士……！<br />
+宾客：剑之少女……！她怎么会在这里！？<br />
+跟踪狂：为、为什么……！朵洛希亚在哪——<br />
+【范恩从跟踪狂身后走来】<br />
+跟踪狂：【无奈】呜……？<br />
+【跟踪狂被打晕，艾蕾因收起武器，新娘跑来】<br />
+新娘朵洛希亚：罗德里克……！<br />
+新郎罗德里克：啊啊，朵洛希亚……！已经没事了！<br />
+范恩：【起身】——好了，各位觉得前所未有的婚礼「惊喜演出」精彩吗！？<br />
+范恩：由特别来宾艾蕾因·奥克雷尔逼真的演技，再次确认新郎新娘之间坚定的爱情！<br />
+范恩：最精彩的是新郎挺身而出，不让坏人抢走新娘，请各位给新郎热烈的掌声！<br />
+【众人鼓掌】<br />
+宾客：吓、吓我一跳！居然连新娘都换人了……！<br />
+宾客：也、也太逼真了吧……但真是太好了～！<br />
+布鲁诺老先生：（地下万事屋……真是的，害我捏了一把冷汗）<br />
+艾蕾因：抱歉惊动各位了……！还请继续观礼！<br />
+艾蕾因：祝福两位永浴爱河……！  </p>
+<p>之后，他们在婚礼后台把跟踪狂交给赶来的警察。<br />
+婚礼则若无其事地继续进行。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 伊帝斯大教堂前方<br />
+【新郎新娘在众人的鼓掌欢呼声中走出教堂】<br />
+新娘朵洛希亚：（艾蕾因小姐和范恩先生……）<br />
+新郎罗德里克：（真的非常感谢你们……！）<br />
+艾蕾因：呵呵，婚礼能顺利进行，真是太好了……<br />
+范恩：【无奈】嗯，但能不能成功地用惊喜的方式蒙混过去，倒是不小的赌注。<br />
+范恩：如果没有新郎正义凛然的喊话，应该没办法这么顺利吧。<br />
+范恩：——能成功守住婚礼，应该是好事一桩吧？<br />
+范恩：毕竟你好像很在意这件事。<br />
+范恩：在学艺祭巡逻中还特地找时间接下这份委托。<br />
+艾蕾因：……对啊……看到委托的时候，我有很多想法。<br />
+艾蕾因：我老家——正确来说是亲戚那边最近很频繁地提出的要求。<br />
+范恩：……！？<br />
+范恩：……我听说昆西公司那边现在正在重整经营体制。<br />
+艾蕾因：毕竟是古老的家族，亲戚当中也有很多人还怀着旧时代的思想。<br />
+艾蕾因：说好听一点是为了支持奥克雷尔家……<br />
+艾蕾因：但应该是因为父亲被逮捕，想要努力巩固摇摇欲坠的地位吧。<br />
+艾蕾因：【无奈】就某种意义上来说也很可怜……我或许也应该要扶助这种「弱小之人」才对。<br />
+范恩：——我不这么认为。<br />
+【艾蕾因一惊】<br />
+范恩：考虑到你的个性，应该会把你爸的事情也揽在自己身上吧。<br />
+范恩：但犯罪的是你爸，你是你啊。<br />
+范恩：什么都想要揽在身上，这种态度也太傲慢了吧？<br />
+艾蕾因：这……<br />
+艾蕾因：【无奈】……这些话从你口中说出来有点没说服力。<br />
+范恩：【无奈】这就叫做过来人的经验。千万别忘记「初衷」。<br />
+范恩：你之所以选择现在的路，应该「不完全」是为了家族………或是为了我吧？<br />
+艾蕾因：……也对，嗯，确实是这样没错。<br />
+艾蕾因：【坏笑】……附带一提，老家那边的相亲我全都拒绝了，所以你可以不用太担心。<br />
+范恩：【无奈】……我才没有担心。<br />
+范恩：但一直拒绝的话，之后也许会尝到苦果喔？可别忘记我们几岁了，「少女」阁下。<br />
+艾蕾因：【不满】你喔……！我、我也才24岁——<br />
+新娘朵洛希亚：要丢了喔——嘿！<br />
+【朵洛希亚抛花】<br />
+艾蕾因：【接到花】啊————<br />
+范恩：……唔……<br />
+【众人鼓掌】<br />
+宾客：呀～艾蕾因小姐接到了！？<br />
+参加者：恭喜～！<br />
+艾蕾因：……呃……<br />
+【艾蕾因、范恩对视】<br />
+艾蕾因：呵、呵呵，这也是多亏平常有在做善事的关系吧？跟某个人不一样。<br />
+范恩：【无奈挠头】哎……但我也不否认就是了。  </p>
+<p>之后，范恩一行人离开大教堂……<br />
+收拾完跟踪狂事件的善后之后，与伙伴们会合。  </p>
+<p>【艾蕾因】：（虽然在学生时代曾经想过或许那一天终究会来临……）不，没什么，我只是在自言自语。—— 我们彼此的路都还没走完，现在还是努力精进吧。呵呵，有需要的话，我可以稍微帮点忙。  </p>
+<p>艾蕾因·奥克雷尔Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_8">能干男人的烦恼（4/12，金凯德）</h2>
+<p>事件概要<br />
+卢尼那家伙虽然绷着一张扑克脸掩饰，但总觉得他有点闷闷不乐。该说是他其实也有容易被看穿的一面吗……<br />
+偶尔也由我来主动找他吧？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+【场景】首都伊帝斯·欧贝尔地区 亚拉密斯高等学校 校门口<br />
+【金凯德正要离开学校】<br />
+范恩的声音：【画外】嗨，卢尼，要溜走吗？<br />
+【金凯德转身，范恩走来】<br />
+金凯德：……呵，这句话真耳熟，让人想起学生时代。<br />
+金凯德：那时候你经常翘课，惹怒鲍威尔老师。<br />
+范恩：【鄙视眼】你倒是表面上遵守校规。<br />
+范恩：但其实只是完美地做好学生会的工作，在不被发现的前提下偷懒。<br />
+金凯德：不着痕迹的违规和拿捏分寸很重要啊。<br />
+金凯德：………………<br />
+范恩：所以，前学生会长大人在学弟妹的学艺祭上开溜是要去哪里呢？<br />
+范恩：根据情况我也可以跟你一起去喔。<br />
+金凯德：【扶眼镜】伤脑筋，你还是这么多管闲事。……算了，这也是个好机会。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区<br />
+【2人来到大路边，一辆车停在这里】<br />
+金凯德：我去开车——你尽管跟来吧。<br />
+范恩：艾特华斯的超高级跑车！？你什么时候买了这么好的车……！<br />
+金凯德：这点小事没什么吧？来，上车吧，别客气。<br />
+范恩：【不爽】唔，我就来试试看坐起来怎么样吧……！  </p>
+<p>【场景】首都伊帝斯·河畔区<br />
+范恩：这里是……<br />
+范恩：好像也不算意外……这里有你喜欢的音乐人举办现场表演吗？<br />
+金凯德：没有，我今天不是来当观众的，而是跟一起玩音乐的朋友约好。<br />
+金凯德：预计短时间包场进行演奏。<br />
+范恩：哦……？<br />
+金凯德：但所有人都突然有急事，时间没办法配合。<br />
+金凯德：这种事偶尔会发生，原本打算取消预约……<br />
+金凯德：但既然你也在——你应该还记得怎么弹吉他吧？<br />
+范恩：………哈，上次弹吉他是学生时代当社团打手的时候稍微玩一下而已。<br />
+范恩：我没有你那些玩音乐的朋友那么厉害喔？<br />
+金凯德：呵，反正原本就没抱任何期待。……开始吧。<br />
+范恩：是是是。  </p>
+<p>范恩在展演空间借了乐器……<br />
+在没有其他观众的状态下，跟金凯德展开双人合奏。  </p>
+<p>【场景】首都伊帝斯·河畔区 展演空间《蓝色乐符》舞台上<br />
+【2人在舞台上演奏】<br />
+范恩：喔？卢尼，你挺行的嘛……！难道是很常弹吗！？<br />
+金凯德：以只有在学生时代弹过来说，你也不赖嘛……！也许偶尔找你一起来现场演奏也不错！<br />
+范恩：呃，有时候会有观众吗……！？<br />
+金凯德：喂，专心点！要开始下一首曲子了！<br />
+范恩：好啦……！  </p>
+<p>【场景】首都伊帝斯·河畔区 展演空间《蓝色乐符》<br />
+范恩：哦……所以你是在导力网络上认识那些玩音乐的朋友啊？<br />
+金凯德：嗯，一开始只是几个爱好音乐的人办线下聚会而已。<br />
+金凯德：大家的职业、个性和年龄都不一样，但是全都一见如故。<br />
+金凯德：平常所有人都很忙，挤出零碎的时间见面，随心所欲地弹奏乐器和聊天……<br />
+金凯德：不定期地举办这种放松的活动。<br />
+范恩：【无奈】不受任何限制地做自己喜欢做的事啊……这样真不错。<br />
+范恩：而且老实说我没想到你会有这种朋友。<br />
+范恩：即使是认识很久的人，偶尔也会有对方不知道的事啊。<br />
+金凯德：呵，也没这么稀奇吧？我的社交能力其实还挺不错的啊。<br />
+金凯德：再说人本来就不能只看其中一面——<br />
+金凯德：就连我、艾蕾因和你之间，也有不会对彼此展现的一面——对吧？<br />
+范恩：嗯，也对………这我也知道。<br />
+范恩：但撇开这点不说，我实在有点无法想像你的私生活。<br />
+范恩：或者该说是你这个人感觉毫无破绽。<br />
+金凯德：【无奈】……呵，最近我女朋友也跟我说过一样的话。<br />
+金凯德：大概是一种职业病吧……<br />
+范恩：【思索片刻】……你今天都没有要我别叫你卢尼吧？<br />
+金凯德：……<br />
+范恩：【无奈】感觉不太像平常的你。<br />
+范恩：换作是平常，你应该也不会想太多，直接取消展演空间的预约吧。<br />
+范恩：……你跟女朋友发生什么事了吗？<br />
+【金凯德思索片刻】<br />
+范恩：……真的假的，我只是半开玩笑讲讲罢了。<br />
+金凯德：……今年开始我们一直没有机会见面。<br />
+金凯德：因为我是总统辅佐官，难免会非常忙碌。<br />
+金凯德：她说——「我搞不懂你到底在想什么」。<br />
+范恩：……这样啊。<br />
+范恩：这次的表演她原本有打算来看吗？<br />
+金凯德：嗯，我打算第一次把她介绍给那些玩音乐的朋友。<br />
+金凯德：就这方面来说，大家时间没办法配合，反而可以说是得救了。<br />
+金凯德：这是彼此都能接受的和平分手，算是男女之间常有的事吧？<br />
+金凯德：……但如果她至少愿意赏我一巴掌还比较痛快。<br />
+范恩：……………………<br />
+金凯德：呵，你为什么这时候就不答腔了？<br />
+金凯德：啊，「男女之间常有的事」对你来说太深奥了吗？<br />
+范恩：不要若无其事嘲讽我啦……真是的。<br />
+范恩：好，休息时间结束——今天就弹个痛快吧。<br />
+范恩：下一首曲子要不要弹激烈一点的？类似我们学生时代想玩的那种庞克摇滚。<br />
+金凯德：……你是说学艺祭提议过的那个吗？现在弹那种音乐感觉好像太青春了。<br />
+范恩：哈，青春才好啊！就算年龄增长，内心还是不会变吧？<br />
+范恩：不过，毕竟吉他的刷奏很帅啊，怕贝斯被比下去吗？<br />
+金凯德：呵……好吧，弹弹看也无妨……！  </p>
+<p>之后，两人再次开始演奏。<br />
+选曲都选比休息前更激烈的曲子。<br />
+偶尔不小心弹错也不会喊停，两个人一心一意地畅快演奏。  </p>
+<p>范恩：【无奈】啊～好像有点太投入了……手指头有点痛。<br />
+金凯德：唉唉，要抱怨还太早了，多跟我那些玩音乐的朋友学学吧。<br />
+金凯德：有人年纪很大了，热情却不输给年轻人，还有在大企业担任管理职的人。<br />
+范恩：【鄙视眼】那确实是很厉害……话说回来，你其实是顺便在拓展人脉吧？<br />
+金凯德：这个嘛，我不知道你在说什么。<br />
+金凯德：……不过多亏了你，我心情好像好一点了。<br />
+范恩：……这样啊。<br />
+范恩：……如果是这样的话，要陪你多久都可以。<br />
+范恩：依你的个性大概不会抱怨什么，但我也可以听你发发牢骚。<br />
+范恩：这跟你是不是大哥没关系，别忘记你身边还有我、艾蕾因和其他人。<br />
+范恩：再说，你应该很快就会遇到好对象了吧。<br />
+范恩：不然用4spg的形式帮你一把也行——<br />
+金凯德：【苦笑】……呵呵………哈哈哈哈……！<br />
+范恩：……喂，你笑什么啊？<br />
+金凯德：没有啦……只是觉得我还不够成熟罢了。<br />
+金凯德：竟然有天会让你这个笨小弟担心我。<br />
+金凯德：……你真的成长了不少。<br />
+范恩：【无奈】真是的……就说不要摆出一副大哥的架子啦。<br />
+范恩：卢尼，下次交到新女友要介绍给我认识喔？<br />
+金凯德：不是说了别叫我卢尼了吗……呵呵。<br />
+金凯德：倒是你跟艾蕾因怎么样了？还是说跟事务所哪个人有什么进展——<br />
+范恩：【抓狂】都没有啦……你不要一下子就恢复行不行！  </p>
+<p>之后，两人离开了展演空间……<br />
+基于旧交情在金凯德的车上闲聊了一阵子才回到其他伙伴身边。  </p>
+<p>【金凯德】：呵，没想到会有轮到你来关心我的一天……真是的，那个不中用的弟弟还真是有所成长了呢。——下次再一起演奏吧。到时候也找艾蕾因来。  </p>
+<p>卢尼·金凯德Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_9">在学生会长室（4/12，蕾恩）</h2>
+<p>事件概要<br />
+在学艺祭幕后，蕾恩身为学生会长似乎正相当忙碌。<br />
+——之前受他人之托的事，我也差不多该采取行…  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩和伙伴暂时解散，各自分开行动……<br />
+他为了完成「某件事」而开始行动。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 亚拉密斯高等学校·校舍3F 学生会室<br />
+亚尔贝尔：……就是这样，有来宾在停车上起了纠纷……<br />
+亚尔贝尔：目前正在重新审视路线引导的规划，今后可以用更好的效率去对应。<br />
+蕾恩：呵呵，多亏你的动作很快，事情才能顺利结束。<br />
+蕾恩：谢谢你的报告。后面也麻烦你了。<br />
+亚尔贝尔：是的……虽然学姐你是执行委员会会长，但偶尔也要休息一下比较好吧。<br />
+【亚尔贝尔离开学生会室】<br />
+蕾恩：【接听Xipha】……是，这里是蕾恩·布莱特。<br />
+蕾恩：呵呵，原来是学会亲自来询问吗？是关于之前发表的论文的事情？<br />
+蕾恩：原来如此，是希望我去演讲那个能够让长距离通讯实现的导力网的设计理论吗……<br />
+蕾恩：我知道了，等我确认完行程之后，会再回电给您。就先这样——<br />
+蕾恩：【收起Xipha，无奈】呼……连喘一口气的时间都没有。<br />
+蕾恩：【看向桌上的照片】……我们都很忙，这也是没办法的呢。<br />
+蕾恩：好，就趁这个机会把积了很久的文件一起处理掉吧。<br />
+蕾恩：得开始确认今年来自各个社团还有学务处那边的申请——<br />
+【敲门声】<br />
+蕾恩：请进。这次是奥黛特吗——<br />
+范恩：【推门而入】嗨，打扰啦。你看起来还是一样忙呢，学生会长。<br />
+蕾恩：范恩先生——这真是意外的客人呢。<br />
+蕾恩：学艺祭上发生了什么事情吗？如果有需要的话我可以马上处理。<br />
+范恩：不，这次是私底下的事。<br />
+范恩：——你能不能陪我「约会」一下？<br />
+蕾恩：……呵呵，吓了我一跳。没想到会被范恩先生搭讪。<br />
+蕾恩：你居然把亚妮艾丝跟艾蕾因小姐丢在一旁，你也太坏了吧。<br />
+范恩：为什么这时候会提到她们的名字？<br />
+范恩：我想说你看起来把要紧的事情都处理完了，如果有时间的话可以出来散心。<br />
+范恩：顺带一提，如果你不愿意的话，我会用稍微强硬的手段带你出去喔？<br />
+蕾恩：……呵呵，好吧。<br />
+蕾恩：【调皮】跟范恩先生偷偷约会——当作散散心感觉也不错呢。<br />
+蕾恩：那就麻烦你带路啰？范恩：嗯，包在我身上。  </p>
+<p>就这样范恩带着蕾恩从后门离开，开着轻型货车前往街上。  </p>
+<p>【场景】首都伊帝斯·泰雷尔地区 书店《史都华》<br />
+【2人看书架】<br />
+蕾恩：哎呀，利贝尔和克洛斯贝尔好像也出了新的观光导览。<br />
+蕾恩：这里也有帝国的……<br />
+范恩：大陆西部……虽然没机会去，但很想找机会去慢慢观光。<br />
+范恩：感觉可以发掘很多共和国不会注意到的甜点。<br />
+蕾恩：呵呵，到时候就由我来带路吧。<br />
+蕾恩：从各国的大都市到地图上没有的地方，几乎所有名店我都有办法替你做介绍♪<br />
+范恩：真可靠啊。  </p>
+<p>【场景】伊帝斯·中央市场 钓具店《巨蟹座》<br />
+范恩：但是，没想到你会去钓鱼，还真是令人意外耶。<br />
+范恩：是你义姐喜欢钓鱼是吧？我记得是传说中的游击士……<br />
+蕾恩：呵呵，在来共和国之前她彻底教会我了。我偶尔会去钓鱼来转换心情。<br />
+蕾恩：她以A级为目标和搭档在大陆各地跑，偶尔也会拍她钓到的鱼传给我看。<br />
+蕾恩：但有点希望她别老是要我听她放闪，说她和搭档又因为小事吵架了之类的。<br />
+范恩：哈哈……你们姐妹感情好真是太好了。  </p>
+<p>【场景】伊帝斯·特里昂购物中心 下沉广场 《昆西冰果室》<br />
+范恩：哦………这是最近传闻中的限定饼干吗！我偶尔会去瞧瞧，但一直缺货。<br />
+范恩：之前似乎还登上了杂志的「极品甜点特辑」。<br />
+蕾恩：哦，看起来的确很好吃。感觉很适合搭配清爽的红茶。<br />
+范恩：有兴趣的话，要不要去吃？<br />
+蕾恩：呵呵，是范恩先生自己想吃吧？不过，可以啊，我陪你去。<br />
+范恩：就等你这句话！  </p>
+<p>——接着在最后，来到格兰赛道。<br />
+在赛车场上稍微散散步之后，逛了商店及啤酒园……<br />
+最后搭上摩天轮。  </p>
+<p>【场景】伊帝斯·格兰赛道 摩天轮上<br />
+范恩：哎呀～出乎我意料外地大玩一场了呢。<br />
+蕾恩：呵呵……范恩先生，谢谢你。真的让我好好转换心情了。<br />
+蕾恩：因为你说约会，我还稍微期待了一下会有什么甜蜜的发展耶。<br />
+范恩：哈，也不能把女高中生掳来之后还出手啊。哎呀，我是个没骨气的混帐，你就多包涵啦。<br />
+蕾恩：呵呵，那还真是遗憾了。<br />
+蕾恩：那么——差不多可以告诉我「真相了吧？<br />
+蕾恩：你看似看穿了我很没精神，借口带我出来的理由。<br />
+蕾恩：我当然明白你是真心款待我，陪我玩。<br />
+蕾恩：但是，就算你再怎样懂得察言观色，这个时间点也太过凑巧了——<br />
+蕾恩：追根究柢，应该是艾丝蒂尔、约书亚和缇妲透过协会委托的4spg吧？<br />
+蕾恩：没能实现来参加今天学艺祭的约定……所以就把这个当作最起码的弥补了对吧。<br />
+范恩：【无奈挠头】……真是的，终究赢不过你啊。<br />
+蕾恩：呵呵……要他们不用来的人是我。<br />
+蕾恩：协会和ZCF那边有需要优先处理的案件，所以似乎怎样都没有办法抽出时间来。<br />
+蕾恩：大家都很期待，而且也不是任何人的错……我以为我已经明白告诉大家了耶。<br />
+蕾恩：……不对，大家大概已经发现了我感到有些寂寞。<br />
+蕾恩：【无奈】大家真的好温柔……是群很棒的人。<br />
+范恩：……就是说啊。<br />
+范恩：而那正是，你在小猫时代傍徨中得到的东西。<br />
+蕾恩：【点头】呵呵，那正是我的骄傲。<br />
+蕾恩：——范恩先生，谢谢你。这是个很棒的惊喜。<br />
+蕾恩：将来有天也要和艾丝蒂尔他们……<br />
+范恩：唉……亏你还是前小猫耶，看得还不够深呢。<br />
+范恩：你该不会以为惊喜就到此结束了吧？<br />
+蕾恩：咦——<br />
+【范恩打开Xipha传送，蕾恩打开Xipha接收】<br />
+蕾恩：这个是——新空洞核心系统？<br />
+蕾恩：这究竟是……<br />
+空洞核心：——蕾恩，早安。<br />
+空洞核心：你长大了呢——伙伴。<br />
+蕾恩：————啊……<br />
+蕾恩：啊……莫非……莫非，你是——  </p>
+<p>【回忆】<br />
+少女：怎么可能……这绝对是骗人的……！<br />
+少女：……难以置信……！我绝对不会相信的！<br />
+少女：……蕾恩……<br />
+青年：……思考系统的致命性损伤……如果是巨神兵级的系统，那备份也……<br />
+少女：别担心……！我一定会替你修好的——  </p>
+<p>再、见  </p>
+<p>少女：……呜呜呜……啊啊啊……——呜啊啊啊啊啊啊啊啊啊啊……！<br />
+【回忆完】  </p>
+<p>空洞核心：自七耀历1204年以来再次启动，已记录。——蕾恩，又见面了呢。<br />
+蕾恩：……《帕蒂尔·玛蒂尔》……！！<br />
+声音：耶嘿嘿——小蕾，吓到了吗？<br />
+女孩的声音：——蕾恩，对不起喔，这次没有办法过去。<br />
+女孩的声音：说是代替我们也不太对啦——但就把这个一直准备的大惊喜送给你！<br />
+青年的声音：我们无论如何都想要替已经高三——接着即将满18岁的你做些特别的事情。<br />
+青年的声音：真的是用尽了各种渠道，还欠下了各方面大人情……<br />
+女生的声音：多亏大家帮忙，我们成功找回小蕾最重要的「家人」了……！<br />
+女生的声音：这是我们大家送给你的惊喜礼物，希望你会喜欢！<br />
+蕾恩：……艾丝蒂尔、约书亚，还有缇妲……<br />
+蕾恩：不，肯定不止如此……<br />
+范恩：没错—这次的委托人，不只你的家人与好朋友。<br />
+范恩：还有黄金蝶与瘦狼——「某位占卜师」和「某位怪盗」。<br />
+范恩：包含不知道现在人在哪的约鲁古老爷爷在内，台面下的家伙讲好了连名来委托我。<br />
+范恩：——据说在五年前独立国骚动时被毁灭的，结社制造的巨神兵级机械傀儡。<br />
+范恩：他们委托我来送这个，在台面下暗中进行「复原计划」的礼物。<br />
+帕蒂尔·玛蒂尔：这样一来，我又能继续帮忙你了。——蕾恩，我回来了。<br />
+蕾恩：【感动摇头】唔……呜呜，啊啊啊啊……！<br />
+蕾恩：欢迎回来……欢迎你回来，《帕蒂尔·玛蒂尔》……！！<br />
+范恩：（这样一来就完成委托了——吧）<br />
+蕾恩：呜呜……不管是艾丝蒂尔、约书亚还是缇妲……大家……真的太奸诈了啦……<br />
+蕾恩：瞒着我……还把行踪不明的老爷爷和露西欧拉等人也牵连进来，暗中进行这种事情…<br />
+范恩：听说一开始的原因，是你的好朋友。<br />
+范恩：他在研究走在时代最尖端的赛法规格时，注意到空洞核心这东西。<br />
+范恩：接着就和你的家人一起动起来了——<br />
+范恩：为了将《帕蒂尔·玛蒂尔》以空洞核心复原，他们和结社还有约鲁古老爷爷取得联系。<br />
+范恩：结社那边也知道这件事，听说在他们之间也已经传开了。<br />
+范恩：大家搜集《帕蒂尔·玛蒂尔》遭到破坏时的资料，以及十三工房残留下来的资料。<br />
+范恩：接着以此为基础，建构起极度接近本尊的思考系统，然后重现出来——<br />
+范恩：虽然这样说，这还只是原型机，他们说今后还请尽情期待。<br />
+范恩：超越了组织与国家的界线才终于得以实现，正可谓是「奇迹」呢。<br />
+范恩：这也表示你至今建立起来的各种事物，在这边开花结果了吧？<br />
+蕾恩：【无奈】是的——范恩先生，也包含你在内。<br />
+蕾恩：虽然你说得像是你什么也没做，但是——不管拥有怎样的技术及人脉，这原本都是不可能实现的事情。<br />
+蕾恩：如果没有一个「桥梁」连系表里两方的人……是吧。<br />
+范恩：【无奈】……嗯，这也包含在那里面啦。<br />
+范恩：有支持自己的人是怎么一回事，你应该最清楚吧？<br />
+蕾恩：……是的，而我现在有种再度重新体认的感受。<br />
+蕾恩：范恩先生——你还真是做出惊人之举了呢。<br />
+范恩：我只是完成委托而已。<br />
+范恩：……哎呀，你也是啊，就算你无所不能，也没必要过度努力。<br />
+范恩：有必要时就去依赖任何人——如果愿意让我帮忙，我随时接受4spg的委托喔。<br />
+蕾恩：【无奈】……啊啊，你这个人真是的。<br />
+蕾恩：（真的太狡猾了……总是给了我无以回报的东西……）<br />
+蕾恩：（……不对，总有一天，我也一定要——）  </p>
+<p>在那之后，范恩两人走下摩天轮……<br />
+和蕾恩稍微享受兜风乐趣后，回到亚拉密斯高等学校。  </p>
+<p>【蕾恩】：帕蒂尔·玛蒂尔的事，真的很谢谢……——哎，真是的，你给我做好心理准备，这份人情我会好好还的！一定会让你知道我有多么感谢！  </p>
+<p>蕾恩·布莱特Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20<br />
+已取得【空洞核心】帕蒂尔·玛蒂尔。  </p>
+<h2 id="412_10">欣赏莱诺花（4/12，静名）</h2>
+<p>事件概要<br />
+收到了来自静名的不明邀约，要我到纪念公园的深处去。<br />
+虽然没什么好预感……但之前她帮的那些忙，人情都还欠着没还。至少去露个脸好了？  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】  </p>
+<p>【场景】迪尔克纪念公园<br />
+范恩：（约定的地点就在前面吧？不知道到底找我来做什么——）<br />
+范恩：（……）<br />
+【只见静名在舞剑】<br />
+静名：【收剑】嗨，范恩，你来了啊。<br />
+范恩：【无奈，走上前】什么「你来了啊」，明明就是你找我出来的。<br />
+静名：呵呵，也对。我看你好像在发呆，怎么了吗？<br />
+范恩：【摇头】没有……只是觉得……忍不住看出了神。<br />
+范恩：在白色花瓣飞舞下的沉静剑术架式——这画面也太美了吧。<br />
+静名：哦？你居然会这样夸我，真难得。<br />
+范恩：只是称赞美的事物罢了。<br />
+范恩：这好像是「莱诺花」吧？听说帝国也有的样子。<br />
+静名：嗯，原本是来自东方的植物，但好像是在中世的时候传入帝国。<br />
+静名：我听说这里也有莱诺花，不想错过盛开的时期，所以就过来看看。<br />
+范恩：哦……还真是风雅啊。<br />
+范恩：话说回来，真美啊……让人有点想喝酒。<br />
+静名：呵呵，就是东方所说的「赏花」吧？附近也有很多自然景观，很难得看到这样的景色。<br />
+静名：——那么，差不多该开战了吧？<br />
+范恩：我拒绝。<br />
+静名：嗄～？<br />
+静名：——那么，差不多该开杀了吧？<br />
+范恩：【不满】不要强迫推销！而且你的语气听起来莫名可怕！<br />
+范恩：【无奈】真是的，你找我出来的时候，我就猜到大概会是这样了。<br />
+范恩：话说回来，现在找我对战有什么好处啊？我实在不够格当「剑圣」的对手——<br />
+静名：如果是你个人平常的实力确实不行。<br />
+静名：——但我想跟你身上的「黝黯魔装鬼」切磋。<br />
+范恩：……<br />
+范恩：……原来如此，之前跟「绯红魔装鬼」交手……<br />
+范恩：经过那一战，终于燃起斗志了吗。<br />
+静名：嗯，从第一次看到的时候起，我就一直很想交手看看。<br />
+静名：借由「击退绯红魔装鬼」终于实现心愿，但最后还是没有发挥出全力就结束了……<br />
+静名：我已经忍不下去了。<br />
+范恩：……看样子这次好像逃不掉了。<br />
+范恩：我也不能让你维持这种状态回亚拉密斯。<br />
+静名：呵呵，那么事不宜迟——<br />
+范恩：【摇头】但很遗憾，现在情况不允许。<br />
+范恩：我需要一个叫梅亚的特殊空洞核心辅助，才有办法变成那个样子。<br />
+范恩：但现在她在沉睡，跟创世停止运作一样。<br />
+静名：……喔，对耶。<br />
+静名：那我这无处发泄的精力到底该怎么办？随便找个人来交手也……<br />
+范恩：你冷静点——我想到一个办法。……先换个地方再说吧。<br />
+【静名疑惑，范恩打开Xipha操作】  </p>
+<p>【场景】童话庭园 晚<br />
+静名：这里是……《童话庭园》吗。<br />
+静名：【抬头望月】由盛开的莱诺花和满月衬托的战场，这个情境还挺有气氛的嘛。<br />
+范恩：看来这里也吸收了我们原本所在的地方，以及你的斗气等相关资料。<br />
+范恩：先不说这个……好，看来没问题。<br />
+【范恩变身魔装鬼】<br />
+静名：咻……♪<br />
+范恩/魔装鬼：应该只是重现了资料。因为我在这里也变身了好几次。<br />
+范恩/魔装鬼：因为这里才刚从庭园主人手中解放，状况还很不稳定，才能利用这个密技{BUG}。<br />
+静名：【拔出武器】呵呵，你用不着解释。看来总算能找点乐子了。<br />
+范恩/魔装鬼：……话先说在前头，在这个状态下，我似乎也会比往常亢奋一些。<br />
+范恩/魔装鬼：【撤开距离，摆开架势】我无法手下留情，也没有这个打算。既然是你先找上门来，就别怪我不客气了！<br />
+静名：正合我意，一决胜负吧！<br />
+范恩/魔装鬼：喔喔喔喔喔喔喔喔喔喔……！！<br />
+【2人一通乱斗】<br />
+范恩/魔装鬼：呜……<br />
+静名：抢先下手是正确的判断。但你是不是有点急躁？<br />
+静名：至少要保留一点余力，才能看穿对手的反击啊……！<br />
+范恩/魔装鬼：（啧，和至今以魔装鬼对付过的各种怪物相比，完全不同等级……）<br />
+范恩/魔装鬼：（《剑圣》……不对，她的实力已经超越这个名号——）<br />
+范恩/魔装鬼：【静名抢身上前】唔！？<br />
+范恩/魔装鬼：【被打翻在地】嗄啊——！<br />
+【范恩爬起】<br />
+静名：你刚才是不是胡思乱想了一下？我就是趁你分心的瞬间产生的破绽发动攻击。<br />
+静名：劝你忘了俗世的一切，专注于眼前的战斗。<br />
+静名：集中于对付我，也集中你自己身上。<br />
+静名：因为现在这个世界——只有你和我！！<br />
+【2人又交手了一轮】<br />
+范恩/魔装鬼：【半跪在地】（唔……完全跟不上她的动作，光是抵挡攻势就用尽全力了！）<br />
+静名：你怎么了？和之前那些强者战斗时，你的实力不只这样啊，范恩！<br />
+范恩/魔装鬼：——喔喔喔喔喔喔喔喔喔喔喔喔！！！<br />
+静名：哦……！？<br />
+静名：速度和力量都无懈可击……原来如此，你把支配权交给了自己的兽性。<br />
+静名：这才称得上「撕裂恶梦之兽」，但区区「野兽」可是无法满足我的！<br />
+【范恩又一次被静名打翻在地】<br />
+范恩/魔装鬼：（靠理性战斗跟不上她的动作，靠本能行动也只是在她掌心起舞）<br />
+范恩/魔装鬼：（束手无策了吗……不对！！）<br />
+范恩/魔装鬼：【起身爆黑气】我为恶梦，亦为撕裂恶梦之兽……！！<br />
+静名：这是……！？<br />
+范恩/魔装鬼：虽然内心某处似乎还有犹豫……但接下来我真的不会再保留实力了！<br />
+范恩/魔装鬼：我会用尽所有手段！<br />
+【范恩再次变身】<br />
+静名：这就对了，这才是你的潜力，现在的范恩最强大的姿态！<br />
+静名：那我也得回应你的诚意才行！<br />
+静名：神·气·合·一！<br />
+静名：喔喔喔喔喔喔喔喔……！！<br />
+范恩/魔装鬼：比在龙来看到的还强……！？这家伙到底多夸张！<br />
+范恩/魔装鬼：那我就奉陪到底！<br />
+范恩/魔装鬼：喔喔喔喔喔喔喔喔喔喔喔喔！！！<br />
+静名：决一死战吧！黝黯魔装鬼——！！！<br />
+范恩/魔装鬼：放马过来！白银剑圣——！！！<br />
+【2人摆开架势】<br />
+机械语音：系统发生错误、系统发生错误！<br />
+机械语音：不明原因导致系统过载，运算能力已超过极限值！<br />
+机械语音：为复原系统，开始重新启动，目前连接的使用者将强制断线！<br />
+范恩/魔装鬼：什么！？<br />
+静名：怎么会……！<br />
+机械语音：欢迎再度使用本系统——  </p>
+<p>【场景】迪尔克纪念公园<br />
+范恩：……恢复了吗。<br />
+静名：【遗憾】……唉……真可惜。<br />
+静名：感觉终于可以看到未曾见过的境界了说……<br />
+静名：要再来一场吗？<br />
+范恩：不要。<br />
+静名：【无奈】我想也是，就连我也没劲了。<br />
+静名：虽然觉得有点可惜……但这次这样就算满足了吧。<br />
+静名：我也久违地好好挥舞「晓鸦」了。<br />
+范恩：这名字……我还是第一次听到，是你的太刀的名字吗？<br />
+静名：嗯，虽然有其他刀铭，但是——啊，我不能透露太多。<br />
+静名：刀鞘也是许多强者的武器做成的，如果有机会也想拿到魔装鬼的装甲。<br />
+范恩：那个的材质是晶片……不过你应该有办法吧。<br />
+静名：呵呵，总之，我玩得很开心，范恩，谢谢你。<br />
+范恩：……真是的。<br />
+范恩：虽然我不是武术家，但也确实瞥见了新的一片天。<br />
+范恩：虽然不是很想，但有机会可以再跟你切磋。<br />
+静名：真的吗？那就赶快——<br />
+范恩：【不满】不是现在啦！<br />
+声音：【画外】——公主还有亚克莱德先生，辛苦了。<br />
+【只见黑铁准备好了食物】<br />
+范恩：啊，你是……<br />
+静名：嗨，看来是准备好了吧？<br />
+黑铁：一切都准备妥当了，接下来还请慢慢享受。<br />
+【黑铁跳走】<br />
+静名：所以啦，难得有机会，一起赏花吧？<br />
+【范恩汗】  </p>
+<p>【场景】迪尔克纪念公园<br />
+范恩：【吃东西】这、这真好吃……这也是那位叫黑铁的小哥做的吗？<br />
+静名：呵呵，他厨艺很好吧？这好像是他跟忍术无关的兴趣就是了。<br />
+静名：但就能够处理很多食材的方面来说，应该也算是忍术的一种吧？<br />
+范恩：吃东西的时候不要提这种话题啦……<br />
+范恩：话说回来，忍术啊……虽然都是斑鸠的成员，但你好像跟忍术没什么关系。<br />
+静名：我向师父学习「黑神一刀流」，并且担任《斑鸠》的副团长，但是——<br />
+静名：我不是忍者嘛，《胧月流》也只懂一点皮毛而已。<br />
+范恩：【思索片刻】……我之前就很好奇。<br />
+范恩：你说的「师父」是——传说中的《剑仙》阁下吗？<br />
+静名：对啊，他跟你师父狮子阁下好像是老朋友的样子。<br />
+静名：《斑鸠》的前任首领——《剑仙》云·卡法伊。<br />
+静名：大陆西部似乎以「八叶的开山祖师」之名比较为人所知的样子。<br />
+范恩：「八叶一刀流」啊……既然这样，跟你的「黑神」其实是同一种流派吗？<br />
+静名：嗯，有点类似但不太一样吧。<br />
+静名：「黑神一刀流」是拥有千年历史的「黑暗剑法」。<br />
+静名：「八叶一刀流」是师父以「黑神」为基础开创的「光明剑法」。<br />
+静名：最终要达到的境界虽然相同，但达成的方式却大有不同。<br />
+静名：我接受过师父亲自指导，对那个流派也多少有些了解。<br />
+范恩：嗯……原来有很多分支啊。<br />
+静名：你应该是打算继续钻研「昆仑流」吧？<br />
+静名：或是发展那个「零式劲术」好像也挺有趣的？<br />
+范恩：【摇头】不，我没有特别拘泥于流派。<br />
+范恩：如果耍诈比较有效率，我会毫不犹豫地来阴的。<br />
+静名：呵呵，很像你会做的事。<br />
+静名：不过，或许那条路还比较辛苦。<br />
+静名：不拘泥于手段，就代表你想要追求各式各样的成果。<br />
+静名：想要一次掌握很多东西。<br />
+静名：黑白两边都想接近，这种做法总有一天会遇上瓶颈——<br />
+静名：有时候也可能会不堪负荷吧。<br />
+范恩：到时候再说吧。<br />
+范恩：反正至少到那一步之前，我只要贯彻自己的原则就好。<br />
+范恩：比方说就算是你发出4spg，我也会视条件赶来帮忙解决。<br />
+静名：原来如此……这就是「范恩流」啊，呵呵，你真的很有趣。<br />
+静名：希望哪天能让你见见婆婆和首领。<br />
+静名：但也要黑神与八叶之外的人，有办法抵达大陆东部的尽头才行。<br />
+静名：不过既然你能灵活运用魔装鬼这个「枷锁」，应该有办法克服难关吧？<br />
+范恩：嗯？感觉话中有话啊。<br />
+静名：呵呵，简单来说就是我很期待你的表现。<br />
+静名：跟你在一起就能看到至今未曾见过的景色——以及刚才差点就能达到的境界。<br />
+静名：如果可以的话，希望今后也能和你保持良好关系。<br />
+范恩：【无奈抠脸】……嗯，这点我也不否认。（但前提是你不会变成敌人）<br />
+静名：呵呵，真冷淡，但我也确实没办法保证不成为敌人。<br />
+范恩：【鄙视眼】没办法保证啊……呃，就说不要随便读我的心了！  </p>
+<p>之后两人悠哉地赏花一阵子……<br />
+然后再兜风回到城镇。  </p>
+<p>【静名】：唔～就差一点了说……呵呵，不过下次你肯定会展现「更进一步」的境界给我看吧？毕竟你也得知了一些我的事——今后也请多多指教啰♪  </p>
+<p>静名·雷姆·御折木Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+<h2 id="412_11">小梦的脚踏车（4/12，梦）</h2>
+<p>事件概要<br />
+收到来自老板的联络。他为今年满七岁的小梦订的脚踏车似乎已经送到中央市场的五金行了。<br />
+虽然他要我「回去时顺便过去领车」……但或许该趁现在先办好这件事。  </p>
+<p>是否要消耗连结行动点数解决私事？  </p>
+<p>开始<br />
+放弃  </p>
+<p>【选择“开始”】<br />
+范恩和同行者暂时分开……<br />
+对还在逛学艺祭的伙伴们留话后前往了中央市场。  </p>
+<p>【场景】首都伊帝斯·欧贝尔地区 亚拉密斯高等学校·校舍1F玄关<br />
+范恩：好，赶快来办事吧……<br />
+声音：【画外】咦～范恩？你要去哪里～？<br />
+【小梦跑来】<br />
+范恩：哎呀，是小梦啊……<br />
+范恩：【无奈挠头】……呃～刚好有点事啦。我马上就会回来的，你好好享受学艺祭吧。<br />
+梦：【一惊】啊～该不会……！小梦的自行车寄到了吗～！？<br />
+范恩：【点头】……是啊，刚刚老板联络我。所以我会先把它运到蒙马特。<br />
+范恩：你就等回家之后再享受吧——<br />
+梦：小梦也要去～！！<br />
+范恩：【汗无奈】（我就知道……我本来打算一个人速速解决的）<br />
+范恩：好吧，没办法。毕竟你期待很久了呢。<br />
+范恩：【弯腰】要不要跟我的车比比看谁的比较厉害呢？<br />
+梦：哼哼，一定是我的自行车啊～！范恩的是第二名！<br />
+范恩：我知道了啦，那我们赶紧出发吧。<br />
+【2人走出校舍】  </p>
+<p>范恩跟梦开着轻型货卡前往了中央市场。<br />
+他们造访了雅桑的五金行，来拿事先订好的脚踏车。  </p>
+<p>【场景】伊帝斯·中央市场 五金·武器《雅桑》<br />
+梦：喔喔喔……！这是小梦的自行车……！<br />
+范恩：喔，挺不错的耶。真不愧是波蕾特挑选的。<br />
+范恩：【起身】但是，要论帅气，还是我的车更胜一筹。<br />
+梦：【鄙视眼】真是的，范恩，你很幼稚耶！要论可爱的话，是小梦的比较可爱～！<br />
+雅桑：好啦，大小姐你喜欢就好。那么，我们把它搬上轻型货卡吧？<br />
+范恩：好，拜托你啦。立刻载到旧市街去吧。<br />
+梦：……什么，已经要回去了？<br />
+范恩：【无奈】啊，该不会……你现在就想骑吧？<br />
+范恩：大家都在学艺祭上等小梦，快点回去应该比较好吧？<br />
+梦：【可怜巴巴】嗯，我也想和菲莉他们一起玩～……（扭扭捏捏）<br />
+梦：……但还是想要稍微骑一下～……<br />
+范恩：【无奈】……我就知道。<br />
+范恩：（该怎么办呢。考量安全，应该去纪念公园那一带吧……）<br />
+范恩：（但老板很期待教小梦骑车，我抢先一步好像不太好）<br />
+梦：……对不起，小梦说任性话了。没关系，我可以忍耐！<br />
+梦：【苦笑】耶嘿嘿，等学艺祭结束之后，下次放假时再骑也不是不行……<br />
+范恩：【汗】我知道了，小梦。我们就去一下纪念公园吧。<br />
+梦：可以吗？<br />
+范恩：【无奈】（让小梦露出那种表情，那才真的是没资格当蒙马特的房客啊）<br />
+范恩：【蹲下】但是顶多只是试骑喔，可以答应我吗？<br />
+梦：嗯！太棒了～！！<br />
+雅桑：那把自行车搬上车啰。  </p>
+<p>等自行车搬上货卡后，范恩等人便前往迪尔克纪念公园……<br />
+立刻开始练习骑自行车。  </p>
+<p>【场景】迪尔克自然公园·入口<br />
+【小梦骑在自行车上，范恩扶着自行车】<br />
+梦：耶嘿嘿……！小梦的自行车……！<br />
+范恩：我会先帮你扶着，你用力踩踩看踏板。<br />
+范恩：握把要笔直朝向前方，只要别太心急就不会有问题。<br />
+梦：好～！<br />
+梦：嘿咻、嘿咻……！范、范恩，你有帮我扶着吗？<br />
+范恩：有啊，你骑得不错喔，要不要放手看看？<br />
+梦：我、我试试看！<br />
+【范恩放手】<br />
+梦：哇哇，摇摇晃晃的～！<br />
+范恩：【叉腰】很好很好，继续保持——<br />
+【范恩一惊，严肃，跑上前半蹲下去查看摔倒的小梦】<br />
+梦：【痛苦】好痛喔，跌倒了～<br />
+范恩：没事吧……！？抱歉，还是太早放手了。<br />
+梦：【起身】没关系！我觉得已经掌握到诀窍了！<br />
+梦：我会努力的，你看着吧！<br />
+【小梦接着骑车】<br />
+范恩：啊，喂……真是的，好像玩得很开心啊。<br />
+范恩：（……如果她带着伤口回去，我应该会被骂吧）<br />
+范恩：【打开Xipha】（我还是先联络一下冠军，请他带波蕾特他们过来好了）  </p>
+<p>之后，小梦在范恩的注意下，不断挑战自己一个人骑车。<br />
+可是……  </p>
+<p>梦：【摔倒】哇哇！<br />
+梦：【摔倒，无奈】啊呜……<br />
+梦：【摔倒】唔……还没结束！<br />
+梦：【摔倒，无奈】……唔……<br />
+范恩：啊，没事吧……！？<br />
+梦：【无奈起身，点头】……嗯，没事……！我一定能学会骑车！<br />
+范恩：【无奈】……小梦，先练到这里吧？<br />
+范恩：【蹲下】你膝盖都破皮，衣服也弄脏了。<br />
+范恩：你妈妈和外公会担心喔？<br />
+【小梦摇头】<br />
+范恩：【无奈】……这样啊，小梦真坚强。<br />
+范恩：如果是其他同年龄的孩子，哭出来也不奇怪。<br />
+范恩：要是会痛，可以哭出来喔？<br />
+梦：我不会哭的，因为——<br />
+梦：因为范恩也都忍着吧？<br />
+范恩：……我……？<br />
+梦：就算有地方痛也不会哭，对小梦挤出笑容啊！<br />
+梦：小梦都记得。<br />
+范恩：……啊。  </p>
+<p>大约三年前——  </p>
+<p>【闪回】<br />
+【场景】首都伊帝斯·旧市街 蒙马特·居住楼层2F《亚克莱德解决事务所》<br />
+范恩：——可恶……！  </p>
+<p>【小梦想开门，但是停住了】<br />
+范恩：……那是我在终于脱离「新人」阶段时接到的某件委托。<br />
+范恩：因为逐渐习惯了工作而掉以轻心……最后犯下错误，害得委托人身受重伤。<br />
+范恩：一路走来建立的信用跌至谷底……委托人也当然对我颇有埋怨……  </p>
+<p>范恩：（……至少让委托人保住了一命，勉强避开了最糟的状况）<br />
+范恩：（是对方棋高一着……我被逼到走投无路后，情急之下判断错误……）<br />
+范恩：【咬牙摇头】（不，不是这样吧……！别帮自己找理由……！）<br />
+范恩：（是因为我觉得「大概就这样吧」，一时大意！是我得意忘形了！）<br />
+范恩：我到底在做什么……这么一来，我是为了什么才——<br />
+梦：……范恩～？<br />
+范恩：小梦……<br />
+梦：怎么了吗，范恩～？<br />
+范恩：……没什么啦。<br />
+范恩：（……没错，我不能垂头丧气下去。这种事今后还可能会不断重演）<br />
+范恩：（我得回想起……选择走上这条路时下定的决心。只要我还牢牢记着它……）<br />
+梦：……咦……？<br />
+梦：……嗯～……<br />
+范恩：怎么了，一直盯着我看？想要抱抱吗？<br />
+【范恩起身】<br />
+【闪回完】  </p>
+<p>【场景】迪尔克自然公园·入口<br />
+梦：那时候范恩的表情感觉比小梦现在还痛。<br />
+梦：可是你都不哭……跟平常一样抱住人家……<br />
+梦：所以小梦想哭的时候，也会努力不要输给你。<br />
+梦：因为我们是一家人啊！<br />
+【范恩起身，小梦骑车出发】<br />
+梦的声音：好～这次不会跌倒了！范恩看好啰！<br />
+范恩：……嗯，我有在看。<br />
+范恩：【无奈】（………没想到她居然会记得那件事）<br />
+范恩：（我只是逞强………咬紧牙关努力撑着罢了）<br />
+范恩：【挠头】（但是——原来也有人注意到我）<br />
+范恩：（……一家人啊……）<br />
+梦的声音：范恩，你看你看～！<br />
+梦：我会骑了！？这样是会骑了吧～！？<br />
+范恩：喔喔……小梦很厉害耶！<br />
+女子的声音：【画外】小梦真厉害！<br />
+【波蕾特和马克西姆走来】<br />
+范恩：哦，你们来啦。<br />
+马克希姆：这是当然的啊，你居然抢先一步，太诈了吧！？<br />
+梦的声音：妈妈～！马克希姆叔叔！你们看你们看～！<br />
+波蕾特：呵呵，有范恩先生教你，太好了呢。<br />
+马克希姆：骑的时候要注意看前面喔。<br />
+马克希姆：善于驾驶应该是遗传吧……开玩笑的啦。<br />
+男子的声音：【画外】……你在得意什么。<br />
+【维克托走来】<br />
+马克希姆：哈哈，讨厌啦，岳父——<br />
+马克希姆：老、老板！我没有得意忘形，没有！<br />
+波蕾特：【无奈】（嗯～看来还有很长一段路）<br />
+梦：【跑来】外公！你有看到小梦骑自行车的样子吗？<br />
+维克托：【弯腰】嗯，有啊～❤骑得比外公还要好喔。<br />
+【小梦揪住范恩的衣角，维克托大受打击】<br />
+梦：耶嘿嘿，多亏有范恩教我～<br />
+范恩：【苦笑】……呃，老板？<br />
+范恩：好了，你也得练习怎么在街上骑才行，这就交给老板吧。<br />
+维克托：【抓狂】你这不良房客！如、如果我能从头开始教就好了……！<br />
+维克托：还有膝盖破皮和弄脏衣服的帐！给我做好付50倍房租的心理准备！<br />
+范恩：【无奈】我就知道会这样……50倍也太多了吧！<br />
+波蕾特：呵呵，爸爸，冷静点。虽然他独占这个机会确实有点奸诈就是了。<br />
+波蕾特：下次全家人一起吧一一好不好啊，范恩先生？<br />
+范恩：【无奈挠头】……哈哈，伤脑筋，一个不小心就被算在内了。  </p>
+<p>之后，范恩跟波蕾特一家及马克希姆一起搭车回城里……<br />
+在蒙马特把自行车搬下来后，再把小梦送到亚拉密斯。  </p>
+<p>【梦】：范恩，谢谢你总是陪我玩～！工作太累，快要哭出来的时候记得跟我说喔——小梦会摸摸范恩的头的～！  </p>
+<p>梦Connect Stage+100<br />
+范恩·亚克莱德Connect Stage+20  </p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      最后更新:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 4, 2023 13:12:58</span>
+      
+        <br>
+        创建日期:
+        <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">August 4, 2023 13:12:58</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            回到页面顶部
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <p>ICP备案: <a href='https://beian.miit.gov.cn' target='_blank' rel='noopener'>沪ICP备2021002641号-1</a></p><p>沪公网安备: <a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402008841' target='_blank' rel='noopener'>31010402008841号</a></p>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/trails-game" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.sections", "navigation.tabs", "navigation.top"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      
+        <script src="../../javascripts/glightbox.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
