@@ -1,4 +1,6 @@
 # 第一章 神狼们的午后  
+![Placeholder](){.authors authorList=["Flytutu"]}  
+
 ## 第一日  
 男性的声音：——辛苦了，这个月也很不容易呢。  
 **【场景】游击士协会二楼**  
