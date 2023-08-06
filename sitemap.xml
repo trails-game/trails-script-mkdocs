@@ -706,6 +706,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://book.trails-game.com/zero/chapter-2/</loc>
+         <lastmod>2023-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://book.trails-game.com/zero/prologue/</loc>
          <lastmod>2023-08-06</lastmod>
          <changefreq>daily</changefreq>
