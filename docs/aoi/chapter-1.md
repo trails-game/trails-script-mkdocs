@@ -1,4 +1,4 @@
-# 第一章: 预兆～崭新的日子  
+# 第一章 预兆～崭新的日子  
 ![Placeholder](){.authors authorList=["无始无过亦无终"]}    
   
 ## 第一天  
