@@ -3573,47 +3573,47 @@
   </tr>
   <tr>
     <th>艾莉</th>
-    <td>○</td>
-    <td>△</td>
-    <td>○</td>
-    <td>△</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
+    <td>擅长</td>
+    <td>一般</td>
+    <td>擅长</td>
+    <td>一般</td>
+    <td>擅长</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>苦手</td>
   </tr>
   <tr>
     <th>缇欧</th>
-    <td>△</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>△</td>
-    <td>×</td>
-    <td>×</td>
+    <td>一般</td>
+    <td>擅长</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>一般</td>
+    <td>一般</td>
+    <td>苦手</td>
+    <td>苦手</td>
   </tr>
   <tr>
     <th>兰迪</th>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-    <td>△</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>一般</td>
+    <td>擅长</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>擅长</td>
+    <td>一般</td>
   </tr>
   <tr>
     <th>罗伊德</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-    <td>△</td>
-    <td>○</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>苦手</td>
+    <td>擅长</td>
+    <td>一般</td>
+    <td>擅长</td>
   </tr>
  </table>
   
