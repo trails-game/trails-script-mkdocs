@@ -824,7 +824,7 @@
 #### 【小剧情】迪塔劝诱雷克特  
   
 **【场景】港湾区IBC·入口**  
-【一辆红色豪华商务车停在IBC大楼前，正是迪塔总裁的座驾。正当罗伊德等人准备上前打招呼时，两个熟悉的声音从车中传了出来——】  
+【一辆红色豪华轿车停在IBC大楼前，正是迪塔总裁的座驾。正当罗伊德等人准备上前打招呼时，两个熟悉的声音从车中传了出来——】  
 男性的声音：哈哈哈……你所说的话令人兴趣颇深呢。  
 男性的声音：呀，正是如此！真没想到，竟能在克洛斯贝尔遇到像你这样的人物啊……  
 青年的声音：哪里哪里，大叔你也很了不起嘛。  
@@ -834,7 +834,7 @@
   
 【选择查看情况】  
   
-**【场景】红色商务车内**  
+**【场景】红色轿车内**  
 雷克特：哎呀～那时可真有点急了呢，不过后来确实是派上用场了～  
 迪塔总裁：哈哈哈，你可真是与众不同啊！  
 迪塔总裁：但是，那份感性……如果丢弃的话，实在很可惜。  
@@ -3559,63 +3559,153 @@
 【上课总算结束了。问题是，孩子们到底理解了多少……】  
 ※选择参考：  
   
- <table>
-  <tr>
-    <th> </th>
-    <th>问1</th>
-    <th>问2</th>
-    <th>问3</th>
-    <th>问4</th>
-    <th>问5</th>
-    <th>问6</th>
-    <th>问7</th>
-    <th>问8</th>
-  </tr>
-  <tr>
-    <th>艾莉</th>
-    <td>擅长</td>
-    <td>一般</td>
-    <td>擅长</td>
-    <td>一般</td>
-    <td>擅长</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>苦手</td>
-  </tr>
-  <tr>
-    <th>缇欧</th>
-    <td>一般</td>
-    <td>擅长</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>一般</td>
-    <td>一般</td>
-    <td>苦手</td>
-    <td>苦手</td>
-  </tr>
-  <tr>
-    <th>兰迪</th>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>一般</td>
-    <td>擅长</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>擅长</td>
-    <td>一般</td>
-  </tr>
-  <tr>
-    <th>罗伊德</th>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>苦手</td>
-    <td>擅长</td>
-    <td>一般</td>
-    <td>擅长</td>
-  </tr>
- </table>
+   <html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style type="text/css">
+    .question {
+    background: inherit;
+    box-shadow: 0 2px 4px 0 rgba(147, 157, 165, 0.48);
+    text-align: center;
+    }
+  
+    .question-table {
+    display: table;
+    width: 100%;
+    }
+   
+    .table-row {
+    display: table-row;
+    }
+  
+    .item-content {
+    display: table-cell;
+    }
+  
+    .table-row.header .item-content {
+    font-weight: 900;
+    min-width:50;
+    }
+  
+    .table-row:not(:last-child) .item-content {
+    border-bottom: 1px solid #979797;
+    }
+  
+    .table-row .item-content {
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    }
+  
+    @media screen and (max-width: 500px) {
+  
+    .question-table {
+    display: inline;
+    }
+  
+    .table-row {    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+    }
+  
+    .table-row.header {
+    display: none;
+    }
+  
+    .table-row .item-content {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    }
+  
+    .table-row .item-content:last-child {
+    border-bottom: 0;
+    }
+  
+    .table-row .item-content:before {
+    content: attr(qlabel);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    }
+   </style>
+    </head>
+
+   <body>
+   <div class="question">
+   <div class="question-table">
+   <div class="table-row header">
+   <div class="item-content">  </div>
+   <div class="item-content">问1</div>
+   <div class="item-content">问2</div>
+   <div class="item-content">问3</div>
+   <div class="item-content">问4</div>
+   <div class="item-content">问5</div>
+   <div class="item-content">问6</div>
+   <div class="item-content">问7</div>
+   <div class="item-content">问8</div>
+   </div>
+
+   <div class="table-row body-row">
+   <div class="item-content"><strong>艾莉</strong></div>
+   <div qlabel="问1" class="item-content">擅长</div>
+   <div qlabel="问2" class="item-content">一般</div>
+   <div qlabel="问3" class="item-content">擅长</div>
+   <div qlabel="问4" class="item-content">一般</div>
+   <div qlabel="问5" class="item-content">擅长</div>
+   <div qlabel="问6" class="item-content">苦手</div>
+   <div qlabel="问7" class="item-content">苦手</div>
+   <div qlabel="问8" class="item-content">苦手</div>
+   </div>
+
+   <div class="table-row body-row">
+   <div class="item-content"><strong>缇欧</strong></div>
+   <div qlabel="问1" class="item-content">一般</div>
+   <div qlabel="问2" class="item-content">擅长</div>
+   <div qlabel="问3" class="item-content">苦手</div>
+   <div qlabel="问4" class="item-content">苦手</div>
+   <div qlabel="问5" class="item-content">一般</div>
+   <div qlabel="问6" class="item-content">一般</div>
+   <div qlabel="问7" class="item-content">苦手</div>
+   <div qlabel="问8" class="item-content">苦手</div>
+   </div>
+
+   <div class="table-row body-row">
+   <div class="item-content"><strong>兰迪</strong></div>
+   <div qlabel="问1" class="item-content">苦手</div>
+   <div qlabel="问2" class="item-content">苦手</div>
+   <div qlabel="问3" class="item-content">一般</div>
+   <div qlabel="问4" class="item-content">擅长</div>
+   <div qlabel="问5" class="item-content">苦手</div>
+   <div qlabel="问6" class="item-content">苦手</div>
+   <div qlabel="问7" class="item-content">擅长</div>
+   <div qlabel="问8" class="item-content">一般</div>
+   </div>
+
+   <div class="table-row body-row">
+   <div class="item-content"><strong>罗伊德</strong></div>
+   <div qlabel="问1" class="item-content">苦手</div>
+   <div qlabel="问2" class="item-content">苦手</div>
+   <div qlabel="问3" class="item-content">苦手</div>
+   <div qlabel="问4" class="item-content">苦手</div>
+   <div qlabel="问5" class="item-content">苦手</div>
+   <div qlabel="问6" class="item-content">擅长</div>
+   <div qlabel="问7" class="item-content">一般</div>
+   <div qlabel="问8" class="item-content">擅长</div>
+   </div>
+
+   </div>
+   </div>
+
+   </body>
+   </html>
   
 **【场景】克洛斯贝尔大圣堂·礼拜堂主日教室门前**  
 玛布尔修女：辛苦你了，罗伊德。你对教学的感觉如何？  
@@ -6268,8 +6358,6 @@
 回收自治州内超期未还的书籍&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;【报告完毕】  
 寻求创造性料理！&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;【期限（长）】  
 西克洛斯贝尔街道的通缉魔兽&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;【报告完毕】  
-店员的待客指导（※EVO版专属）&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;&#160;&#160;&#160;&#160;【报告完毕】  
-续·主日学校的特别讲师（※EVO版专属）&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;&#160;&#160;&#160;【报告完毕】  
   
 【选择重要人士的搜索委托】  
   
@@ -8331,8 +8419,6 @@
 回收自治州内超期未还的书籍&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;【报告完毕】  
 寻求创造性料理！&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;【期限（中）】  
 西克洛斯贝尔街道的通缉魔兽&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;【报告完毕】  
-店员的待客指导（※EVO版专属）&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;&#8194;&#160;&#160;【报告完毕】  
-续·主日学校的特别讲师（※EVO版专属）&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;&#8194;&#8194;&#8194;&#160;&#160;&#160;【报告完毕】  
   
 【选择魔导杖的新功能开发】  
   
@@ -10442,7 +10528,7 @@
 罗伊德：（好……打开了。）  
 罗伊德：（这里有好多文件…… ……嗯，我看看……）  
   
-【背景图：一蓝一红两本文件夹，其中红色文件夹封面上还刻印着由六片翅膀和镶嵌有巨大单眼长匣组成的标志】  
+【背景图：一蓝一红两份文件，其中红色文件封面上刻印着由六片翅膀和镶嵌有巨大单眼长匣组成的标志】  
 【真知的进货清单 获得了。】  
 【真知的发货清单 获得了。】  
 罗伊德：（有了……！）  
