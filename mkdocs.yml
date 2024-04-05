@@ -101,6 +101,13 @@ nav:
     - '电影文本&全角色赏析': 'kuro/movies.md'
   - '创之轨迹':
     - '创之轨迹 - 剧情简介': 'hajimari/summary.md'
+    - '序章 「克洛斯贝尔解放作战」': 'hajimari/chapter-0.md'
+    - '第一章': 'hajimari/chapter-1.md'
+    - '第二章': 'hajimari/chapter-2.md'
+    - '第三章': 'hajimari/chapter-3.md'
+    - '第四章': 'hajimari/chapter-4.md'
+    - '终章 「终焉，以及创始」': 'hajimari/chapter-5.md'
+    - '额外章节 「前往梦幻的彼端」': 'hajimari/dlc.md'
     - '追忆石盘':
       - '章节': 'hajimari/episode.md'
       - '退路、岔路、前方的路': 'hajimari/episodes/ep1.md'
@@ -130,6 +137,9 @@ nav:
       - '另一个温泉乡': 'hajimari/extras/extra1.md'
       - '某位少女的校园生活': 'hajimari/extras/extra2.md'
       - '于是少女将握著手中的剑继续前进': 'hajimari/extras/extra3.md'
+    - '游戏方石': 'hajimari/games.md'
+    - '试炼之门': 'hajimari/battles.md'
+    - '附录：特殊战斗胜利对话': 'hajimari/victory.md'
   - '闪之轨迹Ⅳ':
     - '闪之轨迹Ⅳ - 剧情简介': 'sen4/summary.md'
   - '闪之轨迹Ⅲ':
