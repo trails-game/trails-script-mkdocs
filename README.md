@@ -20,6 +20,6 @@
 | 闪之轨迹II   |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 闪之轨迹III  |    已完成 :heavy_check_mark:   |    制作中 :o:                  |
 | 闪之轨迹IV   |    已完成 :heavy_check_mark:   |    制作中 :o:                  |
-| 创之轨迹     |    已完成 :heavy_check_mark:   |    制作中 :o:                  |
+| 创之轨迹     |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 黎之轨迹     |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 黎之轨迹II   |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
