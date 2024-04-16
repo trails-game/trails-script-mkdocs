@@ -1724,7 +1724,7 @@ OzXX：【笑】——剩下的就拜托了。
 【大合照】  
 HIAJIMARI NO KISEKI is ended completely.  
 Thank you for your playing...  
-Sua you S1208's Zemurain Story.  
+See you S1208's Zemurain Story.  
   
 已取得『【材料·封印石】白色封印石EX』。  
 「创之轨迹」的剧情到此结束,但能继续在梦幻回廊游玩。  
