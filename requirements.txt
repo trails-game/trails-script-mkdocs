@@ -5,4 +5,3 @@ mkdocs-material
 mkdocs-material-extensions
 jinja2
 pygments
-jieba

@@ -32,11 +32,12 @@ jobs:
         run: |
           cd mkdocs-material
           npm i
-          sed -i 's/24px/48px/g' src/templates/assets/stylesheets/main/components/_header.scss
-          sed -i 's/16px/32px/g' src/templates/assets/stylesheets/main/components/_footer.scss
+          sed -i 's/24px/48px/g' src/assets/stylesheets/main/components/_header.scss
+          sed -i 's/16px/32px/g' src/assets/stylesheets/main/components/_footer.scss
           npm run build
           cd ..
-
+      # sed -i 's/24px/48px/g' src/templates/assets/stylesheets/main/components/_header.scss
+      # sed -i 's/16px/32px/g' src/templates/assets/stylesheets/main/components/_footer.scss
       - name: Install python dependencies
         run: |
           python3 -m pip install mkdocs-material
