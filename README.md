@@ -15,7 +15,7 @@
 | 空之轨迹SC   |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 空之轨迹3RD  |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 零之轨迹     |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
-| 碧之轨迹     |    已完成 :heavy_check_mark:   |    制作中 :o:                  |
+| 碧之轨迹     |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 闪之轨迹     |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 闪之轨迹II   |    已完成 :heavy_check_mark:   |    已完成 :heavy_check_mark:   |
 | 闪之轨迹III  |    已完成 :heavy_check_mark:   |    制作中 :o:                  |
